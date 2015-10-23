@@ -1,0 +1,2 @@
+Hallo Menschen,
+dies ist der Ordner für unser wunderbares Projekt "Fremdwörtersuche" im Praktikum programmieren.

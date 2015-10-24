@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stadien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="stadien.xsd">
+  <stadion id="10079">
+    <name>Grundig Stadion</name>
+    <location>
+      <city>Nürnberg</city>
+      <address><![CDATA[49° 25′ 35″ N, 11° 7′ 33″ O]]></address>
+    </location>
+    <verein id="79"/>
+    <places>50000</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/a/ab/Easy-Credit_Stadion_2008.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/EasyCredit-Stadion_Panorama_2012-04-11.jpg/1280px-EasyCredit-Stadion_Panorama_2012-04-11.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10081">
+    <name>Stadion am Bruchweg</name>
+    <location>
+      <city>Mainz</city>
+      <address><![CDATA[50° 0′ 3″ N, 8° 14′ 44″ O]]></address>
+    </location>
+    <verein id="81"/>
+    <places>18000</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BrugweckStadion.jpg/1280px-BrugweckStadion.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/d/db/Bruchweg-alte-gegengerade.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10006">
+    <name>BayArena</name>
+    <location>
+      <city>Leverkusen</city>
+      <address><![CDATA[51° 2′ 17″ N, 7° 0′ 7″ O]]></address>
+    </location>
+    <verein id="6"/>
+    <places>30210</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/BayArena_neu_2009.jpg/1280px-BayArena_neu_2009.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/de/3/30/Leverkusen.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10040">
+    <name>Allianz Arena</name>
+    <location>
+      <city>München</city>
+      <address><![CDATA[48° 13′ 7″ N, 11° 37′ 28″ O]]></address>
+    </location>
+    <verein id="40"/>
+    <places>75025</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg/1280px-Allianz_arena_daylight_Richard_Bartz.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Allianzarenapano.jpg/1280px-Allianzarenapano.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10087">
+    <name>Bökelbergstadion</name>
+    <location>
+      <city>Mönchengladbach</city>
+      <address><![CDATA[51° 12′ 32,7″ N, 6° 26′ 22,4″ O]]></address>
+    </location>
+    <verein id="87"/>
+    <places>34500</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/de/e/e6/Boekelberg_westtribuene.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gladbach_Fans.JPG/1280px-Gladbach_Fans.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10007">
+    <name>Signal Iduna Park</name>
+    <location>
+      <city>Dortmund</city>
+      <address><![CDATA[51° 29′ 33″ N, 7° 27′ 6″ O]]></address>
+    </location>
+    <verein id="7"/>
+    <places>80667</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Signal_Iduna_Park_new_sign.jpg/1280px-Signal_Iduna_Park_new_sign.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AuftaktPanoramaGro%C3%9F.jpg/900px-AuftaktPanoramaGro%C3%9F.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10074">
+    <name>Eintracht-Stadion</name>
+    <location>
+      <city>Braunschweig</city>
+      <address><![CDATA[52° 17′ 24″ N, 10° 31′ 17″ O]]></address>
+    </location>
+    <verein id="74"/>
+    <places>23325</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stadion_an_der_Hamburger_Stra%C3%9Fe.jpg/300px-Stadion_an_der_Hamburger_Stra%C3%9Fe.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Eintracht-Stadion-Pano2014.jpg/1280px-Eintracht-Stadion-Pano2014.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10091">
+    <name>Commerzbank-Arena</name>
+    <location>
+      <city>Frankfurt</city>
+      <address><![CDATA[50° 4′ 7″ N, 8° 38′ 43″ O]]></address>
+    </location>
+    <verein id="91"/>
+    <places>48500</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/130919-Commerzbank-Arena-Europa-League.jpg/1280px-130919-Commerzbank-Arena-Europa-League.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/9/9f/Waldstadionold2.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10095">
+    <name>SGL-Arena</name>
+    <location>
+      <city>Augsburg</city>
+      <address><![CDATA[48° 19′ 23″ N, 10° 53′ 9″ O]]></address>
+    </location>
+    <verein id="95"/>
+    <places>28367</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Augsburg_Stadium_U-20_Women_2010_from_NorthEast.jpg/1280px-Augsburg_Stadium_U-20_Women_2010_from_NorthEast.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Panorama_Impuls_Arena_2.jpg/1280px-Panorama_Impuls_Arena_2.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10009">
+    <name>Veltins-Arena</name>
+    <location>
+      <city>Gelsenkirchen</city>
+      <address><![CDATA[51° 33′ 16,1″ N, 7° 4′ 3,5″ O]]></address>
+    </location>
+    <verein id="9"/>
+    <places>54442</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2010-06-03_Arena_AufSchalke_01.jpg/1280px-2010-06-03_Arena_AufSchalke_01.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Veltins_Arena_T-Home_Cup.jpg/1280px-Veltins_Arena_T-Home_Cup.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10100">
+    <name>Imtech Arena</name>
+    <location>
+      <city>Hamburg</city>
+      <address><![CDATA[53° 35′ 13″ N, 9° 53′ 55″ O]]></address>
+    </location>
+    <verein id="100"/>
+    <places>51500</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/de/thumb/6/68/Hamburg_ELB_00027948.JPG/300px-Hamburg_ELB_00027948.JPG"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/5/5f/AOL-Arena.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10055">
+    <name>HDI-Arena</name>
+    <location>
+      <city>Hannover</city>
+      <address><![CDATA[52° 21′ 36″ N, 9° 43′ 52″ O]]></address>
+    </location>
+    <verein id="55"/>
+    <places>45000</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/6/64/AWD_Eingang08.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2013-08-28_HDI-Arena_Hannover_1.jpg/300px-2013-08-28_HDI-Arena_Hannover_1.jpg"/>
+    </images>
+  </stadion>
+  <stadion id="10054">
+    <name>Olympiastadion Berlin</name>
+    <location>
+      <city>Berlin</city>
+      <address><![CDATA[52° 30′ 53″ N, 13° 14′ 22″ O]]></address>
+    </location>
+    <verein id="54"/>
+    <places>74649</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/6/63/Berlin_Olympiastadion_aussen.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berlin_Jun_2012_029_%28Olympiastadion%29.JPG/300px-Berlin_Jun_2012_029_%28Olympiastadion%29.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10112">
+    <name>Schwarzwald-Stadion</name>
+    <location>
+      <city>Freiburg</city>
+      <address><![CDATA[47° 59′ 20″ N, 7° 53′ 35″ O]]></address>
+    </location>
+    <verein id="112"/>
+    <places>24000</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Badenova-Stadion_Nord-Westen.JPG/1280px-Badenova-Stadion_Nord-Westen.JPG"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/3/3f/Badenova-Stadion_Nord-Osten.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10016">
+    <name>Mercedes-Benz Arena</name>
+    <location>
+      <city>Stuttgart</city>
+      <address><![CDATA[48° 47′ 32″ N, 9° 13′ 55″ O]]></address>
+    </location>
+    <verein id="16"/>
+    <places>60449</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Blick_vom_Rotenberg_Stadion.jpg/1280px-Blick_vom_Rotenberg_Stadion.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Gottlieb-Daimler-Stadion_Stuttgart_innen.JPG/1280px-Gottlieb-Daimler-Stadion_Stuttgart_innen.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10131">
+    <name>Volkswagen Arena</name>
+    <location>
+      <city>Wolfsburg</city>
+      <address><![CDATA[52° 25′ 55″ N, 10° 48′ 14″ O]]></address>
+    </location>
+    <verein id="131"/>
+    <places>30000</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/VW-Arena_%28Panorama%29.jpg/1280px-VW-Arena_%28Panorama%29.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Volkswagen-Arena_G%C3%A4steblock.JPG/1280px-Volkswagen-Arena_G%C3%A4steblock.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10134">
+    <name>Weserstadion</name>
+    <location>
+      <city>Bremen</city>
+      <address><![CDATA[53° 3′ 59″ N, 8° 50′ 15,5″ O]]></address>
+    </location>
+    <verein id="134"/>
+    <places>37441</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Weserstadion-7790.jpg/800px-Weserstadion-7790.jpg"/>
+      <inside url="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Dach_S%C3%BCdgerade_Weserstadion.JPG/220px-Dach_S%C3%BCdgerade_Weserstadion.JPG"/>
+    </images>
+  </stadion>
+  <stadion id="10123">
+    <name>Wirsol Rhein-Neckar-Arena</name>
+    <location>
+      <city>Sinsheim</city>
+      <address><![CDATA[49° 14′ 16,9″ N, 8° 53′ 15,6″ O]]></address>
+    </location>
+    <verein id="123"/>
+    <places>25641</places>
+    <images>
+      <outside url="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sinsheim_Rhein-Neckar-Arena.JPG/300px-Sinsheim_Rhein-Neckar-Arena.JPG"/>
+      <inside url="http://ais.badische-zeitung.de/piece/01/d8/95/e4/30971364.jpg"/>
+    </images>
+  </stadion>
+</stadien>

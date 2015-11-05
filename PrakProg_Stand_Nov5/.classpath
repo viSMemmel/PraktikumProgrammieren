@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/lucene-queryparser-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/lucene-analyzers-common-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/lucene-core-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/lucene-queries-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Schule/Documents/Jars/jdom/hibernate-entitymanager-3.1beta1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

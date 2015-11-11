@@ -1,0 +1,42 @@
+Praktikum Programmieren (Sitzung am 11.11.2015)
+
+BISHERIGER STAND 
+
+Christoph, Wolfgang: GUI soweit fertig 
+Stefan: Suchlogik als funktionierendes Gerüst vorhanden. Stefans Logik kann ein Wort nehmen und in Textdateien nach diesem Wort suchen. 
+
+
+VORHABEN
+
+- Suchen eines einzelnen Wortes mittels Suchfeld
+- Christoph hat einen Parser, der die Anglizismenliste durchgeht (...) und speichert gefundene Eintrag in das Nullte-Array-Element. Erkennt Schluss-Tag und findet deutsches Tag. Speichert dann englisches und deutsches Wort in das nullte Array-Element zusammen ab.
+- XML-Fremdwortliste sollte alphabetisch sein 
+- Agend aufnehmen in die Liste 
+- In Liste fehlt Datensatz-Tag 
+- Fehler in XML-Fremdwortliste (Englisch, Deutsch und Referenzdatensatz)
+- XML-Crawler sollte implementiert werden 
+- Christoph sollte Datei-Chooser insofern wählen, als dass auch Ordner gewählt werden können: Alle XML-Dateien 
+- Crawler in die GUI implementieren
+- Es werden nur XML-Dateien betrachtet 
+- Wolfgang macht Präsentation (15 Minuten)
+- Crawler starten/beenden und übergeben, mehrere XML auswählen und einzelne XML
+- Alle nötigen Jars hochladen
+
+ZURZEIT WIRD GEARBEITET AN
+
+Alex: GUI-Design
+Wolfgang: XML-Datei, Crawler am Samstag
+Stefan: Suchteil optimieren, Crawler
+Christoph: GUI 
+
+Alle: Git --> 1. Version, XML-Crawler-Logik einarbeiten, eine Version für alle
+
+
+
+
+TODO:
+Christoph: irgendetwas Iteratormäßiges, mit dem man über die Fremdwortliste drüber laufen kann. Also Methoden: boolean hasFremdwort(); Fremdwort nextFremdwort();  getDeutschesWort(Fremdwort);
+Stefan: List<Stelle>FremdwortTreffer(Fremdwort);
+
+
+

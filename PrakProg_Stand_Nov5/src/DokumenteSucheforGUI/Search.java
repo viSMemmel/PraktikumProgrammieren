@@ -13,6 +13,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.queryparser.classic.QueryParserBase;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
@@ -23,15 +24,19 @@ import org.apache.lucene.util.Version;
 public class Search {
 	 private String SearchSubject;
 	 private  String FilesToIndex;
+	 private String IndexFeld="Inhalt";
 
 	 
 	 
 	 
-		public Search( String filesToIndex, String searchSubject) {
+
+		public Search(String searchSubject, String filesToIndex) {
 		super();
 		SearchSubject = searchSubject;
 		FilesToIndex = filesToIndex;
+	
 	}
+
 
 
 
@@ -40,16 +45,17 @@ public class Search {
 		public String find() throws ParseException, IOException{
 			String Ausgabe_in_Textarea = null;
 			try{
-			IndexCreator index = new IndexCreator(FilesToIndex, "/internOrdner");
+			IndexCreator index = new IndexCreator(FilesToIndex, "/internOrdner", IndexFeld);
 			
 			NIOFSDirectory indexDir = index.createIndex();
 			    //  NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));  // wird vom index übergeben
 			      DirectoryReader dr = DirectoryReader.open(indexDir); // Öffnen des Verzeichnises textIndexDir über die Variable indexDir
 			   Analyzer analyzer2 = new StandardAnalyzer(Version.LUCENE_45); // Soll Query analysieren
 
-		       QueryParser qp = new QueryParser(Version.LUCENE_45,"content",analyzer2);
+		 QueryParser qp = new QueryParser(Version.LUCENE_45,IndexFeld,analyzer2);
 		  
-		      
+			//   QueryParser qp = new QueryParser();
+			   
 		       IndexSearcher searcher = new IndexSearcher(dr); // Indexsuche
 		
 		       Query query = qp.parse(SearchSubject); //
@@ -77,12 +83,13 @@ public class Search {
 		       }}
 		      }
 			catch(Exception e){
-				System.out.println("Fehler!!!!");
-				e.printStackTrace();
-				System.out.println(e.getMessage() + "  "+
-				e.getLocalizedMessage());
+				  Ausgabe_in_Textarea ="\n Fehler !!!!!! \n";
+		         Ausgabe_in_Textarea =  e.getLocalizedMessage();
+				//System.out.println(e.getMessage() + "  "+
+				//e.getLocalizedMessage());
 			}
 		finally{
+		System.out.println(Ausgabe_in_Textarea); // zu Test Zwecken
 			return Ausgabe_in_Textarea;
 		}
 		}

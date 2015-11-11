@@ -59,6 +59,9 @@ import javafx.stage.Stage;
 import javafx.stage.Modality;
 
 
+/* 
+ * @Author Wolfgang Roth
+ * */
 
 public class Gui extends Application {
 	
@@ -220,7 +223,7 @@ public class Gui extends Application {
 		// Actionhändler zum wählen von XML Source-Datei
 		button0.setOnAction(new EventHandler<ActionEvent>(){
 
-			public void handle(ActionEvent ae) {
+			public void handle(ActionEvent ae)  throws NullPointerException {
 
 				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
 
@@ -233,7 +236,6 @@ public class Gui extends Application {
 
 			//	File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
 			    File dir = dChooser.showDialog(pane0.getScene().getWindow());
-			    
 				
 				//kompletten Pfadnamen der ausgewählten Datei in Textfeld anzeigen
 			    filePath = dir.getAbsolutePath();
@@ -274,7 +276,9 @@ public class Gui extends Application {
 					Output= e.getMessage();
 				}
 				finally{
-					textArea0.setText(Output);
+					textArea0.setText("Hallo - Hallo"
+							+ "");
+					//textArea0.setText(Output);
 				}
 			
 			}

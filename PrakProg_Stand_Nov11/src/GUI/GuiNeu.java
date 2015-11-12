@@ -306,8 +306,8 @@ public class GuiNeu extends Application {
 		stage.show(); // Fenster sichtbar machen
 		//CSS von Alex
 		
-		 scene.getStylesheets().clear();
-         scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
+		// scene.getStylesheets().clear();
+         // scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 	}
 
 	public static void main (String [] args){

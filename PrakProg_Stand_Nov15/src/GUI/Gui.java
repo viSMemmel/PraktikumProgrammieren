@@ -318,12 +318,13 @@ public class Gui extends Application {
 		});
 		
 		
-		pane0.getChildren().addAll(button0, button1, textField1,button2, textArea0, menueLeiste, textField0);
+		pane0.getChildren().addAll(textArea0, button0, button1, textField1,button2, menueLeiste, textField0);
 
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt wird
 		stage.setScene(scene); // Fensterinhalt aufs Fenster legen
 		stage.show(); // Fenster sichtbar machen
-
+		scene.getStylesheets().clear();
+        scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 	}
 
 	public static void main (String [] args){

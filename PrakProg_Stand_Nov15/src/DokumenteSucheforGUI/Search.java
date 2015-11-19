@@ -45,6 +45,7 @@ public class Search {
 			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner ,Feld);
 			
 			NIOFSDirectory indexDir = index.createIndex();
+			
 			System.out.println(indexDir.getDirectory());
 			    //  NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));  // wird vom index übergeben
 			      DirectoryReader dr = DirectoryReader.open(indexDir); // Öffnen des Verzeichnises textIndexDir über die Variable indexDir
@@ -62,26 +63,39 @@ public class Search {
 		       TopDocs td = searcher.search(query,10); // Die ersten 10 Dokumente mit höchstem Ranking
 
 		       ScoreDoc[] sd = td.scoreDocs; //
-
+		       
 		      if(sd.length==0){
 		    	  System.out.println("Keine Einträge gefunden");
 		      }else{
 		    
-
+// Possition des W. kann in Index gespeichert werden
+		    	  // Klasse IndexCreator ändern
+		    	  
 		       for (int i=0; i < sd.length; i++) {
-
+		    	   System.out.println("länge " + sd.length);
+		    	System.out.println("shared index "+   sd[i].shardIndex );
 		         Document doc = searcher.doc(sd[i].doc); // Dokument mit dem höchsten "Ranking" wird hier "gefunden"
-		         Ausgabe_in_Textarea ="Dokument gefunden "+ doc.toString() + "\n"+Ausgabe_in_Textarea;
+		         Ausgabe_in_Textarea +="Dokument gefunden "+ doc.toString() + "\n"+Ausgabe_in_Textarea; // Achtung String immer konkatinieren, da vorherige Ergebnisse mitberücksichtig werden müssen
 		         System.out.println("Dokument gefunden "+ doc.toString() );
+		         // hier muss dann eine Suche innerhalb des do stattfinden
+		         SearchInDoc searchInDoc = new SearchInDoc(doc); 
 		         IndexableField  iField[] =doc.getFields(SearchSubject);
 		         System.out.println("Ifield " +  iField.length);
+		          Ausgabe_in_Textarea += "Ifield " +  iField.length;
+		        // Ausgabe_in_Textarea="\n"+doc.toString() +" \n";
 		         System.out.println(doc.get("title"));
 
 		       }
 		       }
-		      DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
-		      deleteDir.delete(); // Der Ordner in den die Indexdateien geschrieben wurden, wird nach Beendigung des Suchprozeß gelöscht
-		      }
+		      
+		      dr.close(); // muss geschlossen werden, damit indexDir geschlossen werden kann
+		      
+		      
+		      indexDir.close(); // muss geschlossen werden damit Inhalt des internOrdner gelöscht werden kann
+	      DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
+		      deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben wurden, wird nach Beendigung des Suchprozeß gelöscht
+		
+			}
 			catch(Exception e){
 				System.out.println("Fehler!!!!");
 				e.printStackTrace();

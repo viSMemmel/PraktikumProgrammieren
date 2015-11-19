@@ -10,6 +10,9 @@ import java.io.File;
 
 /*
  * Quelle: http://www.rgagnon.com/javadetails/java-0483.html
+ * 
+ * Diese Klasse ist unnötigt
+ * 
  */
 
 

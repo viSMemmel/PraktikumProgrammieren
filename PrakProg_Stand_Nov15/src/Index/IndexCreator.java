@@ -76,16 +76,19 @@ public class IndexCreator {
 
 			FReader fr = new FReader(path);
 			System.out.println(fr.getText());
-		
+			// fieldTypee
+		// storeTermVectorPossition
+			// auslesen termPossitions Lucene
 			document.add(new Field(FIELD_PATH, fr.getText(), Field.Store.YES, Field.Index.ANALYZED));
-
+//			document.add(new Field("Words", (String)  fr.getWords(), Field.Store.YES, Field.Index.NOT_ANALYZED));
+			
 			System.out.println(document.toString());
 			indexWriter.addDocument(document);
 		}
 	//	indexWriter.optimize(); nötig
 		indexWriter.close();  // hier Problem bei wiederholtem Aufruf
 //		indexDir.clearLock(FIELD_PATH);
-		
+		//indexDir.close();
 		System.out.println("Done - Index created");
 		return indexDir;
 	}

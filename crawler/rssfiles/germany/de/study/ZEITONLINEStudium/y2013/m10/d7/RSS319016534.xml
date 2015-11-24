@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Studium</title>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<pubDate>Mon, 07 Oct 2013 16:14:43 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:21:38 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/studium/index</link>
+<atom:link href="http://newsfeed.zeit.de/studium/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Studium</title>
+      <link>http://www.zeit.de/studium/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/studium/2013-10/plagiat-software-test</link>
+      <guid>http://www.zeit.de/studium/2013-10/plagiat-software-test</guid>
+      <category>Studium</category>
+      <title>Abschreiben: Software zur Plagiatjagd taugt oft nicht viel</title>
+      <description>&lt;a href="http://www.zeit.de/studium/2013-10/plagiat-software-test"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/studium/hochschule/2013-10/plagiat/plagiat-148x84.jpg"/&gt;&lt;/a&gt; Programme zur Plagiaterkennung sind heute Standard an Unis. Deutschlands bekannteste Plagiatjägerin hat einige der Systeme getestet. Die Ergebnisse ernüchtern.</description>
+      <dc:creator>ZEIT ONLINE : Studium - Nicole Sagener</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 16:10:01 GMT</pubDate>
+    <ExtractedText>Studiengänge
+Abschreiben: Software zur Plagiatjagd taugt oft nichts
+Programme zur Plagiaterkennung sind heute Standard an Unis. Deutschlands bekannteste Plagiatjägerin hat einige der Systeme getestet. Die Ergebnisse ernüchtern. Von  Nicole Sagener
+7. Oktober 2013  16:04 Uhr  2 Kommentare
+Nie war Abschreiben so simpel. Bevor das Internet allgegenwärtig war, mussten Studenten und Forscher zumindest in Bibliotheken gehen, um an Bücher, Aufsätze und Anträge anderer Wissenschaftler zu gelangen. Wer daraus heimlich Passagen kopieren und als eigene deklarieren wollte, musste sie selbst abtippen. Heute genügt oft schon Google, um an fremde Publikationen zu kommen. Ein paar Klicks, Copy, Paste – fertig ist das Plagiat.
+Genauso leicht ist es aber geworden, so ein Verhalten zu entdecken. Erkennungssysteme, die Texte auf abgeschriebene Passagen scannen, sind darum inzwischen an den Unis gang und gäbe. Mit ihrer Hilfe konnten mittlerweile auch Prominente aus der Politik des Betrugs bezichtigt werden .
+Anzeige
+Doch ist es wirklich so leicht, Schummelversuche aufzudecken?
+Debora Weber-Wulff , die wohl bekannteste Plagiatsjägerin Deutschlands, bezweifelt das. Seit vielen Jahren prüft die Professorin an der HTW Berlin regelmäßig Plagiaterkennungssoftwares auf ihre Verlässlichkeit. Nun hat sie den aktuellen Testbericht zu 15 der gängigsten Plagiaterkennungssysteme vorgestellt ( hier einsehbar ). Das ernüchternde Ergebnis : Weder die Note "gut", geschweige denn "sehr gut" konnten Weber-Wulff und ihr Team vergeben. Drei Systeme schnitten befriedigend ab: Urkund , Turnitin und Copyscape .
+Es habe sich abermals gezeigt, dass man sich nicht blind auf diese Systeme verlassenen dürfe, fasst Weber-Wulff die Resultate zusammen. "Software", sagt sie, "kann nur Indizien liefern."
+Menschen müssen urteilen, nicht Software
+Sie muss es wissen, Weber-Wulff enttarnt seit zwölf Jahren Plagiate, ist Mitglied der 2011 gegründeten und nach Edmund Stoibers Tochter Veronika Saß benannten Plagiatenthüllungsplattform VroniPlag und Autorin des Selbstlernkurses Fremde Federn Finden.
+Profnet, die von dem Dortmunder Wirtschaftswissenschaftler Uwe Kamenz entwickelte Software, hat Weber-Wulff gar nicht erst getestet. Profnet ist jenes System, das in der 1991 eingereichten Dissertation von Frank-Walter Steinmeier eine "Gesamtplagiatswahrscheinlichkeit" von 63 Prozent ausgemacht haben will. Weber-Wulff hat den Prüfbericht zu Steinmeiers Arbeit gelesen und bezeichnet die Urteile dieser Prüfsoftware als "katastrophal" .
+Mit Wahrscheinlichkeitsangaben habe sie sowieso ein Problem, sagt sie. Schließlich könne man nur feststellen, an wie vielen Stellen jemand abgeschrieben hat. Diese Stellen müssten dann aber von einem Menschen beurteilt werden. Uwe Kamenz sieht das anders: "Die Arbeit macht die Software", sagt er. Die Dissertationen lesen würde er nicht.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

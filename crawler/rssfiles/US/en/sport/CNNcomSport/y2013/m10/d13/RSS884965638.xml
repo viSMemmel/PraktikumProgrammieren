@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Tue, 15 Oct 2013 18:31:40 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_sport" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_sport"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Motorsport: Vettel masterclass in Japan </title>
+<guid isPermaLink="false">http://edition.cnn.com/2013/10/13/sport/motorsport/vettel-webber-grosjean-motorsport/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_sport/~3/Izuo3Sf1k-w/index.html</link>
+<description>Sebastian Vettel times his race to perfection to win Sunday's Japanese Grand Prix ahead of Red Bull teammate Mark Webber.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/Izuo3Sf1k-w" height="1" width="1"/&gt;</description>
+<pubDate>Sun, 13 Oct 2013 05:02:34 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/2013/10/13/sport/motorsport/vettel-webber-grosjean-motorsport/index.html</feedburner:origLink>
+<ExtractedText>Sebastian Vettel leads Red Bull 1-2 in Japan to close on title
+October 13, 2013 -- Updated 0936 GMT (1736 HKT)
+Sebastian Vettel gives his trademark victory salute after a superb drive to win the Japanese Grand Prix at Suzuka.
+STORY HIGHLIGHTS
+Sebastian Vettel makes it five wins in a row with Japan triumph
+Red Bull star wins from teammate Mark Webber
+Vettel extends championship lead to 90 points over Fernando Alonso
+Minute's silence before the race for Maria de Villota
+(CNN) -- Sebastian Vettel produced another Formula One masterclass Sunday to win the Japanese Grand Prix ahead of Red Bull teammate Mark Webber but will have to wait to secure his fourth straight world title.
+Nearest rival Fernando Alonso finished fourth in his Ferrari to deny Vettel the perfect finish in Suzuka, but the German has extended his lead to 90 points with a maximum of 100 available from the remaining four rounds.
+It was a fifth straight victory for Vettel and his fourth in five at Suzuka, but he spent most of the race in third place behind longtime leader Romain Grosjean in his Lotus and pole sitter Webber.
+France's Grosjean, who finished a fine third, charged into the lead from the start, while Vettel was hampered by a minor collision with Britain's Lewis Hamilton, which led to the early retirement of the Mercedes driver.
+What's behind Vettel's winning streak?
+Remembering Maria de Villota
+Vettel conserved his Pirelli tires superbly, enabling him to make just two pit stops against three for Webber and it proved crucial.
+Australia's Webber, retiring from F1 at the end of the season, made desperate efforts to get on terms after his final stop and was able to pass Grosjean, but Vettel was too far ahead.
+"I'm blown away with today's race," the champion elect said after his victory.
+"I was in a bit of a sandwich with the Lotus (Grosjean) and Lewis.
+"I couldn't avoid the contact. It was a horrible start but a fantastic comeback."
+Vettel only needs a top-five finish in the next round in India to make sure of the title, joining compatriot Michael Schumacher and Argentina legend Juan Manuel Fangio as the only men to win four world titles in a row.
+Kimi Raikkonen in the second Lotus and Nico Hulkenberg for Sauber were fifth and sixth.
+Esteban Gutierrez of Mexico picked up his first F1 points in seventh on a fine day for Sauber with Nico Rosberg for Mercedes, McLaren's Jenson Button and Felipe Massa (Ferrari) rounding off the points scoring.
+Read: F1 pioneer de Villota found dead
+Before the race, two-time champion Alonso led a minute's silence for compatriot Maria de Villota, who was found dead in her Seville hotel room Friday.
+The official podium at Suzuka was also be dedicated to the memory of the 33-year-old former Marussia reserve driver.
+</ExtractedText>
+</item>
+</channel>
+</rss>

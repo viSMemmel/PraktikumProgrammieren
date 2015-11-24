@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>10 worst nations for child labor</title>
+<guid>http://edition.cnn.com/2013/10/15/world/child-labor-index-2014/index.html</guid>
+<link>http://edition.cnn.com/2013/10/15/world/child-labor-index-2014/index.html?eref=edition</link>
+<description>Where in the world are children toiling dangerous and dirty conditions, missing out on education and other basic rights?</description>
+<pubDate>Tue, 15 Oct 2013 04:34:17 EDT</pubDate>
+<ExtractedText>The 10 worst countries for child labor
+By Katie Hunt, CNN
+October 15, 2013 -- Updated 0709 GMT (1509 HKT)
+STORY HIGHLIGHTS
+Eritrea, Somalia top the latest list for countries where child labor is most prevalent
+High poverty rates a similar theme across countries where child labor is most commonly used
+China fares poorly on the latest index, slipping from 53rd to 20th place
+Globally, the report says there's been an improvement in the risks of child labor
+(CNN) -- Where in the world are children toiling dangerous and dirty conditions, missing out on education and other basic rights?
+A new report by risk analysis firm Maplecroft , which ranks 197 countries, identifies Eritrea, Somalia, Democratic Republic of Congo, Myanmar, Sudan, Afghanistan, Pakistan, Zimbabwe and Yemen as the 10 places where child labor is most prevalent.
+Countries with high poverty rates fare badly in the index due to the need for children to supplement their family income, the report said, but economically important countries like China, India, Russia and Brazil were also found to have extreme risks because child labor laws are often poorly enforced.
+Trafficking of children into forced labor or sexual exploitation remains a big problem, the report added.
+Alarming rate of child labor in Uruguay
+Warren Jeffs ordering child labor?
+Gordon Brown on plight of child workers
+Alarming rate of child labor in Uruguay
+Despite its fast-growing economy, China has witnessed a substantial increase in child labor risks over the past year, ranking 20th compared with 53rd a year earlier.
+The report said that unofficial estimates suggested that 100,000 children are employed in the country's manufacturing sector.
+CNN Freedom Project
+"The use of vocational work and study schemes, along with the continued use of children in factories, present significant supply chain risks to companies even in the more economically developed provinces," the report said.
+Last year, electronics supplier Foxconn admitted that interns as young as 14 worked at one of its Chinese plants.
+However, the report pointed to minor improvements in the risk of child labor, with South America now ranked as "high risk" rather than "extreme risk."
+In September, the International Labor Organization estimated that the rate of five to 17 year olds engaged in child labor had decreased to 10.6% in 2012 from 13.6% in 2008. The number of children involved in the worst forms of child labor has decreased to 85 million from 115 million during this time.
+The company compiles the ranking by evaluating the frequency and severity of reported child labor incidents, as well as tracking how governments prevent child labor and ensure perpetrators are held accountable.
+The index has been developed to help companies understand the risks of children being employed in their supply chains.
+</ExtractedText>
+</item>
+</channel>
+</rss>

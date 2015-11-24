@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>New iPads expected at event next week</title>
+<guid>http://edition.cnn.com/2013/10/15/tech/mobile/apple-october-event/index.html</guid>
+<link>http://edition.cnn.com/2013/10/15/tech/mobile/apple-october-event/index.html?eref=edition</link>
+<description>As foretold by tech bloggers and Apple's own not-so-subtle habit of holding an event every October, Apple has sent out invites for a press conference next week. </description>
+<pubDate>Tue, 15 Oct 2013 20:36:46 EDT</pubDate>
+<ExtractedText>New iPads expected at event next week
+By Heather Kelly, CNN
+October 15, 2013 -- Updated 2050 GMT (0450 HKT) | Filed under: Mobile
+Apple included this image with its invitation to a company press event October 22 in San Francisco.
+STORY HIGHLIGHTS
+Apple sends out invites for an October 22 press event
+The company is expected to announce upgraded iPad and iPad Minis
+There could also be some Mac news, including a release date for OS X Mavericks
+(CNN) -- As foretold by tech bloggers and Apple's own not-so-subtle habit of holding an event every October, Apple has sent out invites for a press conference next week.
+The company is expected to announce updates to its iPad line, including an iPad Mini with a higher resolution display. In addition to some speed improvements, the fifth-generation iPad is expected to get a new slimmed-down design.
+The event will be held at the Yerba Buena Center for the Arts in San Francisco, one of the larger venues Apple regularly uses for its product launches.
+The show will start at 10 a.m. PT on October 22. It will probably follow the usual pattern of CEO Tim Cook showing off recent stats before bringing up other executives to introduce the various new products.
+Live demonstrations and videos are typically sprinkled throughout to pad out the event.
+Electronics companies hold fall events to get their wares on store shelves in time for the holiday rush, which is when they make a large chunk of their annual sales profit.
+Apple's e-mail invite says the company has "a lot" to cover, and it is expected to announce more than just an upgrade to its iPad line.
+The new Mac operating system, Mac OS X Mavericks, was previewed earlier this year and is due for a fall release. The redesigned Mac Pro, a professional level desktop computer with a slick new circular design, is also likely to get some stage time and a release date.
+Other Mac products could receive the upgrade treatment, including MacBook Pros.
+There is always the chance Apple could toss in some bigger surprises, such as upgrades to Apple TV or the debut of Apple's smart watch. However, recent announcements have aligned closely with the rumor mill, and the company hasn't been able to sneak in a real surprise in a while.
+</ExtractedText>
+</item>
+</channel>
+</rss>

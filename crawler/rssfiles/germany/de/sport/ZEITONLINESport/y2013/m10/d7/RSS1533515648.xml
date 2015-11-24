@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Sport</title>
+<description>Alles rund um den Sport: Informationen, News und Reportagen zu den Themen Fußball, Formel 1, Tennis, Radsport und Handball sowie Live-Ticker zur Fußball-Bundesliga.</description>
+<pubDate>Mon, 07 Oct 2013 19:27:08 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:33:14 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/sport/index</link>
+<atom:link href="http://newsfeed.zeit.de/sport/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Sport</title>
+      <link>http://www.zeit.de/sport/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/sport/2013-10/nuernberg-trennt-sich-von-trainer-wiesinger</link>
+      <guid>http://www.zeit.de/sport/2013-10/nuernberg-trennt-sich-von-trainer-wiesinger</guid>
+      <category>Sport</category>
+      <title>Fussball-Bundesliga: Nürnberg entlässt Trainer Wiesinger</title>
+      <description>&lt;a href="http://www.zeit.de/sport/2013-10/nuernberg-trennt-sich-von-trainer-wiesinger"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/sport/2013-10/michael-wiesinger/michael-wiesinger-148x84.jpg"/&gt;&lt;/a&gt; Der 1. FC Nürnberg trennt sich von Trainer Michael Wiesinger. Nach der 0:5-Heimniederlage gegen den Hamburger SV kam die Entscheidung nicht mehr überraschend.</description>
+      <dc:creator>ZEIT ONLINE : Sport</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 19:24:46 GMT</pubDate>
+    <ExtractedText>Anmelden | Registrieren
+Fussball-Bundesliga: Nürnberg entlässt Trainer Wiesinger
+Der 1. FC Nürnberg trennt sich von Trainer Michael Wiesinger. Nach der 0:5-Heimniederlage gegen den Hamburger SV kam die Entscheidung nicht mehr überraschend.
+7. Oktober 2013  20:51 Uhr 
+Nürnbergs entlassener Trainer Michael Wiesinger  |  © Carmen Jaspersen/dpa
+Der 1. FC Nürnberg hat seinen Trainer Michael Wiesinger entlassen. Nach der deutlichen 0:5-Niederlage gegen den Hamburger SV am vergangenen Wochenende und einer sachlichen  Aufarbeitung des bisherigen Saisonverlaufs habe der Verein diesen Schritt  vollziehen müssen, teilte der Club mit. In den jüngsten Spielen sei kein erkennbarer Aufwärtstrend erkennbar gewesen. Derzeit liegt der 1. FC Nürnberg mit fünf Punkten aus acht Saisonspielen auf Platz 16. 
+Der 40 Jahre alte Wiesinger hatte das Traineramt beim  1. FC Nürnberg nach dem überraschenden Weggang von Dieter Hecking zum  VfL Wolfsburg im Dezember 2012 übernommen. In der Rückrunde der Saison 2012/13  erreichte der Club 24 Punkte und Tabellenrang zehn.
+Anzeige
+Interimstrainer wird zunächst Roger Prinzen, der Trainer der U23-Mannschaft. Ein neuer Cheftrainer soll nach Angaben des Vereins sobald wie möglich präsentiert werden.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

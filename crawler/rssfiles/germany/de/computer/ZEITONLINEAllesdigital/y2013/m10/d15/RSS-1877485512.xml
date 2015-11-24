@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/bnd-ueberwachung-grundgesetz-offener-brief</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/bnd-ueberwachung-grundgesetz-offener-brief</guid>
+      <category>Digital</category>
+      <title>Überwachung: Offener Brief an die MitarbeiterInnen des BND</title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/bnd-ueberwachung-grundgesetz-offener-brief"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/bnd-logo/bnd-logo-148x84.jpg"/&gt;&lt;/a&gt; Nur dank des Mutes von Edward Snowden erfährt die Welt von den Rechtsbrüchen von NSA und GCHQ. Angesichts der Geheimniskrämerei bräuchte es auch hier so mutige Menschen.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Tilman Baumgärtel</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 09:22:04 GMT</pubDate>
+    <ExtractedText>Überwachung: Offener Brief an die MitarbeiterInnen des BND
+Überwachung: Offener Brief an die MitarbeiterInnen des BND
+Nur dank des Mutes von Edward Snowden erfährt die Welt von den Rechtsbrüchen von NSA und GCHQ. Angesichts der Geheimniskrämerei bräuchte es auch hier so mutige Menschen. Ein Kommentar von Tilman Baumgärtel
+15. Oktober 2013  11:21 Uhr  75 Kommentare
+Logo des Bundesnachrichtendienstes  |  © JOHN MACDOUGALL/AFP/Getty Images
+Sehr geehrte Damen und Herren,
+in den vergangenen Tagen sind in der deutschen Presse eine Reihe von Berichten erschienen, die nahe legen, dass der Bundesnachrichtendienst den Telekommunikationsverkehr von Millionen von Bundesbürgern überwacht und nach Stichworten durchsucht. Der Spiegel berichtet , dass der BND am deutschen Netzwerkknoten De-Cix in Frankfurt die Datenkommunikation der deutschen Internet-Serviceprovider komplett abzapft und Teile derselben nach Suchworten analysiert.
+Anzeige
+Über Details dieser Abhörmaßnahmen ist nichts zu erfahren. Besonders die Frage, ob der deutsche Auslandsgeheimdienst hier entgegen seines Auftrags Daten von Bundesbürgern durchsucht und speichert, ist bisher nicht befriedigend beantwortet worden. In dieser Situation wende ich mich an Sie, die Mitarbeiterinnen und Mitarbeiter des BND: Es liegt an Ihnen, in der gegenwärtigen Situation die Klarheit zu schaffen, die den deutschen Bundesbürgern zusteht und die die zuständigen Institutionen bislang verweigern.
+Die Aufgabe des BND ist die Auslandsaufklärung. Informationen über deutsche Bürger zu sammeln, gehört ausdrücklich nicht zu seinem Auftrag. Die bisher bekannt gewordenen Details über die Überwachung der deutschen Internetprovider geben jedoch keinen Hinweis darauf, wie der BND sicherstellt , dass er ausschließlich den Telekommunikationsverkehr zwischen Ausländern überwacht.
+Wie sichert der BND, dass er keine Deutschen abhört?
+Wie ZEIT ONLINE bereits vor zwei Monaten berichtet hat , soll der BND alle E-Mail-Adressen mit der Endung .de sowie alle Telefonnummern mit der Landesvorwahl 0049 ausfiltern, um sicherzustellen, dass er keine deutschen Staatsbürger abhört. Das bedeutet im Umkehrschluss, dass die Telekommunikation von allen Deutschen überwacht wird, die ihren Account bei beliebten E-Mail-Anbietern wie hotmail.com oder gmail.com haben oder die Domains nutzen, die auf .com, .org oder .net enden. Auch Deutsche, die aus dem Ausland in ihrem Heimatland anrufen, könnten so ausgespäht werden.
+Bisher hat der BND nicht erklärt, wie er die Nationalität von Fernsprechteilnehmern und Internetnutzern feststellt, deren Kommunikation er überwacht – wahrscheinlich weil es technisch sehr aufwändig und im Zweifel kaum möglich ist. Es ist darum davon auszugehen, dass der BND bei der Telekommunikations-Überwachung das grundgesetzlich geschützte Fernmeldegeheimnis der Bundesbürger in großen Stil bricht und die so gewonnenen Informationen möglicherweise an den amerikanischen Auslandsgeheimdienst NSA weitergibt . 
+Der BND hält die Details seiner Überwachungsaktivitäten geheim. Die Bundesregierung hat nichts dazu beigetragen , die erhobenen Überwachungs- und Spionagevorwürfe zu klären. Die Telekommunikationsanbieter dürfen nicht sagen, was sie unter Umständen wissen. Die parlamentarische G-10-Kommission, die die Überwachung der Telekommunikation in Deutschland kontrolliert, erhält ihre Informationen direkt von den Geheimdiensten ohne die Möglichkeit, diese zu überprüfen; da die Kontrolleure zur Verschwiegenheit verpflichtet sind, könnten sie die Öffentlichkeit über Rechtsbrüche selbst dann nicht informieren, wenn sie von solchen erfahren würden.
+In einer Situation, in der es für die Bürger keine überprüfbare Sicherheit gibt, ob ihre Daten rechtswidrig gesammelt werden, müssen entsprechende Informationen aus dem Inneren der Behörde kommen.
+Die Enthüllungen des Edward Snowden
+Edward Snowden war Systemadministrator, angestellt bei einer privaten Firma und von dieser an den amerikanischen Geheimdienst NSA ausgeliehen. In dieser Position sah er viel und was er sah, beunruhigte ihn. Mehr als 50.000 Dokumente soll er von den Servern der NSA heruntergeladen haben. Im Juni 2013 begann er, der Öffentlichkeit zu berichten, wie sie im Internet überwacht und ausgespäht wird. Ein Überblick über seine Enthüllungen:
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/privatsphaere-ueberwachung-nsa-seemann</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/privatsphaere-ueberwachung-nsa-seemann</guid>
+      <category>Digital</category>
+      <title>Überwachung: Die Privatsphären-Falle</title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/privatsphaere-ueberwachung-nsa-seemann"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/stop-spying/stop-spying-148x84.jpg"/&gt;&lt;/a&gt; Der Begriff Privatsphäre taugt nicht als Argument gegen Überwachung, weniger Privatsphäre macht offenbar niemandem Angst. Der Kampf gegen die NSA braucht neue Narrative.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Michael Seemann</dc:creator>
+      <pubDate>Fri, 11 Oct 2013 12:00:17 GMT</pubDate>
+    <ExtractedText>Überwachung: Die Privatsphären-Falle
+Überwachung: Die Privatsphären-Falle
+Der Begriff Privatsphäre taugt nicht als Argument gegen Überwachung, weniger Privatsphäre macht offenbar niemandem Angst. Der Kampf gegen die NSA braucht neue Narrative. Ein Kommentar von Michael Seemann
+9. Oktober 2013  12:50 Uhr  40 Kommentare
+Demo gegen Überwachung im Juli in Washington D.C.  |  © MLADEN ANTONOV/AFP/Getty Images
+Es muss als historischer Zufall gewertet werden, dass die diesjährige Bundestagswahl mitten in den größten Datenschutz-Skandal der Weltgeschichte fiel . Potenziell alle Internetdaten werden in Echtzeit gescannt, gespeichert und ausgewertet. Daten aus Social Networks werden in Massen weitergegeben, verschlüsselte Verbindungen werden geknackt oder umgangen. 2013 wird als das Jahr der Datenschmelze in die Geschichte eingehen.
+Zur gleichen Zeit läuft die bundesrepublikanische Presselandschaft zur Höchstleistung auf. Sie setzt den Überwachungsskandal immer wieder ganz oben auf die Tagesordnung, berichtet scharf und detailliert, monatelang, in ungeahnter Qualität und kritischer Haltung.
+Anzeige
+Während all dem tut die Bundesregierung: nichts. Es gibt ein paar Appelle, ein Besuch des Innenministers in Amerika, ansonsten Rechtfertigungen, peinliche Ausrutscher, Beschwichtigungen und Lügen. Selbst Angela Merkel, sonst die ruhige Managerin im Hintergrund, kommt zum ersten Mal ins Schleudern. Und das mitten im Wahlkampf.
+Das Ergebnis: Die Union erringt einen historischen Sieg. Alle Oppositionsparteien sind geschwächt, die FDP ist draußen, die Piraten, die als einzige den Überwachungsskandal in den Wahlkampfmittelpunkt stellen, erleben ein Desaster. Ein weiterer Wahlverlierer: die Netzszene und ihr Kampf gegen die Überwachung. Ihre Themen wurden über Nacht für politisch irrelevant erklärt.
+Michael Seemann
+© Bosch
+Seemann bloggt und twittert seit Jahren unter dem Pseudonym mspro und beschäftigt sich unter anderem mit dem gesellschaftlichen Phänomen des Kontrollverlustes .
+Dabei gelten die Deutschen weltweit als besonders datenschutzaffin und auch alle Meinungsumfragen sind sich bis heute einig: Die Deutschen finden den Überwachungsskandal schlimm und Privatsphäre wichtig. Aber deswegen gleich etwas ändern?
+Sascha Lobo nimmt das Bundestagswahlergebnis zum Anlass , mit dem deutschen "Bürger in seiner verdammten Fußgängerzone" zu schimpfen. Auf eine "Pseudoprivatsphäre" habe er sich eingelassen. Diese Privatsphäre sei lediglich eine Privatsphäre seinem Nachbarn gegenüber ( siehe die Google Streetview-Aufregung ), aber staatliche Institutionen ließe der Bürger unbeanstandet die Gesellschaft vollüberwachen.
+"Pseudoprivat ist faktisch das Gegenteil von privat, aber fühlt sich so ähnlich an. Immerhin. Pseudoprivatsphäre: wo egal ist, was der Staat weiß, solange es die Nachbarn nicht wissen."
+Privacy-Paradox
+Es ist offensichtlich, dass die Deutschen sich hier auf einen Deal eingelassen haben, der nicht dem entspricht, was man einmal unter dem Wort "Privatsphäre" verstanden hat. So weit, so richtig. Aber dass dieser Deal neu ist, kann eigentlich nicht behauptet werden.
+Das Ergebnis der Bundestagswahl erinnert vielmehr an ein Phänomen, dass Forscher das Privacy-Paradox nennen . Das Privacy-Paradox beschreibt die Beobachtung, dass in allen Umfragen und persönlichen Gesprächen der Schutz der Privatsphäre als extrem wichtig angegeben wird. Gleichzeitig aber führt das nur in seltensten Fällen dazu, dass Menschen auch nur das Geringste dafür tun.
+Die Enthüllungen des Edward Snowden
+Edward Snowden war Systemadministrator, angestellt bei einer privaten Firma und von dieser an den amerikanischen Geheimdienst NSA ausgeliehen. In dieser Position sah er viel und was er sah, beunruhigte ihn. Mehr als 50.000 Dokumente soll er von den Servern der NSA heruntergeladen haben. Im Juni 2013 begann er, der Öffentlichkeit zu berichten, wie sie im Internet überwacht und ausgespäht wird. Ein Überblick über seine Enthüllungen:
+</ExtractedText>
+</item>
+</channel>
+</rss>

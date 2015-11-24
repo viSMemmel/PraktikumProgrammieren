@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Sat, 05 Oct 2013 11:46:31 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Tornado strikes Nebraska</title>
+<guid>http://edition.cnn.com/2013/10/04/us/nebraska-tornado-western-storms/index.html</guid>
+<link>http://edition.cnn.com/2013/10/04/us/nebraska-tornado-western-storms/index.html?eref=edition</link>
+<description>Wicked weather dominated much of the American Midwest and westward on Friday.</description>
+<pubDate>Sat, 05 Oct 2013 09:48:26 EDT</pubDate>
+<ExtractedText>Tornado strikes Nebraska as winter storm hits South Dakota, Wyoming
+By Paul Matadeen, CNN
+October 5, 2013 -- Updated 1348 GMT (2148 HKT)
+STORY HIGHLIGHTS
+Tornado strikes Wayne, Nebraska; no deaths reported
+Power knocked out to half the residents of Rapid City, South Dakota
+Interstate 80 westbound tangled by wreck in Wyoming
+(CNN) -- Wicked weather dominated much of the American Midwest and westward on Friday.
+A tornado laden storm shocked the people of Wayne, Nebraska, as afternoon turned to evening. A few people sustained minor injuries, but luckily no one was killed, said mayor Ken Chamberlain.
+The storm produced one or several tornadoes, officials said, that touched down in five spots.
+"The primary damage is mostly in the industrial area of Wayne," Chamberlain said. "Approximately 10-12 houses were destroyed but everyone is accounted for and safe."
+The storm flipped cars, trapping motorists and ruptured a natural gas line in Wayne, the state's emergency management agency said. "Hazmat is on the scene dealing with the gas leakage," said spokeswoman Jodie Fawl.
+The American Red Cross is sending teams to the scene, said Liz Dorland of the agency's Nebraska/Southwest Iowa regional chapter. The agency is "working with local authorities and emergency management to see what the needs are and (to) respond as needed," she said.
+Tornado victim: I heard windows explode
+Fifteen people injured by the storm were taken to Providence Medical Center in Wayne, hospital spokesperson Sandra Bartling said. No deaths from the tornado had been reported, officials said.
+Farther west, in Rapid City, South Dakota, and in eastern Wyoming, a winter storm caused locals to take cover.
+Half the approximately 60,000 residents of Rapid City were without power as of Friday evening, said Jerry Reichert, a battalion chief with the Rapid City Fire Department.
+Reichert said firefighters responded to reports of several people stuck in the road because of the weather. At least one tree landed on the roof of a home on Friday, but Reichert said he was not aware of any fatalities or injuries as of Friday evening.
+In the morning, Rapid City police issued a "no travel" advisory for the city. They described conditions as "deteriorating quickly" and warned travelers that visibility was "at about a quarter-mile."
+Police also warned that "thick slush on the roads is causing vehicles to hydroplane."
+Tropical Storm Karen weakens
+In Wyoming, road closures also dominated travel.
+A dispatcher for the Wyoming Highway Patrol said the majority of Interstate 25 in the state had been shut because of bad weather.
+A small stretch in the middle of the state, around Casper, remained open, but it was restricted to necessary travel, the dispatcher said.
+Dave Kingham, a spokesman for the Wyoming Department of Transportation, said Interstate 80 westbound between Laramie, Wyoming, and Cheyenne, Wyoming, was closed after an early evening accident. On the eastbound side of that same stretch, Kingham said, the "chain law" was in effect. That means vehicles must use chains or snow tires to travel the interstate legally.
+On average, Kingham said, the closed stretch of I-80 accommodates about 6,000 vehicles each day.
+CNN's Jessica Jordan contributed to this report.
+</ExtractedText>
+</item>
+</channel>
+</rss>

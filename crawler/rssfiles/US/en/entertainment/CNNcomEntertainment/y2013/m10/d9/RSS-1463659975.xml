@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Tue, 15 Oct 2013 19:13:44 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_entertainment" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_entertainment"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Sandra Bullock: America's sweetheart</title>
+<guid isPermaLink="false">http://www.cnn.com/2013/10/04/showbiz/gallery/sandra-bullock-through-the-years/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_entertainment/~3/8xZIyKTBpag/index.html</link>
+<description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/8xZIyKTBpag" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 09 Oct 2013 10:49:48 EDT</pubDate>
+<feedburner:origLink>http://www.cnn.com/2013/10/04/showbiz/gallery/sandra-bullock-through-the-years/index.html</feedburner:origLink>
+<ExtractedText>&lt;&lt; Previous   Next &gt;&gt;
+Sandra Bullock is once again riding high with Oscar buzz, this time for her performance the new film "Gravity" (out October 4). Here she arrives for the opening ceremony of the 70th Venice Film Festival and the screening of the movie at the competition in August. It's been a charmed life and career for the actress...
+Loading weather data ...
+</ExtractedText>
+</item>
+</channel>
+</rss>

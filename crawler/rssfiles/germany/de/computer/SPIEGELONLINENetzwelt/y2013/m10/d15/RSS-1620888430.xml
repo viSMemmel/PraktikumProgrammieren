@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Wed, 16 Oct 2013 09:03:42 +0200</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:03:42 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Krypto-E-Mail-Dienst: Lavabit-Kunden können verlorengeglaubte Nachrichten sichern</title>
+<link>http://www.spiegel.de/netzwelt/web/lavabit-nutzer-erhalten-zugriff-auf-nachrichten-a-927864.html#ref=rss</link>
+<description>Weil US-Behörden Zugriff auf verschlüsselte Nachrichten verlangten, wurde der E-Mail-Dienst Lavabit im August abrupt geschlossen. Nun soll er kurzzeitig wiederbelebt werden. Nutzer bekommen wenige Tage Zeit, um E-Mails zu sichern, die noch auf den Servern lagern.</description>
+<pubDate>Tue, 15 Oct 2013 12:47:00 +0200</pubDate>
+<guid>http://www.spiegel.de/netzwelt/web/lavabit-nutzer-erhalten-zugriff-auf-nachrichten-a-927864.html</guid>
+<content:encoded><![CDATA[<img src="http://www.spiegel.de/images/image-556348-thumbsmall-uxuk.jpg" hspace="5" align="left" >Weil US-Behörden Zugriff auf verschlüsselte Nachrichten verlangten, wurde der E-Mail-Dienst Lavabit im August abrupt geschlossen. Nun soll er kurzzeitig wiederbelebt werden. Nutzer bekommen wenige Tage Zeit, um E-Mails zu sichern, die noch auf den Servern lagern.]]></content:encoded>
+<enclosure type="image/jpeg" url="http://www.spiegel.de/images/image-556348-thumbsmall-uxuk.jpg"/>
+<ExtractedText>Lavabit: Nutzer erhalten Zugriff auf Nachrichten
+Krypto-E-Mail-Dienst: Lavabit-Kunden können verlorengeglaubte Nachrichten sichern
+REUTERS
+Screenshot der Lavabit-Website (Archivbild): Geschlossen, weil Behörden Zugriff verlangten
+Weil US-Behörden Zugriff auf verschlüsselte Nachrichten verlangten, wurde der E-Mail-Dienst Lavabit im August abrupt geschlossen. Nun soll er kurzzeitig wiederbelebt werden. Nutzer bekommen wenige Tage Zeit, um E-Mails zu sichern, die noch auf den Servern lagern.
+Lavabit-Kunden haben harte Wochen hinter sich: Immer wieder machte der von ihnen genutzte E-Mail-Dienst Schlagzeilen. Seit August haben sie keinen Zugriff mehr auf ihre dort gespeicherten E-Mails. Lavabit-Gründer Ladar Levison hatte seinen Dienst Anfang August geschlossen , nachdem US-Behörden versucht hatten, Zugriff auf die Kundendaten zu bekommen. Nun wird der Dienst, der sich vor allem durch seine Verschlüsselung einen Namen machte, kurzzeitig wiederbelebt.
+Seit der Nacht zum Dienstag können Lavabit-Kunden online ihr Passwort ändern . Wie die zugehörige Pressemitteilung erläutert, steht für diesen Schritt ein Zeitfenster von 72 Stunden zur Verfügung. Von der Nacht zu Freitag an sollen Nutzer anschließend die Möglichkeit haben, ihr E-Mail-Archiv herunterzuladen.
+Wie lang der Zugriff auf die Nachrichten möglich sein wird, ist unklar. "The Verge" mutmaßt , dass es in Anbetracht dessen, dass dem Dienst weitere rechtliche Schritte drohen, unwahrscheinlich ist, dass die Seite lange online sein wird. Auf der Lavabit-Website heißt es, man biete ein kurzes Zeitfenster von fünf Tagen an , vermutlich bezieht sich diese Angabe auf beide Schritte.
+Zu den Nutzern des Dienstes soll Whistleblower Edward Snowden gehört haben. Im Netz war Levison für seinen Entschluss zur Dienstabschaltung gefeiert worden: Er habe sein Unternehmen, das er rund zehn Jahre lang aufgebaut hatte, geopfert, um die Daten seiner Kunden zu schützen, lautete seine Heldengeschichte.
+3500 Dollar für Metadaten-Weitergabe
+Über den Kontakt mit den Behörden durfte Levison unter Haftandrohung zunächst nicht sprechen, erst Anfang Oktober gelangten Details an die Öffentlichkeit. Demnach hatten die Fahnder nicht nur Zugang zu Edward Snowdens Konto verlangt, sondern eine Art Generalschlüssel zu allen rund 410.000 Kundenkonten .
+Vergangene Woche wurde bekannt, dass Levison zeitweise mit der Weitergabe von Nutzer-Metadaten einverstanden war , zu eigenen Bedingungen. Gerichtsunterlagen zufolge hatte er dem FBI angeboten, für 3500 Dollar ein Programm zum Herauslesen der Daten zu schreiben und die Daten selbst weiterzuleiten. Das FBI lehnte den Vorschlag ab.
+Prism und Tempora - wie kann man sich wehren?
+Einige Tipps
+Ein erster Schritt könnte sein, womöglich doch lieber auf in Europa angesiedelte Internetdienste, etwa deutsche E-Mail-Provider, zurückzugreifen.
+Verschlüsseln Sie Ihre Kommunikation. Wie das geht, steht zum Beispiel hier .
+Wenn Sie Cloud-Speicherdienste wie Dropbox sicher nutzen, online verschlüsselt chatten, Files oder Nachrichten online verschlüsselt weiterreichen wollen, finden Sie hier einige Tipps .
+Eine Anleitung zum Verschlüsseln von Festplatten finden Sie hier .
+Wie Sie sich mit Material im Wert von 65 Euro einen Tarnkappen-Router bauen, der Ihre IP-Adresse verschleiern kann, lesen Sie hier .
+Weitere Texte
+</ExtractedText>
+</item>
+</channel>
+</rss>

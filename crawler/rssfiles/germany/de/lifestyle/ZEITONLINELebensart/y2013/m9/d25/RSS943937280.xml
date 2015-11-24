@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Lebensart</title>
+<description>Die Lust am Leben: Aktuelle Berichte, Ratgeber und Kolumnen rund um die Themen Mode, Essen, Trinken und Partnerschaft.</description>
+<pubDate>Sat, 05 Oct 2013 16:12:57 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:21 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/lebensart/index</link>
+<atom:link href="http://newsfeed.zeit.de/lebensart/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Lebensart</title>
+      <link>http://www.zeit.de/lebensart/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/lebensart/2013-08/fs-alix-curan-mustapha-azeroual-fvf-2</link>
+      <guid>http://www.zeit.de/lebensart/2013-08/fs-alix-curan-mustapha-azeroual-fvf-2</guid>
+      <category>Lebensart</category>
+      <title>Freunde von Freunden: Heilige Maria auf der Fensterbank</title>
+      <description>&lt;a href="http://www.zeit.de/lebensart/2013-08/fs-alix-curan-mustapha-azeroual-fvf-2"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/lebensart/2013-08/fs-alix-curan-mustapha-azeroual-fvf-teaser/fs-alix-curan-mustapha-azeroual-fvf-teaser-148x84.jpg"/&gt;&lt;/a&gt; Die Atmosphäre im französischen Landhaus von Alix Curan und Mustapha Azeroual lebt vom Flohmarkt-Jagdinstinkt der Künstler. "Freunde von Freunden" hat das Paar besucht.</description>
+      <dc:creator>ZEIT ONLINE : Lebensart</dc:creator>
+      <pubDate>Wed, 25 Sep 2013 08:35:21 GMT</pubDate>
+    <ExtractedText>1 von 24 Zurück Vorwärts
+Serie Freunde von Freunden:
+© Frede Lahache für Freunde von Freunden
+Das Haus im französischen Rosay wirkt, als sei es in drei Phasen entstanden: Back-, Naturstein und Fachwerk fügen sich in der Fassade wie Puzzlestücke aneinander. Auch die Wohnräume von Alix Curan und ihrem Freund, dem Fotografen Mustapha Azeroual, sind von einem Mix der Epochen bestimmt. Denn beide lieben die Jagd nach Möbeln und Accessoires auf Flohmärkten. So leuchten Chromlampen auf eine Schmetterlingsammlung, ein Ziegenkopf dient als Hutständer – und im Weinkeller ist das Fotostudio. Mehr über das Paar erfahren Sie bei Freunde von Freunden.
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

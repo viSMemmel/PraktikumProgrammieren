@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Karriere</title>
+<description>Für Ein-, Um- und Aufsteiger: Das Karriereportal für Berufsanfänger, Quereinsteiger und die eigene Karriereleiter. Aktuelle Informationen rund um den Beruf.</description>
+<pubDate>Sat, 05 Oct 2013 14:36:25 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:47:02 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/karriere/index</link>
+<atom:link href="http://newsfeed.zeit.de/karriere/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Karriere</title>
+      <link>http://www.zeit.de/karriere/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/campus/2013/05/berufsanfaenger-beachtung-job</link>
+      <guid>http://www.zeit.de/campus/2013/05/berufsanfaenger-beachtung-job</guid>
+      <category>Karriere</category>
+      <title>Berufsanfänger: Keiner hat auf sie gewartet</title>
+      <description>&lt;a href="http://www.zeit.de/campus/2013/05/berufsanfaenger-beachtung-job"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/karriere/beruf/2013-09/frau/frau-148x84.jpg"/&gt;&lt;/a&gt; Viele Einsteiger starten mit großen Erwartungen in den Beruf und stellen fest: Der Joballtag sieht anders aus als erwartet. Wie kann man mit der Enttäuschung umgehen?</description>
+      <dc:creator>ZEIT ONLINE : Karriere - Maren Lehky</dc:creator>
+      <pubDate>Tue, 20 Aug 2013 06:00:00 GMT</pubDate>
+    <ExtractedText>Stellenmarkt
+Berufsanfänger: Willkommen in der Realität
+Viele Einsteiger starten mit großen Erwartungen in den Beruf und werden dann enttäuscht. Wie kann man damit umgehen? Von Maren Lehky
+30. September 2013  06:26 Uhr  18 Kommentare
+Manchmal ist schon der erste Tag ernüchternd. Sie kommen zur vereinbarten Uhrzeit ins Unternehmen – und keiner erwartet Sie . Es gibt kein freies Büro, die Visitenkarten sind nicht fertig, der Chef ist auf Reisen und die Kollegen sind im Stress. Man setzt Sie irgendwo an einen Tisch, versorgt Sie mit reichlich Material ("Lesen Sie sich doch schon mal ein!") – dann machen alle um Sie herum einfach mit ihrer Arbeit weiter.
+In den folgenden Wochen wird immer deutlicher, dass vieles von dem, wofür im Unternehmensalltag viel Zeit draufgeht, nichts mit den "spannenden Herausforderungen" zu tun hat, von denen in der Bewerbungsphase ständig die Rede war: SAP-Nummern für Bestellvorgänge einrichten zum Beispiel, Formulare ausfüllen, Genehmigungen einholen, auf Zustimmungen warten, Reisekosten abrechnen, an Details feilen, noch mal nachfragen, wieder warten. Und selbst wenn Sie an interessanten Projekten mitarbeiten, sind Sie oft nicht dort, wo es besonders spannend ist, sondern liefern nur zu – bereiten etwa als Jungberater für die Kollegen das Material auf oder gleichen im Marketing Adresslisten für Einladungen zu Konferenzen ab.
+Anzeige
+Maren Lehky
+© Maren Lehky
+Maren Lehky ist Unternehmens- und Personalmanagement-Beraterin in Hamburg. In ihrer Kolumne, die im ZEIT CAMPUS Magazin und auf ZEIT ONLINE erscheint, gibt sie Berufsanfängern Karrieretipps.
+Besonders frustrierend ist es, wenn Entscheidungen auf den oberen Ebenen nicht nach unten durchgegeben werden: Sie haben sich in eine Aufgabe reingehängt und sind euphorisch und stolz, alles rechtzeitig fertigbekommen zu haben. Dann hören Sie nichts mehr, und später auf Nachfrage: "Ach, richtig, hatten wir Ihnen das noch nicht erzählt? Die Prioritäten haben sich verschoben, das Projekt liegt auf Eis."
+All das passiert – nicht immer, aber leider doch erstaunlich oft. Um sich nicht entmutigen zu lassen, helfen folgende Überlegungen.  Erstens: Nehmen Sie es nicht persönlich, wenn Ihnen wenig Beachtung geschenkt wird. Die Aufmerksamkeit des Chefs verteilt sich nun mal auf vieles: den eigenen Chef, die wichtigsten Kunden, die Problemfälle im Team und alle Kollegen, von denen Sie eben nur einer sind. Zweitens: Fordern Sie Erklärungen ein. Welchem übergeordneten Ziel nutzt zum Beispiel  der Abgleich der Adresslisten? Drittens: Vernetzen Sie sich von Anfang an, ein gutes Team löst Probleme gemeinsam.
+Die Erfahrung zeigt, dass der Frust meist schnell überstanden ist. Weil man irgendwann angekommen ist. Weil die Aufgaben spannender werden. Weil man Zusammenhänge besser  versteht. Weil man sieht, dass andere ebenfalls mit viel Kleinkram kämpfen – und auch  deshalb, weil man irgendwann seine Erwartungen an die Realität anpasst.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

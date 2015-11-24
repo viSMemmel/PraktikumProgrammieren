@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Mon, 07 Oct 2013 18:03:55 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:04:42 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/wissen/umwelt/2013-10/fukushima-japan-internationale-hilfe-verseuchtes-wasser</link>
+      <guid>http://www.zeit.de/wissen/umwelt/2013-10/fukushima-japan-internationale-hilfe-verseuchtes-wasser</guid>
+      <category>Wissen</category>
+      <title>Radioaktives Wasser: Japan bittet um ausländische Hilfe für Fukushima</title>
+      <description>&lt;a href="http://www.zeit.de/wissen/umwelt/2013-10/fukushima-japan-internationale-hilfe-verseuchtes-wasser"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wissen/umwelt/2013-10/fukushima/fukushima-148x84.jpg"/&gt;&lt;/a&gt; Japan bekommt seine Probleme mit radioaktiv belastetem Wasser in Fukushima nicht in den Griff. Ministerpräsident Abe hat nun internationale Experten um Hilfe gebeten.</description>
+      <dc:creator>ZEIT ONLINE : Wissen</dc:creator>
+      <pubDate>Sun, 06 Oct 2013 10:52:20 GMT</pubDate>
+    <ExtractedText>Geschichte
+Radioaktives Wasser: Japan bittet um ausländische Hilfe für Fukushima
+Japan bekommt seine Probleme mit radioaktiv belastetem Wasser in Fukushima nicht in den Griff. Ministerpräsident Abe hat nun internationale Experten um Hilfe gebeten.
+6. Oktober 2013  12:51 Uhr  142 Kommentare
+Tanks mit radioaktiv belastetem Wasser am Atomkraftwerk Fukushima   |  © Kyodo/Files/Reuters
+Im Kampf gegen das Austreten von radioaktiv belastetem Wasser in Fukushima hat Japan um Hilfe aus dem Ausland gebeten. "Mein Land braucht Ihr Wissen und Ihre Expertise", sagte Ministerpräsident Shinzo Abe am Sonntag während einer internationalen Konferenz zu Energie- und Umweltfragen in Kyoto. Japan wolle Wissen aus dem Ausland einbinden, um das Problem in dem havarierten Atomkraftwerk in den Griff zu bekommen, sagte er.
+Im Kernkraftwerk Fukushima waren nach einem schweren Erdbeben und einem Tsunami im März 2011 drei Reaktorkerne geschmolzen. Um diese zu kühlen, wurden sie mit Wasser umspült. Durch die stetig notwendige Kühlung entsteht immer neues radioaktives Wasser. Dessen Lagerung stellt ein kaum zu lösendes Problem dar . Seit der Havarie versickert verseuchtes Wasser im Erdreich und läuft in den Pazifik. Zwischendurch musste belastetes Wasser aktiv ins Meer eingeleitet werden.
+Anzeige
+Erst am Donnerstag war einer der gut tausend Tanks, in denen das Wasser gelagert wird, übergelaufen. Etwa 430 Liter belastetes Kühlwasser aus der defekten Atomanlage liefen ins Meer. Auch in den Monaten davor waren immer wieder Lecks an den Tanks entdeckt worden. Abe hatte erst kürzlich gesagt, die Lecks seien unter Kontrolle – auf diese Aussage ging er in Kyoto nun nicht mehr ein.
+Japan, dessen intransparente Informationspolitik im Umgang mit dem Atomunfall immer wieder kritisiert wurde, hatte die Bergungs- und Sicherungsarbeiten an der Anlage zunächst fast ausschließlich der Betreiberfirma Tepco überlassen. Diese hielt aber immer wieder wichtige Informationen zurück, machte Fehler beim Messen der Strahlung und steht unter Verdacht, bei dem Einsatz auf der versuchten Anlage, keine Rücksicht auf mögliche Gesundheitsfolgen für die Arbeiter zu nehmen.
+Inzwischen hat Japans Regierung den Betreiber Tepco immer stärker unter staatliche Kontrolle gebracht. Zudem wurden Berater aus Frankreich, Großbritannien und Russland konsultiert.
+Der GAU überfordert auch internationale Experten
+Die Atomkatastrophe in Fukushima überfordert allerdings nicht nur japanische Ingenieure, auch internationale Wissenschaftler haben immer wieder betont, dass der Zwischenfall nach dem Erdbeben von 2011 bisher einzigartig war. Für den Umgang mit einem Unfall dieser Art und Größenordnung gibt es keine Erfahrungswerte. Viele Teile der beschädigten Reaktoren sind für Arbeiter und Inspekteure allein wegen der hohen Strahlenbelastung nicht zugänglich.
+Meldungen von immer wieder auftretenden Pannen an dem Kraftwerk suggerieren der Öffentlichkeit, die Lage sei nach dem GAU dauerhaft unter Kontrolle gewesen. Dies ist nach Einschätzung von Wissenschaftlern und Beobachtern in Japan aber nicht der Fall. 
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

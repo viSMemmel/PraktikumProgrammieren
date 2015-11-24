@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Sat, 05 Oct 2013 11:46:31 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Afghanistan: Did airstrike kill civilians?</title>
+<guid>http://edition.cnn.com/2013/10/05/world/asia/afghanistan-nato-strike/index.html</guid>
+<link>http://edition.cnn.com/2013/10/05/world/asia/afghanistan-nato-strike/index.html?eref=edition</link>
+<description>International forces in Afghanistan are investigating reports that civilians were killed in air strikes in the eastern province of Nangarhar, a spokesman for the NATO-led International Security Assistance Force said Saturday.</description>
+<pubDate>Sat, 05 Oct 2013 11:43:38 EDT</pubDate>
+<ExtractedText>Afghanistan: NATO forces probe claim of civilian airstrike deaths
+By Ahmed Bukhari, for CNN
+October 5, 2013 -- Updated 1552 GMT (2352 HKT)
+STORY HIGHLIGHTS
+NATO-led forces investigate reports of civilian casualties in airstrikes in Nangahar
+An initial investigation has not confirmed any casualties, an ISAF spokesman says
+A spokesman for the Nangarhar provincial governor says at least 5 people were killed
+Kabul (CNN) -- International forces in Afghanistan are investigating reports that civilians were killed in air strikes in the eastern province of Nangarhar, a spokesman for the NATO-led International Security Assistance Force said Saturday.
+The strikes Friday in Behsud District targeted five enemy combatants but an initial investigation did not confirm any casualties, Tech. Sgt. Peter Dean said.
+A spokesman for the governor of Nangarhar province said at least five people were killed following a NATO airstrike late Friday in Jalalabad.
+The victims were sitting outside in their garden enjoying some relief from the heat when a helicopter came overhead and killed all five of them, spokesman Ahmed Zia Abdulzai said.
+He could not confirm if those killed were civilians or insurgents.
+The incident sparked a demonstration Saturday in Jalalabad to protest NATO's action, Abdulzai said.
+CNN's Christabelle Fombu contributed to this report.
+</ExtractedText>
+</item>
+</channel>
+</rss>

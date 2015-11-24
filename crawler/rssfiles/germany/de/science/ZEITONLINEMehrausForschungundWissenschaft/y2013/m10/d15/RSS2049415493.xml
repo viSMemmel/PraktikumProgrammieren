@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Tue, 15 Oct 2013 15:25:37 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 08:56:04 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/video/2013-10/2744412301001</link>
+      <guid>http://www.zeit.de/video/2013-10/2744412301001</guid>
+      <category>Wissen</category>
+      <title>Hadsch: Mekka-Pilger fürchten Coronavirus</title>
+      <description>Zur Pilgerfahrt nach Mekka sind in diesem Jahr deutlich weniger Gläubige gekommen. Vermutlich ist die Sorge groß, sich mit dem neuen Coronaerreger Mers zu infizieren. </description>
+      <dc:creator>ZEIT ONLINE : Wissen</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 10:28:22 GMT</pubDate>
+    <ExtractedText>Hadsch: Mekka-Pilger fürchten Coronavirus
+HadschMekka-Pilger fürchten Coronavirus
+Zur Pilgerfahrt nach Mekka sind in diesem Jahr deutlich weniger Gläubige gekommen. Vermutlich ist die Sorge groß, sich mit dem neuen Coronaerreger Mers zu infizieren.
+ 
+Ein tödliches Coronavirus ist in Nahost ausgebrochen und könnte sich unter Millionen Pilger mischen. Für eine brauchbare Risikoabschätzung fehlen Daten. Von J. Schlütter
+ 
+Schreiben Sie den ersten Kommentar!
+Bitte melden Sie sich an, um zu kommentieren
+</ExtractedText>
+</item>
+</channel>
+</rss>

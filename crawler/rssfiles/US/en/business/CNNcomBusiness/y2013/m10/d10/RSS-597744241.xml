@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Tue, 15 Oct 2013 22:27:20 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_business" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_business"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Shutdown disrupts U.S., world watches</title>
+<guid isPermaLink="false">http://edition.cnn.com/2013/10/10/business/us-shutdown-richard-quest-imf-panel/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_business/~3/7X1NEkZTE5c/index.html</link>
+<description>The world is watching U.S. as shutdown continues and it faces possible default. Countries such as Spain, India and China could all be hit by the crisis. CNN's Richard Quest is in Washington D.C. with the world leaders.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_business/~4/7X1NEkZTE5c" height="1" width="1"/&gt;</description>
+<pubDate>Thu, 10 Oct 2013 09:00:08 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/2013/10/10/business/us-shutdown-richard-quest-imf-panel/index.html</feedburner:origLink>
+<ExtractedText>U.S. shutdown disrupts Washington D.C. -- but what about rest of world?
+By Richard Quest, CNN
+October 10, 2013 -- Updated 1207 GMT (2007 HKT)
+STORY HIGHLIGHTS
+The world is watching the U.S. and is worried about its debt crisis and possible default
+A panel chaired by CNN's Richard Quest Thursday will discuss the issues
+Countries including Spain, India and China could all be hit by the debt crisis
+U.S. is in partial government shutdown and is also facing a default on its debts
+Editor's note: Watch Quest Means Business on CNN International, at its new time of 20:00 GMT. Quest Means Business is presented by CNN's foremost international business corresponden t Richard Quest. Follow him on Twitter.
+Washington D.C. (CNN) -- The world is worried about the U.S. debt crisis. The president of the World Bank, Jim Yong Kim, told me on Wednesday the bank was "ready to go" with help for poor countries caught up in the backwash of the world's crises.
+Interest rates will start to rise, capital will flow from emerging markets into safe haven currencies like the U.S. dollar and Swiss franc. In short, the rest of the world has a very real interest in what's happening in Washington D.C.
+READ MORE: Shutdown is playing with fire
+Roundtable: Obamacare still GOP's enemy?
+In the global debate at the International Monetary Fund Thursday I have no doubt the panel, which includes India's new central banker governor Raghuram Rajan, will be concerned.
+India's onion economics
+Rajan has just raised interest rates because of the summer assault on India's currency by investors fleeing to safety. The prospect of a debt default by the U.S. will turn this into a flood.
+Spain's brain drain problem
+READ MORE: Spain's small businesses give economic hope
+Spain's economy minister Luis de Guindos, also on the panel, must be worried about any U.S. slowdown that could stifle Spain's prospects of recovery.
+And China's deputy central bank governor Yi Gang will surely have an eye on his country's $2 trillion in U.S. government securities. The bond market is likely to become more volatile as the uncertainty rises.
+So, the world's finance ministers and central bank governors are like spectators watching a domestic dispute. They know, however, they will have to help pick up the broken pieces of china strewn about after the fighting ends.
+I will let you know what they say, on Quest Means Business tonight.
+</ExtractedText>
+</item>
+</channel>
+</rss>

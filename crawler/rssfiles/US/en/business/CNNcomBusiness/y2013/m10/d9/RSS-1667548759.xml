@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Tue, 15 Oct 2013 22:27:20 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_business" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_business"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>HP, Google roll out $279 Chromebook</title>
+<guid isPermaLink="false">http://edition.cnn.com/2013/10/08/tech/gaming-gadgets/google-hp-chromebook/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_business/~3/PIwE7xwg2mE/index.html</link>
+<description>HP and Google have rolled out an intriguing Chromebook today -- the 11-inch HP Chromebook 11.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_business/~4/PIwE7xwg2mE" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 08 Oct 2013 22:48:21 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/2013/10/08/tech/gaming-gadgets/google-hp-chromebook/index.html</feedburner:origLink>
+<ExtractedText>HP and Google roll out intriguing $279 Chromebook
+By Doug Aamoth, TIME
+October 8, 2013 -- Updated 1856 GMT (0256 HKT) | Filed under: Gaming and Gadgets
+The new HP Chromebook 11 can be charged using the same kind of USB cable used on many smartphones.
+STORY HIGHLIGHTS
+The HP Chromebook 11, made with Google, costs $279
+The laptop can be charged with a regular USB cable
+There will be a model available with 4G connection
+(CNN) -- HP and Google have rolled out an intriguing Chromebook today -- the 11-inch HP Chromebook 11 .
+Chromebooks , as you may recall, run Google's web-centric Chrome Operating System consisting mainly of a web browser and promising simplicity and security.
+If you spend all your time in a web browser and don't want to spend much on a typical computer, a Chromebook would be worth a closer look. I've used several of them, I own one for quick tasks, my mom has one, Jared has one, Harry's mom has one. You get the idea. They make for good secondary machines or as main machines for basic web browsing.
+There's been a tradeoff between price -- Chromebooks start at around $200 -- and specs, but HP's latest offering sets it apart from earlier Chromebooks in a few ways.
+For starters, while many other cheap Chromebooks feature so-so screens, HP's model sports a nice-ish IPS (in-plane switching) screen for better viewing angles and more vivid color reproduction.
+Second, the Chromebook can be charged with a micro-USB cable -- the same kind used for most non-Apple smartphones. If you've a got an Android phone, for instance, you could get away with packing a single charger before you leave the house. And finally, there will be a model available later this year with a built-in 4G/LTE cellular connection.
+With the exception of the $1,300-and-up Chromebook Pixel , previous Chromebooks have only had a cellular option that used aging 3G networks.
+Design-wise, the HP Chromebook 11 sports similar internal specs to an earlier $250 Samsung model ; both feature a mobile processor more commonly found in smartphones and tablets than portable computers.
+The idea is to offer better battery life, but there's an associated performance tradeoff. The machine has a 16-gigabyte solid state drive, two gigabytes of memory and HP claims battery life will last up to six hours. Weight is 2.3 pounds.
+HP's Chromebook is available now in a Wi-Fi-only version for $279. The 4G/LTE model will be available later this year. That's the one I'm most interested in for use a mobile reporting computer. Hopefully the price is right and the cellular data plan options aren't too outrageous.
+© 2012 TIME, Inc. TIME is a registered trademark of Time Inc.  Used with permission.
+</ExtractedText>
+</item>
+</channel>
+</rss>

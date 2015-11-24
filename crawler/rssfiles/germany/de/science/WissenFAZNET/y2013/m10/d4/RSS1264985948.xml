@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Wissen - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/wissen/</link>
+<description>Meldungen aus allen Bereichen der Wissenschaft. Nachrichten aus Forschung und Entwicklung: Medizin, Klima und Naturwissenschaft. </description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Wissen - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Fri, 4 Oct 2013 17:47:39 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/wissen/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Wissen - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/wissen/</link>
+    </image>
+<item>
+    <title>Glosse: Rechenwunder?</title>
+    <description>&lt;img width="190" height="107" border="0" title="Rechenwunder: Der Quantencomputer von D-Wave " alt="Rechenwunder: Der Quantencomputer von D-Wave " src="http://media0.faz.net/polopoly_fs/1.2604240!/image/388711333.jpg_gen/derivatives/article_teaser/388711333.jpg"/&gt;&lt;p&gt;Eine kanadische Firma will den ersten kommerziellen Quantencomputer entwickelt haben. Hat sie wirklich übertroffen, was Forscher seit Jahren versuchen? Zweifel sind angebracht.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/wissen/physik-chemie/glosse-rechenwunder-12598704.html</link>
+    <pubDate>Fri, 04 Oct 2013 18:55:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gx7-7i180</guid>
+<ExtractedText>Physik &amp; Chemie
+Glosse Rechenwunder?
+04.10.2013 ·  Eine kanadische Firma will den ersten kommerziellen Quantencomputer entwickelt haben. Hat sie wirklich übertroffen, was Forscher seit Jahren versuchen? Zweifel sind angebracht.
+Rechenwunder: Der Quantencomputer von D-Wave
+© D-Wave
+Rechenwunder: Der Quantencomputer von D-Wave
+Haben sie oder haben sie nicht? Diese Frage beschäftigt seit einigen Wochen die Gehirne von Computerexperten. Denn falls es stimmt, was die Techniker und Wissenschaftler der kanadischen Firma D-Wave Systems seit einiger Zeit verbreiten, haben sie den weltweit ersten kommerziellen Quantencomputer gebastelt.
+Das Rechenwunder, das jeden Supercomputer übertrumpfen könnte, besteht angeblich aus 512 „Quantenbits“ , wie man die quantenmechanischen Pendants der klassischen Bits nennt. Damit könnte die Maschine mit 2hoch(512) Zahlen rechnen - und zwar gleichzeitig und rasend schnell. Ein richtiger Hammer also, der in der Werkshalle am Rand von Vancouver auf die Auslieferung wartet.
+Müsste doch auch die NSA interessieren
+Die Physiker, die sich seit Jahrzehnten abmühen, mit isolierten Atomen und Ionen, Elektronen oder Lichtteilchen einen funktionierenden Quantenrechner zu verwirklichen, könnten da neidisch werden. Mit gewaltigem technischen Aufwand haben es österreichische Forscher geschafft, ein System aus gerade mal 14 Quantenbits zu bauen, der lediglich einfachste Aufgaben lösen kann.
+© D-Wave
+Der Quantenchip sitzt am unteren Ende der Apparatur.
+© D-Wave
+Der Quantenchip sitzt am unteren Ende der Apparatur.
+Google, die Nasa, Amazon und der Rüstungskonzern Lockheed Martin haben bereits ihre Millionen Dollar schweren Fühler ausgestreckt. Man will zu den Ersten gehören, die den Quantencomputer von D-Wave in Händen haben. Krebs bekämpfen, Düsenjets sicher steuern, den Verlauf von Aktienkursen voraussagen, neue Planeten entdecken, riesige Datenbanken schnell analysieren und abhörsichere Codes knacken, das sind einige der Versprechungen.
+Betriebsgeheimnis gewahrt
+Doch was kann der fingernagelgroße Chip wirklich, der auf den ersten Blick einem gewöhnlichen Siliziumbauteil ähnelt? Die Meinungen sind gespalten. Nur wenige Wissenschaftler haben einen Chip von D-Wave testen dürfen, auf dem unzählige supraleitende Leiterschleifen sitzen, die erst tiefgekühlt die effizienten Rechenoperationen ausführen. Für mathematische Optimierungsprobleme in der Kombinatorik, bei denen etwa nach dem kleinstmöglichen Wert einer Gleichung oder nach einer bestimmten Konstellation von Partygästen gesucht wird, sei das Bauteil durchaus zu gebrauchen.
+Weitere Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

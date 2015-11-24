@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/internet/2013-10/biohacker-tim-cannon-quantified-self</link>
+      <guid>http://www.zeit.de/digital/internet/2013-10/biohacker-tim-cannon-quantified-self</guid>
+      <category>Digital</category>
+      <title>Transhumanismus: Der Hacker, der die Biologie überwinden will</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-10/biohacker-tim-cannon-quantified-self"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/grinder/grinder-148x84.jpg"/&gt;&lt;/a&gt; Tim Cannon lässt sich  Technik lieber implantieren, als sie nur am Handgelenk zu tragen. Der Biohacker betrachtet den menschlichen Körper als "fundamental fehlerhaft".</description>
+      <dc:creator>ZEIT ONLINE : Digital - Patrick Beuth</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 13:39:16 GMT</pubDate>
+    <ExtractedText>Transhumanismus: Der Hacker, der die Biologie überwinden will
+Transhumanismus: Der Hacker, der die Biologie überwinden will
+Tim Cannon lässt sich Technik lieber implantieren, als sie nur am Handgelenk zu tragen. Der Biohacker betrachtet den menschlichen Körper als "fundamental fehlerhaft". von  Patrick Beuth
+15. Oktober 2013  11:49 Uhr  60 Kommentare
+Biohacker Tim Cannon experimentiert mit Implantaten.  |  © Grindhouse Wetware
+Die Anhänger der Quantified-Self-Bewegung, die begeisterten Selbstvermesser, warten darauf, dass Nike am heutigen Dienstag ein neues Fitness-Armband vorstellt. Sie wollen es sich ums Handgelenk schnallen und ihre Körperfunktionen vermessen. Tim Cannon ist beim Projekt Selbstoptimierung längst weiter. Er bekommt sein Körperfunktionsmessgerät namens Circadia am Donnerstag in Essen in den Unterarm implantiert.
+Cannon ist Mitgründer von Grindhouse Wetware , einem Zusammenschluss von Biohackern, Programmierern, Bastlern und Künstlern, und er ist ihr Versuchskaninchen. Die Gruppe arbeitet in Pittsburgh, Pennsylvania, an der Verschmelzung von Mensch und Technik. Das Projekt Circadia ist dabei der vorläufige Höhepunkt – und doch kaum mehr als ein Anfang.
+Anzeige
+Einen Magneten trägt Cannon schon unter der Kuppe seines linken Ringfingers, einen RFID-Funkchip in der Hautfalte zwischen Daumen und Zeigefinger. Wer genau hinsieht, kann den Chip sehen.
+Mit dem Magneten kann der 34-Jährige elektromagnetische Felder wahrnehmen, es ist eine Art sechster Sinn, wenn auch ohne echten praktischen Nutzen. Den RFID-Chip will er zum Beispiel mit dem Schloss zu seinem Kellerlabor koppeln – die Tür ginge dann nur auf, wenn seine Hand in der Nähe der Türklinke ist. Auf ähnliche Weise könnte er sein Smartphone sichern, außer ihm wäre niemand in der Lage, es zu benutzen. Ein Freund von ihm will dasselbe mit einer Schusswaffe tun – nur er selbst könnte sie abfeuern.
+Patrick Beuth
+© ZEIT ONLINE
+Patrick Beuth ist Redakteur im Ressort Digital bei ZEIT ONLINE. Seine Profilseite finden Sie hier .
+Nun also das Circadia. Es soll zunächst die Körpertemperatur messen und die Messwerte per Bluetooth an Cannons Smartphone übertragen. Ein subkutanes Fieberthermometer. Um außerdem einen gewissen Wow-Effekt zu erzielen, hat das Implantat drei grüne LEDs, die Cannon von außen aktivieren kann. Das Gerät wird unter ein Tattoo auf die Innenseite des Unterarms gesetzt, die LEDs bringen dann das Tattoo zum Leuchten.
+Ein Sensor, der den Puls misst, sollte ursprünglich ebenfalls eingebaut werden. "Wir haben aber keinen Platz dafür gefunden", sagt Cannon, "der Sensor ist zu dick". Schon jetzt hat das Circadia die Größe einer Kreditkarte und ist einige Millimeter dick. Cannon muss es von einem Body-Modification-Spezialisten einsetzen lassen, ohne Betäubung. Einen Arzt, der das machen würde, hat er nicht gefunden. Die Version, die Grindhouse Wetware in Zukunft verkaufen will, soll den Pulsmesser aber bekommen, sagt Cannon.
+Aber warum sollte sich jemand etwas implantieren lassen, wenn es Armbänder von Nike, FitBit und Jawbone gibt, die ebenso gut zur Selbstvermessung taugen? "Es ist vor allem ein psychologischer Unterschied", sagt Cannon. "Etwas, was du nur trägst, ist kein Teil von dir. Wenn es dagegen in dir steckt, fühlst du dich damit verbunden, und du nutzt es viel intensiver." Cannon und seine Biohacker wollen den menschlichen Körper erweitern, dafür wollen sie unter die Haut.
+Open-Source-Organe im kommenden Jahrzehnt
+"Ich weiß, dass die Mehrheit der Menschen noch nicht bereit dafür ist", sagt er. "Das wird erst der Fall sein, wenn irgendein Anzugträger die Implantate verkauft und wenn das Einsetzen nicht mehr mit Schmerzen verbunden sein wird. Fürs Erste wird es etwas für die BodyMod-Szene und die Freaks bleiben, und ich finde das auch gut so. Die sind offener und mutiger als andere."
+So nahe sich Cannon der Quantified-Self-Bewegung im Prinzip auch fühlt, eigentlich hat er wesentlich größere Ambitionen. Der Cyborg, das Mensch-Maschinen-Wesen, ist für ihn nur ein Zwischenschritt. Innerhalb der nächsten zehn Jahre will er anfangen, menschliche Körperteile durch künstliche Open-Source-Organe zu ersetzen. Künstliche Herzen gebe es schließlich schon, sagt er – nur warum solle man warten, bis das eigene Herz schwächer wird oder man einen Infarkt erleidet?
+Das ultimative Ziel, sagt er bei einem Vortrag für den Cyborgs e.V. (in Gründung) in Berlin, sei es, "die Biologie hinter uns zu lassen." Der menschliche Körper sei "fundamental fehlerhaft". Cannon würde am liebsten sein Bewusstsein auslagern, "in irgendetwas, das nicht verrottet, während ich rede".
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

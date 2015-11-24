@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Finanzen - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/finanzen/</link>
+<description>Finanzen, Börse, Aktien:  Aktuelle Nachrichten über Märkte und deren Entwicklung. News über Fonds, Anleihen und Zinsen aus der Finanzwelt.</description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Finanzen - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Wed, 16 Oct 2013 08:52:05 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/finanzen/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Finanzen - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/finanzen/</link>
+    </image>
+<item>
+    <title>Frühaufsteher: Die Börse sucht das Positive</title>
+    <description>&lt;img width="190" height="107" border="0" title="Illustration / Frühaufsteher / Version 3" alt="Illustration / Frühaufsteher / Version 3" src="http://media0.faz.net/polopoly_fs/1.2056078!/image/3146938431.jpg_gen/derivatives/article_teaser/3146938431.jpg"/&gt;&lt;p&gt;Die Börse glaubt an das Gute: An eine Lösung des Haushaltsstreits in Amerika, an Kontinuität in einer großen Koalition und an Yahoos Zukunft mit Alibaba.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/finanzen/fruehaufsteher/fruehaufsteher-die-boerse-sucht-das-positive-12620037.html</link>
+    <pubDate>Wed, 16 Oct 2013 08:40:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gw7-7ihol</guid>
+<ExtractedText>© Frankfurter Allgemeine Zeitung GmbH 2013
+Alle Rechte vorbehalten.
+Quellen: TeleTrader Software AG , FWW GmbH, Morningstar Deutschland GmbH und weitere. Alle Börsendaten werden mit mindestens 15 Minuten Verzögerung dargestellt. Realtime-Index-Daten in Zusammenarbeit mit der Boerse Stuttgart - Powered by Structured Solutions
+</ExtractedText>
+</item>
+</channel>
+</rss>

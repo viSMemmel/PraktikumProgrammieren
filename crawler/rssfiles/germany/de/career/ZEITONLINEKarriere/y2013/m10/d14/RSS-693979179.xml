@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Karriere</title>
+<description>Für Ein-, Um- und Aufsteiger: Das Karriereportal für Berufsanfänger, Quereinsteiger und die eigene Karriereleiter. Aktuelle Informationen rund um den Beruf.</description>
+<pubDate>Tue, 15 Oct 2013 14:47:40 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:07:42 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/karriere/index</link>
+<atom:link href="http://newsfeed.zeit.de/karriere/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Karriere</title>
+      <link>http://www.zeit.de/karriere/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/karriere/beruf/2013-10/studie-arbeitslosigkeit-bildung</link>
+      <guid>http://www.zeit.de/karriere/beruf/2013-10/studie-arbeitslosigkeit-bildung</guid>
+      <category>Karriere</category>
+      <title>Studie: Studium bester Schutz vor Arbeitslosigkeit</title>
+      <description>&lt;a href="http://www.zeit.de/karriere/beruf/2013-10/studie-arbeitslosigkeit-bildung"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/karriere/beruf/2013-10/arbeitslosenquote/arbeitslosenquote-148x84.jpg"/&gt;&lt;/a&gt; Akademiker sind nach einer neuen Studie am seltensten arbeitslos. Dagegen steigt die Erwerbslosenquote unter Ungelernten, haben Arbeitsmarktforscher herausgefunden. </description>
+      <dc:creator>ZEIT ONLINE : Karriere</dc:creator>
+      <pubDate>Mon, 14 Oct 2013 14:07:30 GMT</pubDate>
+    <ExtractedText>Studie: Studium bester Schutz vor Arbeitslosigkeit
+Studie: Studium bester Schutz vor Arbeitslosigkeit
+Akademiker sind nach einer neuen Studie am seltensten arbeitslos. Dagegen steigt die Erwerbslosenquote unter Ungelernten, haben Arbeitsmarktforscher herausgefunden.
+14. Oktober 2013  16:06 Uhr  24 Kommentare
+Ein Uni- oder Fachhochschulstudium ist nach Erkenntnissen von  Forschern weiterhin der beste Schutz vor Arbeitslosigkeit. 2012 waren  lediglich 2,5 Prozent aller Akademiker erwerbslos, wie aus einer am  Montag veröffentlichten Studie des Instituts für Arbeitsmarkt- und  Berufsforschung (IAB) in Nürnberg hervorgeht.
+Am höchsten sei die Arbeitslosigkeit unter Menschen ohne  Berufsabschluss, hieß es in der Untersuchung. Von diesen sei im  bundesweiten Durchschnitt 2012 ein Fünftel arbeitslos gewesen, in  Ostdeutschland habe die Arbeitslosenquote bei Menschen ohne Abschluss  bei 30,8 Prozent gelegen. Dagegen  hatte die Akademiker-Arbeitslosigkeit im Osten nur bei 4,1 Prozent  gelegen.
+Anzeige
+Bei Arbeitnehmern mit Meister- oder  Technikerausbildung oder mit Abschluss einer Fach- oder Berufsakademie waren dem Bericht zufolge fünf Prozent ohne Arbeit. 
+Für Beschäftigte mit einer Lehre oder einem  Fachschulabschluss ist das Risiko, arbeitslos zu werden, ähnlich gering:  Bundesweit waren im Vorjahr nur fünf Prozent von ihnen ohne Job. Im  Westen lag die Quote bei 3,9 Prozent, im Osten bei 8,7 Prozent. Diese  Zahlen machen nach Einschätzung der Denkfabrik der Bundesagentur für  Arbeit (BA) deutlich, wie wichtig eine gute Berufsausbildung sei.  Arbeitsmarktforscher Enzo Weber geht davon aus, dass die Jobchancen von  gering qualifizierten Männern und Frauen in Zukunft eher noch sinken  werden.
+Das IAB wertete für die  Untersuchung Daten der Arbeitsagentur aus.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

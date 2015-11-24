@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Feuilleton - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/feuilleton/</link>
+<description>F.A.Z. Feuilleton: Meldungen aus den Bereichen Kunst, Kultur und Musik. Kritiken und Rezensionen. Veranstaltungen, Kino, Oper und Theater.</description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Feuilleton - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Wed, 16 Oct 2013 08:21:17 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/feuilleton/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Feuilleton - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/feuilleton/</link>
+    </image>
+<item>
+    <title>Automatisierung des Denkens: Wo du hingehst, da will auch die Maschine hingehen</title>
+    <description>&lt;img width="190" height="107" border="0" title="Auch die Maschine braucht mal Pause, aber viel seltener als der Mensch: Fußballroboter der Freien Universität Berlin" alt="Auch die Maschine braucht mal Pause, aber viel seltener als der Mensch: Fußballroboter der Freien Universität Berlin" src="http://media1.faz.net/polopoly_fs/1.2618637!/image/3809010794.jpg_gen/derivatives/article_teaser/3809010794.jpg"/&gt;&lt;p&gt;Was bleibt zu tun, wenn Maschinen uns auch noch die Dienstleistungen abnehmen? Constanze Kurz und Frank Rieger warnen in ihrem neuen Buch vor dem Siegeszug automatisierten Denkens.&lt;/p&gt;</description>
+    <link>http://www.faz.net/frankfurter-allgemeine-zeitung/automatisierung-des-denkens-wo-du-hingehst-da-will-auch-die-maschine-hingehen-12617805.html</link>
+    <pubDate>Mon, 14 Oct 2013 17:25:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-1v0-7ifyl</guid>
+<ExtractedText>© Pein, Andreas
+Auch die Maschine braucht mal Pause, aber viel seltener als der Mensch: Fußballroboter der Freien Universität Berlin
+Ob diese Buchbesprechung wohl von einem Menschen oder einer Maschine geschrieben wurde? Die Frage ist nicht müßig. Denn die Computerexperten Constanze Kurz und Frank Rieger berichten in ihrem Buch von einer amerikanischen Software der Firma „Narrative Science“, die unter anderem Berichte von Sportereignissen herstellt. Von den allermeisten Spielberichten aus Redaktionsstuben sollen sie sich nicht mehr unterscheiden lassen. Die Grundlage dafür sind Datenbanken mit Artikeln, die Journalisten geschrieben haben. Die Software findet heraus, welchen Spielereignissen dort welche Arten von Sätzen zugeordnet sind - und macht es nach.
+Für Kurz und Rieger dehnt sich damit auf den intellektuellen Bereich aus, was im Bereich körperlicher Tätigkeiten bereits vollzogen ist. Maschinen ersetzen Arbeit. Die Autoren erzählen das am Beispiel der Herstellung von Brot. Das Vaterunser bittet, dass es täglich gegeben werde. Doch von wem konkret? Erntemaschinen, Düngemaschinen, Michviehfütterungsmaschinen, Aufbackautomaten und so weiter - die agrarische Produktionskette braucht kaum mehr Personal. Wodurch es ersetzt wurde, schildern Kurz und Rieger vom Getreide bis zur Bäckerei, auch wenn sie dadurch ihr Argument, das sofort einleuchtet, nicht weiterentwickeln, sondern an jeder Fertigungsstufe des Brotes erneut bestätigt finden. Sei’s drum, die Sachkunde lohnt sich, außerdem schreiben die Autoren sehr eingängig.
+© dpa
+Constanze Kurz, Sprecherin des Chaos Computer Clubs und Sachverständige für die Enquête-Kommission Internet und digitale Gesellschaft des Deutschen Bundestages
+Dem Einwand, die Arbeit sei durch die Maschinen nicht verschwunden, sondern nur zu den Produzenten des entsprechenden Geräts gewandert, begegnet ihr Besuch in Firmen, die Landmaschinen herstellen. Dort ist es genauso menschenleer wie in Ölraffinerien, vollautomatischen Mahlfabriken oder Hochregallagern. Dass Roboter Roboter anfertigen, ist der Fluchtpunkt dieser Geschichte. Kurz und Rieger ergänzen sie durch Abstecher zum „Auto ohne Fahrer“, an dem gearbeitet wird, zu Chirurgierobotern und Drohnen. In diesen Fällen ist weniger die ersetzte menschliche Arbeitskraft das Problem, sondern die unklare Verantwortung für die Folgen dessen, was Maschinen tun. Wird man mit den Unfällen leben, die ein Lkw ohne Fahrer verursacht, weil eventuell die Gesamtunfallmenge sinken wird, wenn Bordcomputer, die niemals müde oder aggressiv sind, das Frachtgut übernehmen?
+Wo die menschliche Arbeit hingegangen ist, seitdem sie von Apparaten erledigt wird, darauf geben Kurz und Rieger eine doppelte Antwort. Zum einen ist für sie die Maschine der Verfolger des Menschen. Übernimmt sie das Herstellen, verlagert sich der Mensch auf Dienstleistung. Kurz darauf kann die Maschine auch das: Bankangestellte lesen nur noch ab, was ihnen die Software vorschreibt, weswegen irgendwann kein Kunde mehr naiv genug ist, um solche Geschäfte nicht gleich im Internet abzuwickeln. Und der Pflegeroboter, der den Haushalt macht und die Medikamente zuteilt, steht auch schon fast vor der Tür.
+Also flüchtet der Mensch erneut und geht auf die Universität. Der Beruf des Knechts stirbt aus, der Bauer muss studiert haben - um Maschinen einzusetzen und die EU zu verstehen. Warum der Bankangestellte studiert haben muss, ist schon schwerer zu beantworten. Kurz und Rieger jedenfalls schauen alle Produktion, in der sie Menschen am Werk sehen, mit dem Blick dessen an, der nicht glauben mag, dass es noch lange so sein wird.
+© Lüdecke, Matthias
+Für einen Humanismus der digitalisierten Welt: Frank Rieger
+Die andere Erklärung dafür, dass es überhaupt noch Beschäftigung gibt, lautet für sie: Die Software muss hergestellt werden. Konstatiert wird eine Verschiebung der Arbeit hin zur Fütterung der Computer. Zahlen dafür liefert das Buch nicht, wie es überhaupt erstaunlich wenig Zahlen liefert. Man wüsste schon deshalb gerne, ob der Grad der Maschinisierung einer Volkswirtschaft mit der Arbeitslosigkeit korreliert, weil ja die Gegenbeispiele auf der Hand liegen: hohe Arbeitslosigkeit in unterentwickelten Ökonomien, vergleichsweise geringe Arbeitslosigkeit im Zentrum der computerisierten Vereinigten Staaten. An einer Stelle leisten sich Kurz und Rieger ein ökonomisches Argument, wenn sie überlegen, ob ein Mindestlohn nicht den Herstellern von Ersatztechnologien für Arbeit in die Hände spielt. Sonst aber halten sie sich an die Anschauung.
+Was auf diese Weise in ihrem sehr lesenswerten Buch gar nicht vorkommt, ist eine Fähigkeit des Menschen, die er bislang den Robotern und Geräten voraushat: die Fähigkeit zu konsumieren. Als Ökonom fragt man sich nämlich, wer in einer so plausibel geschilderten Welt, in der am Ende Maschinen ihresgleichen herstellen, überwachen und beauftragen, wer darin eigentlich die von diesen Maschinen fast eigenständig hervorgebrachten Produkte kauft? Die Antwort kann kaum lauten: die Arbeitslosen. Anders formuliert: Warum sollte ein Unternehmer in Maschinen investieren, wenn er unsicher ist, ob genug durch Arbeit erwirtschaftete Kaufkraft existiert, um ihm das ganze Zeug abzunehmen? Kostenersparnis ersetzt schließlich nicht den Absatz. „Keynes lesen“, möchte man insofern den Autoren zurufen, gerade weil ihre Besorgnis auf vieles zutrifft.
+Weitere Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

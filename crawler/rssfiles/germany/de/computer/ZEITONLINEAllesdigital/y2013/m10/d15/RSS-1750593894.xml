@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/nsa-ueberwachung-email-kontakte</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/nsa-ueberwachung-email-kontakte</guid>
+      <category>Digital</category>
+      <title>Snowden-Enthüllungen: NSA sammelt weltweit Millionen E-Mail-Adressbücher</title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/nsa-ueberwachung-email-kontakte"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/nsa-zentrale-2/nsa-zentrale-2-148x84.jpg"/&gt;&lt;/a&gt; Der "Washington Post" zufolge hat die NSA massenhaft Adressbücher von Kommunikationsdiensten gespeichert. Entgegen der Vorschriften sollen auch US-Bürger betroffen sein.</description>
+      <dc:creator>ZEIT ONLINE : Digital</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 05:13:16 GMT</pubDate>
+    <ExtractedText>Bruce Schneier fordert, wir müssen das Internet zurückerobern
+Die Sammlung an Kontakten sei so umfangreich, dass gelegentlich eine Überlastung der Speicherkapazitäten gedroht habe, schreibt die Washington Post. Auch Spam-Mails seien ein bedeutendes Problem für die NSA, da sie Datenspeicher mit wertlosen Informationen verstopften. Der größte Teil aller E-Mails ist laut eines NSA-Dokuments Spam von falschen Adressen.
+Shawn Turner, Sprecher des Büros des Nationalen Geheimdienstdirektors, sagte nach den Angaben der Zeitung, dass die NSA Hinweise auf Terroristen, Menschenhändler und Drogenschmuggler suche. "Wir sind nicht interessiert an persönlichen Informationen über normale Amerikaner."
+Abkommen mit Telekommunikationsfirmen
+Allerdings sei die NSA weder vom Kongress noch dem speziell zuständigen Gericht ermächtigt worden, Kontaktlisten in großer Menge zu sammeln, schreibt die Zeitung. Ein hoher Geheimdienstmitarbeiter habe erklärt, das wäre in den USA ungesetzlich. Der Geheimdienst arbeite deshalb von Zugangspunkten in aller Welt, außerhalb der USA. Auch wenn das außerhalb der USA geschehe, bestätigten zwei hohe US-Geheimdienstbeamte laut Washington Post, dass davon auch Kontakte zahlreicher Amerikaner betroffen seien. Nach Schätzungen könne die Zahl im Bereich von Millionen oder Dutzenden von Millionen liegen.
+Das Sammeln der Daten geschieht der Zeitung zufolge auf Grundlage von Geheimabkommen der NSA mit ausländischen Telekommunikationsfirmen oder befreundeten Geheimdiensten. Sprecher von Google, Microsoft und Facebook erklärten dem Blatt, sie leisteten keine Hilfe für die staatliche Datensammlung.
+FAQ zum NSA-Skandal
+Anfang Juni begannen die Enthüllungen über die Überwachungspraktiken der NSA und anderer Geheimdienste. Seitdem sind viele Details ans Licht gekommen. Die wichtigsten Fragen und Antworten über Täter, Opfer, Kontrolle und die Technik sind in unserem FAQ zusammengefasst:
+Die wichtigsten Fragen und Antworten zum NSA-Skandal
+Anleitungen zur Gegenwehr
+Digitale Selbstverteidigung gegen Überwachung ist zumindest in Ansätzen möglich. In einer Artikelserie erklärt ZEIT ONLINE, wie Internetnutzer sich anonym im Netz bewegen, ihre E-Mails und Dateien verschlüsseln oder auch ein Linux-Betriebssystem installieren können:
+Mein digitaler Schutzschild
+Der neue Bericht folgt einer Reihe von Enthüllungen des früheren Geheimdienstmitarbeiters Snowden über umfassende Überwachungsprogramme der NSA und des britischen Geheimdienstes GCHQ. Sie hatten auch das Verhältnis der USA zu zahlreichen Regierungen und Institutionen belastet, weil sie von der Ausspähung betroffen waren oder sind.
+NSA verstößt gegen Menschenrecht
+In der EU gibt es inzwischen heftige Kritik am Vorgehen der Verbündeten. In einer Anhörung im EU-Parlament zur NSA-Affäre waren sich Rechtsexperten am Montagabend einig, dass die NSA und ihr britischer Partnerdienst GCHQ gegen internationale Verträge und gegen Menschenrechte verstoßen. Die von den Geheimdiensten errichtete Überwachungsinfrastruktur verletze eindeutig den Pakt über bürgerliche und politische Rechte der Vereinten Nationen, sagte nach einem Bericht von heise.de der frühere UN-Berichterstatter Martin Scheinin am Montag vor dem Untersuchungsausschuss.
+Solche Daten – wie sie nun auch aus den Adressbüchern kopiert werden –, seien leicht mit anderen persönlichen Informationen verknüpfbar und machten es oft einfacher, auf detailreiche Inhaltsdaten zuzugreifen. Auch wer "nur" Metadaten auf Vorrat sammle, sei damit keinesfalls völkerrechtlich auf der sicheren Seite, so Scheinin.
+Dowe Korff, Rechtsprofessor an der London Metropolitan University, sagte demnach, es sei wichtig, juristisch gegen Programme wie PRISM und Tempora vorzugehen. Diese seien "vollständig unvereinbar mit den meisten grundsätzlichen Menschenrechtserklärungen weltweit und den Datenschutzschutzbestimmungen in der EU". Korff empfahl, den Fall unter anderem dem Menschenrechtsgerichtshof in Straßburg vorzulegen.
+Der am Menschenrechtsgerichtshof tätige Richter Bostjan Zupancic verwies aber darauf, dass zumindest Einzelpersonen in EU-Staaten zunächst den nationalen Rechtsweg ausschöpfen müssten. Der Gerichtshof könne sich zudem nur der Kooperation von Geheimdiensten etwa in Großbritannien, Frankreich oder Deutschland mit der NSA zuwenden, da die USA der Europäischen Menschenrechtskonvention nicht beigetreten seien. Allgemein hält Zupancic Massenüberwachung aber für nicht akzeptabel und gerichtlich für angreifbar.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Fri, 04 Oct 2013 19:32:22 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_entertainment" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_entertainment"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>'Game of Thrones' cast tease season four</title>
+<guid isPermaLink="false">http://www.cnn.com/2013/09/25/showbiz/tv/game-of-thrones-season-four/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_entertainment/~3/mZrEC-g16D0/index.html</link>
+<description>When "Game of Thrones" returns with season four, Kit Harington's Jon Snow is going to look a little different.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/mZrEC-g16D0" height="1" width="1"/&gt;</description>
+<pubDate>Mon, 30 Sep 2013 18:36:41 EDT</pubDate>
+<feedburner:origLink>http://www.cnn.com/2013/09/25/showbiz/tv/game-of-thrones-season-four/index.html</feedburner:origLink>
+<ExtractedText>'Game of Thrones': Sex and death still reign in season four
+September 25, 2013 -- Updated 1424 GMT (2224 HKT)
+Kit Harington stars as Jon Snow on HBO's "Game of Thrones."
+STORY HIGHLIGHTS
+Kit Harington talked about the new season at the Emmys
+The actor says his character, Jon Snow, will have scars from an attack
+Fans should also expect plenty of death
+Lena Headey adds that the "stakes are higher than ever"
+(CNN) -- When "Game of Thrones" returns with season four, Kit Harington's Jon Snow is going to look a little different.
+After that nasty bird attack and run-in with wildling Ygritte, the character's face "is not OK," Harington told Access Hollywood. "It's far from OK! I have to have scars this season. ... Then obviously I've been shot in the back with arrows, so, that hurt."
+Even with those injuries, Snow is still as war-ready as ever -- and it sounds like he'll have to be in season four.
+"He's a bit in the wars, old Jon Snow," Harington said. "And it doesn't get any easier this season. It's kind of high-octane, action-packed."
+'Game of Thrones' fans freak out
+Lena Headey, who turned heads at the Emmys in a lacy, sheer black gown, didn't go into details, but she did say that "the stakes are higher than they ever have been. ... It's just getting better and better."
+And by "better," she could mean "bloodier." According to Harington, there will be "more deaths this season than any other! ... You'd think they'd tone the deaths down, but they don't. They've realized that's a successful option, so they're just killing more people than they've ever killed."
+Lest fans worry that season four will be nothing but death, Harington confirmed that the HBO series will still have "plenty of sex."
+</ExtractedText>
+</item>
+</channel>
+</rss>

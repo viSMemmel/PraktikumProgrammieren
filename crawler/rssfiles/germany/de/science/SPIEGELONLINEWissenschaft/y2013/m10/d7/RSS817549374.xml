@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Wissenschaft</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten aus der Wissenschaft über Mensch und Technik, Natur und Weltall. Aktuelle Reportagen, Analysen, Interviews.</description>
+<language>de</language>
+<pubDate>Mon, 07 Oct 2013 21:19:23 +0200</pubDate>
+<lastBuildDate>Mon, 07 Oct 2013 21:19:23 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Südkorea: Killer-Roboter soll Quallen schreddern</title>
+<link>http://www.spiegel.de/wissenschaft/technik/suedkorea-killer-roboter-soll-quallen-zerkleinern-a-926425.html#ref=rss</link>
+<description>Quallen können eine wahre Plage sein, für Fischerei, Badegäste und sogar Kernkraftwerke. Südkoreanische Forscher wollen den Meeresbewohnern nun mit einem Killer-Roboter zu Leibe rücken. Ein GPS-gesteuerter Unterwasser-Mixer soll die Tiere gezielt pürieren.</description>
+<pubDate>Mon, 07 Oct 2013 17:47:00 +0200</pubDate>
+<guid>http://www.spiegel.de/wissenschaft/technik/suedkorea-killer-roboter-soll-quallen-zerkleinern-a-926425.html</guid>
+<content:encoded><![CDATA[<img src="http://www.spiegel.de/images/image-553764-thumbsmall-kpew.jpg" hspace="5" align="left" >Quallen können eine wahre Plage sein, für Fischerei, Badegäste und sogar Kernkraftwerke. Südkoreanische Forscher wollen den Meeresbewohnern nun mit einem Killer-Roboter zu Leibe rücken. Ein GPS-gesteuerter Unterwasser-Mixer soll die Tiere gezielt pürieren.]]></content:encoded>
+<enclosure type="image/jpeg" url="http://www.spiegel.de/images/image-553764-thumbsmall-kpew.jpg"/>
+<ExtractedText>Südkorea: Killer-Roboter soll Quallen zerkleinern
+Südkorea: Killer-Roboter soll Quallen schreddern
+Von Peter Gotzner
+DPA
+Quallen können eine wahre Plage sein, für Fischerei, Badegäste und sogar Kernkraftwerke. Südkoreanische Forscher wollen den Meeresbewohnern nun mit einem Killer-Roboter zu Leibe rücken. Ein GPS-gesteuerter Unterwasser-Mixer soll die Tiere gezielt pürieren.
+Weltweit klagen Fischer darüber, dass umhertreibende Quallen Fischbestände bedrohen oder ihre Netze verstopfen. Zudem blockieren die manchmal massenhaft auftretenden Tiere sogar die Kühlsysteme von Kernkraftwerken, wie jüngst in Schweden . Dort verfingen sich Medusen in Filtern eines mit Meerwasser gekühlten Reaktors und legten ihn lahm.
+Auch für Strandunfälle sind die Meeresbewohner verantwortlich. Denn einige Arten wie beispielsweise die Portugiesische Galeere sind giftig. Immer wieder geraten Badende an Küsten mit den Nesselzellen auf den Tentakeln der Tiere in Kontakt. Die Verletzungen können dabei bestenfalls nur unangenehm oder schmerzhaft sein, schlimmstenfalls sogar zum Tod führen.
+Durch Fangaktionen lassen sich die Bestände der wirbellosen, gallertartigen Tiere zwar ausdünnen, doch das kostet viel Zeit und Geld. Um die Jagd auf Quallen zu vereinfachen und günstiger zu machen, haben nun südkoreanische Forscher um den Elektrotechniker Hyun Myung vom Urban Robotics Lab des Korea Advanced Institute of Science and Technology einen Roboter entwickelt.
+Der sogenannte Jellyfish Elimination Robotic Swarm (JEROS) besteht aus nicht viel mehr als intelligenten, auf dem Wasser kreuzenden Mixern. Denn die rotierenden Klingen, die an den mit Schwimmbojen ausgestatteten Robotern hängen, zerkleinern unter der Wasseroberfläche gezielt Quallen. Dass Menschen dabei verletzt werden, ist aufgrund der Funktionsweise der Maschinen aber sehr unwahrscheinlich.
+Drei Roboter vernichten 900 Kilogramm Quallen
+Nachdem die Kamera der Roboter die Tiere über Wasser ausgemacht und erkannt hat , steuern sie eigenständig auf sie zu und führen die Medusen in ein trichterförmiges Netz. An dessen Ende sind die rotierenden Messer montiert, welche die Tiere in Sekunden töten und zerkleinern. Nach den Vorstellungen der Wissenschaftler sollen die autonomen Roboter dabei stets gemeinsam in einem Schwarm agieren , um effektiv in einer festen Formation ein großes Gebiet abzudecken.
+Dabei folgen die Geräte einem Führungsroboter, der sich an einem GPS-Signal orientiert. Die drei etwa sieben Kilometer pro Stunde schnellen Test-Roboter sollen so bis zu 900 Kilogramm Quallen pro Stunde zerkleinern können. Einen ersten Feldtest, der in einer am Ort Masan gelegenen Bucht im Süden des Landes stattfand, hat der Roboter nun erfolgreich abgeschlossen.
+YouTube/KAIST/Urban Robotics Lab
+Klingen des südkoreanischen Roboters JEROS: Er soll Quallen zur Strecke bringen
+Zwar vermuten einige Wissenschaftler, dass die weltweiten Quallenbestände durch Faktoren wie den Klimawandel und die Überfischung der Meere beeinflusst werden, doch sind sich die Forscher uneinig. Zur Beurteilung, wie sich die Quallenpopulation insgesamt entwickelt, fehlen historische Daten über die Organismen.
+Bedenken einiger Internetnutzer, die ein Demonstrationsvideo und die Methode der südkoreanischen Wissenschaftler unter anderem als "inhuman" und grausam bezeichnen, versuchen die Forscher mit dem Verweis auf die Gefährlichkeit der Medusen zu beantworten. Zudem handle es sich bei Quallen nicht - wie der englische Begriff "jellyfish" nahelegt - um Fische, erklären die Forscher: "Sie sind Plankton und haben weder Gehirn noch Herz."
+Müllbeseitigung statt Quallenvernichtung
+Doch das neue System könnte auch abseits der Quallenvernichtung auf den Weltmeeren seine Nützlichkeit beweisen. Die Ingenieure des Urban Robotics Lab denken auch darüber nach, dieselbe Technik zur Müllbeseitigung oder zur Eindämmung von Ölteppichen einzusetzen. Dafür müsste der mit Klingen versehene Unterbau des Roboters nur gegen entsprechende Vorrichtungen ausgetauscht werden.
+Das sich großen Quallenbeständen und -schwärmen auch anders entgegenwirken lässt, zeigen die Chinesen. Dort werden die Tiere nicht nur als Schädlinge wahrgenommen. Auf dem chinesischen Speiseplänen sind sie unter anderem im getrockneten Zustand eine Delikatesse. Auch die Japaner, die ebenfalls unter den aus den Gebieten um Südkorea stammenden Quallen leiden, erproben die Tiere als Nahrungsquelle. Wie Experimente mit Quallen-Tofu oder Quallen-Eiscreme zeigen, ließen sich so getötete Tiere in kleinerem Umfang zusätzlich sinnvoll verwerten.
+Dem Autor auf Twitter folgen:
+Diesen Artikel...
+</ExtractedText>
+</item>
+</channel>
+</rss>

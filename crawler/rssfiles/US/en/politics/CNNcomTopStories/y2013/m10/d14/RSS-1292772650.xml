@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>On 'world's most powerful warship'</title>
+<guid>http://edition.cnn.com/2013/10/14/world/asia/south-korea-aircraft-carrier/index.html</guid>
+<link>http://edition.cnn.com/2013/10/14/world/asia/south-korea-aircraft-carrier/index.html?eref=edition</link>
+<description>CNN producer KJ Kwon is granted a rare visit to USS George Washington, one of the world's most powerful warships</description>
+<pubDate>Mon, 14 Oct 2013 04:22:25 EDT</pubDate>
+<ExtractedText>Rare visit to USS George Washington, one of world's most powerful warships
+Aircraft carrier in waters off Korean peninsula for a routine "patrol mission"
+It is home to up 6,000 crew and 18,000 meals are served a day
+On board USS George Washington (CNN) -- Floating in the middle of the sea, the first thing we noticed was the vast expanse of tarmac, roughly the size of three soccer fields. And then we heard the loud blasting sound of fighter jets preparing to take off.
+This was one of the world's most powerful warships, the Nimitz-class 'super carrier' USS George Washington, which the CNN crew and members of other media organizations were granted a rare opportunity to visit this weekend.
+After climbing up the equivalent of an eight-story building, staircase after staircase, one narrow hallway after another, we finally arrived at the "bridge," an elevated tower containing the command control center on the aircraft carrier.
+The U.S. nuclear-powered carrier was in the waters off the Korean peninsula for a routine patrol mission, which followed a trilateral "search and rescue" drill between the U.S., South Korea and Japan.
+Modern Nato shows strength
+READ: Asian superpowers jostle to join the aircraft carrier club
+The drill drew harsh rhetoric from North Korea earlier last week, warning the U.S. of a "horrible disaster" and claimed that its troops are on high alert to promptly cope with "blatant provocations."
+Standing on the flight deck of the USS George Washington, I realized North Korea probably had good reason to be on edge.
+The USS George Washington can carry about 80 aircraft, launch tactical fighter jets towards any location and is equipped with various types of missiles.
+Known as a "floating military base", it can also accommodate more than 6,000 crew, serve 18,000 meals per day and even has live broadcast television on the vessel.
+Back on the bridge, we saw fighter jets take off one after another at an impressive pace. This, I was told, was the work of a deck catapult, which slings the fighter jet forward, generating enormous speed.
+We experienced just that. Ending the tour, we strapped ourselves into a propeller-powered, windowless plane.
+After a roaring sound, the plane took off at an enormous speed, faster than any roller coaster ride I had been on.
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Reisen</title>
+<description>Erholsame Reisen - Online Reiseberichte, Bildergalerien von Reisen und Urlaubstipps von Experten für die gute Reise in den Urlaub. Nachrichten und Informationen</description>
+<pubDate>Sat, 05 Oct 2013 09:10:40 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:28 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/reisen/index</link>
+<atom:link href="http://newsfeed.zeit.de/reisen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Reisen</title>
+      <link>http://www.zeit.de/reisen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/reisen/2013-09/bahn-entschaedigung-hoehere-gewalt</link>
+      <guid>http://www.zeit.de/reisen/2013-09/bahn-entschaedigung-hoehere-gewalt</guid>
+      <category>Reisen</category>
+      <title>Europäischer Gerichtshof: Bahn muss Kunden bei höherer Gewalt entschädigen</title>
+      <description>&lt;a href="http://www.zeit.de/reisen/2013-09/bahn-entschaedigung-hoehere-gewalt"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/mobilitaet/2013-09/bahn-2/bahn-2-148x84.jpg"/&gt;&lt;/a&gt; Ob Unwetter oder Streik – im Fall von Verspätungen haben Bahnreisende auch bei höherer Gewalt Anspruch auf Entschädigung. Das hat der Europäische Gerichtshof entschieden.</description>
+      <dc:creator>ZEIT ONLINE : Reisen</dc:creator>
+      <pubDate>Thu, 26 Sep 2013 09:05:09 GMT</pubDate>
+    <ExtractedText>Anmelden | Registrieren
+Europäischer Gerichtshof: Bahn muss Kunden bei höherer Gewalt entschädigen
+Ob Unwetter oder Streik – im Fall von Verspätungen haben Bahnreisende auch bei höherer Gewalt Anspruch auf Entschädigung. Das hat der Europäische Gerichtshof entschieden.
+26. September 2013  12:14 Uhr  44 Kommentare
+Ein verunglückter Regionalzug  |  © Roland Rasemann/dpa
+Bahnreisende haben gemäß europäischem Recht auch bei höherer Gewalt Anspruch auf Entschädigung für Verspätungen. Laut einer Entscheidung des Europäischen Gerichtshofs in Luxemburg können Bahnkunden bei Verspätungen von ein bis zwei Stunden auf Erstattung von mindestens einem Viertel des Preises der Fahrkarte bestehen.
+Ab zwei Stunden müssen Bahnunternehmen mindestens die Hälfte des Preises erstatten.
+Anzeige
+Diese Regelung steht im Einklang mit internationalem Recht, entschied das Gericht nun zu einem Fall aus Österreich. (Az: C-509/11)
+Das Urteil betrifft europaweit alle Bahnunternehmen, auch die Deutsche Bahn . Klauseln in ihren Beförderungsbedingungen, die Entschädigungen bei höherer Gewalt ausschließen, sind demnach ungültig. Die Erstattungspflicht gilt nicht für Verspätungen im Flug-, Schiffs-, oder Omnibusfernverkehr.
+DB und Fahrgastverband loben Urteil
+Die Deutsche Bahn sagte zu, die Entscheidung unverzüglich umzusetzen. Mit dem Urteil sei Rechtssicherheit in einer für die Verbraucher und für die Eisenbahnen wichtigen Frage geschaffen worden, sagte eine Unternehmenssprecherin.
+Der Fahrgastverband Pro Bahn stellte fest, das Urteil habe sämtlichen Überlegungen, wo höhere Gewalt anfängt oder aufhört, die Grundlage entzogen. "Für den Fahrgast zählt die Verspätung, nicht der Versuch des Beförderers, sich eventuell von seiner gesetzlichen Entschädigungspflicht zu befreien", sagte Pro-Bahn-Sprecher Gerd Aschoff.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

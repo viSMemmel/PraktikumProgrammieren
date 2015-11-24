@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Gesellschaft</title>
+<description>Menschen in der Gesellschaft. Aktuelles zu Zeitgeschehen, Generationen, Soziales und Bildung.</description>
+<pubDate>Wed, 16 Oct 2013 06:34:15 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 08:54:14 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/gesellschaft/index</link>
+<atom:link href="http://newsfeed.zeit.de/gesellschaft/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Gesellschaft</title>
+      <link>http://www.zeit.de/gesellschaft/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/glenn-greenwald-snowden</link>
+      <guid>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/glenn-greenwald-snowden</guid>
+      <category>Gesellschaft</category>
+      <title>Snowden-Enthüllungen: Reporter Greenwald verlässt den "Guardian"</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/glenn-greenwald-snowden"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/zeitgeschehen/2013-10/glenn-greenwald/glenn-greenwald-148x84.jpg"/&gt;&lt;/a&gt; Whistleblower Edward Snowden suchte sich Glenn Greenwald für seine Enthüllungen aus. Jetzt verlässt der Reporter die britische Zeitung – für ein "Traumangebot".</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 21:42:14 GMT</pubDate>
+    <ExtractedText>Snowden-Enthüllungen: Reporter Greenwald verlässt den "Guardian"
+Snowden-Enthüllungen: Reporter Greenwald verlässt den "Guardian"
+Whistleblower Edward Snowden suchte sich Glenn Greenwald für seine Enthüllungen aus. Jetzt verlässt der Reporter die britische Zeitung – für ein "Traumangebot".
+15. Oktober 2013  23:41 Uhr  9 Kommentare
+Journalist und Blogger Glenn Greenwald  |  © Sergio Moraes/Reuters
+Der Journalist Glenn Greenwald , der durch die Enthüllungen des Informanten Edward Snowden bekannt wurde, verlässt die britische Zeitung Guardian.
+Er habe ein "journalistisches Traumangebot" bekommen, sagte Greenwald. Noch könne er  aber keine Details zu seiner neuen Aufgabe nennen. Dem Onlinedienst Buzzfeed sagte er , dass es sich bei seinem neuen Arbeitgeber  um ein gut finanziertes, neues Unternehmen handelt.
+Anzeige
+Der ehemalige NSA-Mitarbeiter Snowden hatte sich Greenwald als  journalistischen Partner ausgesucht, um Tausende geheime Unterlagen des US-Geheimdiensts der  Öffentlichkeit zugänglich zu machen. Snowden kannte Greenwalds frühere Arbeit. Er gab dem Reporter und der Filmemacherin Laura Poitras ein  langes Interview in Hongkong, das Anfang Juni den Skandal um die  großflächige Internet-Überwachung durch amerikanische und britische  Geheimdienste auslöste. 
+Jennifer Lindauer vom Guardian bedauerte in einer E-Mail stellvertretend für die Redaktion den Verlust des Mitarbeiters Greenwald. "Natürlich sind wir enttäuscht", sagte Lindauer. Man verstünde jedoch den Reiz der neuen Aufgabe. Die jahrelange Zusammenarbeit mit Greenwald habe gezeigt, welche entscheidende Rolle investigativer Journalismus spiele, wenn es darum gehe, Machthaber zur Rechenschaft zu ziehen.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

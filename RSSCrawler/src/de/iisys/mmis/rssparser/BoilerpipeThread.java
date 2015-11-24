@@ -32,19 +32,6 @@ class BoilerpipeThread extends Thread {
 				String charset = m.matches() ? m.group(1) : "UTF-8";
 				InputStreamReader isr = new InputStreamReader(con.getInputStream(), charset);
 				
-				/*
-				int c = isr.read();
-				while (c != -1) {
-					System.out.print((char) c);
-					c = isr.read();
-				}
-				System.out.println();
-				System.out.println("---------------------------------------------------------");
-				isr.close();
-				con = (HttpURLConnection) itemUrl.openConnection();
-				isr = new InputStreamReader(con.getInputStream(), charset);
-				
-				*/
 				itemObj.setText(ArticleExtractor.INSTANCE.getText(isr));
 				System.out.println(itemObj.getText());
 				itemObj.notify();

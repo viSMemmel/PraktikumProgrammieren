@@ -1,3 +1,5 @@
+// HIER DIE LOGIK DER SWING-ANWENDUNG
+
 package de.iisys.mmis.rssviewer;
 
 import de.iisys.mmis.logging.ServerLogfile;

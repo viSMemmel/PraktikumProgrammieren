@@ -441,3 +441,149 @@ Mon, 13 Jan 2014 18:07:49 CET: class RSSThread, method run, Visiting: http://www
 Mon, 13 Jan 2014 18:07:49 CET: class RSSThread, method run, Visiting: http://www.faz.net/rss/aktuell/finanzen/
 Mon, 13 Jan 2014 18:08:49 CET: class RSSThread, method run, Visiting: http://newsfeed.zeit.de/gesellschaft/index
 Mon, 13 Jan 2014 18:08:49 CET: class RSSThread, method run, Visiting: http://newsfeed.zeit.de/gesellschaft/index
+Tue, 24 Nov 2015 10:49:36 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 24 Nov 2015 10:49:37 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 24 Nov 2015 10:49:37 CET: class RSSThread, method update, Start to read new sources
+Tue, 24 Nov 2015 10:49:38 CET: class RSSThread, method update, Finish to read new sources
+Tue, 24 Nov 2015 10:49:38 CET: class RSSThread, method run, RSS Server started!
+Tue, 24 Nov 2015 10:49:38 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/studium/index
+Tue, 24 Nov 2015 10:50:39 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/politik.xml
+Tue, 24 Nov 2015 10:51:39 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/beruf-chance/
+Tue, 24 Nov 2015 10:52:39 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/gesellschaft/index
+Tue, 24 Nov 2015 10:53:39 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_space.rss
+Tue, 24 Nov 2015 10:54:39 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wirtschaft/index
+Tue, 24 Nov 2015 10:55:40 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/digital/index
+Tue, 24 Nov 2015 10:56:40 CET: class RSSThread, method run, First visit: http://www.spiegel.de/sport/index.rss
+Tue, 24 Nov 2015 10:57:20 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 24 Nov 2015 10:57:20 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 24 Nov 2015 10:57:20 CET: class RSSThread, method update, Start to read new sources
+Tue, 24 Nov 2015 10:57:21 CET: class RSSThread, method update, Finish to read new sources
+Tue, 24 Nov 2015 10:57:21 CET: class RSSThread, method run, RSS Server started!
+Tue, 24 Nov 2015 10:57:21 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/studium/index
+Tue, 24 Nov 2015 10:57:40 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/sport/
+Tue, 24 Nov 2015 10:58:05 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 24 Nov 2015 10:58:06 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 24 Nov 2015 10:58:06 CET: class RSSThread, method update, Start to read new sources
+Tue, 24 Nov 2015 10:58:06 CET: class RSSThread, method update, Finish to read new sources
+Tue, 24 Nov 2015 10:58:06 CET: class RSSThread, method run, RSS Server started!
+Tue, 24 Nov 2015 10:58:06 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/studium/index
+Tue, 24 Nov 2015 10:58:21 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/politik.xml
+Tue, 24 Nov 2015 10:58:28 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/politik.xml
+Tue, 24 Nov 2015 10:58:39 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/beruf-chance/
+Tue, 24 Nov 2015 10:58:40 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/feuilleton/
+Tue, 24 Nov 2015 10:58:53 CET: class RSSThread, method run, Override interval with 5 minutes for Beruf & Chance - FAZ.NET
+Tue, 24 Nov 2015 10:58:53 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/gesellschaft/index
+Tue, 24 Nov 2015 10:59:06 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_space.rss
+Tue, 24 Nov 2015 10:59:09 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wirtschaft/index
+Tue, 24 Nov 2015 10:59:21 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/beruf-chance/
+Tue, 24 Nov 2015 10:59:21 CET: class RSSThread, method run, Override interval with 5 minutes for Beruf & Chance - FAZ.NET
+Tue, 24 Nov 2015 10:59:21 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/gesellschaft/index
+Tue, 24 Nov 2015 10:59:21 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_space.rss
+Tue, 24 Nov 2015 10:59:22 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wirtschaft/index
+Tue, 24 Nov 2015 10:59:22 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/digital/index
+Tue, 24 Nov 2015 10:59:40 CET: class RSSThread, method run, First visit: http://www.spiegel.de/sport/index.rss
+Tue, 24 Nov 2015 10:59:41 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wissen/
+Tue, 24 Nov 2015 10:59:44 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/sport/
+Tue, 24 Nov 2015 11:00:00 CET: class RSSThread, method run, Override interval with 5 minutes for Sport - FAZ.NET
+Tue, 24 Nov 2015 11:00:00 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/feuilleton/
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/digital/index
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://www.spiegel.de/sport/index.rss
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/sport/
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, Override interval with 5 minutes for Feuilleton - FAZ.NET
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wissen/
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, Override interval with 5 minutes for Sport - FAZ.NET
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/feuilleton/
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, Override interval with 5 minutes for Feuilleton - FAZ.NET
+Tue, 24 Nov 2015 11:00:22 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wissen/
+Tue, 24 Nov 2015 11:00:27 CET: class RSSThread, method run, Override interval with 5 minutes for Wissen - FAZ.NET
+Tue, 24 Nov 2015 11:00:27 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_sport.rss
+Tue, 24 Nov 2015 11:00:41 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_sport.rss
+Tue, 24 Nov 2015 11:00:49 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Sport
+Tue, 24 Nov 2015 11:00:49 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/politik/
+Tue, 24 Nov 2015 11:01:00 CET: class RSSThread, method run, Override interval with 5 minutes for Politik - FAZ.NET
+Tue, 24 Nov 2015 11:01:00 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/kultur/index
+Tue, 24 Nov 2015 11:01:08 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/gesellschaft/
+Tue, 24 Nov 2015 11:01:17 CET: class RSSThread, method run, Override interval with 5 minutes for Gesellschaft - FAZ.NET
+Tue, 24 Nov 2015 11:01:17 CET: class RSSThread, method run, First visit: http://www.spiegel.de/politik/index.rss
+Tue, 24 Nov 2015 11:01:21 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wirtschaft/index.rss
+Tue, 24 Nov 2015 11:01:22 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_sport.rss
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Sport
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/politik/
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, Override interval with 5 minutes for Politik - FAZ.NET
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/kultur/index
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/gesellschaft/
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, Override interval with 5 minutes for Gesellschaft - FAZ.NET
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, First visit: http://www.spiegel.de/politik/index.rss
+Tue, 24 Nov 2015 11:01:23 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wirtschaft/index.rss
+Tue, 24 Nov 2015 11:01:26 CET: class RSSThread, method run, First visit: http://www.spiegel.de/netzwelt/index.rss
+Tue, 24 Nov 2015 11:01:32 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wissen/index
+Tue, 24 Nov 2015 11:01:42 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/politics
+Tue, 24 Nov 2015 11:02:23 CET: class RSSThread, method run, First visit: http://www.spiegel.de/netzwelt/index.rss
+Tue, 24 Nov 2015 11:02:24 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wissen/index
+Tue, 24 Nov 2015 11:02:33 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/reisen/index
+Tue, 24 Nov 2015 11:02:42 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/sports
+Tue, 24 Nov 2015 11:02:52 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/politics
+Tue, 24 Nov 2015 11:03:24 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/reisen/index
+Tue, 24 Nov 2015 11:03:24 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/politics
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/politik/
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, Override interval with 5 minutes for Politik - FAZ.NET
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/kultur/index
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/gesellschaft/
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, Override interval with 5 minutes for Gesellschaft - FAZ.NET
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://www.spiegel.de/politik/index.rss
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wirtschaft/index.rss
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://www.spiegel.de/netzwelt/index.rss
+Tue, 24 Nov 2015 11:03:43 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/wissen/index
+Tue, 24 Nov 2015 11:03:53 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/wissenschaft.xml
+Tue, 24 Nov 2015 11:04:02 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/lebensart/index
+Tue, 24 Nov 2015 11:04:02 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wirtschaft/
+Tue, 24 Nov 2015 11:04:12 CET: class RSSThread, method run, Override interval with 5 minutes for Wirtschaft - FAZ.NET
+Tue, 24 Nov 2015 11:04:12 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_technology.rss
+Tue, 24 Nov 2015 11:04:25 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/wissenschaft.xml
+Tue, 24 Nov 2015 11:04:25 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/lebensart/index
+Tue, 24 Nov 2015 11:04:25 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wirtschaft/
+Tue, 24 Nov 2015 11:04:25 CET: class RSSThread, method run, Override interval with 5 minutes for Wirtschaft - FAZ.NET
+Tue, 24 Nov 2015 11:04:25 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_technology.rss
+Tue, 24 Nov 2015 11:04:43 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/reisen/index
+Tue, 24 Nov 2015 11:04:43 CET: class RSSThread, method run, First visit: http://www.main-netz.de/rss/wissenschaft.xml
+Tue, 24 Nov 2015 11:04:44 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/lebensart/index
+Tue, 24 Nov 2015 11:04:44 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wirtschaft/
+Tue, 24 Nov 2015 11:04:44 CET: class RSSThread, method run, Override interval with 5 minutes for Wirtschaft - FAZ.NET
+Tue, 24 Nov 2015 11:04:44 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_technology.rss
+Tue, 24 Nov 2015 11:04:48 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Technology
+Tue, 24 Nov 2015 11:04:48 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/reise/
+Tue, 24 Nov 2015 11:04:54 CET: class RSSThread, method run, Override interval with 5 minutes for Reise - FAZ.NET
+Tue, 24 Nov 2015 11:04:54 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/sports
+Tue, 24 Nov 2015 11:05:26 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/reise/
+Tue, 24 Nov 2015 11:05:26 CET: class RSSThread, method run, Override interval with 5 minutes for Reise - FAZ.NET
+Tue, 24 Nov 2015 11:05:26 CET: class RSSThread, method run, First visit: http://feeds.washingtonpost.com/rss/sports
+Tue, 24 Nov 2015 11:05:45 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/reise/
+Tue, 24 Nov 2015 11:05:45 CET: class RSSThread, method run, Override interval with 5 minutes for Reise - FAZ.NET
+Tue, 24 Nov 2015 11:05:45 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/finanzen/
+Tue, 24 Nov 2015 11:05:55 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/finanzen/
+Tue, 24 Nov 2015 11:05:58 CET: class RSSThread, method run, Override interval with 5 minutes for Finanzen - FAZ.NET
+Tue, 24 Nov 2015 11:05:58 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/technik-motor/
+Tue, 24 Nov 2015 11:06:02 CET: class RSSThread, method run, Override interval with 5 minutes for Technik & Motor - FAZ.NET
+Tue, 24 Nov 2015 11:06:02 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition.rss
+Tue, 24 Nov 2015 11:06:19 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Top Stories
+Tue, 24 Nov 2015 11:06:19 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wissenschaft/index.rss
+Tue, 24 Nov 2015 11:06:24 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/politik/index
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/finanzen/
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, Override interval with 5 minutes for Finanzen - FAZ.NET
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/technik-motor/
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, Override interval with 5 minutes for Technik & Motor - FAZ.NET
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition.rss
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Top Stories
+Tue, 24 Nov 2015 11:06:27 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wissenschaft/index.rss
+Tue, 24 Nov 2015 11:06:28 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/politik/index
+Tue, 24 Nov 2015 11:06:35 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/sport/index
+Tue, 24 Nov 2015 11:06:41 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/meinung/index
+Tue, 24 Nov 2015 11:06:41 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/auto/index
+Tue, 24 Nov 2015 11:06:41 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/karriere/index
+Tue, 24 Nov 2015 11:06:45 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/technik-motor/
+Tue, 24 Nov 2015 11:06:45 CET: class RSSThread, method run, Override interval with 5 minutes for Technik & Motor - FAZ.NET
+Tue, 24 Nov 2015 11:06:45 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition.rss
+Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, Override interval with 5 minutes for CNN.com - Top Stories
+Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wissenschaft/index.rss
+Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/politik/index
+Tue, 24 Nov 2015 11:06:50 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_entertainment.rss

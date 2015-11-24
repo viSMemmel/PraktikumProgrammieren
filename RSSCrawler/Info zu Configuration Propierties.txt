@@ -1,0 +1,8 @@
+In dieser Datei ( configuration.properties ) müssen vor Kompilation die Pfade systemspezifisch angepasst werden
+
+archivedir=C:/Users/ITDLZ-ROW/Desktop/crawler/RSSCrawler
+sourcedir=C:/Users/ITDLZ-ROW/Desktop/crawler/sources
+subscriptiondir=C:/Users/ITDLZ-ROW/Desktop/crawler/subscriptions
+schemadir=C:/Users/ITDLZ-ROW/Desktop/crawler/schemas
+
+// In Java was schreiben, was die Pfade zurückliefert

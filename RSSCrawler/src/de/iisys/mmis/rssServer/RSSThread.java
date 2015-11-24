@@ -1,3 +1,5 @@
+// HIER DIE MAIN-METHODE DER LOGIK
+
 package de.iisys.mmis.rssServer;
 
 import de.iisys.mmis.logging.ServerLogfile;

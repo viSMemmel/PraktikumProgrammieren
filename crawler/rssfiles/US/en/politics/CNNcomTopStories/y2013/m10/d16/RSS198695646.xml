@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Typhoon batters Tokyo area, 14 dead</title>
+<guid>http://edition.cnn.com/2013/10/16/world/asia/japan-typhoon-deaths/index.html</guid>
+<link>http://edition.cnn.com/2013/10/16/world/asia/japan-typhoon-deaths/index.html?eref=edition</link>
+<description>At least 14 people have died and hundreds of flights have been canceled as Typhoon Wipha pummeled the Tokyo area on Wednesday.</description>
+<pubDate>Wed, 16 Oct 2013 02:29:05 EDT</pubDate>
+<ExtractedText>Typhoon Wipha hits Tokyo area, killing at least 14
+By Yoko Wakatsuki, Junko Ogura and Katie Hunt, CNN
+October 16, 2013 -- Updated 0539 GMT (1339 HKT)
+Japanese businessmen walk against strong wind and rain as Typhoon Wipha reached Tokyo on Wednesday.
+STORY HIGHLIGHTS
+At least 14 people have died as Typhoon Wipha hits the Tokyo area
+Oshima, a small island south of Tokyo, has been hardest hit
+More than 500 domestic and international flights were canceled
+The typhoon is moving north along the Pacific coast of Japan
+Tokyo (CNN) -- At least 14 people have died and hundreds of flights have been canceled as Typhoon Wipha pummeled the Tokyo area on Wednesday.
+A local government official in Oshima, a small island 120 km (75 miles) south of Tokyo, said that 13 people died after heavy rain triggered flooding and landslides that blocked roads and crushed houses.
+Rescuers were unable to reach about 50 people in the area hit by landslides.
+One other woman was confirmed dead after being rescued from a river in Machida, western Tokyo.
+More than 500 domestic and international flights were canceled at Tokyo's Narita and Haneda airports and the national rail operator halted bullet train services in central and northern Japan.
+The typhoon is moving north along the Pacific coast of Japan and is expected to reach the northernmost island of Hokkaido by late Wednesday.
+Tokyo Electric Power Company (TEPCO), the main electricity supplier in Tokyo and central Japan, said blackouts affected more than 56,000 households.
+TEPCO, which has been struggling to deal with a series of leaks at its Fukushima Daiichi nuclear plant , said workers at the plant were "on vigil" and accumulated rainwater had been released from storage tanks.
+</ExtractedText>
+</item>
+</channel>
+</rss>

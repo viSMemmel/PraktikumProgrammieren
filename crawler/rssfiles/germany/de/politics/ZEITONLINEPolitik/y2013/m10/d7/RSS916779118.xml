@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Politik</title>
+<description>Aktuelle Politik-Nachrichten, Hintergründe, Kommentare und Reportagen aus Deutschland und internationale Politik. Aktuelle Informationen und News von ZEIT ONLINE und DIE ZEIT.</description>
+<pubDate>Mon, 07 Oct 2013 16:29:56 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:28:46 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/politik/index</link>
+<atom:link href="http://newsfeed.zeit.de/politik/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Politik</title>
+      <link>http://www.zeit.de/politik/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/greenpeace-russland-haftbedingungen</link>
+      <guid>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/greenpeace-russland-haftbedingungen</guid>
+      <category>Gesellschaft</category>
+      <title>Umweltprotest: Greenpeace-Aktivisten beklagen russische Haftbedingungen</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2013-10/greenpeace-russland-haftbedingungen"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/2013-10/greenpeace/greenpeace-148x84.jpg"/&gt;&lt;/a&gt; Die in Russland eingesperrten Umweltschützer beschweren sich über Menschenrechtsverletzungen im Gefängnis. Greenpeace will das Land deshalb in Straßburg verklagen.</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 14:40:54 GMT</pubDate>
+    <ExtractedText>Ich muss Ihren Aussagen mal eben auf den Zahn fühlen 
+und bitte Sie um Erklärung.
+Sie sagen: "Wer in Russland Ärger macht, weiß doch, dass ihn die ganze härte Treffen wird." Fakt ist, dass die Aktion nicht auf russischem Staatsgebiet durchgeführt wurde, sondern in internationalen Gewässern, und dass die russischen Behörden unangemessen scharf auf die Aktion reagiert haben.
+Sie schreiben außerdem, das "Gulagsystem respektive der Nachfolger existiert dort nicht ohne Grund." und dass Greenpeace-Aktivisten "das doch aushalten können" sollten. Welcher Grund soll das bitte sein, der die dortigen harten Strafen und Haftbedingungen als selbstverständlich legitimiert? Wieso fällt es Ihnen nun leichter, den eingesperrten Aktivisten eher die Täterrolle zuzuschieben als den russischen Staatsakteuren? Wie kommen Sie dazu, die miserablen, willkürlichen und menschenverachtenden Zustände des russischen Justizsystems und den Bruch internationalen Rechts so billigend in Kauf zu nehmen?
+Man muss Greenpeace nicht mögen, aber so, wie die Faktenlage ist, finde ich es absolut verquer, sich argumentativ auf die Seite der russischen Behörden zu werfen.
+Ich bin gespannt auf Ihre Antwort.
+MfG,
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Technik &amp; Motor - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/technik-motor/</link>
+<description>Aktuelle Nachrichten und Hintergründe zu den Themen Technik &amp; Motor. Die Themenseite für alle Technik &amp; Motor, Computer &amp; Internet Fans. </description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Technik &amp; Motor - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Tue, 15 Oct 2013 20:46:37 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/technik-motor/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Technik &amp; Motor - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/technik-motor/</link>
+    </image>
+<item>
+    <title>W-Lan-Adapter: Luftbrücke zum Verstärker</title>
+    <description>&lt;img width="190" height="107" border="0" title="Klangfarbe: Jongo-Adapter in vielen Varianten. " alt="Klangfarbe: Jongo-Adapter in vielen Varianten. " src="http://media1.faz.net/polopoly_fs/1.2614507!/image/3843206624.jpg_gen/derivatives/article_teaser/3843206624.jpg"/&gt;&lt;p&gt;Ein W-Lan-Adapter bringt bewährten HiFi-Anlagen die Streaming-Funktion bei. Er heißt Jongo A2, stammt von Pure und kostet um 150 Euro. Die neue Drahtlosigkeit hat ihren Charme.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/technik-motor/audio-video/w-lan-adapter-luftbruecke-zum-verstaerker-12604152.html</link>
+    <pubDate>Sat, 12 Oct 2013 16:00:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gyf-7i5fc</guid>
+<ExtractedText>Klangfarbe: Jongo-Adapter in vielen Varianten.
+© Hersteller
+Klangfarbe: Jongo-Adapter in vielen Varianten.
+Streaming ist das digitale Zauberwort der HiFi-Zunft. Wer zum Musikhören noch Strippen zieht, der darf das, falls er es aus Überzeugung tut, zwar auch in Zukunft weiter so halten. Aber die neue Drahtlosigkeit hat ihren Charme, und wenn die bewährte HiFi-Anlage noch gar nicht weiß, was ein W-Lan ist, dann hilft ein Adapter weiter, der ihr zu ungeahnter Funkkompetenz verhilft. Wir haben ein solches Gerät ausprobiert. Es heißt Jongo A2, stammt vom englischen Radio-Spezialisten Pure und kostet um 150 Euro.
+Die Sache funktioniert so: Die handliche Jongo-Komponente nimmt über ihren optischen Digitalausgang oder über analoge Stereo-Cinchbuchsen Kontakt zur HiFi-Anlage auf. Über W-Lan-Funk verbindet sie sich mit einem Mobilgerät, das die Musik liefert - also mit einem Smartphone oder einem Tablet-Rechner. Apple-Geräte kommen ebenso in Frage wie ihre Artgenossen mit dem Android-Betriebssystem. Und schon kann der Musikfunk beginnen, theoretisch jedenfalls.
+Virtueller Blätter-Button
+In der Praxis sind einige Vorbereitungen nötig. Zunächst gilt es, die Gratis-App Pure Connect aus dem iTunes Store oder aus dem Android-Gegenstück Google Play auf dem Abspielgerät zu installieren. Sie führt durch alle nötigen Schritte zum Verbindungsaufbau mit dem W-Lan. In unserem Fall folgte dann allerdings erst einmal eine längere Kunstpause, weil der Jongo-Adapter den ersten Netzkontakt nutzte, um sich automatisch ein Firmware-Update zu gönnen. Immerhin: Fünf Minuten später meldete eine grüne Leuchtdiode hinter der Einschalttaste Vollzug.
+Der weitere Umgang mit der App erschließt sich nicht auf den ersten Blick. Man landet erst einmal im Angebot eines Online-Dienstes, bei dem man ein Gratis-Konto erstellen kann, um alle möglichen Musikangebote aus dem Internet zu nutzen, Web-Radio und Hörfunkreportagen internationaler Sender eingeschlossen. Das ist schön und gut, legt aber den Verdacht nahe, dass sich die Streaming-Funktion auf diesen Online-Fundus beschränkt. Doch der Schein trügt. Ein Klick auf den virtuellen „Blättern“-Button führt auf eine Seite der App, die das ganze Repertoire der auf dem Mobilgerät gespeicherten Musik anzeigt und zum Streamen an die HiFi-Anlage anbietet. Für das iPhone heißt das zum Beispiel: Aus der Pure-Connect-Software heraus kann man die iTunes-Musiksammlung über W-Lan abspielen - ganz ähnlich wie mit Apples Funksystem Airplay. Die Pure-Connection-App kopiert dazu einfach automatisch die Datenbank der iTunes App unter ihre eigene Oberfläche.
+Kontakt zu mehreren Jongo-Adaptern
+Auf diese Weise lässt sich sogar ein ganzes Haus beschallen: Die App kann Kontakt zu mehreren Jongo-Adaptern aufnehmen. Oder zu kompakten Funklautsprechern derselben Marke. Mehr noch: Steht einmal kein W-Lan zur Verfügung, klappt der Musiktransfer auch über Bluetooth. Der Verbindungsaufbau ist schnell erledigt: Man schaltet am Mobilgerät die Bluetooth-Funktion ein, der Jongo-Adapter meldet sich in der Liste aller erreichbaren Funkstationen, auswählen, fertig. Klanglich ist die W-Lan-Verbindung allerdings etwas überlegen, denn sie überträgt die tönenden Daten ohne weitere Kompression oder sonstige Beeinflussung.
+Alles in allem gefällt uns die Jongo-Lösung gut. Sie kann mit maßvollem Aufwand und zu erschwinglichen Kosten die vorhandene HiFi-Anlage modernisieren. Der Hersteller sollte jedoch sämtliche Einrichtungsschritte vom Anschließen bis zum Konfigurieren der App besser dokumentieren, denn die mitgelieferte Betriebsanleitung gibt sich allzu spartanisch, und selbst geübten Netzwerkern erschließt sich leider nicht alles intuitiv.
+Weitere Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Tiger cub</title>
+<guid>http://edition.cnn.com/2013/10/15/world/europe/london-zoo-newborn-tiger-cub-drowns/index.html</guid>
+<link>http://edition.cnn.com/2013/10/15/world/europe/london-zoo-newborn-tiger-cub-drowns/index.html?eref=edition</link>
+<description>Keepers at London Zoo are "distraught" after a newborn tiger cub -- the first Sumatran tiger born there for 17 years -- drowned in a pool at its enclosure.</description>
+<pubDate>Tue, 15 Oct 2013 08:43:31 EDT</pubDate>
+<ExtractedText>London Zoo's tiger cub, first born at zoo in 17 years, drowns
+By Bryony Jones, CNN
+October 16, 2013 -- Updated 0248 GMT (1048 HKT)
+A tiger at London Zoo gave birth to the cub just three weeks ago.
+STORY HIGHLIGHTS
+Keepers "heartbroken" as tiger cub found dead in enclosure at London Zoo
+Newborn animal believed to have drowned in pond after mother carried it outside
+Three-week-old cub was first Sumatran tiger to be born at zoo in 17 years
+London (CNN) -- Keepers at London Zoo are "distraught" after a newborn tiger cub -- the first Sumatran tiger born there for 17 years -- drowned in a pool at its enclosure.
+The animal was born to five-year-old first-time-mom Melati just three weeks ago, and its arrival was greeted with huge excitement and celebration at the zoo, where experts were "over-the-moon" about the birth.
+But on Saturday, keepers raised the alarm when they could no longer see the young tiger on cameras inside its den; a search of the enclosure revealed the animal's body.
+It is thought Melati carried the cub out into the paddock area of the zoo's "Tiger Territory," where it fell into the pond and drowned.
+Meet the newest resident at London Zoo
+Animals weighing in at London Zoo
+Wanted: Female for last surviving fish
+"We're heartbroken by what's happened," said London Zoo's Malcolm Fitzpatrick.
+Melati is said to be a very nervous tiger who prefers routine, and experts at the zoo had opted to allow her full access to the whole enclosure fearing that any changes to her environment might cause her to injure or abandon her cub.
+"At the time we thought it was in the best interests of Melati and her cub to allow her continued access to the full enclosure as normal," Fitzpatrick said.
+"We didn't want to put her on edge by changing her surroundings or routines, in case she abandoned or attacked the cub."
+London Zoo is to carry out a full review of the circumstances which led to the cub's death.
+"We would do anything to turn back the clock, and nobody could be more upset about what's happened than the keepers who work with the tigers every day," said Fitzpatrick. They are devoted to those tigers and are distraught."
+The zoo had kept Melati's pregnancy a secret for about 105 days before her cub was born on September 22.
+Hidden cameras were installed in her enclosure to keep watch over her throughout, and the speedy birth, which lasted just six minutes, was also caught on video.
+</ExtractedText>
+</item>
+</channel>
+</rss>

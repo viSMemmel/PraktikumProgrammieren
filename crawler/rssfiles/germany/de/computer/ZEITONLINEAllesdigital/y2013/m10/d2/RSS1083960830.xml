@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/internet/2013-10/us-shutdown-internet</link>
+      <guid>http://www.zeit.de/digital/internet/2013-10/us-shutdown-internet</guid>
+      <category>Digital</category>
+      <title>Shutdown: Websites der US-Regierung sind schwarz</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-10/us-shutdown-internet"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/shutdown/shutdown-148x84.jpg"/&gt;&lt;/a&gt; Washington D.C. ist derzeit eine leere Stadt und auch im amerikanischen Teil des Internets breitet sich Stille aus, Websites der US-Regierung wurden abgeschaltet.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Kai Biermann</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 09:36:41 GMT</pubDate>
+    <ExtractedText>Games
+Shutdown: Websites der US-Regierung sind schwarz
+Washington D.C. ist derzeit eine leere Stadt und auch im amerikanischen Teil des Internets breitet sich Stille aus. Websites der US-Regierung wurden abgeschaltet. Von  Kai Biermann
+2. Oktober 2013  11:55 Uhr  21 Kommentare
+Website des US-Justizministeriums  |  © Screenshot ZEIT ONLINE
+Aufgrund der Haushaltssperre sind in den USA diverse Websites und Twitterfeeds von Behörden und Organisationen stillgelegt worden. Allen voran die Website des Weißen Hauses : Demonstrativ wurde am Dienstagabend der Livestream zu Barack Obamas Rede abgeschaltet. Die letzten Nachrichten auf der Seite datieren vom 30. September. Ein vorgeschaltetes Banner warnt, dass die Seite nicht mehr aktuell gepflegt wird.
+Die Website der US-Raumfahrtbehörde Nasa wurde komplett vom Netz genommen. Derzeit ist unter www.nasa.gov lediglich zu lesen, dass die Seite nicht mehr aufrufbar ist. Für eventuelle Unannehmlichkeiten bittet man um Entschuldigung.
+Anzeige
+Etwas Aufregung gab es um den Twitterfeed der Asteroidenwarnstelle. Der Nasa-Account "Asteroid Watch" twitterte am Montag , man werde bis auf weiteres nichts mehr veröffentlichen, hoffe aber, das bald wieder zu können.
+In the event of government shutdown, we will not be posting or responding from this account. We sincerely hope to resume tweets soon.
+— Asteroid Watch (@AsteroidWatch) October 1, 2013
+Viele Nutzer des Accounts posteten daraufhin besorgte bis zynische Kommentare, dass nun Asteroiden unerkannt auf die Erde zustürzen. Die Nasa beruhigte mit der Bemerkung, an vielen Orten der Welt würden Astronomen erdnahe Objekte beobachten.
+Weiterarbeiten von zu Hause verboten
+Die amerikanische Regierung musste in der Nacht zum Dienstag insgesamt 800.000 Angestellte dazu auffordern ,  erst einmal zu Hause zu bleiben, da sie nicht mehr bezahlt werden  können. Republikanische Abgeordnete weigern sich, den Haushalt des  Landes zu verabschieden. So wollen sie erpressen, dass Obamas Gesundheitsreform die Finanzierung entzogen wird.
+Die Websites mögen bei der digitalen Abschaltung noch das geringere Problem sein. Schwerer wiegt, dass Behörden nicht mehr erreichbar sind und nicht mehr kommunizieren können wie bisher: Alle Beamten, die aufgrund der Sperre in den unbezahlten Urlaub geschickt wurden, haben keinen Zugriff mehr auf ihre E-Mails. Ein Gesetz, der sogenannte Antideficiency Act , verbietet es Heimgeschickten, von zu Hause aus oder über ihre Mobiltelefone weiterzuarbeiten.
+Kai Biermann
+© ZEIT ONLINE
+Kai Biermann ist Redakteur im Ressort Digital bei ZEIT ONLINE. Seine Profilseite finden Sie hier .
+Ganze Behörden – beispielsweise das Heimatschutzministerium – reagieren nicht mehr über diesen Kommunikationskanal. Auch Anfragen über Websites und Twitterfeeds sind nicht mehr möglich. Das Justizministerium warnt online , dass derzeit keine Anfragen bearbeitet werden, die über die Website kommen.
+Schmerzlich vermisst werden von Nutzern auch beliebte Dienste von Behörden im Netz, beispielsweise die Panda-Kamera im Zoo des Smithsonian. "Keine unserer Live-Tierkameras sendet derzeit", heißt es auf der Seite des Smithsonian National Zoo .
+Informationen über den Stand des Shutdown und darüber, welche Seiten abgeschaltet sind, veröffentlicht die US-Regierung auf der Seite www.usa.gov . Außerdem hat das Technikblog Ars Technica eine Liste zusammengestellt , welche Regierungswebsites noch laufen – die Mehrzahl – und welche nicht mehr.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

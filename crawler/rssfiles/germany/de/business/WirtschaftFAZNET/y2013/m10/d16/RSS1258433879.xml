@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Wirtschaft - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/wirtschaft/</link>
+<description>Nachrichten der Wirtschaft über Börse und Finanzen. News von Industrie und Unternehmen. Informationen zur Konjunktur und Wirtschaftskrise.</description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Wirtschaft - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Wed, 16 Oct 2013 08:42:53 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/wirtschaft/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Wirtschaft - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/wirtschaft/</link>
+    </image>
+<item>
+    <title>Frühaufsteher: Die Börse sucht das Positive</title>
+    <description>&lt;img width="190" height="107" border="0" title="Illustration / Frühaufsteher / Version 3" alt="Illustration / Frühaufsteher / Version 3" src="http://media0.faz.net/polopoly_fs/1.2056078!/image/3146938431.jpg_gen/derivatives/article_teaser/3146938431.jpg"/&gt;&lt;p&gt;Die Börse glaubt an das Gute: An eine Lösung des Haushaltsstreits in Amerika etwa. Oder an die Kontinuität in einer großen Koalition in Deutschland. Oder auch daran, dass Yahoo mit Alibaba eine positive Zukunft beschieden ist.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/finanzen/fruehaufsteher/fruehaufsteher-die-boerse-sucht-das-positive-12620037.html</link>
+    <pubDate>Wed, 16 Oct 2013 08:40:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gw7-7ihol</guid>
+<ExtractedText>Frühaufsteher
+Frühaufsteher Die Börse sucht das Positive
+16.10.2013 ·  Die Börse glaubt an das Gute: An eine Lösung des Haushaltsstreits in Amerika etwa. Oder an die Kontinuität in einer großen Koalition in Deutschland. Oder auch daran, dass Yahoo mit Alibaba eine positive Zukunft beschieden ist.
+</ExtractedText>
+</item>
+</channel>
+</rss>

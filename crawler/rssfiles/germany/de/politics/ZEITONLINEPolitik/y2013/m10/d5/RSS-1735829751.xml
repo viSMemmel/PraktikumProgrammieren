@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Politik</title>
+<description>Aktuelle Politik-Nachrichten, Hintergründe, Kommentare und Reportagen aus Deutschland und internationale Politik. Aktuelle Informationen und News von ZEIT ONLINE und DIE ZEIT.</description>
+<pubDate>Sat, 05 Oct 2013 17:26:31 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 19:30:20 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/politik/index</link>
+<atom:link href="http://newsfeed.zeit.de/politik/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Politik</title>
+      <link>http://www.zeit.de/politik/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/wissen/geschichte/2013-10/tunesien-krise-regierung</link>
+      <guid>http://www.zeit.de/wissen/geschichte/2013-10/tunesien-krise-regierung</guid>
+      <category>Politik</category>
+      <title>Arabischer Frühling: Tunesiens Islamisten teilen die Macht</title>
+      <description>&lt;a href="http://www.zeit.de/wissen/geschichte/2013-10/tunesien-krise-regierung"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/ausland/2013-10/tunesien-dialog/tunesien-dialog-148x84.jpg"/&gt;&lt;/a&gt; Islamistische Regierung und Opposition einigen sich nach langen Gesprächen auf eine Expertenregierung. Der neue Premier soll bis Ende kommender Woche ernannt werden. </description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Sat, 05 Oct 2013 16:46:18 GMT</pubDate>
+    <ExtractedText>Ausland
+Arabischer Frühling: Tunesiens Islamisten teilen die Macht
+Islamistische Regierung und Opposition einigen sich nach langen Gesprächen auf eine Expertenregierung. Der neue Premier soll bis Ende kommender Woche ernannt werden.
+5. Oktober 2013  19:12 Uhr  2 Kommentare
+Der tunesische Präsident Moncef Marzouki (Mitte), Parlamentspräsident Mustapha Ben Jaafar (links) und Premier Ali Laarayedh treffen ein zum Dialog zwischen Regierung und Opposition.  |  © Fethi Belaid/AFP/Getty Images
+Regierung und Opposition in Tunesien haben sich auf eine Übergangsregierung von Experten geeinigt. Die regierende Ennahda-Partei und die Opposition unterzeichneten in Tunis eine Vereinbarung, wonach ein Regierungschef bis zum Ende der kommenden Woche ernannt werden soll. Dieser hat anschließend zwei Wochen Zeit, um ein Kabinett aus unabhängigen Persönlichkeiten zu bestimmen. 
+Die neue Regierung löst dann die von der moderat-islamistischen Ennahda-Partei angeführte Koalition ab . Sie scheidet somit zwei Jahre nach ihrem Sieg bei den ersten freien Wahlen in Tunesien aus dem Amt. Das Land steckte seit dem tödlichen Anschlag auf einen Oppositionsführer in der Krise. 
+Anzeige
+Anfang 2011 war der langjährige Machthaber Zine El Abidine Ben Ali gestürzt worden. Die tunesische Rebellion gilt als Auslöser des Arabischen Frühlings.
+Beide Seiten vereinbarten jetzt, nach einem nationalen Dialog unter Beteiligung aller politischen Kräfte innerhalb von vier Wochen eine Verfassung zu verabschieden und einen Zeitplan für Wahlen auszuarbeiten.
+Bis zuletzt wurde an dem Text gefeilt, die feierliche Unterzeichnung verzögerte sich. Am Ende setzten Ennahda-Chef Rached Ghannouchi und die Anführer der Opposition aber ihre Unterschrift unter den Vertrag. Der säkulare Koalitionspartner der Ennahda, die Partei Kongress für die Republik von Präsident Moncef Marzouki, lehnte die Vereinbarung jedoch ab.
+Die Krise des Landes war durch die Ermordung des Oppositionspolitikers Mohamed Brahmi am 25. Juli ausgelöst worden. Viele Bürger und die Opposition machen die Regierung für seinen Tod verantwortlich. Sie geriet zudem wegen wirtschaftlicher Probleme in die Kritik .
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

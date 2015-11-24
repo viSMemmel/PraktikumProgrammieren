@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Wirtschaft</title>
+<description>Aktuelle Nachrichten, Kommentare, Analysen und Hintergründe zu den Themen Wirtschaftspolitik, Finanzen, Unternehmen, Branchen, Börsen und Märkten</description>
+<pubDate>Sat, 05 Oct 2013 09:33:16 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:46:14 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wirtschaft/index</link>
+<atom:link href="http://newsfeed.zeit.de/wirtschaft/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Wirtschaft</title>
+      <link>http://www.zeit.de/wirtschaft/index</link>
+    </image>
+<item>
+      <link>http://blog.zeit.de/china/2013/10/04/der-shutdown-in-den-usa-trifft-auch-china-hart/</link>
+      <guid>http://blog.zeit.de/china/2013/10/04/der-shutdown-in-den-usa-trifft-auch-china-hart/</guid>
+      <category>Wirtschaft</category>
+      <title>China-Blog: China fürchtet Folgen des US-Shutdown</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2013-10/china-us-shutdown"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2013-10/china-arbeiter/china-arbeiter-148x84.jpg"/&gt;&lt;/a&gt; Peking sorgt sich, dass seine exportabhängige Wirtschaft durch den US-Haushaltsstreit ins Trudeln gerät. Schon jetzt kämpft das Land mit ungewohnt niedrigem Wachstum.</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft</dc:creator>
+    <ExtractedText>China fürchtet Folgen des US-Shutdown
+Von Felix Lee 4. Oktober 2013 um 15:01 Uhr
+Bislang reagiert die chinesische Führung verhältnismäßig ruhig auf den Haushaltsstreit in den USA . In der Volksrepublik herrschen gerade Feiertage, die meisten staatlichen Einrichtungen haben geschlossen. Doch je länger sich der Streit im US-Kongress hinzieht, desto nervöser wird auch Peking. Denn kaum eine andere Volkswirtschaft auf der Welt ist so abhängig von den USA wie China.
+Im Juli lag das Handelsdefizit der USA mit China bei 30 Milliarden Dollar – ein neuer Rekord. Wenn nun der Streit im US-Kongress anhält und die amerikanische Wirtschaft wie zuletzt 2009 erneut einbricht, wäre auch Chinas Exportwirtschaft hart getroffen. Sie ist weiterhin die wichtigste Stütze des chinesischen Wachstums. Und mit dem sieht es momentan ohnehin nicht mehr so rosig aus. Erst am Mittwoch  hat die Asian Development Bank ihre Wachstumsprognose für das laufende Jahr auf 7,6 Prozent gesenkt . So wenig ist China seit zwei Jahrzehnten nicht mehr gewachsen.
+Natürlich könnte sich Peking helfen. Fällt der Export weg, dann können jederzeit die staatlichen Banken des Landes einspringen und Unternehmen mit billigen Krediten fluten. Das würde die Wirtschaft schnell wieder ankurbeln . So geschehen in den vergangenen fünf Jahren.
+Doch genau diese Politik will Chinas Premier Li Keqiang nicht mehr. Er will weg von dieser Art der Schuldenfinanzierung. Die chinesische Wirtschaft hat seiner Ansicht nach in den vergangenen fünf Jahren schon zu viel von diesem Aufputschmittel erhalten. Die Folgen sind Überkapazitäten in vielen Sektoren und wiederum eine noch stärkere Abhängigkeit vom Export. Um diese zu beenden, müsste also der Binnenkonsum an Fahrt aufnehmen.
+Besondere Symbiose zwischen USA und China
+Seit Jahren schon verbindet China und die USA eine besondere Symbiose. Seit Ende der 1990er Jahre hat die Volksrepublik gigantische Herstellungskapazitäten für praktisch alle Produktgruppen aufgebaut. Billige Arbeitskräfte stellen günstig Computer, iPads, Barbies, Fitnessgeräte und andere Konsumartikel her. Die USA haben große Teile ihrer Industrie nach Fernost verlagert und sind zugleich zum Hauptabnehmer der Waren aus dem Reich der Mitte geworden. 2007 war das Defizit im US-Handel mit China bereits auf gigantische 260 Milliarden Dollar angestiegen.
+So konnte die chinesische Wirtschaft kräftig wachsen. Die USA finanzierten ein phantastisches Konjunkturprogramm in China, ob bei Zulieferern, in Restaurants, Hafenbetrieben, Baufirmen. Und auch die USA profitierten: Die Produktionsverlagerung nach China brachte gigantische Kostensenkungen mit sich. Obwohl die Schulden in den USA immer größer geworden sind, blieb die Inflation in all den Jahren niedrig.
+Weil die USA allerdings, auch wegen strenger Devisenkontrollen , im Gegenzug nicht ausreichend ihre eigenen Produkte nach China exportierten, wurde der Handel finanziert, indem China vor allem US-Staatsanleihen kaufte. Die Chinesen haben also nicht nur kostengünstig Digitalkameras in die USA geschickt, sie haben sich auch noch mit der Bezahlung in Form von zunehmend wertlosen Anleihen zufrieden gegeben. Und so wuchs im gleichen Zug das US-Haushaltsdefizit und die Immobilienblase blähte sich auf. Diese Symbiose ist spätestens mit dem Platzen der Blase ins Wanken geraten. Und wird einmal mehr durch die aktuellen Ereignisse in den USA infrage gestellt.
+</ExtractedText>
+</item>
+</channel>
+</rss>

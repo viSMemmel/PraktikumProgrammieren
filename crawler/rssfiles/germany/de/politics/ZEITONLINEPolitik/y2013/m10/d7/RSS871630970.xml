@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Politik</title>
+<description>Aktuelle Politik-Nachrichten, Hintergründe, Kommentare und Reportagen aus Deutschland und internationale Politik. Aktuelle Informationen und News von ZEIT ONLINE und DIE ZEIT.</description>
+<pubDate>Mon, 07 Oct 2013 16:29:56 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:28:46 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/politik/index</link>
+<atom:link href="http://newsfeed.zeit.de/politik/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Politik</title>
+      <link>http://www.zeit.de/politik/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/politik/ausland/2013-10/libyen-terrorverdaechtiger-einsatz</link>
+      <guid>http://www.zeit.de/politik/ausland/2013-10/libyen-terrorverdaechtiger-einsatz</guid>
+      <category>Politik</category>
+      <title>Terrorismus: Kerry rechtfertigt US-Einsatz in Libyen</title>
+      <description>&lt;a href="http://www.zeit.de/politik/ausland/2013-10/libyen-terrorverdaechtiger-einsatz"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/ausland/2013-10/kerry/kerry-148x84.jpg"/&gt;&lt;/a&gt; Die libysche Regierung beklagt, sie sei in den US-Einsatz zur Festnahme al-Libis nicht eingeweiht gewesen. Der US-Außenminister Kerry verteidigt das Vorgehen.</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 07:13:53 GMT</pubDate>
+    <ExtractedText>Ausland
+Terrorismus: Kerry rechtfertigt US-Einsatz in Libyen
+Die libysche Regierung beklagt, sie sei in den US-Einsatz zur Festnahme al-Libis nicht eingeweiht gewesen. Der US-Außenminister Kerry verteidigt das Vorgehen.
+7. Oktober 2013  09:12 Uhr  18 Kommentare
+US-Außenminister John Kerry bei einer Konferenz in Bali, im Hintergrund Russlands Außenminister Sergey Lavrov  |  © Beawiharta/Reuters
+US-Außenminister John Kerry hat die libysche Kritik an dem jüngsten Einsatz von US-Sicherheitskräften zurückgewiesen. Die Aktion gegen den Terrorverdächtigen Abu Anas al-Libi sei nach amerikanischem Recht erfolgt, der Verdächtige habe ein legales, angemessenes Ziel für die US-Streitkräfte dargestellt, sagte Kerry.
+Libyen hatte beklagt, nicht über den Einsatz einer US-Einheit in  Tripolis informiert worden zu sein, bei dem der mutmaßliche  Al-Kaida-Drahtzieher al-Libi gefangen genommen wurde. Libyen  hatte von einer Entführung gesprochen.    
+Anzeige
+Kerry räumte ein, dass die libysche Regierung nicht im Voraus über den Einsatz informiert gewesen sei. Die USA gingen gegenüber ausländischen Regierungen "nicht in die Einzelheiten" derartiger Aktionen, sagte Kerry. Der Fernsehsender CNN hatte wiederum zuvor einen US-Vertreter zitiert, der sagte, libysche Behörden seien beteiligt gewesen. Auch libysche Medien sprechen von einer Beteiligung Libyens an dem Einsatz.
+Auch Libyer am Einsatz beteiligt?
+In Libyen blieben größere Proteste gegen die Verschleppung des Terroristen zunächst aus, obwohl viele Menschen in dem Einsatz eine Verletzung der Souveränität ihres Landes sehen.
+US-Spezialkräfte hatten am Samstag in Tripolis den seit Jahren gesuchten mutmaßlichen Al-Kaida-Drahtzieher Abu Anas al-Libi gefasst und nach Informationen der New York Times auf einem Schiff der US-Marine außer Landes gebracht.
+Al-Libi wurde von den US-Behörden wegen seiner mutmaßlichen Drahtzieher-Rolle bei den Anschlägen auf die US-Botschaften in Kenia und Tansania im Jahr 1998 verfolgt, bei denen mehr als 200 Menschen getötet wurden. Er werde vor ein amerikanisches Gericht gestellt, kündigte Kerry an.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/games/2013-10/rotes-kreuz-kriegsspiele-games-voelkerrecht-genfer-konventionen</link>
+      <guid>http://www.zeit.de/digital/games/2013-10/rotes-kreuz-kriegsspiele-games-voelkerrecht-genfer-konventionen</guid>
+      <category>Digital</category>
+      <title>Kriegsspiele: Virtuelle Strafen für virtuelle Kriegsverbrechen</title>
+      <description>&lt;a href="http://www.zeit.de/digital/games/2013-10/rotes-kreuz-kriegsspiele-games-voelkerrecht-genfer-konventionen"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/games/2013-10/modern-warfare-3/modern-warfare-3-148x84.jpg"/&gt;&lt;/a&gt; Die Genfer Konventionen verbieten es, Zivilisten zu töten. Sie sollen künftig auch in Games gelten, findet das Rote Kreuz. Verstöße sollten virtuell bestraft werden.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Benjamin Dürr</dc:creator>
+      <pubDate>Mon, 14 Oct 2013 07:21:55 GMT</pubDate>
+    <ExtractedText>Kriegsspiele: Virtuelle Strafen für virtuelle Kriegsverbrechen
+Kriegsspiele: Virtuelle Strafen für virtuelle Kriegsverbrechen
+Die Genfer Konventionen verbieten es, Zivilisten zu töten. Sie sollen künftig auch in Games gelten, findet das Rote Kreuz. Verstöße sollten virtuell bestraft werden. von  Benjamin Dürr
+11. Oktober 2013  14:37 Uhr  68 Kommentare
+Die Landschaften sind täuschend echt geformt und erinnern an den Irak oder an Afghanistan, es gibt Lärm, Gefechte und Waffen wie in der Realität. In einem Punkt aber sind Kriegsspiele unrealistisch, weil etwas fehlt: jus in bello, das Gesetz im Krieg.
+Die Genfer Konventionen als Kernstück des humanitären Völkerrechts legen fest, wo für Soldaten in bewaffneten Konflikten die Grenzen liegen. Wer zum Beispiel Zivilisten tötet, auf medizinische Helfer schießt oder Verwundete angreift, verstößt gegen die Grundprinzipien der Konvention .
+Anzeige
+Künftig soll das Kriegsvölkerrecht auch in Computerspielen gelten. Das Internationale Komitee vom Roten Kreuz (IKRK), das über die Einhaltung des humanitären Völkerrechts wacht, arbeitet mit Entwicklern daran, die Regeln des Kriegs auch virtuell anzuwenden und jene Spieler virtuell zu bestrafen, die dagegen verstoßen. 
+In der Realität gibt es Kriegsverbrecher-Tribunale, den Internationalen Strafgerichtshof in Den Haag für die Anführer und Militär-Tribunale für Soldaten. Das IKRK schlägt vor, auch Computerspieler zu sanktionieren und das Völkerrecht in Games zu integrieren. Dabei gehe es nicht darum, Pop-Ups mit Gesetzesparagrafen erscheinen zu lassen, sondern die Regeln subtil einzuarbeiten, erklärt die Organisation. Wer gegen die Prinzipien des Völkerrechts verstößt, dem würden Punkte abgezogen; auch ein Game Over für besonders schwere Verbrechen sei denkbar.
+"Unsere Absicht ist, Spielern zu zeigen, dass in einem bewaffneten Konflikt nicht alles erlaubt ist", sagt Bernard Barret vom IKRK in Genf. Solche Appelle gibt es seit Jahren , die Reaktionen aus der Industrie aber sind noch überschaubar.
+Soldaten trainieren mit Kriegsspielen
+Das Problem in echten Konflikten sei nicht ein Mangel an Gesetzen, sondern deren Nicht-Einhaltung und der fehlende Respekt vor geltendem Recht, sagt Barret. Er hofft, dass Spiele daran etwas ändern können. Denn häufig würden Ego-Shooter auch zum Training von Soldaten benutzt, sagt er.
+In einem Fachartikel einer IKRK-Publikation warfen Forscher bereits im vergangenen Jahr die Frage auf, ob der Einsatz von Strafen in Computerspielen zu humaneren Kriegen führen könnte, wenn die Soldaten durch das Spielen bereits an die Einhaltung der Konventionen gewöhnt würden.
+Barret sagt: "Je größer das Verständnis und die Akzeptanz der Gesetze, desto größer ist die Wahrscheinlichkeit, dass sie auch in realen Situationen respektiert werden." 
+Seine Organisation arbeitet bereits mit einigen Spiele-Entwicklern zusammen. Und manches habe sich in den letzten Jahren auch verändert, sagt Barret. In der deutschen Fassung von Call of Duty: Modern Warfare 2 etwa ist Schluss , wenn Zivilisten in einer Mission an einem Flughafen getötet werden. In Rainbow Six: Vegas wird Spielern für das exzessive Töten von Unbewaffneten die Kommandoführung entzogen.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

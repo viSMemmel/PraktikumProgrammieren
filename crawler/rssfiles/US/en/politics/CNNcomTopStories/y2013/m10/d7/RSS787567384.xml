@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Mon, 07 Oct 2013 14:54:36 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Are racing fans safe?</title>
+<guid>http://edition.cnn.com/2013/10/07/us/texas-indycar-crash-fan-safety/index.html</guid>
+<link>http://edition.cnn.com/2013/10/07/us/texas-indycar-crash-fan-safety/index.html?eref=edition</link>
+<description>Another race crash sends debris into the stands, injuring spectators. What is being done?</description>
+<pubDate>Mon, 07 Oct 2013 14:11:29 EDT</pubDate>
+<ExtractedText>Another racing crash casts light on fan safety
+By Michael Pearson, CNN
+October 7, 2013 -- Updated 1850 GMT (0250 HKT)
+STORY HIGHLIGHTS
+Fan safety is again in the spotlight after the Houston crash
+13 fans and a driver are injured in the crash at the Grand Prix of Houston
+Both IndyCar and NASCAR seek to ensure spectator safety, but injuries are not uncommon
+(CNN) -- It's a startlingly familiar story: a violent crash during a car race sends debris hurtling into the stands. Spectators scatter, some are hurt.
+It happened again Sunday at IndyCar's Grand Prix of Houston, where 13 spectators were injured when two cars bumped in the final lap of the race, sending one sailing into a protective fence while the other spun out, shearing off part of its side of sending debris toward the grandstands. One of the drivers, three-time Indianapolis 500 winner Dario Franchitti, suffered spinal and ankle injuries and was hospitalized.
+The incident comes eight months after a February accident during a NASCAR race at Daytona International Speedway that spewed debris into the stands, injuring 28 fans. In March two people, a driver and a 14-year-old boy who was standing in the pit area of a California racetrack, died in an accident during warm-ups.
+While it appears no one keeps comprehensive statistics, the Charlotte Observer newspaper reported in 2011 that 46 spectators had died at U.S. race tracks between 1990 and 2010. The newspaper did not track injuries.
+PRESS Inc., a racing safety company, cites insurance industry sources as saying 2,000 spectators are injured in a year.
+After Sunday's crash, IndyCar and race promoters issued a statement saying that "fan and driver safety are always a primary concern," according to media reports.
+The issue of fan safety has long been on IndyCar's agenda. The issue was amplified two years ago, when two-time Indianapolis 500 winner Dan Wheldon died after his car struck a fence support during a race in Las Vegas.
+Last year, a league consultant said the league was committed to investigating ways to better design barriers to prevent crash debris from reaching fans, according to IndyCar.com.
+And in May, league CEO Mark Miles said executives would look at new safety initiatives, including the possibility of new types of fences, more safety precautions near where drivers stop for service and repairs, and driver safety enhancements.
+NASCAR took similar safety precautions after February's wreck at Daytona International Speedway by adding extra cables on crossover gates and tethering frames of gates to posts.
+CNN's Dan Moriarity contributed to this report.
+</ExtractedText>
+</item>
+</channel>
+</rss>

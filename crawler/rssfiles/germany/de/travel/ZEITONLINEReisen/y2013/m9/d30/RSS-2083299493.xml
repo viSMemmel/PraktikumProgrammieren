@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Reisen</title>
+<description>Erholsame Reisen - Online Reiseberichte, Bildergalerien von Reisen und Urlaubstipps von Experten für die gute Reise in den Urlaub. Nachrichten und Informationen</description>
+<pubDate>Sat, 05 Oct 2013 09:10:40 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:28 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/reisen/index</link>
+<atom:link href="http://newsfeed.zeit.de/reisen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Reisen</title>
+      <link>http://www.zeit.de/reisen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/reisen/2013-09/bahn-preiserhoehung</link>
+      <guid>http://www.zeit.de/reisen/2013-09/bahn-preiserhoehung</guid>
+      <category>Reisen</category>
+      <title>Deutsche Bahn: Bahnfahren wird ab Dezember teurer</title>
+      <description>&lt;a href="http://www.zeit.de/reisen/2013-09/bahn-preiserhoehung"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2013-09/deutsche-bahn/deutsche-bahn-148x84.jpg"/&gt;&lt;/a&gt; Die Deutsche Bahn erhöht ihre Preise: Normalfahrkarten im Fernverkehr werden ab Dezember im Schnitt 2,9 Prozent teurer, für Reservierungen müssen Reisende mehr zahlen.</description>
+      <dc:creator>ZEIT ONLINE : Reisen</dc:creator>
+      <pubDate>Mon, 30 Sep 2013 14:58:36 GMT</pubDate>
+    <ExtractedText>Anmelden | Registrieren
+Deutsche Bahn: Bahnfahren wird ab Dezember teurer
+Die Deutsche Bahn erhöht ihre Preise: Normalfahrkarten im Fernverkehr werden ab Dezember im Schnitt 2,9 Prozent teurer, für Reservierungen müssen Reisende mehr zahlen.
+30. September 2013  16:57 Uhr  23 Kommentare
+Ein Zug der Deutschen Bahn  |  © Carsten Koall/Getty Images
+Reisen mit der Deutschen Bahn wird wieder teurer. Zum Fahrplanwechsel am 15. Dezember steigen die Preise im Nahverkehr um durchschnittlich 2,9 Prozent, gab das Unternehmen bekannt.
+Die Normalpreise des Fernverkehrs erhöhen sich um 2,5 Prozent – mit einer Ausnahme: Die Verbindungen auf der Strecke von Köln und Düsseldorf nach Berlin kosten so viel wie bisher. Seit dem Hochwasser im Juni dauert die Fahrt hier wegen Umleitungen rund eine Stunde länger.
+Anzeige
+Unverändert bleiben zudem die Sparpreis-Tickets, die ermäßigten Bahncards für Jugendliche und Senioren sowie die Bahncard 100. Sitzplatz-Reservierungen kosten künftig 4,50 Euro statt 4 Euro.
+Nach eigenen Angaben wird die Bahn die Preise erhöhen, weil im ersten Halbjahr 2013 die Personalkosten im Fernverkehr um 4 Prozent gestiegen seien. Die sonst genannten Energiekosten wurden in diesem Jahr nicht erwähnt.
+Die Bahn hatte 2003 die Ticketkosten im Fernverkehr um gut 10 Prozent gesenkt. Seitdem hat sie die Preise jedes Jahr – bis auf 2010 – stärker als die Inflationsrate angehoben. Dies gilt auch für die jetzige Anhebung.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

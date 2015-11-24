@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Karriere</title>
+<description>Für Ein-, Um- und Aufsteiger: Das Karriereportal für Berufsanfänger, Quereinsteiger und die eigene Karriereleiter. Aktuelle Informationen rund um den Beruf.</description>
+<pubDate>Sat, 05 Oct 2013 14:36:25 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:47:02 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/karriere/index</link>
+<atom:link href="http://newsfeed.zeit.de/karriere/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Karriere</title>
+      <link>http://www.zeit.de/karriere/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/karriere/2013-09/quiz-maenner-beruf</link>
+      <guid>http://www.zeit.de/karriere/2013-09/quiz-maenner-beruf</guid>
+      <category>Karriere</category>
+      <title>Wissenstest: Wie gut kennen Sie sich mit erfolgreichen Männern aus?</title>
+      <description>&lt;a href="http://www.zeit.de/karriere/2013-09/quiz-maenner-beruf"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/karriere/2013-09/mann/mann-148x84.jpg"/&gt;&lt;/a&gt; Eine neue Studie hat untersucht, wie deutsche Männer ticken. Wie viele würden für die Familie im Job zurückstecken? Wie viele arbeiten Teilzeit? Testen Sie Ihr Wissen!</description>
+      <dc:creator>ZEIT ONLINE : Karriere - Tina Groll</dc:creator>
+      <pubDate>Mon, 30 Sep 2013 14:04:32 GMT</pubDate>
+    <ExtractedText>Frage 1 von 12
+Wie gut kennen Sie sich mit erfolgreichen Männern aus?
+Für die Analyse Wie tickt der Mann? hat das Institut für Demoskopie  Allensbach 947 Männer und 564 Frauen im  Alter zwischen 18 und 65 Jahren zu ihrem Rollenverständnis befragt. Wie viele Männer sind demnach für eine neue Rollenverteilung zwischen Männern und Frauen?
+20 Prozent
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Gesellschaft</title>
+<description>Menschen in der Gesellschaft. Aktuelles zu Zeitgeschehen, Generationen, Soziales und Bildung.</description>
+<pubDate>Sat, 05 Oct 2013 16:25:07 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:27:53 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/gesellschaft/index</link>
+<atom:link href="http://newsfeed.zeit.de/gesellschaft/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Gesellschaft</title>
+      <link>http://www.zeit.de/gesellschaft/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/2013/41/paedophilie-leonhardt-achtundsechziger</link>
+      <guid>http://www.zeit.de/2013/41/paedophilie-leonhardt-achtundsechziger</guid>
+      <category>Gesellschaft</category>
+      <title>Pädophilie-Thesen in der ZEIT: Womöglich waren wir blind</title>
+      <description>&lt;a href="http://www.zeit.de/2013/41/paedophilie-leonhardt-achtundsechziger"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2013-10/theo-sommer/theo-sommer-148x84.jpg"/&gt;&lt;/a&gt; Der ehemalige ZEIT-Feuilleton-Chef Rudolf Walter Leonhardt provozierte gerne mit Thesen, die nicht haltbar waren. Dennoch hätte die Chefredaktion besser aufpassen müssen.</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft - Theo Sommer</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 06:00:00 GMT</pubDate>
+    <ExtractedText>"Meine Frage an Herrn Sommer ist daher: Warum haben sie banalisierende und rechtfertigende Texte zur Pädophilie unterstützt?"
+Warum unterstützen Sie aktuell den heutigen Zeitgeist?
+Einen Zeitgeist, der eine wirkliche inhaltliche Diskussion, die damals wenigstens versucht worden ist, verurteilt? Warum bedauern Sie heute, damals nicht als Zensor aufgetreten zu sein?
+Was der Geist dieser heutigen Diskussion bewirkt, ist fatal. Es wird eine inhaltliche Diskussion, in der auch Pädophile ihre Argumente präsentieren dürfen, einfach ausgeschlossen.
+Die ist aber heute notwendiger als damals. Denn heute kann man, im Gegensatz zu damals, nicht mehr verhindern, dass sich die Pädophilen im Internet finden und dass sie dort ihre Argumente miteinander austauschen. Die Folge eines Boykottes der Diskussion ihrer Argumente bewirkt also nicht mehr, dass sie keine Rolle spielen weil keiner sie liest. Die Pädophilen finden sie und lesen sie auch. Und wenn die Argumente der pädophilen Ideologen dann vom Mainstream einfach unbeantwortet bleiben, weil man mit Pädophilen eben nicht diskutiert, dann haben die einfach das letzte Wort. Und alle Pädophilen folgen den Ideen, an die diese Ideologen glauben.
+</ExtractedText>
+</item>
+</channel>
+</rss>

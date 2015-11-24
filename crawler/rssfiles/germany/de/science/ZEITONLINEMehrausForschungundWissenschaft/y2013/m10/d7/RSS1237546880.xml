@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Mon, 07 Oct 2013 18:03:55 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:04:42 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/video/2013-10/2725704420001</link>
+      <guid>http://www.zeit.de/video/2013-10/2725704420001</guid>
+      <category>Wissen</category>
+      <title>Militärtechnik: Roboter-Wildkatze schafft 25 Kilometer pro Stunde</title>
+      <description>US-Wissenschaftler von Boston Dynamics haben einen Tier-Roboter entwickelt. Er hat einen lauten Motor und rennt auf freier Strecke täuschend tierähnlich.</description>
+      <dc:creator>ZEIT ONLINE : Wissen</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 09:58:05 GMT</pubDate>
+    <ExtractedText>7. Ohne entsprechende Waffentechnik wird das wohl nichts
+Ja, eine solche Technologie wäre fürwahr ein Fortschritt. Nun sind auch schon Exoskelette im Einsatz, nur nicht für Menschen mit motorischen Einschränkungen, sondern um aus "gesunden Menschen" via Waffentechnologie Menschen mit motorischen Einschränkungen zu machen.
+Ich würde mit meiner Frau auch wieder gerne durch die Wälder laufen. Nur ist Ihr Rollstuhl dafür nicht gemacht.
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Mon, 07 Oct 2013 21:03:33 +0200</pubDate>
+<lastBuildDate>Mon, 07 Oct 2013 21:03:33 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Sotschi 2014: Russland bereitet Groß-Überwachung bei Olympia vor</title>
+<link>http://www.spiegel.de/netzwelt/netzpolitik/russische-netz-ueberwachung-in-sotschi-prism-auf-steroiden-a-926446.html#ref=rss</link>
+<description>Vor den Olympischen Winterspielen in Sotschi erweitert Russlands Geheimdienst seine Überwachungsmöglichkeiten massiv. Laut "Guardian" sollen die Behörden in der Lage sein, "die gesamte Kommunikation bei der Veranstaltung zu überwachen".</description>
+<pubDate>Mon, 07 Oct 2013 12:06:00 +0200</pubDate>
+<guid>http://www.spiegel.de/netzwelt/netzpolitik/russische-netz-ueberwachung-in-sotschi-prism-auf-steroiden-a-926446.html</guid>
+<content:encoded><![CDATA[<img src="http://www.spiegel.de/images/image-438832-thumbsmall-iqdw.jpg" hspace="5" align="left" >Vor den Olympischen Winterspielen in Sotschi erweitert Russlands Geheimdienst seine Überwachungsmöglichkeiten massiv. Laut "Guardian" sollen die Behörden in der Lage sein, "die gesamte Kommunikation bei der Veranstaltung zu überwachen".]]></content:encoded>
+<enclosure type="image/jpeg" url="http://www.spiegel.de/images/image-438832-thumbsmall-iqdw.jpg"/>
+<ExtractedText>Russische Netz-Überwachung in Sotschi: "Prism auf Steroiden"
+Sotschi 2014: Russland bereitet Groß-Überwachung bei Olympia vor
+Vor den Olympischen Winterspielen in Sotschi erweitert Russlands Geheimdienst seine Überwachungsmöglichkeiten massiv. Laut "Guardian" sollen die Behörden in der Lage sein, "die gesamte Kommunikation bei der Veranstaltung zu überwachen".
+Getty Images
+Olympia-Gelände in Sotschi: Totalüberwachung für Athleten und Besucher?
+Moskau - Wenn im Februar 2014 Tausende Athleten und Sportfans aus aller Welt zu den Olympische Winterspielen in die russische Schwarzmeerstadt Sotschi strömen, will sich Russland von seiner besten Seite zeigen, gastfreundlich und modern. Dafür wird - "zum ersten Mal in der Olympischen Geschichte", wie die Organisatoren versprechen - in Hotels und Stadien ein flächendeckendes Funknetz installiert, in das sich Besucher und Sportler kostenfrei einloggen können.
+Vor den Spielen hat aber offenbar auch Russlands Inlandsgeheimdienst FSB seine Überwachungsinfrastruktur massiv modernisiert - und soll laut dem britischen "Guardian" damit in der Lage sein, "die gesamte Kommunikation bei den Winterspielen zu überwachen". Ein Team russischer Journalisten hat Hinweise auf eine Ausweitung russischer Spähprogramme im Umfeld der Spiele zusammengetragen .
+Laut den Journalisten Andrej Soldatow und Irina Borogan - beide zählen zu den angesehensten Moskauer Geheimdienstexperten - treibt der russische FSB die Modernisierung seiner Überwachungstechnik gezielt mit Blick auf die Olympischen Spiele in Sotschi voran. Internetprovider in Südrussland wurden angewiesen, moderne Anlagen des Typs "Omega" zu installieren. Die Geräte ermöglichen dem Geheimdienst Zugriff auf Nutzungsdaten im Rahmen des russischen Spähprogramms Sorm . Mindestens ein Provider sei sogar zu einer Strafzahlung verurteilt worden, weil er nicht das vom FSB empfohlene Überwachungsgerät installiert hatte, berichten Soldatow und Borogan.
+Erinnerungen an NSA-Programm XKeyscore
+Das Programm wurde laut Soldatow bereits vom sowjetischen KGB in den achtziger Jahren entworfen und seitdem weiterentwickelt. Sorm-1 ist in der Lage, Gespräche von Festnetz- und Mobiltelefonen zu überwachen, Sorm-2 überwacht die Internetkommunikation in Russland.
+Für die Überwachung benötigt der Geheimdienst zwar offiziell die Erlaubnis eines Richters. Diese müssen die Beamten aber lediglich ihren eigenen Vorgesetzten vorlegen, nicht aber dem Internetprovider. Zudem ermöglicht das System einen direkten Zugriff auf die Daten von Internetunternehmen. Das FSB-Hauptquartier ist über eine "gesicherte Leitung direkt mit dem Sorm-Gerät des Internetproviders verbunden", sagt Soldatow.
+Eine Art "Prism auf Steroiden" nennt der kanadische IT-Experte Ron Deibert das Programm im "Guardian" , in Anspielung auf die Enthüllungen von NSA-Whistleblower Edward Snowden. Tatsächlich ähnelt die beschriebene Infrastruktur eher dem, was das NSA-Überwachungsprogramm XKeyscore zu leisten imstande ist : Es bietet dem Bericht zufolge die Möglichkeit, den gesamten Internet-Traffic nach bestimmten Suchbegriffen oder -parametern zu scannen und auszuwerten.
+Sorm ermögliche praktisch eine Totalüberwachung, sagt Geheimdienst-Experte Soldatow. "Man kann zum Beispiel das Schlagwort Nawalny benutzen und dann analysieren, wer das Wort Nawalny in einer bestimmten Region benutzt hat. Diese Leute können dann weiter überwacht werden." Alexej Nawalny ist der populärste Oppositionspolitiker in Russland.
+Russland investiert zu diesem Zweck offenbar auch weiter in den Ausbau der sogenannten Deep-Package-Inspection-Technik, kurz DPI. Das geht aus Ausschreibungen russischer Staatsunternehmen hervor. Der staatliche Telefonbetreiber Rostelekom etwa kauft für die Überwachung seiner Mobilfunk-Kunden Technik im Wert von 1,1 Milliarden Rubel, umgerechnet rund 26 Millionen Euro . Die Geräte ermöglichen sogenannte Deep Packet Inspection (DPI). Damit lässt sich jedes Datenpaket eines Internetdatenstroms öffnen und analysieren.
+beb
+</ExtractedText>
+</item>
+</channel>
+</rss>

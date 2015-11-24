@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Lebensart</title>
+<description>Die Lust am Leben: Aktuelle Berichte, Ratgeber und Kolumnen rund um die Themen Mode, Essen, Trinken und Partnerschaft.</description>
+<pubDate>Sat, 05 Oct 2013 16:12:57 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:21 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/lebensart/index</link>
+<atom:link href="http://newsfeed.zeit.de/lebensart/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Lebensart</title>
+      <link>http://www.zeit.de/lebensart/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/lebensart/2013-09/fs-ashley-cox-philippa-tocker-freunde-von-freunden-2</link>
+      <guid>http://www.zeit.de/lebensart/2013-09/fs-ashley-cox-philippa-tocker-freunde-von-freunden-2</guid>
+      <category>Lebensart</category>
+      <title>Freunde von Freunden: Das Haus auf dem grünen Hügel</title>
+      <description>&lt;a href="http://www.zeit.de/lebensart/2013-09/fs-ashley-cox-philippa-tocker-freunde-von-freunden-2"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/lebensart/2013-09/fs-ashley-cox-philippa-tocker-freunde-von-freunden-teaser/fs-ashley-cox-philippa-tocker-freunde-von-freunden-teaser-148x84.jpg"/&gt;&lt;/a&gt; Die Neuseeländer Phillipa Tocker und Ashley Cox mögen ihr Zuhause graphisch und grün. Das Wohnblog "Freunde von Freunden" hat das Paar in seiner gemütlichen Oase besucht.</description>
+      <dc:creator>ZEIT ONLINE : Lebensart</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 07:46:54 GMT</pubDate>
+    <ExtractedText>1 von 26 Zurück Vorwärts
+Serie Freunde von Freunden:
+© Mary Gaudin für Freunde von Freunden
+Mehr als 200 Pflanzenarten wachsen im und um das Haus von Phillipa Tocker und Ashley Cox in Karori, einer auf Hügeln gebetteten Vorstadt von Wellington. Der Architekt und die Museumsleiterin mögen das Unfertige, das lebendige Durcheinander in ihrem Flachdachhaus. Esoterik-Magazine liegen neben gesammelten Steinen, Architektur-Modelle besiedeln Bücherregale und graphische Poster zieren die Wände. Und immer steht irgendwo ein Kaktus, eine Aloe vera oder ein Bambus. Mehr über die Projekte des kreativen Paars erfahren Sie bei Freunde von Freunden .
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

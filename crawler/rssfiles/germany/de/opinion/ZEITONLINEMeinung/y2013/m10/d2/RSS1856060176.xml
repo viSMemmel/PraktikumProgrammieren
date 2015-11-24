@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Meinung</title>
+<description>Autoren der ZEIT und von ZEIT ONLINE kommentieren aktuelle Ereignisse aus Politik, Wirtschaft, Gesellschaft und Medien.</description>
+<pubDate>Thu, 03 Oct 2013 11:10:24 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:49:58 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/meinung/index</link>
+<atom:link href="http://newsfeed.zeit.de/meinung/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Meinung</title>
+      <link>http://www.zeit.de/meinung/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/2013/41/klimaforschung-gewissheit-kommentar</link>
+      <guid>http://www.zeit.de/2013/41/klimaforschung-gewissheit-kommentar</guid>
+      <category>Wissen</category>
+      <title>Weltklimabericht 2013: Klimaforscher dürfen debattieren, Politiker müssen handeln</title>
+      <description>&lt;a href="http://www.zeit.de/2013/41/klimaforschung-gewissheit-kommentar"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wissen/umwelt/2013-10/oxfam-klimawandel-protest/oxfam-klimawandel-protest-148x84.jpg"/&gt;&lt;/a&gt; Beim Klima gibt es keine Gewissheit. Das zeigt einmal mehr der jüngste IPCC-Bericht. Doch für die Regierungen der Welt darf das keine Ausrede sein. Sie müssen handeln.</description>
+      <dc:creator>ZEIT ONLINE : Wissen - Stefan Schmitt</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 06:00:00 GMT</pubDate>
+    <ExtractedText>Klimawandel: Immer noch nicht widerlegt
+Auch beim Klima: Gewissheit gibt es nicht – das ist keine Ausrede. Von  Stefan Schmitt
+2. Oktober 2013  10:31 Uhr  102 Kommentare
+Mitglieder der Organisation Oxfam tragen zum Protest gegen den Klimawandel Masken einstiger Staatsoberhäupter.  |  © AFP/Getty Images
+Sir Karl Popper schaute weniger auf den Inhalt als auf die Gestalt. Für alle, die ihn nicht kennen: Popper war kein Designer, sondern Philosoph. Aber er dachte über das Design von Wissenschaft nach, über Forschungsfragen und Erkenntnisgewinn. Und damit sind wir beim Klimawandel .
+Popper hat das wichtigste Kriterium für die empirische Naturwissenschaft formuliert, Falsifizierbarkeit: "Eine wissenschaftliche Hypothese (lässt sich) zwar niemals erweisen, wohl aber, wenn sie falsch ist, widerlegen" – nur was so formuliert wird, dass es als falsch entlarvt werden kann, ist wissenschaftlich von Wert.
+Anzeige
+Für Forscher bedeutet das: Sie müssen stets danach streben, vorherige Ergebnisse zu widerlegen, also zu falsifizieren. Für uns alle heißt es: Auch wenn eine Hypothese nie bewiesen werden kann, nie als letztendlich wahr gelten wird, kann man sich ihrer doch unsicherer oder sicherer sein. Umso mehr, je hartnäckiger sie Falsifikationsversuchen trotzt. Und damit sind wir beim jüngsten Bericht des Weltklimarats .
+IPCC-Bericht
+Der Sachstandsbericht des Weltklimarates IPCC ist in drei Teile gegliedert. Der jetzt erschienene Teil der Arbeitsgruppe 1 fasst den aktuellen Kenntnisstand über die wissenschaftlichen Grundlagen des Klimawandels zusammen.
+Die zweite Arbeitsgruppe, deren Bericht im März 2014 erscheinen soll, befasst sich mit den Auswirkungen des Klimawandels und der Anpassung daran. Der dritte Teil des Berichts erscheint im April 2014 und behandelt mögliche Maßnahmen zum Klimaschutz.
+Vorhersage-Wahrscheinlichkeit
+Zu jeder Aussage im ersten Teil des Klimaberichts geben die Autoren an, wie wahrscheinlich es ist, dass sie eintrifft (zum Beispiel mit dem Begriff "likely") und wie zuverlässig diese Einschätzung ist ("low", "medium" oder "high confidence"). Den IPCC-Autoren ist es nur dann erlaubt, eine Wahrscheinlichkeit für eine Aussage anzugeben, wenn sie das mit einer hohen Zuverlässigkeit sagen können ("high confidence") – oder in Ausnahmefällen.
+Virtually certain: 99 - 100 Prozent (Wahrscheinlichkeit des Eintretens)
+extremely likely: 95 - 100 Prozent
+Very likely: 90 - 100 Prozent
+Likely: 66 - 100 Prozent
+more likely than not: mehr als 50 - 100 Prozent
+About as likely as not: 33 - 66 Prozent
+Unlikely: 0 - 33 Prozent
+Very unlikely: 0 - 10 Prozent
+extremely unlikely: 0 - 5 Prozent
+Exceptionally unlikely: 0 - 1 Prozent
+Diese Vereinheitlichung hat nicht nur Vorteile: "Der IPCC nutzt eine sehr exakte Sprache, indem er prozentuale Wahrscheinlichkeiten mit festgelegten Begriffen wie 'very likely' ausdrückt. Das ist für die innere Konsistenz des Berichtes erst einmal sinnvoll, aber birgt auch die Gefahr einer Scheinobjektivität: Gerade die Übergänge zwischen den einzelnen Kategorien sind schwierig. Man kann nicht immer genau einschätzen, ob eine Aussage zu 95 Prozent wahrscheinlich und damit "extremely likely" ist – oder zu 94 Prozent und damit 'very likely'“, sagt Mike Schäfer, Professor für Wissenschafts-, Krisen- und Risikokommunikation an der Universität Zürich.
+Visualisierung
+Jeder Bericht besteht aus mehreren Kapiteln, wobei jedes Kapitel aus dem Hauptteil und einer Zusammenfassung besteht. In letzterer stehen die Kernaussagen des Kapitels mit der Angabe, wie wahrscheinlich es ist, dass sie sich bewahrheiten.
+Für die Visualisierung wurden daher die jeweiligen Zusammenfassungen verwendet und mit der Browser-Anwendung Wordle in Wortwolken dargestellt.
+ 
+Mit folgender Häufigkeit wurden die einzelnen Begriffe genannt:
+High confidence: 96 Nennungen
+</ExtractedText>
+</item>
+</channel>
+</rss>

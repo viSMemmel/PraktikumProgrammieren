@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Wirtschaft</title>
+<description>Aktuelle Nachrichten, Kommentare, Analysen und Hintergründe zu den Themen Wirtschaftspolitik, Finanzen, Unternehmen, Branchen, Börsen und Märkten</description>
+<pubDate>Sat, 05 Oct 2013 09:33:16 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:46:14 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wirtschaft/index</link>
+<atom:link href="http://newsfeed.zeit.de/wirtschaft/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Wirtschaft</title>
+      <link>http://www.zeit.de/wirtschaft/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/wirtschaft/2013-10/welt-in-zahlen</link>
+      <guid>http://www.zeit.de/wirtschaft/2013-10/welt-in-zahlen</guid>
+      <category>Wirtschaft</category>
+      <title>Die Welt in Zahlen: Ikea-Katalog sticht Bibel</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2013-10/welt-in-zahlen"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2013-10/ikea/ikea-148x84.jpg"/&gt;&lt;/a&gt; Wie hoch ist die Auflage des Ikea-Katalogs? Wie viele Frauen wünschen sich einen Kaiserschnitt? Antwort auf diese und andere Fragen gibt die Kolumne "Die Welt in Zahlen".</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft</dc:creator>
+      <pubDate>Fri, 04 Oct 2013 06:07:42 GMT</pubDate>
+    <ExtractedText>Anteil der erneuerbaren Energien an der weltweiten Versorgung 1971, in Prozent13,1
+Anteil der erneuerbaren Energien an der weltweiten Versorgung 2011, in Prozent13
+Zahl der URLs, deren Löschung 2012 im Kampf gegen Internet-Piraterie beantragt wurden, in Millionen55,2
+Zahl der URLs, deren Löschung im ersten Halbjahr 2013 im Kampf gegen Internet-Piraterie beantragt wurden, in Millionen110,2
+Kosten, die der mexikanische Mineralölkonzern Pemex für jedes geförderte Fass Rohöl aufbringt, in Dollar7
+Preis, für die der mexikanische Mineralölkonzern Pemex jedes geförderte Fass Rohöl verkauft, in Dollar100
+Verlust, den der mexikanische Mineralölkonzern in den vergangenen fünf Jahren gemacht hat, in Dollar29 000 000 000
+Anteil der Analphabeten über 14 Jahren in Deutschland, in Prozent0,7
+Anteil der Analphabeten über 14 Jahren in der Tschechischen Republik, in Prozent0,01
+Auflagenzahl des Ikea-Katalogs 2013 weltweit, in Millionen211
+Geschätzte Auflagenzahl der Bibel pro Jahr weltweit, in Millionen29
+Zahl der Sprachen, in denen der Ikea-Katalog erschienen ist29
+Geschätzte Zahl der Sprachen, in denen die Bibel vollständig erschienen ist484
+Anteil der Krankenhausentbindungen in Deutschland per Kaiserschnitt 1991, in Prozent16
+Anteil der Krankenhausentbindungen in Deutschland per Kaiserschnitt 2011, in Prozent32
+Anteil der deutschen Schwangeren, die von vornherein einen Kaiserschnitt wünschen, in Prozent2
+Durchschnittliche Summe, die ein deutsches Krankenhaus heute für eine Normalgeburt abrechnet, in Euro1870
+Durchschnittliche Summe, die ein deutsches Krankenhaus heute für einen Kaiserschnitt abrechnet, in Euro3936
+Anteil der Deutschen, die Ratschläge zu gesunder Ernährung aus der Presse annehmen, in Prozent37
+Anteil der Deutschen, die Ratschläge zu gesunder Ernährung von ihrem Arzt annehmen, in Prozent19
+Anteil der Deutschen, die Ratschläge zu gesunder Ernährung von ihrer Krankenkasse annehmen, in Prozent7
+Zinssatz, zu dem sich Geschäftsbanken in Europa im Frühjahr 2013 bei der Notenbank Geld besorgen konnten, in Prozent0,5
+Zinssatz, zu dem Unternehmen im Frühjahr 2013 in Deutschland Kredite bekamen, in Prozent1,9
+Zinssatz, zu dem Unternehmen im Frühjahr 2013 in Griechenland Kredite bekamen, in Prozent6,4
+© brand eins
+Die Zahlen stammen aus der Kolumne Die Welt in Zahlen des Wirtschaftsmagazins brand eins (10/2013).
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

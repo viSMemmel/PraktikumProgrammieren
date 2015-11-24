@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Studium</title>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<pubDate>Tue, 15 Oct 2013 18:21:47 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:07:44 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/studium/index</link>
+<atom:link href="http://newsfeed.zeit.de/studium/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Studium</title>
+      <link>http://www.zeit.de/studium/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/studium/hochschule/2013-10/semesterbeginn-studienanfaenger-tipps</link>
+      <guid>http://www.zeit.de/studium/hochschule/2013-10/semesterbeginn-studienanfaenger-tipps</guid>
+      <category>Studium</category>
+      <title>Semesterbeginn: Ratgeber für Erstsemester</title>
+      <description>&lt;a href="http://www.zeit.de/studium/hochschule/2013-10/semesterbeginn-studienanfaenger-tipps"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/studium/hochschule/2013-10/studenten-hoersaal/studenten-hoersaal-148x84.jpg"/&gt;&lt;/a&gt; Wer sind meine Ansprechpartner? Wie organisiere ich mein Studium? Und wie finanziere ich das alles? Wir beantworten die wichtigsten Fragen für Studienanfänger.</description>
+      <dc:creator>ZEIT ONLINE : Studium - Kristin Schmidt, Lin Freitag</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 11:04:42 GMT</pubDate>
+    <ExtractedText>Semesterbeginn: Ratgeber für Erstsemester
+Semesterbeginn: Ratgeber für Erstsemester
+Wer sind meine Ansprechpartner? Wie organisiere ich mein Studium? Und wie finanziere ich das alles? Wir beantworten die wichtigsten Fragen für Studienanfänger. von Kristin Schmidt und Lin Freitag
+15. Oktober 2013  13:03 Uhr  12 Kommentare
+Die Universität ist ein Kosmos mit eigenen Regeln und Gesetzen. Sie zu verstehen, ist gerade für Studienanfänger nicht leicht. Anders als in der Schule gibt es niemanden, der sich um einen kümmert. Das gilt für die Studienorganisation und fürs Studieren selbst. Was lerne ich? Und wann? Dafür ist man plötzlich allein verantwortlich. Außerdem muss man sehen, dass einem das Geld nicht ausgeht.
+Diese Informationen und Tipps sollen Studienanfängern helfen, gut durch die ersten Wochen zu kommen.
+Anzeige
+Wer ist wofür zuständig?
+Das Deutsche Studentenwerk ist der Dachverband aller 58 Studentenwerke in Deutschland. Die Einrichtungen betreiben Mensen und Cafeterien, kümmern sich um die Verwaltung und den Betrieb der Studentenwohnheime sowie die Studienfinanzierung durch das Bafög.
+Das Studierendensekretariat bearbeitet Themen rund um die Zulassung, Einschreibung, Rückmeldung, Beurlaubung, Krankenversicherung und den Studienplatztausch.
+Die Studienberatung hilft bei Fragen rund um die Prüfungs- und Studienordnungen und Zulassungsbeschränkungen. Die Mitarbeiter geben ebenfalls Tipps für die Prüfungsvorbereitung oder bei Problemen in den ersten Semestern. Fragen zum eigenen Studiengang beantwortet die Fachstudienberatung.
+Prüfungsstress, Beziehungskrise oder Lernblockade: Bei solchen Problemen hilft die psychologische Beratung der Hochschule. An vielen Universitäten gibt es außerdem eine Rechtsberatung, in der Juristen für wenig Geld oder auch kostenlos rechtlichen Beistand anbieten. Dieses Angebot ist für eine erste Einschätzung der Rechtslage geeignet.
+Der Allgemeine Studierendenausschuss (Asta) vertritt die Interessen der Studenten gegenüber der Universität. Dazu zählen fachliche Themen genauso wie die wirtschaftlichen und sozialen Interessen der Studenten. Der Asta bietet meist auch Rechts- und Sozialberatung und Hilfe bei der Wohnungs- und Arbeitsvermittlung.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

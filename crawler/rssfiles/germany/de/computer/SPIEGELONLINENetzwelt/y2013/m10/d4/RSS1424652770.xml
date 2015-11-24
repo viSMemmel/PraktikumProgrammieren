@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Sat, 05 Oct 2013 18:33:12 +0200</pubDate>
+<lastBuildDate>Sat, 05 Oct 2013 18:33:12 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Software-Hersteller: Kriminelle erbeuten Daten von 2,9 Millionen Adobe-Kunden </title>
+<link>http://www.spiegel.de/netzwelt/web/adobe-kriminelle-erlangen-kreditkartendaten-und-quellcode-a-926039.html#ref=rss</link>
+<description>Quellcode, Passwörter, Kreditkartendaten: Hacker sind bei einem Angriff auf den Software-Hersteller Adobe an wertvolle Daten gelangt. Obwohl der US-Konzern davon ausgeht, dass alle Kreditkartendaten verschlüsselt waren, rät Adobe den betroffenen Kunden zu Sicherheitsmaßnahmen.</description>
+<pubDate>Fri, 04 Oct 2013 11:24:00 +0200</pubDate>
+<guid>http://www.spiegel.de/netzwelt/web/adobe-kriminelle-erlangen-kreditkartendaten-und-quellcode-a-926039.html</guid>
+<content:encoded><![CDATA[Quellcode, Passwörter, Kreditkartendaten: Hacker sind bei einem Angriff auf den Software-Hersteller Adobe an wertvolle Daten gelangt. Obwohl der US-Konzern davon ausgeht, dass alle Kreditkartendaten verschlüsselt waren, rät Adobe den betroffenen Kunden zu Sicherheitsmaßnahmen.]]></content:encoded>
+<ExtractedText>Adobe: Kriminelle erlangen Kreditkartendaten und Quellcode
+Software-Hersteller: Kriminelle erbeuten Daten von 2,9 Millionen Adobe-Kunden 
+Adobe-Website (Screenshot): Es geht um Passwörter und Kreditkartendaten
+Quellcode, Passwörter, Kreditkartendaten: Hacker sind bei einem Angriff auf den Software-Hersteller Adobe an wertvolle Daten gelangt. Obwohl der US-Konzern davon ausgeht, dass alle Kreditkartendaten verschlüsselt waren, rät Adobe den betroffenen Kunden zu Sicherheitsmaßnahmen.
+Der amerikanische Software-Konzern Adobe ist Opfer eines massiven Angriffs geworden. Hacker sind in das Netzwerk der Software-Schmiede eingedrungen und an die Nutzerdaten von knapp drei Millionen Kunden gekommen. Offenbar kopierten die Angreifer auch Quellcode "zahlreicher Adobe-Produkte", wie der Konzern am Donnerstag auf seinem Blog mitteilte . Adobe ist vor allem für seine Kreativ-Software wie beispielsweise das Videoschnittprogramm Premiere und das Bildbearbeitungsprogramm Photoshop bekannt.
+Das Sicherheitsteam bei Adobe spricht von "ausgeklügelten Attacken" auf das Firmennetzwerk. Bei dem Angriff seien unter anderem die Namen und Passwörter von 2,9 Millionen Kunden ausgelesen worden, außerdem Kreditkartennummern inklusive Ablaufdatum. "Wir bedauern sehr, dass dieser Zwischenfall passiert ist", schreibt der Sicherheitschef Brad Arkin in dem Blog-Beitrag. Und versucht, die Kunden zu beruhigen: Er gehe davon aus, dass die Hacker nur verschlüsselte Kreditkarteninformationen bekommen haben.
+Richtig überzeugt ist man davon bei Adobe aber offenbar nicht. In der Mitteilung an die Mitglieder schreibt Arkin, man arbeite daran, alle Nutzer ausfindig zu machen, deren Kreditkartendaten ausgelesen worden sind. Diese Mitglieder bekommen eine Nachricht mit Tipps, "um sich selbst gegen möglichen Missbrauch persönlicher Informationen zu schützen".
+Sicherheitstipps für die Nutzer
+Die Passwörter der betroffenen Nutzer setzt Adobe automatisch zurück. Auf einer eigens dafür eingerichteten Website erklärt das Unternehmen den Kunden, wie sie ein neues Passwort anlegen können. Und rät Nutzern, die auf anderen Seiten die gleichen Zugangsdaten benutzen, auch dort das Passwort zu ändern.
+Bereits vor einer Woche hatte der Journalist Brian Krebs die Mitarbeiter bei Adobe über den möglichen Angriff informiert. Krebs hatte ein 40 Gigabyte großes Datenpaket auf einem Server entdeckt, das er als Quellcode einiger Adobe-Programme identifizierte. Darunter waren zum Beispiel die Datenbankanwendung Cold Fusion und das PDF-Programm Acrobat. Brian Krebs ist misstrauisch geworden, weil auf dem Server schon häufiger die Daten von Hackerangriffen entdeckt wurden.
+Nachdem Krebs sich mit seinem Datenfund an Adobe gewandt hatte, teilte der Konzern mit, man untersuche bereits seit Mitte September einen weitreichenden Einbruch in das Firmennetzwerk. Demnach konnten die Angreifer bereits Mitte August auf die Daten zugreifen.
+jbr
+</ExtractedText>
+</item>
+</channel>
+</rss>

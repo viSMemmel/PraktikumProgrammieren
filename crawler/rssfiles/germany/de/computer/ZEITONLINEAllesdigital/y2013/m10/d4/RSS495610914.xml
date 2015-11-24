@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/gchq-belgacom-spionage-eu</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/gchq-belgacom-spionage-eu</guid>
+      <category>Digital</category>
+      <title>Belgacom: GCHQ verweigert EU Auskunft über Abhöraktion</title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/gchq-belgacom-spionage-eu"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/belgacom/belgacom-148x84.jpg"/&gt;&lt;/a&gt; Das EU-Parlament möchte eine Spähaffäre aufklären. Aber weder der Verursacher, der britische Geheimdienst, noch das Opfer, der Telefonanbieter Belgacom, helfen dabei.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Marin Majica</dc:creator>
+      <pubDate>Fri, 04 Oct 2013 09:25:10 GMT</pubDate>
+    <ExtractedText>Games
+Belgacom: GCHQ verweigert EU Auskunft über Abhöraktion
+Das EU-Parlament möchte eine Spähaffäre aufklären. Aber weder der Verursacher, der britische Geheimdienst, noch das Opfer, der Telefonanbieter Belgacom, helfen dabei. Von  Marin Majica
+4. Oktober 2013  11:23 Uhr  15 Kommentare
+Belgacom-Zentrale in Brüssel  |  © BRUNO FAHY/AFP/Getty Images
+Der Vorgang, mit dem sich der Innenausschuss des EU-Parlaments in Brüssel am Donnerstagabend zu befassen hatte, ähnelt einer kriegerischen Attacke. "Ein Cyberangriff, wie bei einem Grenzzwischenfall, ein Eingriff in die Souveränität eines Landes", nennt es der grüne Europaabgeordnete Jan Philipp Albrecht. Ein Angriff auf jeden Fall, der offenbar so massiv und raffiniert war, dass ihm kein Unternehmen hätte standhalten können.
+So schilderte es zumindest Dirk Lybaert den Abgeordneten. Lybaert ist Generalsekretär des Telekommunikationskonzerns Belgacom, dem größten in Belgien. Seinem Unternehmen galt der Angriff. Direkt zumindest. Indirekt könnten auch die EU-Parlamentarier und die Nato davon betroffen sein: Viele europäische Institutionen sind Kunden bei Belgacom.
+Anzeige
+Und auch der Angreifer dürfte den Abgeordneten verblüffend vertraut sein: Ausgeführt wurde die Operation wohl durch den britischen Geheimdienst GCHQ.
+Digitale Scharmützel in Europa also? Zur Klärung der Frage, ob diese Vorwürfe zutreffen, sollte sich am Donnerstag vor dem Ausschuss in Brüssel auch Iain Lobban äußern, Direktor des britischen Geheimdienstes GCHQ. Sein Stuhl blieb jedoch leer. Zuvor hatte der britische Botschafter bei der EU in einem Brief dargelegt, dass britische Geheimdienstangelegenheiten die EU nichts angingen. Der GCHQ halte sich stets an alle Gesetze, so die Mitteilung des Botschafters.
+Aufwändiger Angriff
+Dementsprechend mangelte es dem Innenausschuss ein wenig an belastbaren Zeugen, die hätten aufklären können, was wirklich vorgefallen ist. Die Vertreter von Belgacom schienen dazu nur bedingt gewillt und in der Lage, ob nun aus technischen, unternehmerischen oder politischen Gründen.
+Die Enthüllungen des Edward Snowden
+Edward Snowden war Systemadministrator, angestellt bei einer privaten Firma und von dieser an den amerikanischen Geheimdienst NSA ausgeliehen. In dieser Position sah er viel und was er sah, beunruhigte ihn. Mehr als 50.000 Dokumente soll er von den Servern der NSA heruntergeladen haben. Im Juni 2013 begann er, der Öffentlichkeit zu berichten, wie sie im Internet überwacht und ausgespäht wird. Ein Überblick über seine Enthüllungen:
+</ExtractedText>
+</item>
+</channel>
+</rss>

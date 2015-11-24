@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Karriere</title>
+<description>Für Ein-, Um- und Aufsteiger: Das Karriereportal für Berufsanfänger, Quereinsteiger und die eigene Karriereleiter. Aktuelle Informationen rund um den Beruf.</description>
+<pubDate>Sat, 05 Oct 2013 14:36:25 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:47:02 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/karriere/index</link>
+<atom:link href="http://newsfeed.zeit.de/karriere/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Karriere</title>
+      <link>http://www.zeit.de/karriere/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/karriere/2013-09/fs-mallorca-glasblaeser</link>
+      <guid>http://www.zeit.de/karriere/2013-09/fs-mallorca-glasblaeser</guid>
+      <category>Karriere</category>
+      <title>Handwerk: Glasblasen für die Royals</title>
+      <description>&lt;a href="http://www.zeit.de/karriere/2013-09/fs-mallorca-glasblaeser"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/karriere/2013-09/fs-mallorca-glasblaeser-teaser/fs-mallorca-glasblaeser-teaser-148x84.jpg"/&gt;&lt;/a&gt; Seit 1719 stellt die Familie Gordiola auf Mallorca Glaskunst von Hand her. Das britische Königshaus und unzählige Luxushotels ordern Stücke von hier. Wir zeigen Bilder.</description>
+      <dc:creator>ZEIT ONLINE : Karriere</dc:creator>
+      <pubDate>Sat, 28 Sep 2013 10:44:53 GMT</pubDate>
+    <ExtractedText>1 von 13 Zurück Vorwärts
+Handwerk:
+Glasblasen für die Royals
+© Carlos Alvarez/Getty Images
+Seit fast 300 Jahren betreibt die Familie Gordiola auf der spanischen Insel Mallorca eine Glasbläserei . Heute hat die Firma ihren Sitz in Algaida. Nicht mehr nur Familienmitglieder arbeiten in dem Traditionsbetrieb mit: Das Familienunternehmen beschäftigt zehn Angestellte. Gut 27.000 wertvolle Stücke stellen sie im Jahr her. Gefragt sind die bunten Gläser, Vasen und Gefäße nicht nur bei Touristen. Auch viele Luxushotels ordern Weingläser hier und auch die britische Königsfamilie hat in der Glasbläserei schon Stücke gekauft.
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

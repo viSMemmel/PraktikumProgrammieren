@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Wed, 16 Oct 2013 07:59:48 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 10:12:51 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/2013-10/fs-friedrichstadtpalast-trafo-ddr-elektronik</link>
+      <guid>http://www.zeit.de/digital/2013-10/fs-friedrichstadtpalast-trafo-ddr-elektronik</guid>
+      <category>Digital</category>
+      <title>Fotos aus dem Friedrichstadt-Palast: Jetzt tanzen alle Puppen, macht auf der Bühne Licht ...</title>
+      <description>&lt;a href="http://www.zeit.de/digital/2013-10/fs-friedrichstadtpalast-trafo-ddr-elektronik"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/2013-10/fs-friedrichstadtpalast-trafo-ddr-elektronik-teaser/fs-friedrichstadtpalast-trafo-ddr-elektronik-teaser-148x84.jpg"/&gt;&lt;/a&gt; Mächtige Trafos versorgten den Friedrichstadt-Palast 30 Jahre lang mit Strom und ließen die Bühne erstrahlen. Ein letzter Blick auf die DDR-Technik, die nun ersetzt wird.</description>
+      <dc:creator>ZEIT ONLINE : Digital</dc:creator>
+      <pubDate>Wed, 16 Oct 2013 07:54:37 GMT</pubDate>
+    <ExtractedText>1 von 10 Zurück Vorwärts
+Fotos aus dem Friedrichstadt-Palast:
+Jetzt tanzen alle Puppen, macht auf der Bühne Licht ...
+Der Energieverbrauch des Friedrichstadt-Palasts ist gewaltig. Das Haus hat deshalb eine eigene elektrotechnische Versorgungsanlage im Keller. Über 100 Kilometer Kabel wurden hier vor der Eröffnung am 27. April 1984 verlegt, mehrere Hundert Schalter seitdem vom Personal bedient.  |           © Steven Coppenbarger/Friedrichstadt-Palast
+Die Trafostation wird ausgebaut, verschrottet und durch eine moderne Anlage ersetzt. Bevor es soweit ist, hat der US-Fotograf Steven Coppenbarger einen letzten Blick in den Keller des Show-Palasts geworfen. Was er dort dokumentiert hat, dürfte kaum ein Besucher des Friedrichstadt-Palasts je gesehen haben.
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

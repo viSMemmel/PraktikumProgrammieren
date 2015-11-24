@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/greenwald-snowden-reddit</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/greenwald-snowden-reddit</guid>
+      <category>Digital</category>
+      <title>NSA-Affäre: Greenwald verspricht weitere Snowden-Überraschungen</title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/greenwald-snowden-reddit"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/glenn-greenwald/glenn-greenwald-148x84.jpg"/&gt;&lt;/a&gt; Journalist Glenn Greenwald versichert, dass die Dokumente des Whistleblowers Edward Snowden sicher verwahrt seien. Und dass noch viel Interessantes in ihnen stehe.</description>
+      <dc:creator>ZEIT ONLINE : Digital</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 14:43:41 GMT</pubDate>
+    <ExtractedText>Games
+NSA-Affäre: Greenwald verspricht weitere Snowden-Überraschungen
+Journalist Glenn Greenwald versichert, dass die Dokumente des Whistleblowers Edward Snowden sicher verwahrt seien. Und dass noch viel Interessantes in ihnen stehe.
+2. Oktober 2013  16:42 Uhr  25 Kommentare
+Glenn Greenwald  |  © REUTERS/Sergio Moraes
+Die Dokumente des Informanten Edward Snowden halten laut seinem Vertrauten Glenn Greenwald noch viele Überraschungen bereit. Ein Großteil der Unterlagen müsse erst noch veröffentlicht werden, schrieb der Journalist des britischen Guardian bei Reddit. Auf der Plattform konnten ihm Leser am Dienstagabend Fragen stellen. In dem neunzig Minuten dauerndem Chat kamen mehr als 500 Fragen zusammen .
+Auf der ganzen Welt werteten viele Menschen jeden Tag die Unterlagen nach und nach aus, schrieb Greenwald. Er zeigte auch Grenzen für die Veröffentlichung der Geheimunterlagen auf: "Ich persönlich würde keine Dokumente veröffentlichen, die anderen Staaten Wege aufzeigen, wie sie ihre Bürger besser ausspionieren können." Außerdem würde er keine Namen von Geheimagenten publizieren.
+Anzeige
+Snowden hatte sich mit seinen Informationen an Greenwald und die Dokumentarfilmerin Laura Poitras gewandt . Seitdem arbeiten die Journalisten mit dem ehemaligen Geheimdienstmitarbeiter zusammen.
+Auf die Frage, warum Greenwald die Dokumente nicht auf einen Schlag publiziert habe, antwortete er: "Es wäre strategisch dumm, das zu tun." Die Menschen hätten so viele Informationen auf einmal unmöglich verarbeiten können. Es gebe eine Vereinbarung mit Snowden, die Informationen schrittweise zu veröffentlichen.
+Die Enthüllungen des Edward Snowden
+Edward Snowden war Systemadministrator, angestellt bei einer privaten Firma und von dieser an den amerikanischen Geheimdienst NSA ausgeliehen. In dieser Position sah er viel und was er sah, beunruhigte ihn. Mehr als 50.000 Dokumente soll er von den Servern der NSA heruntergeladen haben. Im Juni 2013 begann er, der Öffentlichkeit zu berichten, wie sie im Internet überwacht und ausgespäht wird. Ein Überblick über seine Enthüllungen:
+</ExtractedText>
+</item>
+</channel>
+</rss>

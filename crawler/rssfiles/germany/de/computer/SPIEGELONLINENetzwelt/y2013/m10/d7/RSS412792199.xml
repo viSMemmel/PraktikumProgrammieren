@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Mon, 07 Oct 2013 21:03:33 +0200</pubDate>
+<lastBuildDate>Mon, 07 Oct 2013 21:03:33 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Vorwurf der Wirtschaftsspionage: Kanada und NSA spähen Brasiliens Energieministerium aus</title>
+<link>http://www.spiegel.de/netzwelt/netzpolitik/nsa-programm-olympia-so-vernetzen-us-agenten-weltweit-ueberwachungssysteme-a-926564.html#ref=rss</link>
+<description>Kontaktnetze, Gerätetypen und geeignete Zugriffspunkte: Der kanadische Geheimdienst CSEC hat neuen Enthüllungen aus dem Fundus von Edward Snowden zufolge das Energieministerium Brasiliens ausgespäht - in Kooperation mit der NSA. Brasiliens Führung vermutet Wirtschaftsspionage.</description>
+<pubDate>Mon, 07 Oct 2013 19:13:00 +0200</pubDate>
+<guid>http://www.spiegel.de/netzwelt/netzpolitik/nsa-programm-olympia-so-vernetzen-us-agenten-weltweit-ueberwachungssysteme-a-926564.html</guid>
+<content:encoded><![CDATA[<img src="http://www.spiegel.de/images/image-553798-thumbsmall-uocc.jpg" hspace="5" align="left" >Kontaktnetze, Gerätetypen und geeignete Zugriffspunkte: Der kanadische Geheimdienst CSEC hat neuen Enthüllungen aus dem Fundus von Edward Snowden zufolge das Energieministerium Brasiliens ausgespäht - in Kooperation mit der NSA. Brasiliens Führung vermutet Wirtschaftsspionage.]]></content:encoded>
+<enclosure type="image/jpeg" url="http://www.spiegel.de/images/image-553798-thumbsmall-uocc.jpg"/>
+<ExtractedText>NSA-Programm Olympia: So vernetzen US-Agenten weltweit Überwachungssysteme
+Vorwurf der Wirtschaftsspionage: Kanada und NSA spähen Brasiliens Energieministerium aus
+REUTERS
+Brasilianischer Energieminister Edison Lobão: "Gravierende, zu verurteilende Tatsache"
+Kontaktnetze, Gerätetypen und geeignete Zugriffspunkte: Der kanadische Geheimdienst CSEC hat neuen Enthüllungen aus dem Fundus von Edward Snowden zufolge das Energieministerium Brasiliens ausgespäht - in Kooperation mit der NSA. Brasiliens Führung vermutet Wirtschaftsspionage.
+Brasília - Der kanadische Geheimdienst CSEC hat einem brasilianischen TV-Bericht zufolge gezielt die Kommunikation des Bergbau- und Energieministeriums in Brasilien ausgespäht. Mit einem Programm namens "Olympia" seien E-Mails, Website-Aufrufe, Telefonate, Handy-Nummern und sogar von Zielpersonen benutzte Handy-Modelle registriert worden, berichteten Glenn Greenwald und Sônia Bridi im Programm " Fantástico " des Senders Globo. Sie berufen sich auf Unterlagen des ehemaligen NSA-Vertragsarbeiters Edward Snowden .
+Die Präsentation, aus der der Sender zitiert, wurde laut TV Globo im Juni 2013 bei einem Geheimdiensttreffen der sogenannten Five Eyes gezeigt, der Allianz der Spione der USA, Großbritanniens, Kanadas, Australiens und Neuseelands. Edward Snowden hatte dem Bericht zufolge selbst an dieser Konferenz teilgenommen. Aus den von ihm enthüllten Unterlegen gehen Details über ein Programm namens "Olympia" hervor.
+Diese Software ermöglicht es offenbar, Kommunikationsnetzwerke über Kontinente hinweg zu erfassen und zu überwachen. Die von Globo enthüllten Dokumente zeigen, wozu "Olympia" von den kooperierenden Geheimdiensten genutzt wird:
+Komplette Kommunikationsnetzwerke kartieren: Das Programm wertet aus, mit welchen Anschlüssen weltweit von einer bestimmten Stelle aus kommuniziert wird. Als konkretes Beispiel ist in den Dokumenten das brasilianische Energieministerium genannt. Eine Folie zeigt, mit welchen Nummern vom Ministerium aus besonders oft telefoniert wird.
+Details zu Kontakten erfassen: Das "Olympia"-System zeigt Telefonnummern und die Kontakte, mit denen von den betreffenden Nummern aus telefoniert wird, säuberlich sortiert nach Providern, Zielländern und sogar den von den Kontakten benutzten Handys - zum Teil werden Gerätetypen aufgeführt. Die Überwacher könnten so beispielsweise zielgerichtet Schwachstellen ausnutzen, um Überwachungssoftware auf den betreffenden Telefonen einzuschleusen.
+Zugriffsmöglichkeiten: Laut der von Globo gezeigten Präsentation wirft die "Olympia"-Software sogar aus, an welchen Stellen die internationalen Absaugstationen der Geheimdienste auf den Internet- oder Telefonverkehr einer Zielperson zugreifen können. Die "collection sites" erscheinen jedoch nur in Form von Codes aus Ziffern und Buchstaben.
+Zusammengefasst lassen der Bericht und die Folien den Schluss zu, dass der kanadische Geheimdienst CSEC in Kooperation mit der NSA gezielt auf Metadaten von Internet- und Telefonnetzwerken in Brasilien zugreift. Wie genau das vor sich geht, bleibt unklar - klar ist jedoch, dass die Dienste dazu Zugang zu Netzwerkknotenpunkten oder -kabeln haben müssen.
+Gezielte Hackerangriffe auf Basis der gesammelten Daten
+Dass es beim Kartieren der Netzwerke nicht bleiben soll, verrät eine Folie mit Zukunftsplänen: Darauf ist explizit davon die Rede, die gesammelten Informationen für sogenannte "Man on the side"-Attacken auszunutzen. Das sind gezielte Angriffe auf einzelne Rechner, bei denen mit einer aufwendigen und nur mit großen Ressourcen durchführbaren Methode Schadcode eingeschleust wird. Konkret ist davon die Rede, die TAO genannte Abteilung der NSA einzubeziehen - sie ist für aggressive Hack-Attacken zuständig.
+Brasiliens Präsidentin Dilma Rousseff reagierte am Montag via Twitter: "Die Reportage weist auf Interessen Kanadas im Bereich Bergbau hin. Das Itamaraty (Außenministerium) wird von Kanada Erklärungen verlangen. Es ist dringend erforderlich, dass die USA und ihre Alliierten ihre Spionageaktivitäten ein für allemal einstellen." Obwohl das Energieministerium über ein gutes Datenschutzsystem verfüge, habe sie Bergbau- und Energieminister Edison Lobão angewiesen, eine rigorose Bewertung und Verstärkung dieser Systeme vorzunehmen. Lobão selbst kommentierte die Enthüllungen in dem Globo-Beitrag mit den Worten, man habe es hier mit einer "schwerwiegenden Tatsache" zu tun, die man "verurteilen" müsse.
+Die NSA kommentiert wie üblich nicht - diesmal aber etwas anders
+Der US-Geheimdienst NSA hatte in der Vergangenheit auch E-Mails der brasilianischen Regierung ausgespäht. Vor einigen Wochen hatten TV Globo und Greenwald zudem berichtet, die NSA habe sich, womöglich in Zusammenarbeit mit dem britischen Geheimdienst GCHQ , Zugriff auf die Netzwerke diverser brasilianischer Unternehmen verschafft, darunter der Ölkonzern Petrobras und mehrere Banken .
+Der kanadische CSEC erklärte gegenüber TV Globo nur, man kommentiere "Signalaufklärung im Ausland" nicht. Die NSA reagierte auf TV Globos Anfrage mit einer etwas längeren Antwort mit der gleichen Stoßrichtung: Man kommentiere keine "spezifischen angeblichen Geheimdienstaktivitäten", betreibe jedenfalls lediglich "Auslandsaufklärung, wie sie alle Staaten betreiben".
+Begriffe wie "Bekämpfung des internationalen Terrorismus" oder "Verhinderung nuklearer Proliferation" tauchen in der NSA-Stellungnahme diesmal nicht auf. Mit jeder neuen Enthüllung wird es für den US-Geheimdienst schwieriger, die eigenen Aktivitäten und die seiner Partnergeheimdienste allein mit diesen Begründungen zu rechtfertigen.
+</ExtractedText>
+</item>
+</channel>
+</rss>

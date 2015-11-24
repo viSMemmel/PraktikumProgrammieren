@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Politik</title>
+<description>Aktuelle Politik-Nachrichten, Hintergründe, Kommentare und Reportagen aus Deutschland und internationale Politik. Aktuelle Informationen und News von ZEIT ONLINE und DIE ZEIT.</description>
+<pubDate>Sat, 05 Oct 2013 16:14:57 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:50:03 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/politik/index</link>
+<atom:link href="http://newsfeed.zeit.de/politik/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Politik</title>
+      <link>http://www.zeit.de/politik/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/politik/ausland/2013-10/obama-shutdown-usa</link>
+      <guid>http://www.zeit.de/politik/ausland/2013-10/obama-shutdown-usa</guid>
+      <category>Politik</category>
+      <title>Radioansprache: Obama appelliert an die Republikaner</title>
+      <description>&lt;a href="http://www.zeit.de/politik/ausland/2013-10/obama-shutdown-usa"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/ausland/2013-10/barack-obama/barack-obama-148x84.jpg"/&gt;&lt;/a&gt; "Stoppen Sie diese Farce" – Der US-Präsident fordert die Opposition eindringlich auf, den Shutdown zu beenden. Sein Außenminister spricht von "politischer Albernheit".</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Sat, 05 Oct 2013 13:47:06 GMT</pubDate>
+    <ExtractedText>Ausland
+Radioansprache: Obama appelliert an die Republikaner
+"Stoppen Sie diese Farce" – Der US-Präsident fordert die Opposition eindringlich auf, den Shutdown zu beenden. Sein Außenminister spricht von "politischer Albernheit".
+5. Oktober 2013  16:25 Uhr  6 Kommentare
+US-Präsident Barack Obama   |  © Saul Loeb/AFP/Getty Images
+US-Präsident Barack Obama hat eindringlich an das von den Republikanern dominierte Repräsentantenhaus appelliert, den Haushaltsstreit zu beenden . "Stoppen Sie diese Farce. Setzen Sie dem Shutdown jetzt ein Ende", sagte Obama in seiner wöchentlichen Ansprache .
+"Es gibt nur einen Weg, um den zerstörerischen Shutdown zu beenden: Beschließen Sie das Regierungsbudget!" Millionen Amerikaner zählten darauf, dass der Kongress das Richtige tue, sagte Obama. "Bezahlen Sie unsere Rechnungen, verhindern Sie einen ökonomischen Stillstand!"
+Anzeige
+Der Shutdown genannte Verwaltungsstillstand lähmt das Land seit Dienstag. Der US-Präsident sagte eine Asienreise ab, um in Washington den Konflikt zwischen seiner Demokratischen Partei und den Republikanern lösen zu können.
+In den USA stehen weite Teile der Bundesverwaltung still, weil sich der Kongress nicht auf ein Budget für das am 1. Oktober begonnene Fiskaljahr 2014 einigen konnte. Bislang ist kein Kompromiss in Sicht, weil die Republikaner ihre Zustimmung zu einem Haushalt von einer Verschiebung oder Kürzungen bei der Gesundheitsreform abhängig machen, dem wichtigsten Projekt in Obamas Präsidentschaft. Er werde kein "Lösegeld" für den Haushalt zahlen, sagte Obama und bekräftigte damit seine Ablehnung dieser Forderung.
+"Dieser Moment politischer Albernheit"
+US-Außenminister John Kerry äußerte sich auf dem asiatisch-pazifischen Wirtschaftsgipfel zum Shutdown: Das sei eine "vorübergehende Episode", nach der die USA bald wieder voll im Geschäft seien. "Wenn dieser Moment politischer Albernheit vorbei ist, wird es wieder auf einem Weg vorangehen, den die Welt respektiert und auf dem sie mitgehen will", sagte Kerry. "Die USA werden einen Haushalt verabschieden und sie werden weiter die stärkste Macht der Welt sein, sowohl was das Militär angeht als auch die Wirtschaft."
+Der nächste Showdown zwischen Republikanern und Demokraten wird spätestens am 17. Oktober erwartet. Sollten die Republikaner bis dahin nicht einer Erhöhung der Schuldenobergrenze zustimmen, ist die Weltmacht USA zahlungsunfähig. Dies wäre noch einmal "dramatisch schlimmer", sagte Obama.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

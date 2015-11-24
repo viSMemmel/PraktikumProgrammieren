@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/2013/41/morozov-netz-intellektuelle-chomsky-foucault</link>
+      <guid>http://www.zeit.de/2013/41/morozov-netz-intellektuelle-chomsky-foucault</guid>
+      <category>Digital</category>
+      <title>Evgeny Morozov: Wir müssen den Hai-Tornado namens Internetdebatte stoppen</title>
+      <description>&lt;a href="http://www.zeit.de/2013/41/morozov-netz-intellektuelle-chomsky-foucault"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/tornado/tornado-148x84.jpg"/&gt;&lt;/a&gt; Warum der Ruf der Internet-Intellektuellen zu Recht schlecht ist – und welche Kritik wir wirklich von ihnen brauchen.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Evgeny Morozov</dc:creator>
+      <pubDate>Wed, 02 Oct 2013 06:00:00 GMT</pubDate>
+    <ExtractedText>Games
+Evgeny Morozov: Wahrheit und Beratung
+Warum der Ruf der Internet-Intellektuellen zu Recht schlecht ist – und welche Kritik wir wirklich von ihnen brauchen. Von Evgeny Morozov
+2. Oktober 2013  18:38 Uhr  19 Kommentare
+Archivbild eines Tornados  |  © STR/AFP/Getty Images
+Wer sich für Amerikas kulturelle Exportgüter interessiert, kommt in diesem       Jahr nicht am Film Sharknado vorbei. Der Titel ist haarsträubend: "Sharknado" steht       für einen Haifisch-Wirbelsturm (shark + tornado). Noch lächerlicher ist die       Handlung: Ein Tornado peitscht Tausende von Haien aus dem Meer und lässt sie auf Los Angeles       regnen. Das Ganze ist niveaulose Unterhaltung, taugt aber für Gedankenspiele. Man stelle sich       vor, man wacht in L.A. auf und schaltet den Fernseher an: In den Nachrichten wird vor einem       herannahenden Sharknado gewarnt. Zwei Experten diskutieren, ob Sharknados gut oder schlecht       für die Menschheit, die Wirtschaft und unsere Gehirne sind. Einer fürchtet um unsere Kultur,       der andere erwidert, dass Sharknados die ohnehin sterbenden Industrien hinwegfegen und Raum       für neue Ideen schaffen könnten. Dann klopft es an der Tür. Ein gut gekleideter Mann steht       draußen und behauptet, er arbeite für die "Sharknado Evakuierungs-GmbH", ein Start       up-Unternehmen, das einen für wenig Geld in Sicherheit bringt. Entscheiden müsse man sich       allerdings sofort. Verwirrt bezahlt man ihn.
+Willkommen in der Internet-Debatte. Intellektuelle können darin zwischen zwei Rollen wählen:       die des Fernsehexperten und die des Vertreters. Als Experten applaudieren sie entweder jeder       neuen Entwicklung, oder sie verurteilen alles, was nach Elektrizität riecht. Oder: Morgens       machen sie eine Prophezeiung, nachmittags beraten sie uns, und abends verwirren sie uns per       Twitter. Für viele erschöpft sich darin das Potenzial des Internet-Intellektuellen.
+Anzeige
+Kürzlich       erschien im Democracy Journal ein Essay über den traurigen Zustand dieser       Intellektuellen in Amerika. Dort heißt es: "Die Aufgabe eines Intellektuellen ist es, der       Öffentlichkeit Ideen und Argumente zu erklären." Nach dieser Lesart sollen Intellektuelle erst       erklären und später hinterfragen.
+Natürlich können Internet-Intellektuelle ihre Weisheiten leicht verdaulich aufbereiten. Das       tun sie zum Beispiel bei TED , der Online-Konferenz, die ganz in der Tradition der für jeden       verständlichen Wissenschaft steht. Große Naturwissenschaftler wie Stephen Hawking oder Neil       deGrasse Tyson machen Laien auf diese Weise ihr Wissen zugänglich. Viele       Internet-Intellektuelle wollen genau das erreichen. Sie versuchen, bestimmte Aspekte "des"       Internets zu erklären, etwa die Funktion kostenloser Software oder von Wikipedia oder den       Sturz eines Diktators mithilfe Sozialer Netzwerke. Wer Geschäftssinn besitzt, wird diese       Erklärungen später in lukrative Beratungsdienste verwandeln.
+Evgeny Morozov
+Jahrgang 1984, gehört zu den schärfsten Kritikern des         Internet-Diskurses in den USA. Anfang Oktober erscheint sein Buch Digitale Technik und die         Freiheit des Menschen im Blessing Verlag.
+Ich glaube, dass Internet-Intellektuelle mehr können. Ob man meine       Argumentation überzeugend findet, hängt allerdings davon ab, ob man "das" Internet für einen       Asteroiden hält, den ein Astrophysiker erklärt, oder für einen Sharknado, also einen       Gegenstand, den man zwar erklären kann, aber nur zu dem Preis, dass man ihn dadurch       glaubhafter macht, als er sein sollte.
+Was das Democracy Journal ignoriert, ist die Geschichte des öffentlichen       Intellektuellen. Diese Geschichte braucht hier nicht wiederholt zu werden, sie beginnt mit der       Dreyfus-Affäre in Frankreich und mit der Einmischung des Schriftstellers Émile Zola. Wichtig       ist dabei, dass Zolas berühmtes J’accuse kein Tweet und keine PowerPoint-Folie bei       der TED-Konferenz war. Zola hatte keine "Ideen und Argumente erklärt", sondern das Urteil       eines Militärgerichts hinterfragt.
+Dieser Artikel stammt aus der aktuellen Ausgabe der ZEIT, die Sie am Kiosk oder online erwerben können.
+Später schlugen Noam Chomsky und Michel Foucault zwei weitere Modelle politischer Einmischung       vor. Nach Chomsky müssen Intellektuelle den Mächtigen die Wahrheit sagen. Nach Foucault müssen       sie Wahrheit als Macht entlarven. Chomsky warf in seinem Essay Die Verantwortung der         Intellektuellen von 1967 zeitgenössischen Denkern vor, die Regierung während des Vietnamkrieges zu beraten und die Öffentlichkeit zu belügen, statt "den Mächtigen die Meinung       zu sagen und ihre Lügen aufzudecken". Foucault hingegen unterschied zwischen "universellen       Intellektuellen" wie Jean-Paul Sartre und einer neuen Gattung von "spezifischen       Intellektuellen", deren Expertise sich auf Spezialbereiche wie Physik oder Biologie bezog. Robert Oppenheimer , meinte Foucault, sei "nicht mehr Sänger der Ewigkeit, sondern Stratege des       Lebens und des Todes".
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

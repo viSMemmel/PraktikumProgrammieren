@@ -2,7 +2,6 @@ package DokumenteSucheforGUI;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 import Index.DeleteDir;
 import Index.IndexCreator;
@@ -32,7 +31,7 @@ public class Search {
 		public Search( String filesToIndex, String searchSubject) {
 		super();
 		SearchSubject = searchSubject;
-		FilesToIndex = filesToIndex;//Pfad zum ordner mit jetzt nocch .txt
+		FilesToIndex = filesToIndex;
 	}
 
 
@@ -42,7 +41,7 @@ public class Search {
 		public String find() throws ParseException, IOException{
 			String Ausgabe_in_Textarea = null;
 			try{
-				String NameInternerOrdner =FilesToIndex;
+				String NameInternerOrdner ="internOrdner";
 			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner ,Feld);
 			
 			NIOFSDirectory indexDir = index.createIndex();
@@ -66,12 +65,12 @@ public class Search {
 		       ScoreDoc[] sd = td.scoreDocs; //
 		       
 		      if(sd.length==0){
-		          Ausgabe_in_Textarea="Keine Einträge gefunden";
+		    	  System.out.println("Keine Einträge gefunden");
 		      }else{
 		    
 // Possition des W. kann in Index gespeichert werden
-		    	  // Klasse IndexCreator ändernn ev
-		    	     //IndexableField  iField[] =null;	  
+		    	  // Klasse IndexCreator ändern
+		    	  
 		       for (int i=0; i < sd.length; i++) {
 		    	   System.out.println("länge " + sd.length);
 		    	System.out.println("shared index "+   sd[i].shardIndex );
@@ -79,16 +78,10 @@ public class Search {
 		         Ausgabe_in_Textarea +="Dokument gefunden "+ doc.toString() + "\n"+Ausgabe_in_Textarea; // Achtung String immer konkatinieren, da vorherige Ergebnisse mitberücksichtig werden müssen
 		         System.out.println("Dokument gefunden "+ doc.toString() );
 		         // hier muss dann eine Suche innerhalb des do stattfinden
-		   
-		         List<IndexableField>  iField =doc.getFields();
-		         System.out.println("				Ifield " +  iField.size());
-		 SearchInDoc searchInDoc = new SearchInDoc(iField, Feld);  // bei Großer Anzahl von Dokumenten evtl. Speicher überlauf
-	     
-		 Ausgabe_in_Textarea += "\n Das Dokument ist " +  searchInDoc.Anzahl()+ " Wörter. \n";
-		 System.out.println("\n ReadertoString() " + searchInDoc.toString());
-		         searchInDoc.close();
-
-		          Ausgabe_in_Textarea += "Ifield " +  iField.size();
+		         SearchInDoc searchInDoc = new SearchInDoc(doc); 
+		         IndexableField  iField[] =doc.getFields(SearchSubject);
+		         System.out.println("Ifield " +  iField.length);
+		          Ausgabe_in_Textarea += "Ifield " +  iField.length;
 		        // Ausgabe_in_Textarea="\n"+doc.toString() +" \n";
 		         System.out.println(doc.get("title"));
 
@@ -99,10 +92,8 @@ public class Search {
 		      
 		      
 		      indexDir.close(); // muss geschlossen werden damit Inhalt des internOrdner gelöscht werden kann
-@Deprecated
-
-		      DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
-      deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben wurden, wird nach Beendigung des Suchprozeß gelöscht
+	      DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
+		      deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben wurden, wird nach Beendigung des Suchprozeß gelöscht
 		
 			}
 			catch(Exception e){

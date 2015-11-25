@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Sat, 05 Oct 2013 11:43:47 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_sport" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_sport"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Ginola answers Qatar questions</title>
+<guid isPermaLink="false">http://edition.cnn.com/video/data/2.0/video/world/2013/10/04/viewer-questions-to-fmr-footballer-david-ginola-ctw-intv-anderson.cnn.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_sport/~3/D3M_B6GIs4Y/viewer-questions-to-fmr-footballer-david-ginola-ctw-intv-anderson.cnn.html</link>
+<description>CNN's Becky Anderson directs viewer questions about Qatar 2022 to former France international footballer David Ginola.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/D3M_B6GIs4Y" height="1" width="1"/&gt;</description>
+<pubDate>Sat, 05 Oct 2013 10:30:34 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/video/data/2.0/video/world/2013/10/04/viewer-questions-to-fmr-footballer-david-ginola-ctw-intv-anderson.cnn.html</feedburner:origLink>
+<ExtractedText/>
+</item>
+</channel>
+</rss>

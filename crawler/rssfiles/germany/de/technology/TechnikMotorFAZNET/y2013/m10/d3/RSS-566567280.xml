@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Technik &amp; Motor - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/technik-motor/</link>
+<description>Aktuelle Nachrichten und Hintergründe zu den Themen Technik &amp; Motor. Die Themenseite für alle Technik &amp; Motor, Computer &amp; Internet Fans. </description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Technik &amp; Motor - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Sat, 5 Oct 2013 12:00:05 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/technik-motor/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Technik &amp; Motor - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/technik-motor/</link>
+    </image>
+<item>
+    <title>Antennenfernsehen soll nicht sterben</title>
+    <description>&lt;img width="190" height="107" border="0" title="Viele Türme senden noch fürs Antennen-TV" alt="Viele Türme senden noch fürs Antennen-TV" src="http://media1.faz.net/polopoly_fs/1.2601515!/image/2449271121.jpg_gen/derivatives/article_teaser/2449271121.jpg"/&gt;&lt;p&gt;Hat das terrestrische Fernsehen da überhaupt noch eine Zukunft? ARD und ZDF wollen jedenfalls den Nachfolgestandard von DVB-T einführen. Das ehrgeizige Projekt muss noch hohe Hürden nehmen.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/technik-motor/audio-video/nachfolge-von-dvb-t-antennenfernsehen-soll-nicht-sterben-12596810.html</link>
+    <pubDate>Thu, 03 Oct 2013 16:00:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gyf-7hzre</guid>
+<ExtractedText>Viele Türme senden noch fürs Antennen-TV
+© Tunze
+Viele Türme senden noch fürs Antennen-TV
+Vor vier Jahren stellten die letzten Sendetürme in Deutschland ihre analoge Fernsehübertragung auf die digitale Ausstrahlung nach dem Standard DVB-T um. Das Überallfernsehen, wie die Marketing-Leute die neue Infrastruktur nannten, startete mit Erfolg: Unkomplizierter Empfang auch mit portablen Geräten, eine Programmauswahl, die alles bei weitem übertraf, was das analoge Antennenfernsehen je bieten konnte, das Ganze ohne laufende Kosten - all dies überzeugte viele Zuschauer und ließ ihre Zahl zunächst sprunghaft steigen. Doch inzwischen bleibt DVB-T sowohl in der Bildqualität als auch in der Programmvielfalt immer deutlicher hinter dem rasant wachsenden und immer mehr in HD ausgestrahlten Angebot von Kabel, Satellit und IPTV zurück. Die Sender der RTL-Gruppe werden ihre DVB-T-Übertragung Ende des nächsten Jahres einstellen, in der Region München sind sie schon aus dem Angebot verschwunden.
+Hat das terrestrische Fernsehen da überhaupt noch eine Zukunft? Eine interessante Antwort kommt in diesen Tagen von ARD und ZDF: Sie wollen von 2017 an auf den Nachfolgestandard DVB-T2 umstellen und damit den ältesten Übertragungsweg wieder flottmachen. DVB-T2 nutzt das Frequenzspektrum effizienter: Es bringt je Megahertz bis zu einem Drittel mehr Daten ans Empfangsgerät. Und wenn man dann statt der heute verwendeten Videocodierung MPEG-2 eine Videokompression der übernächsten Generation einführt (angedacht ist der für künftiges Ultra-HDTV vorgesehene Standard HEVC), bietet das terrestrische Fernseh-Spektrum genug Bandbreite, um auch HDTV in konkurrenzfähiger Vielfalt auszustrahlen.
+Die Bundesnetzagentur lässt bereits überprüfen
+Sind die Entwicklungsbedingungen des Antennenfernsehens damit wirklich dauerhaft gesichert? Zweifel sind berechtigt. Die für die weltweite Frequenzplanung zuständige World Radiocommunications Conference (WRC) will auf ihrer nächsten Tagung im Jahr 2015 empfehlen, einen Teil der heute für DVB-T genutzten Frequenzen, nämlich das sogenannte 700-Megahertz-Band zwischen 694 bis 790 Megahertz, für Mobilfunkdienste freizugeben. Die Bundesnetzagentur lässt bereits überprüfen, ob und wie diese Umwidmung in Deutschland umgesetzt werden kann. Die ARD lehnt dieses Szenario strikt ab: Der Umstieg auf DVB-T2 erfordere eine längere Phase der Parallelausstrahlung in alter und neuer Technik; dafür sei das gesamte heutige Fernsehspektrum unverzichtbar. Dieser „Simulcast“ aber, sagt die Bundesnetzagentur, funktioniere auch im reduzierten Spektrum. Darüber streiten die Experten.
+Da lohnt sich ein Blick nach Österreich. Dort ist DVB-T2 bereits seit April in der Luft - als Parallelangebot zur etablierten DVB-T-Ausstrahlung. Um dieses Projekt verwirklichen zu können, hat Österreich auf die Umwidmung des 700-Megahertz-Bandes verzichtet. Interessant sind auch die Angebote und Geschäftsmodelle im Nachbarland. Unter dem Namen „SimpliTV“ können die Österreicher über DVB-T2 ihre öffentlich-rechtlichen Programme, die ARD, das ZDF, Pro Sieben und RTL in HD empfangen, darüber hinaus viele weitere Programme in HD- und in Standardauflösung. Alle Programme sind verschlüsselt. ORF 1, ORF 2 und Servus TV gibt es kostenlos, alle übrigen Angebote kosten zehn Euro im Monat. Verschlüsselung und Gebühr - unter diesen Prämissen würden sich vermutlich auch die Privatsender in Deutschland an einer DVB-T2-Einführung beteiligen. Aber wie reizvoll ist der terrestrische Empfang dann noch? Vom Kostenaspekt abgesehen: Die Verschlüsselung verlangt nach einer Settop-Box mit Kartenleser oder nach einer passenden Ausstattung des stationären Fernsehers. Damit aber entfielen die Hauptvorteile der Terrestrik, nämlich der Empfang mit mobilen Geräten, etwa über USB-Empfangssticks, und die umkomplizierte Versorgung des Zweitfernsehers in der Küche. Braucht man also einen Funk-Übertragungsweg, der eigentlich nicht anders funktioniert als der Kabelanschluss? Darüber sollten die Sender lieber zweimal nachdenken.
+Weitere Artikel
+Pro Sieben Sat 1 rettet DVB-T 
+Vielleicht sollten sie sich auch ernsthaft mit einem futuristisch anmutenden Systemvorschlag auseinandersetzen, den Ulrich Reimers, Leiter des Instituts für Nachrichtentechnik an der Technischen Universität Braunschweig und quasi der Vater der DVB-Standards, mit seinem Team schon im vergangenen Jahr veröffentlicht und nun noch weiterentwickelt hat. Seine Idee läuft auf eine Verheiratung von Digitalfernsehen und Mobilfunk hinaus: Auf der Basis des LTE-Standards übernehmen Sendetürme mit großer Reichweite („Tower Overlay“) die Verbreitung von Fernsehbildern - über die Grenzen der engmaschigen Mobilfunkzellen und über die Netze unterschiedlicher Mobilfunkbetreiber hinweg. Diese Türme könnten in jenem Frequenzband funken, das heute noch ein Zankapfel zwischen Fernsehen und Mobilfunk ist, während die digitale Kommunikation in den kleinen Zellen und in einem wesentlich höheren Frequenzbereich, etwa im 2,6-Gigahertz-Band, stattfände. LTE-Advanced, die jüngste Erweiterung des Standards, lässt die gleichzeitige Nutzung von zwei unterschiedlichen Frequenzen mit einem Endgerät zu. Damit wäre DVB-T2 durchaus nicht obsolet: Die Braunschweiger Wissenschaftler wollen die für LTE-Geräte gedachten Videoinformationen zusätzlich in DVB-T2-Datenströmen verpacken. Dann wertet jeder Empfänger aus, was er verarbeiten kann: DVB-T2-Geräte finden ihre Fernsehsignale, LTE-Smartphones deren digitale Ebenbilder für den Empfang nach der Mobilfunknorm. Eine charmante Idee, finden wir.
+Quelle: F.A.Z.
+</ExtractedText>
+</item>
+</channel>
+</rss>

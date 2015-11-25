@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Fri, 04 Oct 2013 17:04:37 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_technology" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_technology"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>15 of Siri's best (and worst) jokes</title>
+<guid isPermaLink="false">http://www.cnn.com/2013/10/04/tech/mobile/siri-jokes/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_technology/~3/Sr-vurkCmGs/index.html</link>
+<description>Siri has a sense of humor. Ask the right questions, and you'll get amusing answers.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/Sr-vurkCmGs" height="1" width="1"/&gt;</description>
+<pubDate>Fri, 04 Oct 2013 08:03:34 EDT</pubDate>
+<feedburner:origLink>http://www.cnn.com/2013/10/04/tech/mobile/siri-jokes/index.html</feedburner:origLink>
+<ExtractedText>iPhone's Siri will respond to many questions, sometimes with humor
+Unusual Siri answers are collected on a number of websites
+Sometimes Siri isn't so forthcoming, however
+(CNN) -- She may be a disembodied robot, but Siri -- unmasked Friday by CNN -- has a sense of humor.
+Since the introduction of the iPhone's personal "assistant" on October 4, 2011, people have used it as much to provoke witticisms as they have to find out the population of Japan or the location of the nearest Japanese restaurant.
+In other words, Siri may not always be all that helpful. But she's been an amusing party trick.
+'I provided the voice of Siri'
+Meet the woman behind the voice of Siri
+Some of the most common inquiries are based on classic science-fiction movie lines -- "2001: A Space Odyssey's" "HAL, open the pod bay doors" is a favorite -- while others rely on ancient philosophical queries .
+The Web being what it is, an entire cottage industry has sprung up around Siri's responses. There's a Tumblr called "S**t That Siri Says" and a collection of Siri posts called sirifunny.com .
+Siri doesn't always understand, of course. Like E.T. or WOPR , she's sometimes at a loss when the question has nuance.
+On the other hand, you may not want to dig too deeply. When asked if she's affiliated with Skynet -- the people-killing, world-dominating network at the heart of the "Terminator" movies -- Siri suddenly clams up.
+"I can't answer that," she says.
+Watch out, world.
+</ExtractedText>
+</item>
+</channel>
+</rss>

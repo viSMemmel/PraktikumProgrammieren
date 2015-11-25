@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Lebensart</title>
+<description>Die Lust am Leben: Aktuelle Berichte, Ratgeber und Kolumnen rund um die Themen Mode, Essen, Trinken und Partnerschaft.</description>
+<pubDate>Wed, 16 Oct 2013 07:39:30 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:43:47 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/lebensart/index</link>
+<atom:link href="http://newsfeed.zeit.de/lebensart/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Lebensart</title>
+      <link>http://www.zeit.de/lebensart/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/lebensart/2013-09/fs-jason-yates-freunde-von-freunden-2</link>
+      <guid>http://www.zeit.de/lebensart/2013-09/fs-jason-yates-freunde-von-freunden-2</guid>
+      <category>Lebensart</category>
+      <title>Serie Freunde von Freunden: Das ganze Haus ein Atelier</title>
+      <description>&lt;a href="http://www.zeit.de/lebensart/2013-09/fs-jason-yates-freunde-von-freunden-2"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/lebensart/2013-09/fs-jason-yates-freunde-von-freunden-teaser/fs-jason-yates-freunde-von-freunden-teaser-148x84.jpg"/&gt;&lt;/a&gt; Jason Yates lebt mit seiner Familie im südkalifornischen Encinitas. Seine Malerei bestimmt auch den Wohnraum. "Freunde von Freunden" zeigt der Künstler sein Zuhause. </description>
+      <dc:creator>ZEIT ONLINE : Lebensart</dc:creator>
+      <pubDate>Wed, 16 Oct 2013 07:34:59 GMT</pubDate>
+    <ExtractedText>1 von 18 Zurück Vorwärts
+Serie Freunde von Freunden:
+© Daniel Trese für Freunde von Freunden
+Was der Künstler Jason Yates an seinem Haus in der südkalifornischen Küstenstadt Encinitas am meisten schätzt? "Ich hatte nirgendwo so ein vertrautes Verhältnis zu meinen Nachbarn." Dabei hat Yates Angst vor dem Ozean. Alle Versuche, surfen zu lernen, musste er regelmäßig abbrechen. Das Haus, in dem der Maler gemeinsam mit seiner Familie lebt, ist für ihn Lebens- und Arbeitsraum zugleich. In jedem Zimmer finden sich Teppiche, Decken und Leinwände mit seinen Bildern und Mustern. Mehr über Jason Yates' Arbeiten erfahren Sie bei Freunden von Freunden .
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

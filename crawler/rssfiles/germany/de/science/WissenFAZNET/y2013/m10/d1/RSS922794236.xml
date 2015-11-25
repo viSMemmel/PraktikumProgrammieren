@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Wissen - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/wissen/</link>
+<description>Meldungen aus allen Bereichen der Wissenschaft. Nachrichten aus Forschung und Entwicklung: Medizin, Klima und Naturwissenschaft. </description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Wissen - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Fri, 4 Oct 2013 17:47:39 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/wissen/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Wissen - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/wissen/</link>
+    </image>
+<item>
+    <title>Lasertherapie für Hirntumore: Das Fenster zum Gehirn</title>
+    <description>&lt;img width="190" height="107" border="0" title="Ein transparentes Implantat für den Schädelknochen. " alt="Ein transparentes Implantat für den Schädelknochen. " src="http://media0.faz.net/polopoly_fs/1.2599300!/image/745694757.jpg_gen/derivatives/article_teaser/745694757.jpg"/&gt;&lt;p&gt;Mit einem gläsernen Implantat und intensiven Laserstrahlen wollen amerikanische Neurowissenschaftler schnellwachsenden Hirntumoren zu Leibe rücken. An Mäusen ist  das Verfahren bereits getestet worden.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/wissen/medizin/lasertherapie-fuer-hirntumore-das-fenster-zum-gehirn-12588599.html</link>
+    <pubDate>Tue, 01 Oct 2013 11:51:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gx3-7htfb</guid>
+<ExtractedText>Ein transparentes Implantat für den Schädelknochen.
+© University of California
+Ein transparentes Implantat für den Schädelknochen.
+Neurowissenschaftler versuchen auf verschiedenste Weise, immer tiefere Einblicke in unser Gehirn zu gewinnen. Ein Fenster zum Gehirn im wahrsten Sinne des Wortes haben jetzt Wissenschaftler von der University of California in Riverside entwickelt. Dem Begriff „gläserner Mensch“ geben sie damit eine völlig neue Bedeutung. Das transparente Implantat besteht aus einer speziellen Keramik, die heute bereits zahlreich für Zahnimplantate, Kronen oder künstliche Hüftgelenke verwendet wird - Yttrium stabilisiertes Zirkonoxid. In seiner ursprünglichen Form ist das Material jedoch so weiß und lichtundurchlässig wie eine Kaffeetasse aus Porzellan. Als Fenster also völlig ungeeignet. Erst durch ein spezielles Herstellungsverfahren der Wissenschaftler, bei dem auf das Keramikpuder gleichzeitig hoher Druck und starker Strom einwirken, entsteht die transparente, nanokristalline Version des Zirkonoxids.
+Schädelknochen musste weichen
+Entdeckt wurde Zirkonoxid erstmalig vom deutschen Chemiker Martin Heinrich Klaproth im Jahr 1789. Damals ahnte er noch nicht, welche vielfältigen Verwendungszwecke seine Entdeckung eines Tages haben würde. Als Fenster zum Gehirn könnte die durchsichtige Spezialkeramik neue Behandlungsmöglichkeiten für Patienten mit schweren Erkrankungen wie Gehirntumoren, Schlaganfällen oder Schädel-Hirn-Traumata eröffnen. So hätten laserbasierte Methoden bereits vielversprechende Ergebnisse bei neurologischen Erkrankungen gezeigt, schreiben die Forscher in der Zeitschrift „Nanomedicine: Nanotechnology, Biology and Medicine“ (doi:10.1016/j.nano.2013.08.002). Bisher seien die Verfahren jedoch daran gescheitert, dass für die Anwendung jedes Mal eine Kraniektomie - also die Entfernung eines Stückes des Schädelknochens - erforderlich gewesen war.  Das ist notwendig, weil die meisten medizinischen Laser den Knochen über dem Gehirn nicht gut durchdringen können.
+© Mayo Kodera
+Illustration der neuartigen Lasertherapie. Querschnitt durch den Schädel.
+© Mayo Kodera
+Illustration der neuartigen Lasertherapie. Querschnitt durch den Schädel.
+Das neue Fenster könnte hier Abhilfe schaffen. Experimentell konnten die Forscher zeigen, dass durch ihr Fenster Laserstrahlen tiefer und mit höherer Intensität in das Gehirn von Mäusen eindringen können als durch den Schädelknochen. „Das ist ein entscheidender erster Schritt“, erklärt der Neurochirurg Devin Binder. Welchen Vorteil ein optischer Zugang zum Gehirn bietet, demonstrierte Binder zusammen mit dem Bioingenieur Hyle Park im vergangenen Jahr im „Journal of Visualized Experiments“ (doi:10.3791/50053 (2012)) . Allein mit Lichtwellen gelang es ihnen, Hirnödeme bei Mäusen frühzeitig zu erkennen. Bei einem Gehirnödem sammelt sich zu viel Gehirnflüssigkeit an - das Gehirn schwillt. Auslöser können Verletzungen des Gehirns, Schlaganfälle, Infektionen oder Gehirntumore sein. Da unser Gehirn von einem Knochen umgeben ist, hat es nur wenig Möglichkeiten, sich auszubreiten. Der Druck steigt und kann die lebensnotwendige Blutzufuhr behindern. Schwellungen wie diese können so schnell zu ernsthaften Schäden führen.
+Um die Ödeme detektieren zu können, verwendeten Binder und Park ein spezielles Bildgebungsverfahren namens optische Kohärenztomographie. Das Prinzip ähnelt dem der Ultraschalldiagnostik. Anstelle von Schallwellen werden jedoch Laserstrahlen des sichtbaren oder infraroten Bereichs verwendet. Heutzutage wird die Technik bereits dazu genutzt, Gewebe schichtweise zu vermessen. Die 3D-Querschnitte dienen dann beispielsweise zur Früherkennung des grünen Stars. Auch Hauttumore können auf diese Weise hochauflösend dargestellt werden.
+Am Tiermodell erprobt
+Der Trick beim Gehirn: Schwillt es an, wird es transparenter für infrarotes Licht. Mediziner können dann von der Menge des reflektieren Lichts auf die Stärke der Gehirnschwellung schließen. Je schneller ein Hirnödem erkannt und behandelt wird, desto weniger Schäden trägt das Denkorgan davon. Doch auch wenn Binder und Park mit dieser Methode Hirnödeme bei Mäusen früher erkennen konnten, als das mit herkömmlichen Drucksensoren innerhalb des Schädels möglich ist. Eine wesentliche Hürde bleibt: Der Schädelknochen versperrt den optischen Zugang. Für die Tests mussten die Wissenschaftler daher die Schädelknochen der Mäuse ausdünnen. Für ein chronisches Monitoring beim Menschen wäre dieses Vorgehen ungeeignet. Die Bruchgefahr wäre viel zu groß. „Unser Fenster könnte daher die Möglichkeit schaffen, diese vielversprechende Diagnosemethode auf den Menschen zu übertragen“, erklärt Masaru Rao. Der Materialwissenschaftler ist zusammen mit Binder und Park Teil des zehnköpfigen Teams, welches das „Fenster zum Gehirn“ entwickelt hat.
+Mit ihrem Keramik-Fenster sind die Forscher aus Riverside nicht die Ersten. Bereits andere Forschergruppen haben mit Fenstern aus Glas experimentiert. Aus dem Labor in die Klinik werden sie es damit aber wohl nie schaffen. Glas bricht leicht. Und wer schmückt sich schon gerne mit einem Glassplitter im Gehirn? Im Vergleich zu Glas ist die Hochleistungskeramik je nach Herstellungsprozess zehn bis zwanzig Mal stabiler. Ein möglicher Einsatz beim Menschen ist also denkbar.
+Diverse Therapieansätze möglich
+Die Ambitionen der Forscher aus Kalifornien sind nun groß. Auch Gehirntumoren erhoffen sie sich mit ihrem Fenster in Zukunft besser behandeln und überwachen zu können. Die Prognose bei Tumoren des Gehirns sind in der Regel schlecht. Operativ gelingt es häufig nur, einen Großteil des Tumorgewebes zu entfernen. Die zurückgelassenen, entarteten Zellen beginnen sich schnell wieder auszubreiten. Rao: „Das Fenster böte uns die Möglichkeit, langfristig ihr Wachstum zu überwachen und sie gezielt mit Laserbehandlung wie der Laserablation oder einer photodynamischen Therapie zu behandeln.“ Mit der Laserablation kann schädliches Gewebe Schicht für Schicht abgetragen werden. Die photodynamische Therapie setzt hingegen auf ein trojanisches Pferd. Bei ihr wird eine spezielle Substanz verwendet, die sich selektiv in den Tumorzellen anreichert. Werden die Zellen dann mit Licht bestrahlt, wird das tödliche Potential der Substanz freigesetzt. Die Tumorzellen sterben ab. Zur Behandlung von Hautkrebs hat sich diese neue Methode bereits bewehrt. Die relativ geringe Eindringungstiefe der Laserstrahlen stellt die Forscher allerdings noch vor Herausforderungen.
+Sollte künftig Patienten ein solches Fenster zum Gehirn implantiert werden, müssen sie sicher keine Angst davor haben, zum gläsernen Menschen zu werden. Ihnen wird man nicht wie durch ein Guckloch ins Gehirn schauen können. Ziel sei es letztendlich, die ursprüngliche Haut nach der Implantation wieder über das Zirkonoxid Fenster zu setzen, um das Infektionsrisiko zu minimieren, erklärt Masaru Rao. Steht dann eine Laserbehandlung an, könnte die Haut über dem Implantat mit einer speziellen Lösung vorübergehend transparent gemacht werden.
+Weitere Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

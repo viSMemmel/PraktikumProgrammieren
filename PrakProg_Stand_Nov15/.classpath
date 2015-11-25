@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -13,3 +14,20 @@
 	<classpathentry kind="lib" path="C:/Users/Schule/git/PraktikumProgrammieren/Jars/jdom-2.0.6-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-analyzers-common-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-core-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-queries-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-queryparser-4.5.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
+>>>>>>> 61be8cb597b22f783c88c5e4e2b3fe6185733a52

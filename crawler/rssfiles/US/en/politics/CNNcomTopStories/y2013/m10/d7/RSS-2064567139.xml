@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Mon, 07 Oct 2013 14:54:36 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Monster truck crash kills 8 in Mexico</title>
+<guid>http://edition.cnn.com/2013/10/06/world/americas/mexico-monster-truck-crash/index.html</guid>
+<link>http://edition.cnn.com/2013/10/06/world/americas/mexico-monster-truck-crash/index.html?eref=edition</link>
+<description>At least seven people were killed and 46 injured after a "monster truck" ran over spectators during the "Extremo Aeroshow" in Chihuahua, Mexico, according to the Mexican state news agency Notimex.</description>
+<pubDate>Mon, 07 Oct 2013 03:15:17 EDT</pubDate>
+<ExtractedText>Monster truck crash kills 8, injures dozens in Mexico
+By Catherine E. Shoichet and Nelson Quinones, CNN
+October 7, 2013 -- Updated 1545 GMT (2345 HKT)
+STORY HIGHLIGHTS
+NEW: The monster truck's driver says he passed out after hitting his head
+Authorities say the monster truck killed eight spectators, including four children
+12 people are listed in critical condition
+Read this article in Spanish at CNNMexico.com
+(CNN) -- A "monster truck" spun out of control and mowed down spectators at an event in northern Mexico, killing at least eight people, including four children, officials said.
+Video of the incident at the Extremo Aeroshow in Chihuahua, Mexico, shows a massive red truck running over an obstacle on a dirt course and then swerving into the crowd as audience members scream.
+The driver told authorities he passed out after hitting his head, a state prosecutor's spokesman said.
+State Gov. Cesar Duarte told reporters Sunday that it was possible the truck's driver drank alcohol before Saturday's deadly crash.
+Blood tests were conducted and prosecutors will determine who was responsible, Duarte said.
+The crash injured dozens of people, Duarte said. On Sunday, 28 of them remained hospitalized -- 12 of whom were in critical condition.
+The city's mayor, Marco Quezada Martinez, told the state-run Notimex news agency that he has ordered an investigation.
+CNN has not been able to reach a lawyer representing the truck's driver.
+Officials said the Extremo Aeroshow was suspended after the incident.
+According to the event's website, the show included aerobatics, skydiving, hot air ballooning, motorcycles, fireworks and monster trucks.
+</ExtractedText>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Sat, 05 Oct 2013 11:46:31 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>Louvre hit by Chinese scam</title>
+<guid>http://edition.cnn.com/2013/09/13/travel/louvre-fake-chinese-tickets/index.html</guid>
+<link>http://edition.cnn.com/2013/09/13/travel/louvre-fake-chinese-tickets/index.html?eref=edition</link>
+<description>First it was Chinese tourists apparently being targeted by criminal gangs in Paris.</description>
+<pubDate>Sun, 15 Sep 2013 23:44:16 EDT</pubDate>
+<ExtractedText>Louvre hit by Chinese counterfeit ticket scam
+By Simon Busch, CNN
+September 16, 2013 -- Updated 1421 GMT (2221 HKT)
+Paris, the capital of France, has become a popular destination for Chinese travelers over the years.
+STORY HIGHLIGHTS
+Chinese gangs may be behind forging of thousands of fake Louvre passes
+One haul alone -- in Belgium -- worth almost $200,000
+France reportedly wary of diplomatic fallout
+Chinese social media users "embarrassed"
+(CNN) -- First it was Chinese tourists apparently being targeted by criminal gangs in Paris .
+Roma pickpocketing crews were reportedly picking on Chinese travelers because of their habit of carrying plenty of cash with them.
+Now the tables seem, in a way, to be turned.
+French authorities suspect Chinese organized criminals to be behind the circulation of thousands of fake tickets to Paris' Louvre -- the world's most visited art gallery -- in a scam worth hundreds of thousands of euros.
+Chinese tourists targeted in France
+Backlash against Chinese tourists
+The museum was alerted to the swindle at the beginning of August when a staff member became suspicious of a ticket handed over by a Chinese tour guide, France 24 reports .
+The ticket "felt strange to the touch and the paper quality was not good. All our staff were immediately put on the alert," a Louvre spokesperson told Le Parisien .
+Upping their game
+But the criminals behind the scam appear to have upped their game at some point -- or more than one gang is operating.
+Days later, the Louvre discovered fake tickets that at first appeared "in every way identical to the genuine article," the spokesperson said.
+Then, at the end of August, Belgian customs officers seized more than 4,000 forged Louvre passes in a parcel from China.
+The counterfeit tickets being worth at least €36 ($48) each, that haul alone would have saved the scammers at least €144,000 (about $191,000).
+Read more: Chinese tourists targeted in Paris pickpocketing spate
+The Belgian discovery has sparked a French criminal investigation into whether criminal gangs in China are collaborating with Chinese tour operators in Paris to profit from the fake tickets, the Louvre said.
+However, French officials are reportedly wary of commenting publicly on the investigation for fear of causing diplomatic embarrassment with China.
+Scope of scam uncertain
+The Louvre as yet has no idea of the scope of the scam.
+"Our tickets are valid for a year. There's no telling how many are in circulation and there's no way as yet of calculating the cost of this scam to the museum," the Louvre said .
+The gallery would "enhance [its] anti-counterfeiting system" in response to the forgeries, the gallery told the Beijing Times, emphasizing that it continued to welcome Chinese tourists.
+French diplomats may be right to tread warily around the incident.
+Comments on Chinese social media expressed concern about the damage the scam could do to China's image.
+"Can you please stop forging? This is so embarrassing!" read one post on Weibo , the Chinese equivalent of Twitter (link in Chinese language only).
+"Ticket holders may not know the tickets are fake -- yet Chinese people are the ones being shamed," read another.
+</ExtractedText>
+</item>
+</channel>
+</rss>

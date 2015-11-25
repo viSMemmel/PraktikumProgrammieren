@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/internet/2013-10/internetfreiheit-2013-studie</link>
+      <guid>http://www.zeit.de/digital/internet/2013-10/internetfreiheit-2013-studie</guid>
+      <category>Digital</category>
+      <title>Studie zur Netzfreiheit: Das Netz der Überwachung wird feinmaschiger</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-10/internetfreiheit-2013-studie"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/freedom-bild/freedom-bild-148x84.jpg"/&gt;&lt;/a&gt; Immer mehr Staaten überwachen das Internet und zensieren seine Inhalte, zeigt eine neue Studie. Den USA bescheinigt sie eine besonders negative Entwicklung. 
+</description>
+      <dc:creator>ZEIT ONLINE : Digital - Angela Gruber</dc:creator>
+      <pubDate>Fri, 11 Oct 2013 16:57:57 GMT</pubDate>
+    <ExtractedText>Studie zur Netzfreiheit: Das Netz der Überwachung wird feinmaschiger
+Studie zur Netzfreiheit: Das Netz der Überwachung wird feinmaschiger
+Immer mehr Staaten überwachen das Internet und zensieren seine Inhalte, zeigt eine neue Studie. Den USA bescheinigt sie eine besonders negative Entwicklung. von  Angela Gruber
+11. Oktober 2013  12:17 Uhr  2 Kommentare
+Eine Inderin beschwert sich auf Facebook über gesperrte Straßen in ihrer Heimatstadt Mumbai, die die Polizei wegen der Beerdigung eines prominenten Politikers abgeriegelt hatte. Eine Freundin drückt den Like-Button. Beide Frauen werden festgenommen.
+Immer mehr Staaten überwachen, was ihre Bürger im Internet tun, zensieren Inhalte und gehen gegen unliebsame Blogger und Kritik in sozialen Netzwerken vor, besagt der aktuelle Bericht zur Internetfreiheit der amerikanischen Nichtregierungsorganisation Freedom House . Mit Beispielen wie dem aus Indien belegen das die Autoren des Berichts.
+Anzeige
+Von den 60 untersuchten Ländern haben 34 schlechter abgeschnitten als im Vorjahr . Am stärksten habe sich die Internetfreiheit in Indien, Brasilien, Venezuela und den USA verschlechtert. Die Autoren der Studie machen für die negativere Bewertung der USA die Informationen verantwortlich, die Whistleblower Edward Snowden öffentlich gemacht hat.
+Dem US-Geheimdienst NSA schreibt der Bericht eine verheerende Wirkung auf die Netzfreiheit zu: Auch wenn es keine Beweise gebe, dass die Überwachungsprogramme des Geheimdiensts eingesetzt wurden, um politische Meinungsäußerungen zu unterdrücken, habe die NSA millionenfach die Privatsphäre von Nutzern verletzt. Besonders problematisch sei, dass viele international erfolgreiche Internetfirmen wie Google oder Apple ihren Sitz in den USA hätten und zur Kooperation mit der NSA gezwungen werden können.
+Wer online Kritik äußert, dem droht Gefängnis
+Die "Freedom of the Net"-Studie stellt zudem fest, dass viele Regierungen eine immer ausgefeiltere Überwachungs- und Zensurtechnik einsetzen und unliebsame Nutzer verhaften. Insbesondere Russland entwickle Überwachungstechnik weiter und gehe aggressiv gegen ein freies Netz vor. Zudem erließen viele Länder Gesetze, die die Meinungsfreiheit im Netz einschränkten und teils drakonische Strafen vorsähen.
+Länder wie zum Beispiel China, der Iran oder Saudi-Arabien filterten den Internetverkehr, um bestimmte Inhalte für die Bevölkerung zu sperren. Soziale Netzwerke seien – wie etwa im Iran – blockiert. Wer sich regierungskritisch im Netz äußere, werde bedroht oder müsse mit einer Anklage rechnen. Unliebsame Webseiten würden gelöscht oder durch Cyberattacken lahmgelegt.
+Auch Internet-Blackouts, wie sie jüngst im Sudan vorkamen , seien ein beliebtes Mittel autoritärer Regierungen, freie Kommunikation zu unterbinden. 
+Bezahlte Kommentatoren seien in 22 der 60 Länder online aktiv, um die öffentliche Meinung im Sinne der Regierung zu beeinflussen oder Kritiker zu diffamieren.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

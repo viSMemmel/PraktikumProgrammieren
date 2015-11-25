@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Wissen - FAZ.NET</title>
+<link>http://www.faz.net/aktuell/wissen/</link>
+<description>Meldungen aus allen Bereichen der Wissenschaft. Nachrichten aus Forschung und Entwicklung: Medizin, Klima und Naturwissenschaft. </description>
+<copyright>Copyright 2001-2013 Frankfurter Allgemeine Zeitung GmbH. Alle Rechte vorbehalten.</copyright>
+<category>Wissen - FAZ.NET</category>
+<language>de-de</language>
+<docs>http://www.faz.net/hilfe/services-newsletter-widgets-rss-feeds-mehr/</docs>
+<generator>FAZ.NET</generator>
+<ttl>5</ttl>
+<lastBuildDate>Wed, 16 Oct 2013 06:00:04 +0200</lastBuildDate>
+<atom:link href="http://www.faz.net/rss/aktuell/wissen/" rel="self" type="application/rss+xml"/>
+<image>
+        <title>Wissen - FAZ.NET</title>
+        <url>http://www.faz.net/img/fazlogo_ressort.gif</url>
+        <link>http://www.faz.net/aktuell/wissen/</link>
+    </image>
+<item>
+    <title>Exoplaneten: Wolken aus  Stein und Eisen?</title>
+    <description>&lt;img width="190" height="107" border="0" title="Exoplanet Kepler 7b und Jupiter" alt="Exoplanet Kepler 7b und Jupiter" src="http://media1.faz.net/polopoly_fs/1.2618701!/image/2783018107.jpg_gen/derivatives/article_teaser/2783018107.jpg"/&gt;&lt;p&gt;Aus den Daten des Weltraumteleskops Kepler haben Astronomen eine Wolkenkarte des Exoplanet Kepler 7b  erstellt. Seltsamerweise ist die Bewölkung des  extrasolaren recht massiv.&lt;/p&gt;</description>
+    <link>http://www.faz.net/aktuell/wissen/weltraum/exoplaneten-wolken-aus-stein-und-eisen-12608069.html</link>
+    <pubDate>Tue, 15 Oct 2013 12:36:00 +0200</pubDate>
+    <guid isPermaLink="true">http://www.faz.net/-gx0-7i8g5</guid>
+<ExtractedText>Exoplanet Kepler 7b und Jupiter
+© AFP
+Exoplanet Kepler 7b und Jupiter
+Zum ersten Mal ist es amerikanischen Astronomen gelungen, die globale Wolkenverteilung eines Planeten außerhalb des Sonnensystems zu bestimmen. Mit den Daten des im Sommer stillgelegten amerikansichen Weltraumteleskops Kepler haben B rice-Olivier Demory vom Massachusetts Institute of Technology in Cambridge und seine Kollegen herausgefunden, dass eine Hälfte des Planeten Kepler 7b unter einer permanenten Wolkendecke liegt, während sich die andere über klaren Himmel freuen darf. Kepler 7b war für das Kepler-Teleskop (mit dem der Planet vor drei Jahren entdeckt wurde und dessen Namen er deshalb trägt) selbst nicht direkt sichtbar gewesen. Die Forscher haben für ihr Vorhaben deshalb winzige Helligkeitsschwankungen des Sterns untersucht, den Kepler 7b in nur 4,8 Tagen umrundet. Ein winziger Teil des Sternenlichts wird vom Planeten reflektiert und gibt Aufschluss über die Beschaffenheit der Planetenatmosphäre.
+Keine Wolken aus Wasserdampf
+Eine hochauflösende Wolkenkarte des rund tausend Lichtjahre entfernten Planeten können die Astronomen noch nicht liefern. Allerdings dürfte es auf dem „heißen Jupiter“ Kepler 7b auch wenig Bedarf für Wettervorhersagen geben, denn Leben ist hier unmöglich. Sicher ist jedoch, dass die Wolken von Kepler 7b völlig anders beschaffen sind als diejenigen der Erde. Statt aus Wasserdampf bestehen sie womöglich aus silikathaltigem Material - aus „Fels und Eisen“ also, wie der Astronom Jonathan Fortney von der University of California in Santa Cruz und Mitautor der Studie berichtet, die in der kommenden Ausgabe der „Astrophysical Journal Letters“ erscheinen wird. Auch scheinen sich die Wolkenformationen auf Kepler 7b anders als auf der Erde im Laufe der Zeit kaum zu ändern - der Planet besitzt offenbar ein außergewöhnlich stabiles Klima.
+The Dark Side of Kepler 7b
+Das hängt höchstwahrscheinlich mit der Beschaffenheit des Planeten zusammen: Kepler 7b ist weniger als halb so massereich, aber anderthalbmal so groß wie Jupiter, der größte Planet unseres Sonnensystems. Daher sind sowohl seine Dichte als auch die Schwerebeschleunigung in seinen äußeren Gasschichten besonders gering. Dies und seine hohe Temperatur begünstigten die Bildung von großräumigen „Wolkendecken“ aus schwerem Material, das in der Erdatmosphäre schnell zu Boden sinken würde. Die auffallende Stabilität der globalen Wolkenverteilung kommt vermutlich dadurch zustande, dass Kepler 7b, ähnlich wie der Mond der Erde, stets seinem Stern die gleiche Seite zuwendet. Somit ist eine Seite des Planeten ständig beleuchtet, die andere dagegen ewiger Dunkelheit ausgesetzt.
+© Nasa
+© Nasa
+Weltraumteleskop Kepler als Illustration
+Im sichtbaren Licht können die Astronomen nur die beleuchtete Seite sehen. Dabei ändert sich bei einem Umlauf um den Stern die von der Erde aus sichtbare Lichtphase des Planeten. Würde Kepler 7b das Sternenlicht gleichmäßig zurückwerfen, müsste er seine größte Helligkeit zu seiner „Vollmondstellung“ erreichen, wenn er also für einen irdischen Beobachter hinter dem Stern steht. Tatsächlich fanden die Forscher heraus, dass der Planet seine Maximalhelligkeit erst später erreicht - dass die westliche Hemisphäre von Kepler 7b das Sternenlicht also besser reflektiert als die östliche. Da ein Gasplanet keine festen Kontinente oder Meere besitzt, bleiben als Erklärung nur Wolken.
+Meteorologie von Exoplaneten
+Zusätzlich untersuchten die Forscher die von Kepler 7b ausgesandte Wärmestrahlung mit dem Weltraumteleskop Spitzer, das für Wellenlängen im Infrarotbereich optimiert ist. So konnten sie sicherstellen, dass das vom Planeten ausgehende Licht tatsächlich das reflektierte Licht des Sterns ist - und nicht etwa das „Glühen“ des Planeten selbst. Die mit Spitzer gemessene mittlere Temperatur des Planeten von rund 1300 Grad ist immer noch zu niedrig, um seine Helligkeit im sichtbaren Licht erklären zu können.
+Weitere Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

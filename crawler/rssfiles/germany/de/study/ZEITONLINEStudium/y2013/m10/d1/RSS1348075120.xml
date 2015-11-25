@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Studium</title>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<pubDate>Fri, 04 Oct 2013 10:15:15 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:47:30 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/studium/index</link>
+<atom:link href="http://newsfeed.zeit.de/studium/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Studium</title>
+      <link>http://www.zeit.de/studium/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/studium/hochschule/2013-10/eumann-plagiat-uni-dortmund</link>
+      <guid>http://www.zeit.de/studium/hochschule/2013-10/eumann-plagiat-uni-dortmund</guid>
+      <category>Studium</category>
+      <title>Strittiges Promotionsverfahren: Zum Doktortitel und wieder zurück</title>
+      <description>&lt;a href="http://www.zeit.de/studium/hochschule/2013-10/eumann-plagiat-uni-dortmund"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2013-07/marc-jan-eumann/marc-jan-eumann-148x84.jpg"/&gt;&lt;/a&gt; Der SPD-Politiker Marc Jan Eumann soll seinen Doktortitel erschwindelt haben. Da ist sich die Uni Dortmund sicher. Doch die angeblichen Fehler waren den Prüfern bekannt.</description>
+      <dc:creator>ZEIT ONLINE : Studium - Hermann Horstkotte</dc:creator>
+      <pubDate>Tue, 01 Oct 2013 09:56:15 GMT</pubDate>
+    <ExtractedText>Studiengänge
+Strittiges Promotionsverfahren: Zum Doktortitel und wieder zurück
+Der SPD-Politiker Marc Jan Eumann soll seinen Doktortitel erschwindelt haben. Da ist sich die Uni Dortmund sicher. Doch die angeblichen Fehler waren den Prüfern bekannt. Von  Hermann Horstkotte
+1. Oktober 2013  10:26 Uhr  32 Kommentare
+NRW-Medienstaatssekretär Marc Jan Eumann (SPD)  |  © Sven Simon/dpa
+Welche Folgen hat es für die Uni, wenn ein ehemaliger Doktorand plagiiert hat? Normalerweise keine: Von Guttenberg bis Schavan sahen sich die Unis nach ihren Untersuchungen von den Doktoranden "getäuscht" und sprachen sich damit frei von Fehlern und Mitverantwortung. Im Fall des SPD-Politikers Marc Jan Eumann dürfte das schwierig werden.
+Eumann ist seit 2010 in der nordrhein-westfälischen Landesregierung Staatssekretär für Medien. Ein Jahr später wurde er an der Uni Dortmund mit einer Untersuchung zur Pressegeschichte promoviert . Die Dissertation enthält zum Teil wörtliche Übernahmen aus seiner eigenen Magisterarbeit von vor zwanzig Jahren. Das ist durch eine Buchbesprechung Ende vergangenen Jahres herausgekommen . Die Promotionsschrift selbst gibt keinen entsprechenden Literaturhinweis. Seit Mitte Juli wirft die Dortmunder Rektorin dem Doktoranden wegen Eigenplagiats "erhebliches wissenschaftliches Fehlverhalten" vor . Der Fachbereich für Kulturwissenschaften solle ein "Verfahren zur Aberkennung des Doktorgrads einleiten".
+Anzeige
+Der Täuschungsvorwurf stützt sich auf ein unterschriebenes Formular. Darin gab Eumann an, dass die Dissertation nicht "ganz oder in einer anderen Fassung oder in Teilen einer Hochschule im Zusammenhang mit einer staatlichen oder akademischen Prüfung vorgelegen hat", also keine Zweitverwertung darstellt.
+Einen Hinweis auf die Magisterarbeit verlangten die Prüfer nicht
+Allerdings verlangt die Promotionsordnung erst seit August diesen Jahres ausdrücklich, "Teile der Dissertation", die bereits einer anderen Abschlussprüfung dienten, "als solche zu kennzeichnen". Diese Neuregelung entspricht wortwörtlich einem Verbesserungsvorschlag der Dortmunder Untersuchungskommission zum Fall Eumann. Eine solche Neuregelung ist aber in keinem Fall rückwirkend anzuwenden, also auch nicht auf Eumann. Da sind sich Rechtsexperten einig.
+Eumann sieht in der Klarstellung ein Indiz, dass die Kennzeichnungspflicht bislang eben nicht so klar war. Auch eine Uni-Sprecherin wertet die Neuformulierung als "inhaltlich klarer gefasst". Gleichzeitig mit dem strittigen Formular reichte Eumann seine Magisterurkunde zu den Promotionsakten. Dort ist auch die entsprechende Abschlussarbeit vermerkt, sie hat denselben Titel wie die Dissertation. Schon da hätten die Prüfer vorsorglich nachfragen können.
+Die aber waren offenkundig fest entschlossen, Eumann zu promovieren. Der Publizistik-Professor Ulrich Pätzold hat Eumann nach eigenen Angaben angeregt und ermuntert, die Magisterarbeit zur Dissertation zu veredeln – ohne einen Hinweis auf die Erstlingsschrift zu verlangen. Während die Uni Eumann jetzt wegen Täuschung bestrafen will, lässt sie den Mitwisser Pätzold bislang ungeschoren. "Bis heute hat mir noch niemand mit dem Disziplinarrecht gedroht", sagt Pätzold.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

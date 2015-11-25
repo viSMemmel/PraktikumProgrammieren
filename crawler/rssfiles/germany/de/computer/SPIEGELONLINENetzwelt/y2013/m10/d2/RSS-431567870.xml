@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Sat, 05 Oct 2013 18:33:12 +0200</pubDate>
+<lastBuildDate>Sat, 05 Oct 2013 18:33:12 +0200</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Verwaltungsstillstand: Nasa-Websites sind offline, die CIA nicht</title>
+<link>http://www.spiegel.de/netzwelt/web/shutdown-warum-die-nasa-websites-offline-ist-und-die-cia-nicht-a-925709.html#ref=rss</link>
+<description>Keine Finanzierung, keine Regierung, kein Netz. Mit dem großen Shutdown der amerikanischen Verwaltung gingen auch viele Regierungs-Websites in den Zwangsurlaub. Aber ist das finanziell sinnvoll - oder ist das doch eine versteckte Drohgebärde?</description>
+<pubDate>Wed, 02 Oct 2013 11:36:00 +0200</pubDate>
+<guid>http://www.spiegel.de/netzwelt/web/shutdown-warum-die-nasa-websites-offline-ist-und-die-cia-nicht-a-925709.html</guid>
+<content:encoded><![CDATA[<img src="http://www.spiegel.de/images/image-552025-thumbsmall-ydxk.jpg" hspace="5" align="left" >Keine Finanzierung, keine Regierung, kein Netz. Mit dem großen Shutdown der amerikanischen Verwaltung gingen auch viele Regierungs-Websites in den Zwangsurlaub. Aber ist das finanziell sinnvoll - oder ist das doch eine versteckte Drohgebärde?]]></content:encoded>
+<enclosure type="image/jpeg" url="http://www.spiegel.de/images/image-552025-thumbsmall-ydxk.jpg"/>
+<ExtractedText>Shutdown: Warum die Nasa-Websites offline ist und die CIA nicht
+Verwaltungsstillstand: Nasa-Websites sind offline, die CIA nicht
+DPA
+Nasa offline: Die Website der US-Behörde ist wegen des Verwaltungsstillstandes offline
+Keine Finanzierung, keine Regierung, kein Netz. Mit dem großen Shutdown der amerikanischen Verwaltung gingen auch viele Regierungs-Websites in den Zwangsurlaub. Aber ist das finanziell sinnvoll - oder ist das doch eine versteckte Drohgebärde?
+Die lahmgelegten Staaten von Amerika spielen Tischtennis - und schalteten erst mal viele Regierungs-Websites ab, um Geld zu sparen. Die zentrale Website der US-Regierung, www.usa.gov , etwa warnt: "Aufgrund eines Verzögerung der Finanzierung durch die Regierung ist diese Website nicht verfügbar. Wir bedauern diese Unannehmlichkeit aufrichtig ." Nach und nach gehen nun bei vielen .gov-Websites das Licht aus.
+Aber wie kann das Abschalten von Websites überhaupt dabei helfen, Geld zu sparen? Ist das überhaupt nötig? "Ars Technica" weist darauf hin, dass nur wenige offizielle Seiten auch wirklich vom Netz gegangen sind. Das Tech-Blog zählte von insgesamt 56 .gov-Websites nur zehn, die offline sind . Auf einigen Websites von US-Behörden steht zwar, sie seien "außer Betrieb", doch laut "Ars Technica" sind die Angebote online. Wahrscheinlich darf man einfach nicht mit einer Antwort auf Support-E-Mails rechnen, solange der Verwaltungsstillstand andauert.
+Tatsächlich könnte das Mal-so-mal-So auf eine Ansage in einem Regierungs-Memo zurückführbar sein , das Journalist Jon Christian ausgegraben hat . Darin erklärt die US-Bundesbehörde Office of Management and Budget, dass behördliche Aktivitäten -"auch der IT-Betrieb" - nach dem Shutdown nur dann weitergehen dürften, wenn diese in einem speziellen Mangelgesetz, dem Antideficiency Act, explizit erwähnt werden, eine Ausnahme vom Kongresses erhalten haben oder für die Weiterführung anderer, von Ausnahmeregelungen betroffenen Funktionen notwendig sind. Wie dieses Memo umgesetzt wird und welche Websites vom Shutdown ausgenommen sind, war nicht in Erfahrung zu bringen.
+Das Problem: Die Sites einfach weiterlaufen zu lassen, dürfte in den meisten Fällen günstiger sein, als sie herunterzufahren. Vielleicht haben sich einige Website-Betreiber deshalb für die pragmatischste Lösung entschieden: Einfach weiterlaufen lassen - und ignorieren.
+Zu den geschlossenen Websites gehören unter anderem nasa.gov , die gar nicht mehr im Netz auftauchen, die Website der Nationalen Sicherheitsbehörde NSA ist jedoch noch erreichbar, ebenso die der CIA. Vielleicht steckt hinter der partiellen Regierungsfinsternis ja auch eine Dramaturgie, die den Druck der Regierung - also der Website-Betreiber - auf die Verhandlungspartner erhöhen soll. Immer nutzte Barack Obama auch in einem Tweet die Chance, den Republikanern die Schuld für den Shutdown in die Schuhe zu schieben - und selbst die zentrale Regierungs-Website USA.gov ist nur teilweise nicht verfügbar: nebst der Entschuldigung für Unannehmlichkeiten monieren die Betreiber in einem Posting, wie schädlich der Haushalts-Shutdown für das Land sei .
+Derweil könnte der IT-Shutdown aber tatsächlich böse Konsequenzen haben: Während der Ruhephase werden auch die IT-Abteilungen der Behörden kurz gehalten, entsprechend schlecht wäre deren Krisenreaktionsvermögen, etwa bei einem Netzausfall - oder -Angriff .
+kno
+</ExtractedText>
+</item>
+</channel>
+</rss>

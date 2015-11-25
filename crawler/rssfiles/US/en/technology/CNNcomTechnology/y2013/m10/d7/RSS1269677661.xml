@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Mon, 07 Oct 2013 12:03:43 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_technology" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_technology"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>New iPhone now selling for just $45</title>
+<guid isPermaLink="false">http://www.cnn.com/2013/10/07/tech/mobile/buy-iphone-5c-cheap/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_technology/~3/EIbQxLpmDQY/index.html</link>
+<description>A little more than two weeks after it first went on sale for $99, Apple's colorful new iPhone 5c is already on the bargain racks.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/EIbQxLpmDQY" height="1" width="1"/&gt;</description>
+<pubDate>Mon, 07 Oct 2013 12:01:00 EDT</pubDate>
+<feedburner:origLink>http://www.cnn.com/2013/10/07/tech/mobile/buy-iphone-5c-cheap/index.html</feedburner:origLink>
+<ExtractedText>New iPhone now selling for just $45
+By Courtney Subramanian, TIME
+October 7, 2013 -- Updated 1603 GMT (0003 HKT) | Filed under: Mobile
+Apple's Phil Schiller presents the iPhone 5C, a cheaper, simpler version of the phone, at a September event.
+STORY HIGHLIGHTS
+Retailers have already slashed the price of the iPhone 5C
+The 5C is the less expensive of two new iPhones
+New deals target the holiday sales season
+(CNN) -- A little more than two weeks after it first went on sale for $99, Apple's colorful new iPhone 5c is already on the bargain racks.
+First Best Buy rolled out a promotion on Thursday to offer the Apple iPhone 5C for $50, and now RadioShack and Walmart have announced similar price cuts on the new device.
+On Friday, Walmart — which was already selling the phone for $79 — slashed its price to $45 through the holiday season, while RadioShack plans to give customers $50 gift cards to apply towards the iPhone 5C phone through Nov. 2.
+Best Buy's deal only lasts through Oct. 7. All promotions apply only if customers sign a two-year wireless contract.
+Is the iPhone worth the obsession?
+The 5C, which costs $99 if purchased through Apple with a two-year contract (or $549 without), is the cheaper version of the 5S phone. Analysts speculated that the 5C would not do as well as the high-end 5S, which costs $199 with a contract and features a fingerprint sensor, better camera and faster processor.
+The 5S has been frequently sold out at various locations, even though Apple reported shipping 9 million iPhone 5S and 5C models in the first weekend alone.
+Retailers like Best Buy and Walmart are slashing prices in an effort to entice consumers to buy the 5C, according to ABC. Target is also offering a reduced price on the colorful plastic model.
+© 2012 TIME, Inc. TIME is a registered trademark of Time Inc.  Used with permission.
+</ExtractedText>
+</item>
+</channel>
+</rss>

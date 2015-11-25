@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Mon, 07 Oct 2013 14:54:36 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>At least 194 people killed</title>
+<guid>http://edition.cnn.com/2013/10/05/world/europe/italy-migrant-boat-sinks/index.html</guid>
+<link>http://edition.cnn.com/2013/10/05/world/europe/italy-migrant-boat-sinks/index.html?eref=edition</link>
+<description>More than 100 wooden coffins lie in long rows in an airport hangar, each with a single rose on top. Four of the coffins are small and white, belonging to children and adorned with a teddy bear.</description>
+<pubDate>Mon, 07 Oct 2013 03:11:22 EDT</pubDate>
+<ExtractedText>NEW: 83 additional victims are found, bringing the death toll to 194
+Survivors' accounts indicate 518 people were on the boat, a lawmaker says
+Search resumes after delays caused by rough weather
+The coast guard defends its response time
+Lampedusa, Italy (CNN) -- More than 100 wooden coffins lie in long rows in an airport hangar, each with a single rose on top. Four of the coffins are small and white, belonging to children and adorned with a teddy bear.
+Hand-written on each coffin is a number, but no name.
+The Italian coast guard says at least 194 people were killed in a ship disaster last week off Lampedusa , a small Mediterranean island halfway between Sicily and Tunisia.
+The vessel was packed with hundreds of African migrants when it sank half a mile from the Italian island, and the coast guard says many more victims may yet be found.
+Search crews found the bodies of 83 of the victims on Sunday and were still diving in the area of the wreck.
+Fading hope for more survivors
+There were 518 migrants on the boat when it capsized Thursday morning, Italian lawmaker Mario Marazziti said, citing survivors' accounts. Coast guard spokesman Filippo Marini said 155 people were rescued, and Italian authorities said the rest may still lie inside the vessel on the seabed, some 47 meters (154 feet) below the surface of the Mediterranean.
+One diver who reached the wreck reported seeing dozens of corpses wedged in its lower deck. Gusty winds and rough waters Saturday put the recovery operation on hold, but the search operation continued when the weather cleared.
+"We will continue all day and all night until we are able to bury these bodies," coast guard Adm. Felicio Angrisano said.
+The U.N. refugee agency said Friday that one of the survivors was Tunisian and the others were from Eritrea, in the Horn of Africa. The boat is also believed to have been carrying migrants from Somalia.
+Survivors mourn those lost
+Survivors held a private memorial service Saturday at Lampedusa's airport.
+"All the men entered first, chanting a song. They were all crying silently," said Valentina Loiero, spokeswoman for Laura Boldrini, president of the Italian Parliament. Loiero attended the service.
+"Then the women entered and you could see moments of unspeakable agony. A prayer was said by the local parish priest and then translated (from Tigrinya, an Eritrean language). The prayer basically said, 'Your suffering is our suffering, your tears are our tears.'"
+Boldrini and a delegation of Italian lawmakers met with survivors Saturday at Lampedusa's migrant detention center, where they are being held. The cramped center was built to hold 250 people but houses more than 1,200.
+Because of its location as the closest Italian island to Africa, Lampedusa is a common destination for African refugees seeking to enter European Union countries, and shipwrecks off its shores are common.
+Opinion: Europe must be open to refugees fleeing persecution
+An ill-fated journey
+Survivors of the wreck described spending 13 days on the boat before the engine stopped just off Lampedusa's coast, according to Melissa Fleming, the chief spokeswoman for the United Nations refugee agency.
+The migrants hoped to be spotted, but, they told the agency, fishing boats passed by without helping, so they set fire to clothes and blankets in a bid to attract attention.
+The fire then spread and when many of the migrants crowded to one side, the boat capsized, said Marazziti, the Italian lawmaker.
+In response to criticism, the coast guard Saturday defended its response time and said its crews were on site 20 minutes after receiving the SOS call.
+"The moment we got the emergency call from the fishermen at 7 a.m. we immediately intervened and started coordinating the rescue operations," said Marini, the coast guard spokesman.
+</ExtractedText>
+</item>
+</channel>
+</rss>

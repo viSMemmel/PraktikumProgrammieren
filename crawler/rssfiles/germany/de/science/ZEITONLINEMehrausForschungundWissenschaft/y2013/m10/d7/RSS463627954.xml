@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Mon, 07 Oct 2013 18:03:55 GMT</pubDate>
+<lastBuildDate>Mon, 7 Oct 2013 21:04:42 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/wissen/gesundheit/2013-10/nobelpreis-physiologie-suedhof</link>
+      <guid>http://www.zeit.de/wissen/gesundheit/2013-10/nobelpreis-physiologie-suedhof</guid>
+      <category>Wissen</category>
+      <title>Nobelpreise live: Post von der Zelle</title>
+      <description>&lt;a href="http://www.zeit.de/wissen/gesundheit/2013-10/nobelpreis-physiologie-suedhof"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wissen/2013-10/neuron-nobelpreis-2013/neuron-nobelpreis-2013-148x84.jpg"/&gt;&lt;/a&gt; Wenn Körperzellen eine Botschaft für ihresgleichen haben, packen sie ein Paket mit Molekülen drin. Die drei Physiologie-Nobelpreisträger haben diesen Postweg aufgedeckt.</description>
+      <dc:creator>ZEIT ONLINE : Wissen - Alina Schadwinkel</dc:creator>
+      <pubDate>Mon, 07 Oct 2013 17:55:58 GMT</pubDate>
+    <ExtractedText>Geschichte
+Nobelpreis für Physiologie: Post von der Zelle
+Wenn Körperzellen eine Botschaft für ihresgleichen haben, packen sie ein Paket mit Molekülen drin. Die drei Physiologie-Nobelpreisträger haben diesen Postweg aufgedeckt. Von  Alina Schadwinkel
+7. Oktober 2013  19:23 Uhr  3 Kommentare
+Stammzellen, aus denen Neuronen werden können. Zwischen solchen Zellen leiten Botenstoffe Signale weiter.  |  © Gerry Shaw (CC-BY-SA-3.0)
+Ein Postzentrum will gut organisiert sein. Millionen von Paketen, Päckchen und Briefen müssen jeden Tag gescannt, sortiert und weitergeleitet werden. Die Absender verlassen sich darauf, dass ihre Post sicher und zuverlässig ankommt. Kommt ein Flugzeug mit neuen Postsendungen zu spät oder steht ein Lkw zu lange im Stau, herrscht schnell Chaos. Das kostet Zeit und Geld. Koordination und Pünktlichkeit sind das oberste Gebot in der Logistik.
+Das gilt auch für unseren Körper, in dem 24 Stunden am Tag logistischer Hochbetrieb herrscht. Denkprozesse, Temperaturregulation, Wachstum, Blutzuckerhaushalt – damit all das reibungslos ablaufen kann, reichen unsere Körperzellen ununterbrochen kleine Päckchen mit Botschaften darin weiter. Ihre Vehikel sind Vesikel. So heißen die ovalen Transportbläschen innerhalb jeder Zelle. Ihre Fracht sind chemische Stoffe, die sie wie durch einen Tunnel durch die Zellmembran nach draußen befördern.
+Anzeige
+Dabei zählt jede Sekunde. "Ohne einen präzise ausgearbeiteten Ablauf würden unsere Zellen ins Chaos stürzen", erklärte Juleen Zierath, Vorsitzende des Komitees für den Medizinnobelpreis auf der Pressekonferenz in Stockholm. Kleinste Störungen in der Zelllogistik können sogar zu neurologischen Störungen oder Diabetes führen.
+"Schon seit den fünfziger Jahren ist bekannt, dass höhere Zellen membranumschlossene Organellen besitzen", sagt Reinhard Jahn vom Max-Planck-Institut für Biophysikalische Chemie . Auch wusste man, "dass diese Organellen mithilfe des Austauschs von Transportvesikeln kommunizieren". Es sei jedoch völlig unklar gewesen, wie die Zellen die Vesikel genau bilden und wie die Transport-Päckchen mit der Membran verschmelzen, damit die Stoffe letztlich freigesetzt werden können.
+Dafür, dass sie diesen Prozess aufgeschlüsselt haben, erhalten der Biochemiker Thomas Südhof und die Zellbiologen Randy Schekman und James Rothman jetzt den Physiologie-Nobelpreis . Sie haben erforscht, wie die Logistik in unserem Körper geregelt ist.
+Hefezellen als Versuchspostboten
+"Ohne ein funktionierendes Transportsystem ist kein Leben möglich", sagt auch Volker Haucke vom Leibniz-Institut für Molekulare Pharmakologie in Berlin. Umso wichtiger sei es, den Prozess des Transports und der Freisetzung von Botenstoffen zu verstehen. Doch der Mechanismus ist komplex. Die Erklärungsansätze der diesjährigen Nobelpreisträger kommen aus drei sehr unterschiedlichen Richtungen. Doch nur zusammen haben ihre Forschungsprojekte zeigen können, wie das Logistikzentrum des Körpers organisiert ist.
+Sämtliche Prozesse im Körper laufen nur ab, weil die Anleitungen dafür im Erbgut festgeschrieben sind. Gene regulieren auch den Zellstoffwechsel. Bereits in den siebziger Jahren hatte sich der Biochemiker James Schekman von der kalifornischen Berkeley -Universität vorgenommen, herauszufinden, welche Gene den Transport von Stoffen aus einer Zelle steuern. Am Beispiel von Bäckerhefe-Zellen, deren Postausgang nicht funktionierte, weil sie zu viele Päckchen auf einmal losschickten, studierte er für den Mechanismus maßgebliche Genmutationen und verglich dieselben Erbgutabschnitte defekter und gesunder Zellen. So identifizierte er schließlich drei Klassen von Genen, die unterschiedliche Bereiche des körpereigenen Transportsystems koordinieren.
+Besonders die Technik, mit der Schekman gearbeitet hat, begeistert Fachkollegen. "Es ist ihm gelungen, die am Transport beteiligten Gene anhand von statischen Bildern eines Elektronenmikroskops den einzelnen Defekten zuzuordnen und dann auch noch in eine Reihenfolge zu bringen", sagt Haucke. So etwas sei zuvor niemandem gelungen.
+Am der Zellwand angekommen, muss die Fracht entladen werden. "Dieser Schritt ist komplex reguliert", sagt der Biowissenschaftler Jens Rettig von der Universität des Saarlandes . Schließlich müsse sichergestellt sein, dass die Fracht an der richtigen Adresse sei. "Den Zielort markieren eine Reihe von Eiweißen, die Snare-Proteine", erklärt Rettig. Entdeckt wurden sie unter anderem von James Rothman, an den ein Drittel des Nobelpreises geht.
+Der Zellbiologe von der Universität Yale hat in den achtziger und neunziger Jahren gezeigt, dass sowohl die Vesikel als auch die Membranen jeweils einen Komplex aus Eiweißen besitzen, die sich miteinander verbinden. Nur wenn diese Proteine wie ein Reißverschluss ineinandergreifen, beginnt die Verschmelzung aus Zellwand und Vesikel-Päckchen und die Stoffe werden freigesetzt.
+Entweder werden die Päckchen samt ihrer Informationen dann gleich von den Nachbarn angenommen, etwa von einem Neuron an einer Synapse im Gehirn. Oder sie haben eine Reise durch den ganzen Körper vor sich – über die Blutbahn – bis sie auf einen Empfänger stoßen, der den richtigen Annahmezettel hat. Im Fall von Zellen sind das die passenden Rezeptoren.
+Übersicht zu diesem Artikel
+</ExtractedText>
+</item>
+</channel>
+</rss>

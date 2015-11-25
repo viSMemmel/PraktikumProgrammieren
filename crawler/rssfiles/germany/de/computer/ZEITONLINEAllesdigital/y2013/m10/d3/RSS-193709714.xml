@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/internet/2013-10/fbi-silk-road-ulbricht</link>
+      <guid>http://www.zeit.de/digital/internet/2013-10/fbi-silk-road-ulbricht</guid>
+      <category>Digital</category>
+      <title>Kriminalität: FBI schließt virtuellen Schwarzmarkt Silk Road</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-10/fbi-silk-road-ulbricht"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/fbi-bharara/fbi-bharara-148x84.jpg"/&gt;&lt;/a&gt; Das FBI hat den Betreiber der Plattform Silk Road festgenommen, deren Angebot von LSD bis zum Auftragsmord reichte. Die Währung Bitcoin verliert dadurch an Wert.</description>
+      <dc:creator>ZEIT ONLINE : Digital</dc:creator>
+      <pubDate>Thu, 03 Oct 2013 10:22:15 GMT</pubDate>
+    <ExtractedText>Games
+Kriminalität: FBI schließt virtuellen Schwarzmarkt Silk Road
+Das FBI hat den Betreiber der Plattform Silk Road festgenommen, deren Angebot von LSD bis zum Auftragsmord reichte. Die Währung Bitcoin verliert dadurch an Wert.
+3. Oktober 2013  12:18 Uhr  30 Kommentare
+Die US-Bundespolizei FBI hat den virtuellen Drogenhandelsplatz Silk Road vom Netz genommen. Der Betreiber des Portals, Ross William Ulbricht, wurde in San Francisco festgenommen. Ihm werden Verschwörung zum Drogenhandel, Betrug und Geldwäsche vorgeworfen. Das teilte das Justizministerium mit.
+Silk Road sei ein "riesiger Schwarzmarkt" für Drogen und andere illegale Produkte und Dienstleistungen gewesen, heißt es in der Anklage, die bei einem Bundesgericht in New York eingereicht wurde. Staatsanwalt Preet Bharara sagte, die Website habe sich zu einem "der ausgereiftesten und größten kriminellen Marktplätze im Internet" entwickelt.
+Anzeige
+Internetnutzer hätten dort unter anderem Kokain, Heroin und LSD erwerben sowie Auftragsmörder anheuern können. Außerdem seien gestohlene Kreditkartendaten und Hacker-Software zum Diebstahl von Passwörtern angeboten worden. Die Nutzer erhielten dort auch Tipps, um der Strafverfolgung zu entgehen.
+Dem 29-jährigen Gründer der Plattform, der im Internet als Dread Pirate Roberts firmierte, wird außerdem vorgeworfen, im März 2012 den Mord an einem Nutzer in Auftrag gegeben zu haben, der damit gedroht hatte, die Identität anderer Kunden der Website aufzudecken.
+Bitcoins verlieren an Wert
+Silk Road war durch das Anonymisierungsnetzwerk Tor geschützt worden. Für jede Transaktion mussten die Kunden eine Provision in Höhe von acht bis 15 Prozent entrichten, die sie in der virtuellen Währung Bitcoin beglichen. Insgesamt sollen mehr als 1,2 Milliarden Dollar über die Website umgesetzt worden sein.
+Das FBI stellte nun Bitcoins im Gegenwert von etwa 3,6 Millionen Dollar (2,65 Millionen Euro) sicher. Nach der Schließung der Seite verloren Bitcoins an Wert. Der Internethändler Mt. Gox bezifferte den Wert auf 110 Dollar und damit 30 Dollar niedriger als am Vortag.
+Die Ermittlungen des FBI hatten im November 2011 begonnen. Mehr als 100 Fahnder ermittelten verdeckt und bestellten Drogen, die anschließend in einem Labor analysiert wurden. Die  Rauschmittel erhielten sie von Händlern aus den USA und Kanada, aber  auch von Verkäufern aus mehr als zehn europäischen Ländern, darunter die  Niederlande, Großbritannien, Spanien und Frankreich. Nach Angaben der  Staatsanwaltschaft hatte die Website im Juli nahezu eine Million Nutzer,  ein Drittel davon in den USA.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

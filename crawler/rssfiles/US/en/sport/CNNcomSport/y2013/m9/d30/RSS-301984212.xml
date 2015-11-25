@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Sat, 05 Oct 2013 11:43:47 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_sport" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_sport"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>USA wins America's Cup</title>
+<guid isPermaLink="false">http://edition.cnn.com/2013/09/25/sport/americas-cup-oracle-team-usa-team-new-zealand/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_sport/~3/zFgaa5LU0A0/index.html</link>
+<description>Team USA pulls off one of the greatest sporting comebacks to deny New Zealand sailing's premier prize with a dramatic victory in San Francisco.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/zFgaa5LU0A0" height="1" width="1"/&gt;</description>
+<pubDate>Mon, 30 Sep 2013 15:46:28 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/2013/09/25/sport/americas-cup-oracle-team-usa-team-new-zealand/index.html</feedburner:origLink>
+<ExtractedText>Race 18: Oracle Team USA wins by 54 seconds
+Race 17: Oracle Team USA wins by 27 secs
+Race 16: Oracle Team USA wins by 33 secs
+Race 15: Oracle Team USA wins by 37 secs
+Race 14: Oracle Team USA wins by 23 secs
+Race 13: Oracle Team USA wins by 84 secs
+Race 12: Oracle Team USA wins by 31 secs
+Race 11: Team New Zealand wins by 15s
+Race 10: Team New Zealand wins by 17s
+Race 9: Oracle Team USA wins by 47 secs
+Race 8: Oracle Team USA wins by 52 secs
+Race 7: Team New Zealand wins by 66 secs
+Race 6: Team New Zealand wins by 47 secs
+Race 5: Team New Zealand wins by 65 secs
+Race 4: Oracle Team USA wins by 8 secs
+Race 3: Team New Zealand wins by 28 secs
+Race 2: Team New Zealand wins by 52 secs
+Race 1: Team New Zealand wins by 36 secs
+*Oracle deducted two points before opening race
+"It had everything," said Oracle skipper Jimmy Spithill told Sky Sports.
+"It was fantastic. We wouldn't have had it any other way. The guys showed so much heart."
+Backed by billionaire Larry Ellison, who owns a 25% in Oracle, the team pulled off a fairytale ending which money just cannot buy.
+The 69-year-old, whose personal fortune is estimated at $41 billion by Forbes Magazine, boarded the boat to take part in the celebrations following a titanic tussle.
+The America's Cup is the oldest trophy in international sport -- but rarely has sailing's pinnacle event ever been so dramatic.
+It speaks volumes that even those who had barely heard of the event last week suddenly became hooked on a race which has been going since 1851.
+And yet this contest should have been all over before Wednesday's fantastic finale with Emirates Team New Zealand having stormed into an 8-1 lead.
+In fact, the challenger should have wrapped up the title with victory in race 13 only for it to be abandoned with its yacht just two minutes from the finish line because of a time limit rule.
+When the race was rescheduled, Oracle Team USA picked up the win which kept its hopes of a historic comeback alive.
+Only on two occasions has the destination of the trophy been unknown going into the final race of the competition.
+Seeing San Francisco by sailboat
+Meet America's Cup flying hi-tech boats
+Olympic champion: Sailing is not elitist
+Oracle has appeared determined to make life difficult for itself since the start of its defense.
+The team was given a two point penalty and fined $250,000 after illegally placing lead pellets in their catamarans to gain extra weight.
+The incident also cost three crew members their place on the team.
+Racing in AC-72 catamarans, the first time these boats have been used in the competition, the crews expect to sail at around 40 knots or 74 kilometers an hour.
+Excitement is never far away -- but then again, never is danger.
+Only last March, British sailor Andrew Simpson died after being trapped under a catamaran in an America's Cup training session with Swedish team Artemis.
+Last October, the Oracle team came perilously close to an accident of their own, while the Emirates boat has also had its own share of scary moments.
+But this past fortnight has brought sailing to the forefront of world sport with Oracle's miraculous fightback set to go down as one of the greatest of all time.
+With both teams needing to win the race to get its hands on the trophy, a tight fought affair was expected.
+But despite a good start from Team New Zealand, it was the reigning champion which dominated.
+Led by Britain's four time Olympic gold medalist Ben Ainslie, who replaced John Kostecki as the team tactician with the score at 4-1, Oracle roared back in dramatic fashion.
+Ainslie is the first Briton to experience victory at the event since Charlie Barr led the American team Columbia to three consecutive victories in 1899, 1901 and 1903.
+The champagne was in full flow by the time Oracle made it back to dry land with fans in raptures at the side of the port.
+"It really is all about the team," added Spithill. "On your own you're nothing, the team make you look great.
+"I'm so proud of the boys. We were staring down the barrel at 8-1 but the boys didn't even flinch. It was a fantastic team effort."
+Team New Zealand skipper Dean Barker was left inconsolable at the conclusion of the titanic tussle.
+He added: "I'm incredibly proud of the team and what they've achieved but gutted we didn't get the last win we needed to take the cup back to New Zealand.
+"It's hard to swallow."
+</ExtractedText>
+</item>
+</channel>
+</rss>

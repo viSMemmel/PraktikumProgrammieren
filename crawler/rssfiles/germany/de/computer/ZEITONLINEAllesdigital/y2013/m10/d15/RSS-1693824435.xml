@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Tue, 15 Oct 2013 19:32:28 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 09:01:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/internet/2013-10/code-literacy-zuckerberg-gates</link>
+      <guid>http://www.zeit.de/digital/internet/2013-10/code-literacy-zuckerberg-gates</guid>
+      <category>Digital</category>
+      <title>Code Literacy: Mark Zuckerberg und Bill Gates lehren Programmieren</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-10/code-literacy-zuckerberg-gates"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-10/markzuckerberg/markzuckerberg-148x84.jpg"/&gt;&lt;/a&gt; Die Stiftung code.org will jedem Schüler das Schreiben von Software beibringen. Ein wichtiges Projekt, aber das Ziel, den Kindern die Welt zu erklären, erreicht es nicht.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Kai Biermann</dc:creator>
+      <pubDate>Tue, 15 Oct 2013 19:15:59 GMT</pubDate>
+    <ExtractedText>Code Literacy: Mark Zuckerberg und Bill Gates lehren Programmieren
+Code Literacy: Mark Zuckerberg und Bill Gates lehren Programmieren
+Die Stiftung code.org will jedem Schüler das Schreiben von Software beibringen. Ein wichtiges Projekt, aber das Ziel, den Kindern die Welt zu erklären, erreicht es nicht. von  Kai Biermann
+15. Oktober 2013  21:14 Uhr  17 Kommentare
+Facebook-CEO Mark Zuckerberg will Kindern das Programmieren beibringen.  |  © Win McNamee/Getty Images
+"Jeder Mensch in diesem Land sollte lernen, wie man einen Computer programmiert, weil es dich denken lehrt." Dieses Zitat von Steve Jobs steht auf der Website einer Stiftung, die Schülern in den USA das Programmieren beibringen will. Die Stiftung heißt code.org und wird von den Großen der Branche wie Google und Facebook unterstützt.
+Code literacy, das Verständnis dafür, wie Computer und Programme arbeiten, gilt als wichtige Fertigkeit. Die Stiftung hat sich der Aufgabe verschrieben, diese Fertigkeit zu fördern. Vor allem aber ist sie eine Art Jobinitiative, um in den USA mehr Programmierer auszubilden.
+Anzeige
+In der amerikanischen Computerindustrie gebe es 1,4 Millionen Jobs, aber nur 400.000 Programmierer, zeigt eine Statistik der Website . Entsprechend groß ist das Interesse der Industrie an der Stiftung. Technikblogs wie AllThingsD schreiben , die Konzerne hätten Dutzende Millionen Dollar gespendet.
+Zuckerberg und Microsoft-Gründer Bill Gates persönlich wollen den Schülern zeigen, wie man Programme schreibt. In einem Videotutorial werden beide Firmengründer im Dezember im Rahmen einer Computer Science Education Week ihr Wissen teilen. Als Beispiele sollen dabei Spiele wie Angry Birds dienen. Zwar nur eine Stunde lang, aber es kommt bei beiden sicher mehr auf den Werbeeffekt an als auf ihre tatsächlichen Fähigkeiten als Lehrer.
+Software erklärt einem die Welt nicht
+So lobenswert der Ansatz ist, er geht am eigentlichen Problem vorbei. "Es bringt nichts, den Leuten programmieren beizubringen, sie müssen vor allem verstehen, dass Code unser Leben durchdringt, damit sie als Bürger Debatten verfolgen und Entscheidungen treffen können", sagt Nele Heise . Die Kommunikationswissenschaftlerin forscht am Hans-Bredow-Institut unter anderem zum Thema code literacy.
+Programmier-Kurse würden sich nur an die richten, die sowieso am Thema interessiert seien, sagt Heise. Das sei gut und wichtig, löse aber nicht das eigentliche Problem. Jeder müsse verstehen, wie unsere vernetzte Welt funktioniert. Dieses Verständnis aber bekomme man nicht unbedingt durch das Erlernen von Programmiersprachen.
+"Wichtiger als Informatikunterricht ist eine digitale Staatsbürgerkunde, wie Stephan Dreyer es nannte. Verständnis für Software und Algorithmen zu haben, ist mehr als ein Spiel programmieren zu können", sagt Heise. Dieses Verständnis bräuchten auch jene, die gar nicht programmieren wollen, das zeige unter anderem das Beispiel NSA-Affäre . Vielen Menschen sei gar nicht klar, warum Überwachung und Privatsphäre Konzepte sind, die sie betreffen. Dementsprechend gering sei das Interesse daran. "Die Menschen verstehen gar nicht, dass die etwas mit ihnen zu tun hat und fordern daher auch keine politische Entscheidung."
+Programmieren mit Mark Zuckerberg und Bill Gates ist also sicher eine tolle Idee. Der Medienkompetenz-Basiskurs mit Frau Schulz in der ersten Klasse wäre aber sinnvoller, um möglichst vielen jungen Menschen zu erklären, wie die computerisierte Welt funktioniert und warum Algorithmen jeden angehen .
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

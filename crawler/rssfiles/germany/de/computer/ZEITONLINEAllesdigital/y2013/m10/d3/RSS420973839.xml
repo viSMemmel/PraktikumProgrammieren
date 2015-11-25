@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Alles digital</title>
+<description>Nachrichten, Analysen und Reportagen zu den Themen Internet, Datenschutz, Netzkultur, Mobil und Games. Sie finden hier die Trends, Features und Entwicklungen sowie aktuelle Tests aus dem Ressort Digital.</description>
+<pubDate>Fri, 04 Oct 2013 14:46:45 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:40:17 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/digital/index</link>
+<atom:link href="http://newsfeed.zeit.de/digital/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Alles digital</title>
+      <link>http://www.zeit.de/digital/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/digital/datenschutz/2013-10/internetfirmen-gericht-justizministerium</link>
+      <guid>http://www.zeit.de/digital/datenschutz/2013-10/internetfirmen-gericht-justizministerium</guid>
+      <category>Digital</category>
+      <title>NSA: US-Regierung hält Details zu Netzabfragen unter Verschluss </title>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2013-10/internetfirmen-gericht-justizministerium"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/datenschutz/2013-10/james-clapper/james-clapper-148x84.jpg"/&gt;&lt;/a&gt; Das US-Justizministerium befürchtet bei Veröffentlichung von Einzelheiten eine Gefährdung der nationalen Sicherheit. Auch die Geheimdienste wollen nichts preisgeben.</description>
+      <dc:creator>ZEIT ONLINE : Digital</dc:creator>
+      <pubDate>Thu, 03 Oct 2013 04:28:33 GMT</pubDate>
+    <ExtractedText>Games
+NSA: US-Regierung hält Details zu Netzabfragen unter Verschluss
+Das US-Justizministerium befürchtet bei Veröffentlichung von Einzelheiten eine Gefährdung der nationalen Sicherheit. Auch die Geheimdienste wollen nichts preisgeben.
+3. Oktober 2013  09:52 Uhr  13 Kommentare
+Der US-Geheimdienst-Koordinator James Clapper bei der Anhörung im Senat  |  ©BRENDAN SMIALOWSKI/AFP/Getty Images
+Die US-Regierung lehnt es ab, detailliert zu sagen, was Geheimdienste bei Internetunternehmen für Daten abfragen. Eine Herausgabe der Informationen könne der nationalen Sicherheit "ernsthaften Schaden" zufügen, hieß es in einer Stellungnahme bei dem für Geheimdienste zuständigen Foreign Intelligence Surveillance Court (Fisa). Vor diesem Gericht haben Facebook, Microsoft, Google und Yahoo mehr Transparenz zu den Datenabfragen verlangt. Das Justizministerium warnte jedoch, eine Veröffentlichung würde Quellen und Methoden der Geheimdienste enthüllen.
+US-Geheimdienst-Koordinator James Clapper sagte gleichzeitig in einer Anhörung vor dem Senat, die Regierung habe kein Problem damit, die Gesamtzahl der Geheimdienst-Anfragen zu veröffentlichen. Eine Aufschlüsselung nach Unternehmen würde den Feinden der USA aber ermöglichen, sich ein Bild von den Spähaktionen der Geheimdienste im Internet zu machen.
+Anzeige
+Die Konzerne sind durch die Enthüllungen des früheren Geheimdienst-Mitarbeiters Edward Snowden in die Kritik geraten, da ihnen vorgeworfen wird, ihre Kunden zu verraten, deren Daten sie in großem Umfang sammeln.
+Die Firmen sind rechtlich zur Zusammenarbeit mit dem Geheimdienst NSA verpflichtet, der E-Mails, Chats und andere Kommunikationsdaten im Internet ausspäht. Mit der Veröffentlichung von genauen Zahlen zu den Geheimdienst-Anfragen wollen die Unternehmen dem Eindruck entgegentreten, der NSA im großen Stil Zugriff auf Nutzerdaten zu gewähren.
+NSA-Chef Keith Alexander wies vor dem Senat einen Zeitungsbericht zurück, wonach sein Geheimdienst auch die Daten über die Nutzung sozialer Netzwerke wie Facebook durch US-Bürger sammelt. "Das ist nicht wahr", sagte Alexander. Soziale Netzwerke würden nur ausgewertet, "wenn jemand Teil von Terrorermittlungen oder etwas Ähnlichem ist".
+Die New York Times hatte am Sonntag berichtet, dass die NSA seit dem Jahre 2010 ganze Profile von Konktakten und Aktivitäten einiger US-Bürger erstelle und dazu vor allem deren Accounts in sozialen Netzwerken auswerte. Die Zeitung berief sich dabei auf Informationen des Whistleblowers Edward Snowden.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

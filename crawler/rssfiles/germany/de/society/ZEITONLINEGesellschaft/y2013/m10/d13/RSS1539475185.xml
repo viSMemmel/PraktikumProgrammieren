@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Gesellschaft</title>
+<description>Menschen in der Gesellschaft. Aktuelles zu Zeitgeschehen, Generationen, Soziales und Bildung.</description>
+<pubDate>Sun, 13 Oct 2013 14:13:54 GMT</pubDate>
+<lastBuildDate>Sun, 13 Oct 2013 17:36:31 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/gesellschaft/index</link>
+<atom:link href="http://newsfeed.zeit.de/gesellschaft/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Gesellschaft</title>
+      <link>http://www.zeit.de/gesellschaft/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/gesellschaft/2013-10/organisierte-kriminalitaet-eu-bericht</link>
+      <guid>http://www.zeit.de/gesellschaft/2013-10/organisierte-kriminalitaet-eu-bericht</guid>
+      <category>Gesellschaft</category>
+      <title>EU-Sonderbericht: Organisiertes Verbrechen schadet Europa in Milliardenhöhe</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/2013-10/organisierte-kriminalitaet-eu-bericht"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/zeitgeschehen/2013-10/prostitution-2/prostitution-2-148x84.jpg"/&gt;&lt;/a&gt; Menschenhandel, Zwangsprostitution, Cyberkriminalität: Verbrecherorganisationen richten in der EU jährlich einen Schaden im dreistelligen Milliardenbereich an. </description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Sun, 13 Oct 2013 10:03:52 GMT</pubDate>
+    <ExtractedText>EU-Sonderbericht: Organisiertes Verbrechen schadet Europa in Milliardenhöhe
+EU-Sonderbericht: Organisiertes Verbrechen schadet Europa in Milliardenhöhe
+Menschenhandel, Zwangsprostitution, Cyberkriminalität: Verbrecherorganisationen richten in der EU jährlich einen Schaden im dreistelligen Milliardenbereich an.
+13. Oktober 2013  12:02 Uhr  39 Kommentare
+Prostituierte auf einem Straßenstrich in Spanien  |  © Xavier Malafosse/dpa
+In der EU sind mindestens 3.600 Verbrecherorganisationen tätig, die jährlich einen volkswirtschaftlichen Schaden in dreistelliger Milliardenhöhe anrichten. Das geht laut Spiegel aus einem Bericht des EU-Ausschusses zur Untersuchung von organisiertem Verbrechen, Geldwäsche und Korruption in Europa (CRIM) hervor. Allein der Schaden durch Cyberkriminalität beläuft sich demnach auf 290 Milliarden Euro.
+Durch Menschenhandel würden Banden mehr als 25 Milliarden Euro jährlich verdienen. Die Kommission geht davon aus, dass in Europa 880.000 Menschen in sklavenähnlicher Arbeit gefangen sind. Davon seien 270.000 Menschen Opfer sexueller Ausbeutung . Diese Zahlen stammt ursprünglich aus einem Bericht der Internationalen Arbeitsorganisation (ILO) zum Thema Zwangsarbeit von 2012. Die ILO versteht unter Zwangsarbeit jede Form von Arbeit, die Menschen unter Androhung von Strafe unfreiwillig leisten.
+Anzeige
+Aber auch durch den illegalen Handel von Körperorganen und Wildtieren würden zwischen 18 und 26 Milliarden Euro jährlich umgesetzt. Zudem sei Korruption eine "ernsthafte Bedrohung", schreibt das Magazin unter Berufung auf den Bericht. Allein im öffentlichen Sektor habe man 20 Millionen Fälle mit einem Gesamtschaden von 120 Milliarden Euro registriert.
+Die Kommission fordert deshalb eine bessere Zusammenarbeit der europäischen Polizei und Justiz. Es müsse einheitliche Korruptionsgesetze und ein gemeinsames Vorgehen gegen Steueroasen geben.
+Das EU-Parlament will am 23. Oktober über den CRIM-Bericht beraten.
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

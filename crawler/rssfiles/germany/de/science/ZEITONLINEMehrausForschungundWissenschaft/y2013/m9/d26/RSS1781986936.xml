@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Sat, 05 Oct 2013 08:44:23 GMT</pubDate>
+<lastBuildDate>Sat, 5 Oct 2013 18:35:11 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/2013/40/stimmts-kopflaeuse</link>
+      <guid>http://www.zeit.de/2013/40/stimmts-kopflaeuse</guid>
+      <category>Wissen</category>
+      <title>Kolumne Stimmt's?: Überleben Läuse nur auf dem Kopf?</title>
+      <description>&lt;a href="http://www.zeit.de/2013/40/stimmts-kopflaeuse"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wissen/2013-09/s46-kopflaus/s46-kopflaus-148x84.jpg"/&gt;&lt;/a&gt; Kopfläuse breiten sich rasant aus. Springen die Parasiten wirklich auf Bettlaken, Kissen und Kleidung über – und was muss man waschen, wenn die Parasiten im Haus sind?</description>
+      <dc:creator>ZEIT ONLINE : Wissen - Christoph Drösser</dc:creator>
+      <pubDate>Thu, 26 Sep 2013 06:00:00 GMT</pubDate>
+    <ExtractedText>Stimmt's?: Können Kopfläuse außerhalb des menschlichen Kopfes nicht überleben?
+... fragt Ulrike Cristina aus Verbania (Italien). Von  Christoph Drösser
+1. Oktober 2013  13:48 Uhr  12 Kommentare
+Mikroskopische Aufnahme einer Kopflaus (Pediculus humanus capitis)   |  CC BY-SA 2.0: Gilles San Martin/Flickr
+Kopfläuse leben davon, dass sie Blut aus der Kopfhaut des Menschen saugen.       Diese Blutmahlzeit brauchen sie regelmäßig, alle paar Stunden. Außerhalb des Kopfes können sie       eine Weile überleben, aber nicht lange: maximal ein bis zwei Tage.
+Theoretisch wäre es also möglich, dass eine Laus sich im Kuscheltier eines Kindes festsetzt und zu einem anderen Kind wechselt, wenn dieses damit spielt. Das aber kommt praktisch nicht vor: Wissenschaftler haben schon des Öfteren Läuse gezählt, auf Kinderköpfen und auf Mützen, Kissen und Stofftieren. Sie fanden Tausende von Läusen auf den Köpfen der Kinder – aber so gut wie keine auf den Textilien.
+Anzeige
+Die Kopfläuse werden also fast ausschließlich von Kopf zu Kopf übertragen. Sie können dabei auch nicht hüpfen, sondern klettern bei engem Kontakt von einem Schopf auf den anderen. Deshalb kann man sich auch auf die Behandlung des Kopfes konzentrieren – es ist nicht notwendig, Bettwäsche und Textilien im großen Maßstab mit Insektenbekämpfungsmitteln einzunebeln. Man geht  am besten mit lokal wirkenden Chemikalien gegen die Parasiten vor.
+Serie: Stimmt's?
+Für weitere Artikel zur Serie "Stimmt's?" klicken Sie auf dieses Bild  |  © Jeff J. Mitchell/Getty Images
+Es ist also auch ein Vorurteil, dass der Befall mit Kopfläusen das Resultat von mangelnder       Hygiene zu Hause ist. Im Gegenteil: Auf frisch gewaschenen Haaren nisten sich die Insekten       lieber ein als auf ungepflegten.
+Die Adressen für "Stimmt’s"-Fragen: DIE ZEIT, Stimmt's?, 20079  Hamburg oder stimmts@zeit.de . Das "Stimmt's?"-Archiv: www.zeit.de/stimmts
+Diesen Artikel finden Sie als Audiodatei im Premiumbereich unter www.zeit.de/audio
+ 
+</ExtractedText>
+</item>
+</channel>
+</rss>

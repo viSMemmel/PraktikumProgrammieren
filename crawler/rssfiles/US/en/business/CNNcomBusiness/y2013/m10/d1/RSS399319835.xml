@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Fri, 04 Oct 2013 09:41:57 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Business</title>
+<link>http://edition.cnn.com/BUSINESS/index.html?eref=rss_business</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_business" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_business"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>10 best countries to start a business</title>
+<guid isPermaLink="false">http://edition.cnn.com/2013/10/01/business/10-best-places-to-start/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_business/~3/1F4Ct7up15o/index.html</link>
+<description>New Zealand tops the list as the easiest place to start a small and medium-sized enterprise, according to the World Bank's most recent report.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_business/~4/1F4Ct7up15o" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 01 Oct 2013 05:16:50 EDT</pubDate>
+<feedburner:origLink>http://edition.cnn.com/2013/10/01/business/10-best-places-to-start/index.html</feedburner:origLink>
+<ExtractedText>10 best places to start a business
+By Vanessa Ko, for CNN
+October 4, 2013 -- Updated 1252 GMT (2052 HKT)
+This is the second consecutive year that New Zealand has come first in the World Bank ranking. After registering a company name online, entrepreneurs can apply for tax-related accounts and incorporate the company at the same time.
+Australia made starting a business cheaper a few years ago by lowering the registration fee. It now costs 426 Australian dollars (US$390).
+Starting a business in Canada takes one online application, and five days for the company to receive the business number, according to the report.
+One of the three steps of starting a business in Singapore is the traditional requirement of making a company seal, an ink stamp used as a signature on numerous documents.
+Over the past five years, Macedonia has simplified the process of establishing a business by lowering capital requirements, reducing application procedures and time, and improving its online one-stop shop.
+In addition to registering the company and creating a rubber stamp, Hong Kong requires companies to sign up for an insurance policy and for the local pension fund.
+Georgia has removed layers of red tape in recent years, now requiring registration and opening a new bank account, which are expected to take two days.
+Although it is not particularly easy to do business in Rwanda overall, it is relatively simple to start a company. The only requirement is to registering the business, which is free of charge if it is done online, and the certificate is ready in one to three days.
+Launching a business in Belarus takes five days, about a third of the average time in Eastern Europe and Central Asia. It also does not require entrepreneurs put in a minimum capital.
+The first step in opening a business in Ireland is for a company founder to swear that the company has complied with relevant laws.
+HIDE CAPTION
+</ExtractedText>
+</item>
+</channel>
+</rss>

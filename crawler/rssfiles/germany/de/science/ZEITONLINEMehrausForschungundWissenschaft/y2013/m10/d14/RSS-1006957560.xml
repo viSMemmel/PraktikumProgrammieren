@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+<description>Nachrichten und Analysen zu Wissenschaft, Forschung, Gesundheit, Umwelt und Geschichte. Lesen Sie aktuelle Informationen aus dem Ressort Wissen.</description>
+<pubDate>Tue, 15 Oct 2013 15:25:37 GMT</pubDate>
+<lastBuildDate>Wed, 16 Oct 2013 08:56:04 +0200</lastBuildDate>
+<language>de-de</language>
+<link>http://www.zeit.de/wissen/index</link>
+<atom:link href="http://newsfeed.zeit.de/wissen/index" rel="self" type="application/rss+xml"/>
+<copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>mod_xslt LePenguin</generator>
+<managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+<webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: Mehr aus Forschung und Wissenschaft</title>
+      <link>http://www.zeit.de/wissen/index</link>
+    </image>
+<item>
+      <link>http://www.zeit.de/wissen/2013-07/fs-raumfahrt-china-2</link>
+      <guid>http://www.zeit.de/wissen/2013-07/fs-raumfahrt-china-2</guid>
+      <category>Wissen</category>
+      <title>Chinas Raumfahrtprogramm: Flaggen schwenken im All</title>
+      <description>&lt;a href="http://www.zeit.de/wissen/2013-07/fs-raumfahrt-china-2"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wissen/2013-07/fs-raumfahrt-china-teaser/fs-raumfahrt-china-teaser-148x84.jpg"/&gt;&lt;/a&gt; Chinas Pläne im All sind groß. Vor zehn Jahren kreiste der erste Taikonaut im Orbit. Bald soll ein Mondgefährt starten. Fotos erinnern an die Erfolge der Raumfahrtnation.</description>
+      <dc:creator>ZEIT ONLINE : Wissen</dc:creator>
+      <pubDate>Mon, 14 Oct 2013 15:10:05 GMT</pubDate>
+    <ExtractedText>1 von 18 Zurück Vorwärts
+Chinas Raumfahrtprogramm:
+Flaggen schwenken im All
+Soldaten sehen zu, wie eine Langstreckenrakete das Raumschiff Shenzhou 6 in den Himmel schießt. Die Mission schickte 2005 zwei Taikonauten auf einen Flug ins All.  |           © China Newsphoto/Reuters
+Was eine echte Großmacht sein will, kann sich nicht nur auf irdische Belange beschränken. Das galt schon im Kalten Krieg für Russland und die USA. Chinas Raumfahrtprogramm ist zwar noch jung, aber mit großen Plänen versehen. Seit 1990 experimentiert die Volksrepublik an einem bemannten Raumfahrtprojekt. Am 15. Oktober 2003 gelang es dann, den ersten Chinesen ins All zu schicken. Mittlerweile schwebt das Raumlabor Tiangong 1 im All. Im Juni reisten dort zuletzt drei Taikonauten hin. Auf dem Mond soll bald ein Roboter landen.
+Die neuesten Fotostrecken:
+</ExtractedText>
+</item>
+</channel>
+</rss>

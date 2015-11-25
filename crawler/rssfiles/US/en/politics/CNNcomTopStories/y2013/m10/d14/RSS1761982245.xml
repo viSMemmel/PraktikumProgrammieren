@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Wed, 16 Oct 2013 02:50:25 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link>http://edition.cnn.com/index.html?eref=edition</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition" rel="self" type="application/rss+xml"/>
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>China hits out at NASA</title>
+<guid>http://edition.cnn.com/2013/10/10/world/asia/china-nasa-row/index.html</guid>
+<link>http://edition.cnn.com/2013/10/10/world/asia/china-nasa-row/index.html?eref=edition</link>
+<description>China has hit out at NASA for its decision to ban Chinese scholars from an upcoming scientific conference in California, calling it "discriminatory."</description>
+<pubDate>Sun, 13 Oct 2013 22:49:51 EDT</pubDate>
+<ExtractedText>'To boldly go where no man has gone before': Not if you're Chinese, NASA says
+By Paul Armstrong and Feng Ke, CNN
+October 10, 2013 -- Updated 0744 GMT (1544 HKT)
+Mars Science Laboratory (MSL) mission members work in the data processing room in Pasadena, California, August 2, 2012.
+STORY HIGHLIGHTS
+Chinese scientists barred from NASA Kepler space telescope program conference
+2011 law prevents NASA funds from being used to collaborate with China, host Chinese visitors at its facilities
+Chinese Foreign Ministry spokeswoman: "The conference itself should not be politicized"
+U.S. Congressman behind law says the reporting on the matter is "riddled with inaccuracies"
+Hong Kong (CNN) -- China has hit out at NASA for its decision to ban Chinese scholars from an upcoming scientific conference in California, calling it "discriminatory."
+The U.S. space agency announced that Chinese nationals would not be permitted to attend the conference for NASA's Kepler space telescope program -- which has been searching for planets outside of the Solar System -- at the Ames Research Center next month on national security grounds.
+The decision, based on a law passed in 2011 that prevents NASA funds from being used to collaborate with China or to host Chinese visitors at its facilities, also came under fire from U.S. scientists who called for a boycott of the event.
+"In good conscience, I cannot attend a meeting that discriminates in this way. The meeting is about planets located trillions of miles away, with no national security implications," Geoff Marcy, an astronomy professor at the University of California, Berkeley, wrote in an email to the organizers that was published by a number of media outlets.
+Cold War treatment
+Chinese officials, meanwhile, expressed concern that Chinese scientists were being denied for the wrong reasons.
+"NASA's discriminatory practice has led to many U.S. and European scientists boycotting the conference. The conference itself should not be politicized," Chinese Foreign Ministry spokeswoman Hua Chunying said on Wednesday, in quotes carried by the state-run People's Daily newspaper .
+NASA's discriminatory practice has led to many U.S. and European scientists boycotting the conference. The conference itself should not be politicized.
+Chinese spokeswoman
+Gong Li, Director of the Institute of International Strategic Studies of the Party School of the Communist Party of China Central Committee said the ban was similar to previous U.S. action against the former Soviet Union during the Cold War. It also showed U.S. fear of China's fast development, he said.
+NASA hasn't released an official statement on its website due to the current U.S. government shutdown.
+Inaccuracies
+But U.S. Congressman Frank Wolf, who drafted the law on which the restriction is based, released a statement this week on his website that sought to correct "inaccuracies" about the restrictions first reported by Britain's Guardian newspaper .
+"I was concerned to read an October 4 article in The Guardian that reported on poor guidance about these policies with regard to restrictions on Chinese nationals attending a conference next month at NASA Ames Research Center. Unfortunately, the article is riddled with inaccuracies, as is, it appears, the guidance provided by NASA Ames staff to the attendees.
+"As you know, the congressional provision -- which has been in place since early 2011 -- primarily restricts bilateral, not multilateral, meetings and activities with the Communist Chinese government or Chinese-owned companies. It places no restrictions on activities involving individual Chinese nationals unless those nationals are acting as official representatives of the Chinese government."
+Security fears
+Wolf admitted NASA officials may have believed the move was needed because of extra temporary restrictions on foreign nationals after a potential security breach by a Chinese citizen at a NASA facility earlier this year.
+In March this year, a Chinese aerospace contractor who worked for NASA was arrested at Washington's Dulles International Airport as he boarded a flight to Beijing.
+Bo Jiang, who worked at NASA's Langley's Research Center in Hampton, Virginia, was charged with making false statements to U.S. authorities by failing to disclose all of the electronic devices he was carrying on his one-way flight.
+Wolf, who oversees congressional funding of several agencies, told reporters in March he believed Jiang was spying and had access to highly sensitive documents, including source codes for high-tech imaging used in missiles, unmanned aerospace equipment and other technology desired by the Chinese government.
+</ExtractedText>
+</item>
+</channel>
+</rss>

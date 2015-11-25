@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2013 Cable News Network LP, LLLP.</copyright>
+<pubDate>Fri, 04 Oct 2013 19:32:22 EDT</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://rss.cnn.com/rss/edition_entertainment" rel="self" type="application/rss+xml"/>
+<feedburner:info uri="rss/edition_entertainment"/>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+<item>
+<title>2013 Emmys: The winners list</title>
+<guid isPermaLink="false">http://www.cnn.com/2013/09/22/showbiz/tv/2013-emmy-awards-winners/index.html</guid>
+<link>http://rss.cnn.com/~r/rss/edition_entertainment/~3/_ml428-dB7M/index.html</link>
+<description>Between "Breaking Bad," "House of Cards," "Homeland" and its respective stars, the 2013 Emmys race was tight.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/_ml428-dB7M" height="1" width="1"/&gt;</description>
+<pubDate>Mon, 30 Sep 2013 18:17:36 EDT</pubDate>
+<feedburner:origLink>http://www.cnn.com/2013/09/22/showbiz/tv/2013-emmy-awards-winners/index.html</feedburner:origLink>
+<ExtractedText>2013 Emmys: The winners list
+By CNN Staff
+September 23, 2013 -- Updated 1403 GMT (2203 HKT)
+Outstanding drama series: "Breaking Bad"
+Outstanding lead actor in a drama series: Jeff Daniels, "The Newsroom"
+Outstanding lead actress in a drama series: Claire Danes, "Homeland"
+Outstanding supporting actor in a drama series: Bobby Cannavale, "Boardwalk Empire"
+Outstanding supporting actress in a drama series: Anna Gunn, "Breaking Bad"
+Outstanding writing for a drama series: Sarah Bromell accepts the award for her late husband, Henry Bromell, "Homeland"
+Outstanding comedy series: "Modern Family"
+Outstanding lead actor in a comedy series: Jim Parsons, "The Big Bang Theory"
+Outstanding lead actress in a comedy series: Julia Louis-Dreyfus, "Veep"
+Outstanding supporting actor in a comedy series: Tony Hale, "Veep"
+Outstanding supporting actress in a comedy series: Merritt Wever, right, "Nurse Jackie"
+Outstanding guest actress in a comedy series: Melissa Leo, "Louie"
+Outstanding writing for a comedy series: Tina Fey and Tracey Wigfield, "30 Rock"
+Outstanding directing for a comedy series: Gail Mancuso, "Modern Family"
+Outstanding miniseries or movie and outstanding directing for a miniseries or movie: Steven Soderbergh, "Behind the Candelabra"
+Outstanding lead actor in a miniseries or movie: Michael Douglas, "Behind the Candelabra"
+Outstanding supporting actor in a miniseries or movie: James Cromwell, "American Horror Story: Asylum"
+Outstanding supporting actress in a miniseries or movie: Ellen Burstyn, "Political Animals"
+Outstanding writing for a miniseries or movie: Abi Morgan, "The Hour"
+Outstanding reality-competition program: Carson Daly, left, and Mark Burnett, "The Voice"
+Outstanding host for a reality or reality-competition program: Tim Gunn and Heidi Klum, "Project Runway"
+Outstanding variety series and outstanding writing for a variety series: "The Colbert Report"
+Outstanding directing for a variety series: Don Roy King, "Saturday Night Live"
+Outstanding choreography: Derek Hough, "Dancing with the Stars"
+HIDE CAPTION
+</ExtractedText>
+</item>
+</channel>
+</rss>

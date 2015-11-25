@@ -198,7 +198,7 @@ public class Gui extends Application {
 		
 		final Button button0 = new Button("Wählen");
 		Button button1 = new Button("Zurücksetzen");
-		final Button button2 = new Button("Suche Starten");
+		final Button button2 = new Button("Sfuche Starten");
 
 		button0.setLayoutX(380);
 		button0.setLayoutY(47);
@@ -263,7 +263,7 @@ public class Gui extends Application {
 		
 		button2.setOnAction(new EventHandler<ActionEvent>(){
 			public void handle(ActionEvent ae) {
-				System.out.println("Button 2 geeeeeeeeeeeeeeeeeeeeeeeeeedrueckt");
+				System.out.println("Button 2 gedrueckt");
 				String Suchwort = null;
 				String Output = null;
 				Suchwort = textField1.getText();
@@ -335,41 +335,3 @@ public class Gui extends Application {
 }
 
 //GEHÖRT IN EINE EXTRIGE KLASSE
-class ModalerDialog extends Stage {
-
-    public ModalerDialog(){
-
-          super();
-          setTitle("Über den Anglizismenfinder");
-          initModality(Modality.APPLICATION_MODAL);
-
-
-          TextArea textArea1 = new TextArea();
-          textArea1.setEditable(false);
-          textArea1.setWrapText(true); // Automatischer Zeilenumbruch
-          textArea1.setPrefSize(574, 450);
-
-          textArea1.setText("LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZEILENUMBRUCH-TEST");
-
-          Button schliessen1 = new Button("Schließen"); // Schließt modales Femster
-          schliessen1.setOnAction(new EventHandler<ActionEvent>(){
-
-                 public void handle(ActionEvent ae) {
-
-                        close();
-                 }
-          });
-
-          BorderPane pane1 = new BorderPane();
-
-
-          pane1.setBottom(schliessen1);
-          pane1.setTop(textArea1);
-
-          Scene scene1 = new Scene(pane1, 600, 500);
-          setScene(scene1);
-
-    }
-
-}
-

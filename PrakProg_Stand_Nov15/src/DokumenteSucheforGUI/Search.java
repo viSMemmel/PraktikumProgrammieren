@@ -2,6 +2,10 @@ package DokumenteSucheforGUI;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 import Index.DeleteDir;
@@ -38,11 +42,19 @@ public class Search {
 	public String find() throws ParseException, IOException {
 		String Ausgabe_in_Textarea = null;
 		try {
-			String NameInternerOrdner = FilesToIndex;
-			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld);
+			NIOFSDirectory indexDir;
+			String NameInternerOrdner = FilesToIndex+"_Index";
+		/*	if(Files.exists(FileSystems.getDefault().getPath(NameInternerOrdner, null) , null)){ 
+				indexDir= Paths.get(NameInternerOrdner);
+			}else{ */
 
-			NIOFSDirectory indexDir = index.createIndex();
+				IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld);
 
+				indexDir = index.createIndex();
+
+	
+			//}
+		
 			System.out.println(indexDir.getDirectory());
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
@@ -105,7 +117,7 @@ public class Search {
 																				// Speicher
 																				// überlauf
 
-					Ausgabe_in_Textarea += "\n Das Dokument ist " + searchInDoc.Anzahl() + " Wörter. \n";
+					Ausgabe_in_Textarea += "\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";
 					System.out.println("\n ReadertoString() " + searchInDoc.toString());
 					searchInDoc.close();
 
@@ -121,12 +133,12 @@ public class Search {
 
 			indexDir.close(); // muss geschlossen werden damit Inhalt des
 								// internOrdner gelöscht werden kann
-			@Deprecated
+		/**	@Deprecated
 
-			DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
+		DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
 			deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben
 								// wurden, wird nach Beendigung des Suchprozeß
-								// gelöscht
+								// gelöscht**/
 
 		} catch (Exception e) {
 			System.out.println("Fehler!!!!");

@@ -27,7 +27,8 @@ public class SearchInDoc {
 	private TermsEnum Terme;
 	private TokenStream TStream; // verarbeitet einzelne Buchstaben
 	private TokenFilter TFilter; // evtl. unnötig
-	private List<String> tokenList;
+	private List<String> tokenList = new ArrayList();
+	
 
 	private Reader reader = null;
 	// https://lucene.apache.org/core/4_0_0/core/org/apache/lucene/index/DocsEnum.html
@@ -73,7 +74,7 @@ public class SearchInDoc {
 						// int startOffset = offsetAttribute.startOffset();
 						// int endOffset = offsetAttribute.endOffset();
 						String term = termAttribute.toString();
-						System.out.println(term);
+					//	System.out.println(term);
 						try {
 							tokenList.add(term);
 						} catch (Exception e) {
@@ -116,9 +117,6 @@ public class SearchInDoc {
 		} catch (Exception e) {
 
 		}
-		// i = reader.
-		// i = iField.length; Quatsch Länge ist immer zwei, da zwei Felder
-
 		return i;
 
 	}

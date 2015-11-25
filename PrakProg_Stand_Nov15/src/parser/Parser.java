@@ -67,8 +67,7 @@ public class Parser {
 
 		try {
 
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
-					.newInstance();
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 
 			DocumentBuilder builder;
 
@@ -84,11 +83,13 @@ public class Parser {
 
 			org.jdom2.Element r = jDoc.getRootElement();
 
-	/*		for (Iterator it = r.getDescendants(Filters.element());
-
-			it.hasNext();) {*/
+			/*
+			 * for (Iterator it = r.getDescendants(Filters.element());
+			 * 
+			 * it.hasNext();) {
+			 */
 			Iterator it = r.getDescendants(Filters.element());
-			while(it.hasNext()){
+			while (it.hasNext()) {
 
 				try {
 
@@ -102,7 +103,7 @@ public class Parser {
 
 						retAr.add(S);// Achtung nur ArrayList
 
-						//n++; WTF, does it?
+						// n++; WTF, does it?
 
 					}
 

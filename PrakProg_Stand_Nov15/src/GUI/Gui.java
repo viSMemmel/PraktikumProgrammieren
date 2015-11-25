@@ -2,25 +2,26 @@ package GUI;
 // Done: Exportieren der erzeugten Liste in eine .txt --> Menüreiter Exportieren in Datei
 
 // Statistik erstellen
+
 // Unter Hilfe Kurzinfo zum Projekt - 10 Seiten Dokumentation als modales Fenster
 // Bei Datei wählen prüfen, ob die Dateiendung eine TXT-Datei ist, ansonsten Fehlermeldung -->Fertig
 // DESIGN ÄNDERN
-
 
 // Christoph: Pfad, Balloontipps, Zweiter Button - Zurücksetzen -- ALLES FERTIG!
 // zusätzlich: nur XML Files auswählbar + zweites Textfeld + Button
 // Fehlend: Actionhandler fehlt noch bei "Text auf Fremdwörter prüfen"!!
 
+//TODO: "Wählen" Button -- Menüpunkt  "Wählen" --> selber Actionhandler
+//TODO: "Rotes X" Button -- Menüpunkt "Beenden" --> selber Actionhandler
+//TODO: Menüpunkt Crawler evtl. Unterpunkte: - Start -Stop -Optionen: Modales Fenster welche news genau
+//TODO: Deutsche Entsprechung in Kalmmern hinter dem Fremdwort ( evtl. auch  highlighten oder andere Farbe)
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
-import org.apache.lucene.store.Directory;
+import java.util.Optional;
 
 import DokumenteSucheforGUI.Search;
 import javafx.stage.Modality;
-
-
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -29,9 +30,10 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-//import javafx.scene.control.Alert;
-//import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Control;
 import javafx.scene.control.CustomMenuItem;
@@ -58,35 +60,72 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.Modality;
 
-
-
 public class Gui extends Application {
-	
+
 	private Stage stage;
+
 	private String filePath;
 
-	TextField textField0 = new TextField(); // Wird in der Subklasse des FileChoosers benötigt an dieser Stelle
+	private TextField textField0 = new TextField(); // Wird in der Subklasse des
+													// FileChoosers benötigt an
+													// dieser Stelle
 
-	TextArea textArea0 = new TextArea();
-	
-	
+	private TextArea textArea0 = new TextArea();
+
+	private Button button0 = new Button("Wählen");
+
+	private Button button1 = new Button("Zurücksetzen");
+
+	private Button button2 = new Button("Text auf Fremdwörter prüfen");
+
+	private Pane pane0 = new Pane(); // Ordnungspanele auf dem Objekte gelegt
+										// werden können(auf dem der Inhalt
+										// liegt). Man kann so viele Panes
+										// zuordnen wie man lustig ist
+
+	private TextField textField1 = new TextField();
+
+	public void buttonWaehlen() {
+		System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+
+		DirectoryChooser dChooser = new DirectoryChooser();
+
+		File dir = dChooser.showDialog(pane0.getScene().getWindow());
+
+		filePath = dir.getAbsolutePath();
+		if (dir != null) {
+
+			textField0.setText(filePath);
+			textField0.setAlignment(Pos.BASELINE_LEFT);
+		}
+		System.out.println(filePath);
+	}
+
 	// Fenster heißt in JavaFX "stage" (Fenster)
 	public void start(final Stage stage) throws Exception {
 
 		stage.setTitle("Die Heuristiker - Anglizismenfinder");
-		stage.centerOnScreen(); // Fenster wird mittig auf dem Bildschirm platziert
+		stage.centerOnScreen(); // Fenster wird mittig auf dem Bildschirm
+								// platziert
 		stage.setHeight(500);
 		stage.setWidth(600);
 		stage.setResizable(false); // Nicht veränderbar
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
 
-		final Pane pane0 = new Pane(); // Ordnungspanele auf dem Objekte gelegt werden können(auf dem der Inhalt liegt). Man kann so viele Panes zuordnen wie man lustig ist
-
 		MenuBar menueLeiste = new MenuBar();
-		menueLeiste.prefWidthProperty().bind(stage.widthProperty()); // Passt die Menüleiste auf die Breite des Fensters an
+		menueLeiste.prefWidthProperty().bind(stage.widthProperty()); // Passt
+																		// die
+																		// Menüleiste
+																		// auf
+																		// die
+																		// Breite
+																		// des
+																		// Fensters
+																		// an
 
 		Menu datei = new Menu("Datei");
-		Menu hilfe = new Menu ("Hilfe");
+		Menu ansicht = new Menu("Ansicht");
+		Menu hilfe = new Menu("Hilfe");
 
 		// Menu-Iems für DATEI
 		MenuItem schliessen = new MenuItem("Beenden");
@@ -94,282 +133,263 @@ public class Gui extends Application {
 		MenuItem exportieren = new MenuItem("Exportieren");
 		MenuItem statistik = new MenuItem("Statistik anzeigen");
 
+		// Menu-Items für Crawler
+
 		// Menu-Items für Hilfe
 		MenuItem fragezeichen = new MenuItem("Über den Anglizismenfinder");
 
-		fragezeichen.setOnAction(new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent e) {
-
-                   // Klasse Modaler Dialog
-                   ModalerDialog mDialog0 = new ModalerDialog();
-
-                   mDialog0.showAndWait(); // BLOCKIERT
-
-                   System.out.println("Button schließen im modalen Dialog gedrückt.");
-
-
-
-                   //                         String dokumentationsText = "LEERTEXT\nLEERTEXT \n Dokumentation über den Anglizismenfinder.\nLEERTEXT\nLEERTEXT";
-                   //
-                   //                         Alert alarm = new Alert(AlertType.INFORMATION);
-                   //                         alarm.setTitle("");
-                   //                         alarm.setHeaderText("Über den Anglizismenfinder");
-                   //                         alarm.setContentText("  Die Heuristiker\n- Gensler, Alexander\n- Kammerer, Christoph\n- Memmel, Stefan\n- Roth, Wolfgang\n\nLEERTEXT\nLEERTEXT \n Dokumentation über den Anglizismenfinder.\nLEERTEXT\nLEERTEXT");
-                   //                         alarm.showAndWait();
-                   //
-                   //                         TextArea textArea2 = new TextArea();
-
-
-            }
-
-     });
+		// MenuItem für Ansicht
+		MenuItem normalbild = new MenuItem("Normalbild anzeigen");
+		MenuItem vollbild = new MenuItem("Vollbild anzeigen");
+		MenuItem halbbild = new MenuItem("Halbbild anzeigen");
 
 		datei.getItems().add(waehlen);
 		datei.getItems().add(exportieren);
 		datei.getItems().add(statistik);
 		datei.getItems().add(schliessen);
 
+		ansicht.getItems().add(normalbild);
+		ansicht.getItems().add(vollbild);
+		ansicht.getItems().add(halbbild);
+
 		hilfe.getItems().add(fragezeichen);
 
-		menueLeiste.getMenus().addAll(datei, hilfe);
-
-		schliessen.setOnAction(new EventHandler<ActionEvent>() {
-			public void handle(ActionEvent e) {
-				System.exit(0);
-			}
-		});
-		
-		
-
-		waehlen.setOnAction(new EventHandler<ActionEvent>(){
-
-			public void handle(ActionEvent ae) {
-
-				System.out.println("Wähle-Menü ausgelöst - Return-Code (0)");
-
-				FileChooser fileChooser = new FileChooser();
-				fileChooser.setTitle("Bitte XML-Datei wählen");
-				fileChooser.showOpenDialog(stage);
-				textField0.setText(fileChooser.getInitialFileName());
-
-			}				
-		});
-		
-		Label label0 = new Label();
-
-		label0.setText("Betaversion");
-		label0.setLayoutX(510); // Je höher der Wert, umso weiter rechts liegt das Label
-		label0.setLayoutY(100); // 0 ist ganz oben
-
-		final TextField textField0 = new TextField();
-
-		final TextField textField1 = new TextField();
-
-		final TextArea textArea0 = new TextArea();
+		menueLeiste.getMenus().addAll(datei, ansicht, hilfe);
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
 		textArea0.setLayoutY(150);
-	
-		textArea0.setEditable(false);
-		textArea0.setWrapText(true); // Automatischer Zeilenumbruch 
-		textArea0.setPrefSize(574, 350);
-		textArea0.setText("Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
 
-		//TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
-		textField0.setLayoutX(10); 
+		textArea0.setEditable(false);
+		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
+		textArea0.setPrefSize(574, 350);
+		textArea0.setText(
+				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
+
+		// TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
+		textField0.setLayoutX(10);
 		textField0.setLayoutY(50);
 		textField0.setEditable(false);
-		textField0.setPrefWidth(480); // Breite des Textfeldes 
+		textField0.setPrefWidth(480); // Breite des Textfeldes
+
 		textField0.setText("Bitte XML-Datei auswählen!");
 		textField0.setMaxWidth(350);
-		
-		//zentriert Text im Textfeld
+
+		// zentriert Text im Textfeld
 		textField0.setAlignment(Pos.CENTER);
-		
-		//Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf Fremdwörter
-		textField1.setLayoutX(10); 
+
+		// Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf
+		// Fremdwörter
+		textField1.setLayoutX(10);
 		textField1.setLayoutY(100);
 		textField1.setEditable(true);
-		textField1.setPrefWidth(480); // Breite des Textfeldes 
+		textField1.setPrefWidth(480); // Breite des Textfeldes
 		textField1.setText("Hier zu prüfenden Text eingeben!");
 		textField1.setMaxWidth(350);
 		textField1.setAlignment(Pos.CENTER);
-		
-		final Button button0 = new Button("Wählen");
-		Button button1 = new Button("Zurücksetzen");
-		final Button button2 = new Button("Suche Starten");
 
 		button0.setLayoutX(380);
 		button0.setLayoutY(47);
-		button0.setPrefSize(80,30);
-		
+		button0.setPrefSize(80, 30);
+
 		button1.setLayoutX(480);
 		button1.setLayoutY(47);
-		button1.setPrefSize(100,30);
-		
+		button1.setPrefSize(100, 30);
+
 		button2.setLayoutX(380);
 		button2.setLayoutY(97);
-		button2.setPrefSize(200,30);
-		
-		String tooltiptext= "Bitte wählen Sie die XML Datei aus!";
+		button2.setPrefSize(200, 30);
+
+		String tooltiptext = "Bitte wählen Sie die XML Datei aus!";
 		Tooltip tooltip = new Tooltip();
 		tooltip.setText(tooltiptext);
 		button0.setTooltip(tooltip);
-		
-		// Actionhändler zum wählen von XML Source-Datei
-		button0.setOnAction(new EventHandler<ActionEvent>(){
 
-			public void handle(ActionEvent ae) {
+		fragezeichen.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
 
-				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+				// Klasse Modaler Dialog
+				ModalerDialog mDialog0 = new ModalerDialog();
 
-				DirectoryChooser dChooser = new DirectoryChooser();
-				//dChooser.setTitle("Open Resource File (only XML)");
-				
-				//nur XML Dateien erlaubt bei der Eingabe
-				//FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml");
-			//	fileChooser.getExtensionFilters().add(extFilter);
+				mDialog0.showAndWait(); // BLOCKIERT
 
-			//	File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
-			    File dir = dChooser.showDialog(pane0.getScene().getWindow());
-			    
-				
-				//kompletten Pfadnamen der ausgewählten Datei in Textfeld anzeigen
-			    filePath = dir.getAbsolutePath();
-				if (dir != null) {
- 
-						textField0.setText(filePath);
-						textField0.setAlignment(Pos.BASELINE_LEFT);
-						}		
-				System.out.println(filePath);
-			}				
+				System.out.println("Button schließen im modalen Dialog gedrückt.");
+			}
 		});
-		
-        
-        // Actionhandler für Button "Zurücksetzen"
-		button1.setOnAction(new EventHandler<ActionEvent>(){
+
+		schliessen.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
+				// System.exit(0);
+
+				Alert alarm = new Alert(AlertType.CONFIRMATION);
+				alarm.setTitle("Bestätigung");
+				alarm.setHeaderText("Wollen Sie das Programm wirklich beenden?");
+				alarm.setContentText("");
+
+				Optional<ButtonType> ergebnis = alarm.showAndWait();
+				if (ergebnis.get() == ButtonType.OK) {
+					System.exit(0);
+
+				} else {
+					// ... user chose CANCEL or closed the dialog
+				}
+				alarm.close();
+
+			}
+		});
+
+		waehlen.setOnAction(new EventHandler<ActionEvent>() {
+
 			public void handle(ActionEvent ae) {
-				
+
+				buttonWaehlen();
+
+			}
+		});
+
+		// Actionhändler zum Wählen von XML Source-Datei
+		button0.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+
+				buttonWaehlen(); // Zur Vermeidung von redundantem Code!!
+			}
+		});
+
+		// Actionhandler für Button "Zurücksetzen"
+		button1.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent ae) {
+
 				textArea0.setText("");
 				textField0.setText("Bitte XML-Datei auswählen!");
 				textField0.setAlignment(Pos.CENTER);
 				textField1.setText("Hier zu prüfenden Text eingeben!");
 				textField1.setMaxWidth(350);
 				textField1.setAlignment(Pos.CENTER);
-			
+
 			}
 		});
-		
-		button2.setOnAction(new EventHandler<ActionEvent>(){
+		// actionhandler suche starten
+		button2.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
-				System.out.println("Button 2 geeeeeeeeeeeeeeeeeeeeeeeeeedrueckt");
+				System.out.println("Button 2 gedrueckt");
 				String Suchwort = null;
 				String Output = null;
 				Suchwort = textField1.getText();
-				try{
+				try {
 					Search suche = new Search(filePath, Suchwort);
 					Output = suche.find();
-					
-				}catch(Exception e){
-					Output= e.getMessage();
-				}
-				finally{
+
+				} catch (Exception e) {
+					Output = e.getMessage();
+				} finally {
 					textArea0.setText(Output);
 				}
-			
+
 			}
 		});
-		
-		
-		//Actionhandler zum exportieren der Liste als txt Datei!
-		exportieren.setOnAction(new EventHandler<ActionEvent>(){
+
+		// Actionhandler zum exportieren der Liste als txt Datei!
+		exportieren.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
-				
-				//Öffnet den SaveDialog um die erzielte Suche zu speichern
-				FileChooser fileChooser = new FileChooser();
-	            fileChooser.setTitle("Save File as .txt");
-	            fileChooser.setInitialFileName("Fremdwortsuche.txt");
-	            
-	            //Datei kann nur als txt gespeichert werden
-	            FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
-				fileChooser.getExtensionFilters().add(extFilter);
-	            
-	            File file = fileChooser.showSaveDialog(stage);
-	            
-	            // schreibt den Stringh aus der TextArea in den zu speichernden File
-	            if (file != null) {
-	                try {
-	                	
-	                	String txt = textArea0.getText();
-	            		file.createNewFile();
-	            		FileWriter writer = new FileWriter(file);
-	            		writer.write(txt);
-	            		writer.close();
-	                    
-	                } catch (IOException ex) {
-	                    System.out.println(ex.getMessage());
-	                }
-	            }
-				
-			}				
-							
-		});
-		
-		
-		pane0.getChildren().addAll(button0, button1, textField1,button2, textArea0, menueLeiste, textField0);
 
-		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt wird
+				// Öffnet den SaveDialog um die erzielte Suche zu speichern
+				FileChooser fileChooser = new FileChooser();
+				fileChooser.setTitle("Save File as .txt");
+				fileChooser.setInitialFileName("Fremdwortsuche.txt");
+
+				// Datei kann nur als txt gespeichert werden
+				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
+				fileChooser.getExtensionFilters().add(extFilter);
+
+				File file = fileChooser.showSaveDialog(stage);
+
+				// schreibt den Stringh aus der TextArea in den zu speichernden
+				// File
+				if (file != null) {
+					try {
+
+						String txt = textArea0.getText();
+						file.createNewFile();
+						FileWriter writer = new FileWriter(file);
+						writer.write(txt);
+						writer.close();
+
+					} catch (IOException ex) {
+						System.out.println(ex.getMessage());
+					}
+				}
+			}
+		});
+
+		// Actionhändler zum Wählen von XML Source-Datei
+		normalbild.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+
+				textArea0.setLayoutX(10);
+				textArea0.setLayoutY(150);
+			}
+		});
+
+		pane0.getChildren().addAll(button0, button1, textField1, button2, textArea0, menueLeiste, textField0);
+
+		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
+										// wird
 		stage.setScene(scene); // Fensterinhalt aufs Fenster legen
 		stage.show(); // Fenster sichtbar machen
+		// CSS von Alex
 
+		scene.getStylesheets().clear();
+		scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 	}
 
-	public static void main (String [] args){
+	public static void main(String[] args) {
 
-		launch(args); // Anwendung wird gestartet und Startmethode wird aufgerufen
-		
+		launch(args); // Anwendung wird gestartet und Startmethode wird
+						// aufgerufen
+
 	}
-	
 }
 
-//GEHÖRT IN EINE EXTRIGE KLASSE
+// GEHÖRT IN EINE EXTRIGE KLASSE
 class ModalerDialog extends Stage {
 
-    public ModalerDialog(){
+	public ModalerDialog() {
 
-          super();
-          setTitle("Über den Anglizismenfinder");
-          initModality(Modality.APPLICATION_MODAL);
+		super();
+		setTitle("Über den Anglizismenfinder");
+		initModality(Modality.APPLICATION_MODAL);
 
+		TextArea textArea1 = new TextArea();
+		textArea1.setEditable(false);
+		textArea1.setWrapText(true); // Automatischer Zeilenumbruch
+		textArea1.setPrefSize(574, 450);
 
-          TextArea textArea1 = new TextArea();
-          textArea1.setEditable(false);
-          textArea1.setWrapText(true); // Automatischer Zeilenumbruch
-          textArea1.setPrefSize(574, 450);
+		textArea1.setText(
+				"LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZEILENUMBRUCH-TEST");
 
-          textArea1.setText("LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZEILENUMBRUCH-TEST");
+		Button schliessen1 = new Button("Schließen"); // Schließt modales
+														// Femster
+		schliessen1.setOnAction(new EventHandler<ActionEvent>() {
 
-          Button schliessen1 = new Button("Schließen"); // Schließt modales Femster
-          schliessen1.setOnAction(new EventHandler<ActionEvent>(){
+			public void handle(ActionEvent ae) {
 
-                 public void handle(ActionEvent ae) {
+				close();
+			}
+		});
 
-                        close();
-                 }
-          });
+		BorderPane pane1 = new BorderPane();
 
-          BorderPane pane1 = new BorderPane();
+		pane1.setBottom(schliessen1);
+		pane1.setTop(textArea1);
 
+		Scene scene1 = new Scene(pane1, 600, 500);
+		setScene(scene1);
 
-          pane1.setBottom(schliessen1);
-          pane1.setTop(textArea1);
+		scene1.getStylesheets().clear();
+		scene1.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 
-          Scene scene1 = new Scene(pane1, 600, 500);
-          setScene(scene1);
-
-    }
-
+	}
 }
-

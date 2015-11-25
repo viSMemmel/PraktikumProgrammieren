@@ -10,10 +10,10 @@ VORHABEN
 
 - Suchen eines einzelnen Wortes mittels Suchfeld
 - Christoph hat einen Parser, der die Anglizismenliste durchgeht (...) und speichert gefundene Eintrag in das Nullte-Array-Element. Erkennt Schluss-Tag und findet deutsches Tag. Speichert dann englisches und deutsches Wort in das nullte Array-Element zusammen ab.
-- XML-Anglizismenliste sollte alphabetisch sein 
+- XML-Fremdwortliste sollte alphabetisch sein 
 - Agend aufnehmen in die Liste 
 - In Liste fehlt Datensatz-Tag 
-- Fehler in XML-Anglizismenliste (Englisch, Deutsch und Referenzdatensatz)
+- Fehler in XML-Fremdwortliste (Englisch, Deutsch und Referenzdatensatz)
 - XML-Crawler sollte implementiert werden 
 - Christoph sollte Datei-Chooser insofern wählen, als dass auch Ordner gewählt werden können: Alle XML-Dateien 
 - Crawler in die GUI implementieren
@@ -32,19 +32,11 @@ Christoph: GUI
 Alle: Git --> 1. Version, XML-Crawler-Logik einarbeiten, eine Version für alle
 
 
-// Präsentation
 
-Was haben wir vor? Was machen wir? Wie machen wir es? Wie aufwändig ist es? Wie teilen wir die Arbeit auf? 
-15 Minuten
 
-// Dokumentation
-Was haben wir genau gemacht? Was ist uns wichtig? 
-Wie ist die Stuktur unseres Programms? Keine Diagramme, zumindest aus welchen Packages (Komponenten), Bibliotheken, etc. Wer hat was gemacht? 
-Kleine Benutzeranleitung
-
-// Abschlusspräsentation    
-Programmvorführung (ausführlich), kurzes Code-Review (Packages, Klassen)
-30 Minuten    
+TODO:
+Christoph: irgendetwas Iteratormäßiges, mit dem man über die Fremdwortliste drüber laufen kann. Also Methoden: boolean hasFremdwort(); Fremdwort nextFremdwort();  getDeutschesWort(Fremdwort);
+Stefan: List<Stelle>FremdwortTreffer(Fremdwort);
 
 
 

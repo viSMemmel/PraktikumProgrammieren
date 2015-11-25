@@ -587,3 +587,9 @@ Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, Override interval wi
 Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, First visit: http://www.spiegel.de/wissenschaft/index.rss
 Tue, 24 Nov 2015 11:06:46 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/politik/index
 Tue, 24 Nov 2015 11:06:50 CET: class RSSThread, method run, First visit: http://rss.cnn.com/rss/edition_entertainment.rss
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method update, Start to read new subscriptions
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method update, Finish to read new subscriptions
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method update, Start to read new sources
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method update, Finish to read new sources
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method run, RSS Server started!
+Wed, 25 Nov 2015 14:21:11 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/studium/index

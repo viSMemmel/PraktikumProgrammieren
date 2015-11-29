@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
-import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Iterator;
@@ -30,12 +29,12 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.NIOFSDirectory;
 import org.apache.lucene.util.Version;
 
-public class Search {
+public class SearchAlt {
 	private String SearchSubject;
 	private String FilesToIndex;
 	private String Feld = "Inhalt";
 
-	public Search(String filesToIndex, String searchSubject) {
+	public SearchAlt(String filesToIndex, String searchSubject) {
 		super();
 		SearchSubject = searchSubject;
 		FilesToIndex = filesToIndex;// Pfad zum ordner mit jetzt nocch .txt
@@ -47,21 +46,11 @@ public class Search {
 		try {
 			NIOFSDirectory indexDir;
 			String NameInternerOrdner = FilesToIndex+"_Index";
-			if(Files.exists(FileSystems.getDefault().getPath(NameInternerOrdner) , LinkOption.NOFOLLOW_LINKS)){ 
-		//	indexDir= (NIOFSDirectory) Paths.get(NameInternerOrdner); //sun.nio.fs.WindowsPath cannot be cast to org.apache.lucene.store.NIOFSDirectory  sun.nio.fs.WindowsPath cannot be cast to org.apache.lucene.store.NIOFSDirectory
-				indexDir= (NIOFSDirectory) FileSystems.getDefault().getPath(NameInternerOrdner);
-				
-						//(NIOFSDirectory) Paths.get(NameInternerOrdner);
-		System.out.println("Existiert");
-		}else{ 
-			System.out.println("NICHT exisitent ");
-			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld);
-			indexDir = index.createIndex();
-			}
-				
+				IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld);
+
+				indexDir = index.createIndex();
+
 	
-		//	}
-		
 			System.out.println(indexDir.getDirectory());
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
@@ -147,13 +136,12 @@ public class Search {
 						// werden kann
 
 			indexDir.close(); // muss geschlossen werden damit Inhalt des
-								// internOrdner gelöscht werden kann
-		/**	@Deprecated
+		@Deprecated
 
 		DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
 			deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben
 								// wurden, wird nach Beendigung des Suchprozeß
-								// gelöscht**/
+								// gelöschtb
 
 		} catch (Exception e) {
 			System.out.println("Fehler!!!!");

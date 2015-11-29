@@ -23,17 +23,22 @@ import org.apache.lucene.util.Version;
 
 public class SearchInDoc {
 	private List<IndexableField> IField;
+	private String SearchSubject;
 	private String FieldName;
 	private TermsEnum Terme;
 	private TokenStream TStream; // verarbeitet einzelne Buchstaben
 	private TokenFilter TFilter; // evtl. unnötig
-	private List<String> tokenList = new ArrayList();
+	private List<String> tokenList = new ArrayList<String>();
+	private List<Integer> FundListe = new ArrayList<Integer>();
+	
 	
 
 	private Reader reader = null;
 	// https://lucene.apache.org/core/4_0_0/core/org/apache/lucene/index/DocsEnum.html
 
-	public SearchInDoc(List<IndexableField> iField, String fieldName) {
+	public SearchInDoc(List<IndexableField> iField, String fieldName, String searchSubject) {
+		SearchSubject=searchSubject;
+		
 		// TODO Auto-generated constructor stub#
 		IField = iField;
 		FieldName = fieldName;
@@ -57,9 +62,7 @@ public class SearchInDoc {
 					// TStream= currentField.tokenStream(analyzer2 ); redundant
 
 					TStream = analyzer2.tokenStream(FieldName, new StringReader(currentField.stringValue()));
-					// System.out.println("\n \n Stringvalue " +
-					// currentField.stringValue() +"\n \n toString " +
-					// currentField.toString());
+	
 					String text = currentField.stringValue();
 					OffsetAttribute offsetAttribute = TStream.getAttribute(OffsetAttribute.class);
 					CharTermAttribute termAttribute = TStream.getAttribute(CharTermAttribute.class);
@@ -70,11 +73,17 @@ public class SearchInDoc {
 					// TermToBytesRefAttribute termAttribute =
 					// TStream.getAttribute(TermAttribute.class);
 					TStream.reset();
+					int Fundstelle = 0;
 					while (TStream.incrementToken()) {
-						// int startOffset = offsetAttribute.startOffset();
-						// int endOffset = offsetAttribute.endOffset();
+		
 						String term = termAttribute.toString();
-					//	System.out.println(term);
+						
+						Fundstelle++;
+						if(term.toLowerCase().equals(searchSubject.toLowerCase())){
+							FundListe.add(Fundstelle);
+							System.out.println("Fundstelle:     " + Fundstelle);
+						}
+				//	System.out.println(term + "  "+ term.length() + "   SSUBject  "+ searchSubject.toLowerCase()+ searchSubject.length());
 						try {
 							tokenList.add(term);
 						} catch (Exception e) {
@@ -90,6 +99,20 @@ public class SearchInDoc {
 			}
 		}
 	}
+
+
+
+	public List<Integer> getFundListe() {
+		return FundListe;
+	}
+
+
+
+	public void setFundListe(List<Integer> fundListe) {
+		FundListe = fundListe;
+	}
+
+
 
 	public String toString() throws NullPointerException {
 		int SucheFeld = 0;

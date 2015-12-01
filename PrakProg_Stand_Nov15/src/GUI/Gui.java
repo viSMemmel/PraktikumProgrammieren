@@ -47,7 +47,7 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class Gui extends Application {
-private String filePath;
+	private String filePath;
 
 	private TextField textField0 = new TextField(); // Wird in der Subklasse des
 													// FileChoosers benötigt an
@@ -107,6 +107,7 @@ private String filePath;
 																		// an
 
 		Menu datei = new Menu("Datei");
+		Menu suchen = new Menu("Suchen");
 		Menu ansicht = new Menu("Ansicht");
 		Menu hilfe = new Menu("Hilfe");
 
@@ -116,7 +117,10 @@ private String filePath;
 		MenuItem exportieren = new MenuItem("Exportieren");
 		MenuItem statistik = new MenuItem("Statistik anzeigen");
 
-		// Menu-Items für Crawler
+		// MenuItem für Suchen
+		MenuItem xmlDurchsuchen = new MenuItem("XML");
+		MenuItem crawlerDurchsuchen = new MenuItem("Crawler");
+		MenuItem urlDurchsuchen = new MenuItem("URL");
 
 		// Menu-Items für Hilfe
 		MenuItem fragezeichen = new MenuItem("Über den Anglizismenfinder");
@@ -131,13 +135,17 @@ private String filePath;
 		datei.getItems().add(statistik);
 		datei.getItems().add(schliessen);
 
+		suchen.getItems().add(xmlDurchsuchen);
+		suchen.getItems().add(crawlerDurchsuchen);
+		suchen.getItems().add(urlDurchsuchen);
+
 		ansicht.getItems().add(normalbild);
 		ansicht.getItems().add(vollbild);
 		ansicht.getItems().add(halbbild);
 
 		hilfe.getItems().add(fragezeichen);
 
-		menueLeiste.getMenus().addAll(datei, ansicht, hilfe);
+		menueLeiste.getMenus().addAll(datei, suchen,  ansicht, hilfe);
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);

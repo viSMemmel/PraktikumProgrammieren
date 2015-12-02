@@ -42,6 +42,7 @@ public class IndexCreator {
 	private String IndexDir;// Indexverzeichnis
 	private String FIELD_PATH; // Feld in das der Suchindex geschrieben werden
 								// soll
+	private String Title;
 	// private String FIELD_CONTENTS ;
 
 	@SuppressWarnings("deprecation")
@@ -78,7 +79,8 @@ public class IndexCreator {
 			String path = file.getCanonicalPath();
 			// document.add(new Field(FIELD_PATH, path, Field.Store.YES,
 			// Field.Index.NOT_ANALYZED));
-			document.add(new Field("PFAD", path, Field.Store.YES, Field.Index.NOT_ANALYZED));
+			
+			document.add(new Field(Title, path, Field.Store.YES, Field.Index.NOT_ANALYZED));
 
 			FReader fr = new FReader(path);
 			System.out.println(fr.getText());
@@ -100,10 +102,11 @@ public class IndexCreator {
 		return indexDir;
 	}
 
-	public IndexCreator(String fILES_TO_INDEX_DIRECTORY, String indexDir, String fIELD_PATH) {
+	public IndexCreator(String fILES_TO_INDEX_DIRECTORY, String indexDir, String fIELD_PATH, String title) {
 		super();
 		FILES_TO_INDEX_DIRECTORY = fILES_TO_INDEX_DIRECTORY;
 		IndexDir = indexDir;
 		FIELD_PATH = fIELD_PATH;
+		Title =title;
 	}
 }

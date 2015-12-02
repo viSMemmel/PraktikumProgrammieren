@@ -31,23 +31,25 @@ import org.apache.lucene.store.NIOFSDirectory;
 import org.apache.lucene.util.Version;
 
 public class Search {
-	private String SearchSubject;
+	private String [] SearchSubjectAr ;
 	private String FilesToIndex;
 	private String Feld = "Inhalt";
-
-	public Search(String filesToIndex, String searchSubject) {
+	private String Title  = "NUR_FUER_INTERNE_ZWECKE_NAME_VOELLIG_BUMBS";
+	
+	public Search(String[] searchSubjectAr, String filesToIndex) {
 		super();
-		SearchSubject = searchSubject;
-		FilesToIndex = filesToIndex;// Pfad zum ordner mit jetzt nocch .txt
+		SearchSubjectAr = searchSubjectAr;
+		FilesToIndex = filesToIndex;
 	}
+
 
 	@SuppressWarnings("finally")
 	public String find() throws ParseException, IOException {
+	
 		String Ausgabe_in_Textarea = null;
 		try {
-			NIOFSDirectory indexDir;
-			String NameInternerOrdner = FilesToIndex+"_Index";
-			if(Files.exists(FileSystems.getDefault().getPath(NameInternerOrdner) , LinkOption.NOFOLLOW_LINKS)){ 
+		
+			/*	if(Files.exists(FileSystems.getDefault().getPath(NameInternerOrdner) , LinkOption.NOFOLLOW_LINKS)){ 
 		//	indexDir= (NIOFSDirectory) Paths.get(NameInternerOrdner); //sun.nio.fs.WindowsPath cannot be cast to org.apache.lucene.store.NIOFSDirectory  sun.nio.fs.WindowsPath cannot be cast to org.apache.lucene.store.NIOFSDirectory
 				indexDir= (NIOFSDirectory) FileSystems.getDefault().getPath(NameInternerOrdner);
 				
@@ -55,22 +57,27 @@ public class Search {
 		System.out.println("Existiert");
 		}else{ 
 			System.out.println("NICHT exisitent ");
-			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld);
-			indexDir = index.createIndex();
-			}
-				
 	
+			}*/
+	
+		NIOFSDirectory indexDir;
+		String NameInternerOrdner = FilesToIndex+"_Index";
+		IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld, Title);
+		indexDir = index.createIndex();
 		//	}
-		
+
+		DirectoryReader dr = DirectoryReader.open(indexDir); // Öffnen des
+																// Verzeichnises
+			 													// textIndexDir
+																// über die
+																// Variable
+																// indexDir
 			System.out.println(indexDir.getDirectory());
+	
+			
+			
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
-			DirectoryReader dr = DirectoryReader.open(indexDir); // Öffnen des
-																	// Verzeichnises
-																	// textIndexDir
-																	// über die
-																	// Variable
-																	// indexDir
 			Analyzer analyzer2 = new StandardAnalyzer(Version.LUCENE_45); // Soll
 																			// Query
 																			// analysieren
@@ -78,7 +85,8 @@ public class Search {
 			QueryParser qp = new QueryParser(Version.LUCENE_45, Feld, analyzer2);
 
 			IndexSearcher searcher = new IndexSearcher(dr); // Indexsuche
-
+			for(int n= 0; n<SearchSubjectAr.length; n++){
+				String SearchSubject= SearchSubjectAr[n];
 			Query query = qp.parse(SearchSubject); //
 
 			TopDocs td = searcher.search(query, 10); // Die ersten 10 Dokumente
@@ -100,7 +108,7 @@ public class Search {
 															// höchsten
 															// "Ranking" wird
 															// hier "gefunden"
-					Ausgabe_in_Textarea += "Dokument gefunden " + doc.toString() + "\n" + Ausgabe_in_Textarea; // Achtung
+				Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
 																												// String
 																												// immer
 																												// konkatinieren,
@@ -138,23 +146,25 @@ public class Search {
 					searchInDoc.close();
 
 				
-					System.out.println(doc.get("title"));
+					System.out.println(doc.get(Title));
 
 				}
+			
+
 			}
-
+			}
 			dr.close(); // muss geschlossen werden, damit indexDir geschlossen
-						// werden kann
+			// werden kann
 
-			indexDir.close(); // muss geschlossen werden damit Inhalt des
+indexDir.close(); // muss geschlossen werden damit Inhalt de
+@Deprecated
+DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
+deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben
+					// wurden, wird nach Beendigung des Suchprozeß
+					// gelöscht**/
+			
 								// internOrdner gelöscht werden kann
-		/**	@Deprecated
-
-		DeleteDir deleteDir = new DeleteDir(NameInternerOrdner);
-			deleteDir.delete(); // Der Ordner den die Indexdateien geschrieben
-								// wurden, wird nach Beendigung des Suchprozeß
-								// gelöscht**/
-
+	
 		} catch (Exception e) {
 			System.out.println("Fehler!!!!");
 			e.printStackTrace();

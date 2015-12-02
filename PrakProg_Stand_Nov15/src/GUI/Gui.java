@@ -21,10 +21,9 @@ import java.io.IOException;
 import java.util.Optional;
 
 import DokumenteSucheforGUI.Search;
-
+//import DokumenteSucheforGUI.SearchAlt;
 import javafx.stage.Modality;
 import javafx.application.Application;
-
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
@@ -47,6 +46,9 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class Gui extends Application {
+
+
+
 	private String filePath;
 
 	private TextField textField0 = new TextField(); // Wird in der Subklasse des
@@ -267,8 +269,9 @@ public class Gui extends Application {
 				String Suchwort = null;
 				String Output = null;
 				Suchwort = textField1.getText();
+				String [] SuchAr =Suchwort.split(" ");
 				try {
-					Search suche = new Search(filePath, Suchwort);
+ 					Search suche = new Search(SuchAr, filePath);
 					Output = suche.find();
 
 				} catch (Exception e) {

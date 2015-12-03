@@ -155,7 +155,7 @@ public class Gui extends Application {
 
 		textArea0.setEditable(false);
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
-		textArea0.setPrefSize(574, 350);
+		textArea0.setPrefSize(570, 320);
 		textArea0.setText(
 				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
 
@@ -327,7 +327,7 @@ public class Gui extends Application {
 			}
 		});
 
-		pane0.getChildren().addAll(button0, button1, textField1, button2, textArea0, menueLeiste, textField0);
+		pane0.getChildren().addAll(textArea0, button0, button1, textField1, button2, menueLeiste, textField0);
 
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
 										// wird

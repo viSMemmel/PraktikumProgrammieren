@@ -57,7 +57,10 @@ private org.jdom2.Document XMLDOC;
 		return KinderElemente( Kinder);
 	}
 	
-	
+	/*
+	 * Achtung funktioniert nur wenn XML balancierter Baum bzw. erster Ast am tiefesten
+	 * 
+	 */
 	private List <String> KinderElemente(    List<Element> Kinder){
 		List <String> Ergebnis = new ArrayList <String>();
 		  Iterator<Element> iter = Kinder.iterator();
@@ -67,7 +70,7 @@ private org.jdom2.Document XMLDOC;
 		    	
 		    if(Ergebnis.indexOf(kind.getName())==-1){ // Ergebnis.indexOf(kind.getName()) ist g.d. -1 wenn kein gleichnamiges Element in der List vorhanden ist:
 		    	Ergebnis.add(kind.getName());
-		    	if(kind.getChildren()!= null){
+		    	if(kind.getChildren()!= null){ 
 		    		
 		    		Ergebnis.addAll( KinderElemente(kind.getChildren()));
 		    		}

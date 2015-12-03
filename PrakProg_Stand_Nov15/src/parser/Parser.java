@@ -20,11 +20,7 @@ import org.xml.sax.SAXException;
 //&import org.xml.sax.SAXException; 
 
 /* 
-
- * Funktioniert liest sämtliche Spieler aller Vereine aus 
-
  * 
-
  */
 
 public class Parser {

@@ -7,7 +7,7 @@ public class ParserApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Parser p = new Parser("src/stadien.xml", "location");
+		Parser p = new Parser("src/Anglizismenliste.xml", "Fremdwort");
 
 		/*
 		 * in das erste Feld ist der relative Pfade zu dem zu parsendem
@@ -15,14 +15,14 @@ public class ParserApp {
 		 * XML-TAG Anzugeb
 		 */
 		List<String> test;
-		test = p.getRetAr();
+		test = p.getErgebnis();
 
 		ListIterator<String> ListenIterator = test.listIterator();
 
 		while (ListenIterator.hasNext()) {
 			System.out.println(ListenIterator.next());
 		}
-
+System.out.println("ende");
 	}
 
 }

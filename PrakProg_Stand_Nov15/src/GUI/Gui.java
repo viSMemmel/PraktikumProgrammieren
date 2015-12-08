@@ -1,6 +1,8 @@
 package GUI;
 // Done: Exportieren der erzeugten Liste in eine .txt --> Menüreiter Exportieren in Datei
 
+import java.awt.event.ActionListener;
+
 // Statistik erstellen
 
 // Unter Hilfe Kurzinfo zum Projekt - 10 Seiten Dokumentation als modales Fenster
@@ -18,11 +20,21 @@ package GUI;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Optional;
+import java.util.TimerTask;
+
+import com.sun.glass.ui.Timer;
 
 import DokumenteSucheforGUI.Search;
 //import DokumenteSucheforGUI.SearchAlt;
 import javafx.stage.Modality;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -32,6 +44,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
@@ -41,13 +54,15 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 public class Gui extends Application {
-
-
 
 	private String filePath;
 
@@ -98,15 +113,7 @@ public class Gui extends Application {
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
 
 		MenuBar menueLeiste = new MenuBar();
-		menueLeiste.prefWidthProperty().bind(stage.widthProperty()); // Passt
-																		// die
-																		// Menüleiste
-																		// auf
-																		// die
-																		// Breite
-																		// des
-																		// Fensters
-																		// an
+		menueLeiste.prefWidthProperty().bind(stage.widthProperty()); 
 
 		Menu datei = new Menu("Datei");
 		Menu suchen = new Menu("Suchen");
@@ -147,7 +154,7 @@ public class Gui extends Application {
 
 		hilfe.getItems().add(fragezeichen);
 
-		menueLeiste.getMenus().addAll(datei, suchen,  ansicht, hilfe);
+		menueLeiste.getMenus().addAll(datei, suchen, ansicht, hilfe);
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
@@ -269,9 +276,9 @@ public class Gui extends Application {
 				String Suchwort = null;
 				String Output = null;
 				Suchwort = textField1.getText();
-				String [] SuchAr =Suchwort.split(" ");
+				String[] SuchAr = Suchwort.split(" ");
 				try {
- 					Search suche = new Search(SuchAr, filePath);
+					Search suche = new Search(SuchAr, filePath);
 					Output = suche.find();
 
 				} catch (Exception e) {
@@ -326,7 +333,22 @@ public class Gui extends Application {
 				textArea0.setLayoutY(150);
 			}
 		});
+		
+		//Actionhandler Crawleroptionspunkt crawlerDurchsuchen
+		crawlerDurchsuchen.setOnAction(new EventHandler<ActionEvent>() {
 
+			public void handle(ActionEvent ae) {
+
+				ModalerDialogCrawler mDialog1 = new ModalerDialogCrawler();
+
+				mDialog1.showAndWait();
+				
+			}
+		});
+		
+		
+		
+		
 		pane0.getChildren().addAll(textArea0, button0, button1, textField1, button2, menueLeiste, textField0);
 
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
@@ -386,4 +408,65 @@ class ModalerDialog extends Stage {
 		scene1.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 
 	}
+}
+
+class ModalerDialogCrawler extends Stage {
+
+	public ModalerDialogCrawler() {
+		super();
+		setTitle("Crawler Optionen");
+		initModality(Modality.APPLICATION_MODAL);
+		
+		Pane pane2 = new Pane();
+		Scene scene2 = new Scene(pane2, 350, 250);
+		setScene(scene2);
+		
+		Button starten = new Button("Crawler starten");
+		starten.setLayoutX(20);
+		starten.setLayoutY(80);
+		starten.setPrefSize(120, 30);
+		
+		Button stoppen = new Button("Crawler stoppen");
+		stoppen.setLayoutX(190);
+		stoppen.setLayoutY(80);
+		stoppen.setPrefSize(120, 30);
+	
+		Text text = new Text(10, 50, "Hier können Sie den Crawler starten und stoppen");
+		
+		text.setFont(Font.font("Verdana", FontWeight.BOLD, 12));
+		
+		TextArea crawler = new TextArea("Crawler läuft nicht"); 
+		crawler.setLayoutX(20);
+		crawler.setLayoutY(140);
+		crawler.setPrefSize(290, 100);
+		crawler.setEditable(false);
+		
+		//starten Actionahdler
+		starten.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+
+				crawler.setText(crawler.getText() + "\nCrawler gestartet");
+				
+				
+			}
+		});
+		
+		//stoppen Actionhandler
+		stoppen.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+
+				crawler.setText(crawler.getText() + "\nCrawler wieder gestoppt");
+				
+			}
+		});
+	
+		pane2.getChildren().addAll(text, crawler, starten, stoppen);
+		
+		scene2.getStylesheets().clear();
+		scene2.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
+		
+	}
+
 }

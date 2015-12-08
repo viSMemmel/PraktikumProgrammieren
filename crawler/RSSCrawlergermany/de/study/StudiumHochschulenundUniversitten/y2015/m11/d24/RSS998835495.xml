@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>Studium – Hochschulen und Universitäten</title>
+<link>http://newsfeed.zeit.de/</link>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<language>de-de</language>
+<copyright>Copyright © 2015, ZEIT ONLINE GmbH</copyright>
+<atom:link href="http://newsfeed.zeit.de/studium/index" type="application/rss+xml"/>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>zeit.web 2.33</generator>
+<managingEditor>online-cr.zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+<webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>Studium – Hochschulen und Universitäten</title>
+      <link>http://newsfeed.zeit.de/</link>
+    </image>
+<item>
+      <title>Beat the Prof: Was würden Sie als Philosoph antworten?</title>
+      <link>http://www.zeit.de/studium/uni-leben/2015-11/beat-the-prof-philosophie</link>
+      <description>&lt;a href="http://www.zeit.de/studium/uni-leben/2015-11/beat-the-prof-philosophie"&gt;&lt;img style="float:left; margin-right:5px" src="http://www.zeit.de/studium/hochschule/2015-11/philosophie-quiz-fragen/wide__148x84"&gt;&lt;/a&gt; Eine Professorin, zwölf Fragen: Beat the Prof. Lösen Sie ethische und logische Rätsel und schaffen Sie endlich den Unternehmensspruch "Unsere Philosophie" ab. </description>
+      <category>Hochschule</category>
+      <dc:creator>ZEIT ONLINE: Hochschule - Nicole C. Karafyllis</dc:creator>
+      <pubDate>Tue, 24 Nov 2015 09:21:10 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/studium/uni-leben/2015-11/beat-the-prof-philosophie</guid>
+    <ExtractedText>2
+Das ist multipel falsch.
+Zunächst verwenden Sie selbst ein erkenntnistheoretisches Argument, nämlich den Hinweis auf die "wissenschaftliche Methodik". Die Erkenntnistheorie aber ist ein Zweig der Philosophie - sie wurde sogar oft als "Erste Philosophie" bezeichnet. Also geben Sie selber eine philosophische Antwort auf die Frage nach der Wissenschaftlichkeit der Philosophie - und stimmen damit implizit dem zu, was Sie explizit bestreiten.
+Weiterhin ist aber grade das Fehlen "wissenschaftlicher Methodik" ein Argument gegen die Wissenschaftlichkeit der Philosophie. Denn mit dieser Methodik ist ja Empirie gemeint. Aber weder verfährt die Philosophie besonders empirisch, noch sind ihre Gegenstände typischerweise überhaupt empirisch untersuchbar (und wo dies doch der Fall ist übernehmen schnell empirische Wissenschaften die Forschung.)
+Schließlich frage ich mich, was Ihren Einwand eigentlich motiviert. Hier kann ich nur Vermutungen anstellen - vielleicht klären Sie mich auf. Die Verkennung des Unterschiedes zwischen Natur- und Geisteswissenschaften ist jedenfalls oft "zweckmäßig" - und in der Regel für die "geisteswissenschaftliche" Seite. So versuchen z.B. gewisse "philosophische" Metaphysiker, Erkenntnisansprüche zu erheben, oder Theologen.
+</ExtractedText>
+</item>
+</channel>
+</rss>

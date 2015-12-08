@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>Studium – Hochschulen und Universitäten</title>
+<link>http://newsfeed.zeit.de/</link>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<language>de-de</language>
+<copyright>Copyright © 2015, ZEIT ONLINE GmbH</copyright>
+<atom:link href="http://newsfeed.zeit.de/studium/index" type="application/rss+xml"/>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>zeit.web 2.33</generator>
+<managingEditor>online-cr.zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+<webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>Studium – Hochschulen und Universitäten</title>
+      <link>http://newsfeed.zeit.de/</link>
+    </image>
+<item>
+      <title>Beat the Prof: Gewinkt oder gewunken?</title>
+      <link>http://www.zeit.de/studium/hochschule/2015-11/beat-the-prof-sprache</link>
+      <description>&lt;a href="http://www.zeit.de/studium/hochschule/2015-11/beat-the-prof-sprache"&gt;&lt;img style="float:left; margin-right:5px" src="http://www.zeit.de/studium/hochschule/2015-11/sprache-quiz-winken/wide__148x84"&gt;&lt;/a&gt; Gute Frage. Und warum ist es überhaupt so schwierig, deutsche Rechtschreibung zu lernen? Ein Professor, neun Rätsel der Sprachwissenschaft: Beat the Prof. </description>
+      <category>Hochschule</category>
+      <dc:creator>ZEIT ONLINE: Hochschule - Thomas Niehr</dc:creator>
+      <pubDate>Thu, 19 Nov 2015 08:23:03 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/studium/hochschule/2015-11/beat-the-prof-sprache</guid>
+    <ExtractedText>1
+Eben nicht, die genaue Frage war keine !
+Da steht nicht was Sie vermutlich selbstverständlich annehmen, weil Sie's auch groß schreiben, nämlich -das Synonym-.
+In der Frage taucht ein "irgendwie synonym" auf, nämlich als Adjektiv.
+Und noch schlimmer, da steht nicht ob die Wörter, diesem synonym entsprechend, Synonyme für einander sein sollen, oder sie für sonstwas synonym sein sollen ?
+Zur Erinnerung :
+"Sind die Wörter "bekommen" und "erhalten" eigentlich synonym?"
+Mit " Das hängt von Kontext ab" zu antworten, sehe ich als absolut richtig an.
+Hingegen ist es definitiv nicht so, dass ein Synonym tatsächlich die gleich Bedeutung ausdrücken muß, wie das Wort für dfas es verwendet wird.
+Also ist die angeblich richtige Antwort :
+Nein, den sonst könnte man es stets gegeneinander austauschen
+Nur Ausdruck des Unverständnisses von : Synonym
+</ExtractedText>
+</item>
+</channel>
+</rss>

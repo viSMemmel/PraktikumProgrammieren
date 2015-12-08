@@ -317,7 +317,7 @@ public class Gui extends Application {
 				fileChooser.setInitialFileName("Fremdwortsuche.txt");
 
 				// Datei kann nur als txt gespeichert werden
-				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
+				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("TXT files (*.xml)", "*.xml");
 				fileChooser.getExtensionFilters().add(extFilter);
 
 				File file = fileChooser.showSaveDialog(stage);

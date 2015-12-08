@@ -7,7 +7,7 @@ public class ParserApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Parser p = new Parser("src/Anglizismenliste.xml", "Fremdwort");
+		Parser p = new Parser("src/Anglizismenliste.xml");
 
 		/*
 		 * in das erste Feld ist der relative Pfade zu dem zu parsendem
@@ -22,7 +22,14 @@ public class ParserApp {
 		while (ListenIterator.hasNext()) {
 			System.out.println(ListenIterator.next());
 		}
-System.out.println("ende");
+System.out.println("\n ende \n");
+test = p.getRetAr(1);
+
+ListIterator<String> ListenIterator2 = test.listIterator();
+
+while (ListenIterator2.hasNext()) {
+	System.out.println(ListenIterator2.next());
+}
 	}
 
 }

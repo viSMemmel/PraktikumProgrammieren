@@ -25,12 +25,13 @@ import org.xml.sax.SAXException;
 
 public class Parser {
 private org.jdom2.Document XMLDOC;
-	protected List<String> retAr = new ArrayList<String>();
+
 	private  List<String>  Ergebnis= new ArrayList<String>();
+	private List<Element> KinderIntern =  new ArrayList<Element>();
 	
-	public List<String> getRetAr() {
-		retAr.add("Start der Liste ");
-		read();
+	public List<String> getRetAr(int n) {
+		List<String> retAr = new ArrayList<String>();	
+		retAr = read(n);
 		return retAr;
 
 	}
@@ -48,7 +49,7 @@ private org.jdom2.Document XMLDOC;
 	Element r =	 XMLDOC.getRootElement();
 //	while(r.getChildren()!=null){	}
     List<Element> Kinder =   r.getChildren();
-	
+    
   
 		return KinderElemente( Kinder);
 	}
@@ -63,7 +64,7 @@ private org.jdom2.Document XMLDOC;
 		    
 		    while(iter.hasNext()){
 		    	Element kind = iter.next();
-		    	
+		    	KinderIntern.add(kind);
 		    if(Ergebnis.indexOf(kind.getName())==-1){ // Ergebnis.indexOf(kind.getName()) ist g.d. -1 wenn kein gleichnamiges Element in der List vorhanden ist:
 		    	Ergebnis.add(kind.getName());
 		    	if(kind.getChildren()!= null){ 
@@ -76,13 +77,13 @@ private org.jdom2.Document XMLDOC;
 		return Ergebnis;
 	}
 	
-	public Parser(String xmlPfadString, String elementName) {
+	public Parser(String xmlPfadString) {
 
 		super();
 
 		XmlPfadString = xmlPfadString;
 
-		ElementName = elementName;
+	//	ElementName = elementName;
 		try{
 			org.jdom2.Document jDoc = null;
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -127,10 +128,12 @@ private org.jdom2.Document XMLDOC;
 			jDoc = domB.build(doc);// = new DOMBuilder();
 
 		return jDoc;
-			}                 Redundant XMLDOC wird mit aufruf des Konstruktors global erzeugt        **/
+			}                 Redundant XMLDOC wird mit aufruf des Konstruktors global erzeugt        
+	 * @return **/
  
-	private void read() {
-
+	@SuppressWarnings("finally")
+	private List<String> read(int n) {
+		List<String> retAr = new ArrayList<String>();	
 		try {
 
 			org.jdom2.Document jDoc =XMLDOC;
@@ -152,7 +155,7 @@ private org.jdom2.Document XMLDOC;
 
 					Element e = (org.jdom2.Element) it.next();
 
-					if (e.getName() == ElementName) {
+					if (e.getName() == KinderIntern.get(n).getName()) {
 						
 
 						String S = (String) e.getValue().toString();
@@ -181,8 +184,12 @@ private org.jdom2.Document XMLDOC;
 
 			retAr.add("io excption " + ee.getMessage());
 
+		}finally{
+			return retAr;
+			
 		}
 
 	}
 
 }
+

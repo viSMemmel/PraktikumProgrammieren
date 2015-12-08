@@ -62,6 +62,9 @@ public class Gui extends Application {
 
 	private String filePath;
 
+	
+	private Screen screen = Screen.getPrimary();
+	private Rectangle2D bounds = screen.getVisualBounds();
 	private double xWert = 0.0;
 	private double yWert = 0.0;
 
@@ -76,6 +79,8 @@ public class Gui extends Application {
 	private Button button1 = new Button("Zurücksetzen");
 
 	private Button button2 = new Button("Text auf Fremdwörter prüfen");
+	
+	private Button button3 = new Button ("XML-Liste auswählen");
 
 	private Pane pane0 = new Pane(); // Ordnungspanele auf dem Objekte gelegt
 										// werden können(auf dem der Inhalt
@@ -112,9 +117,11 @@ public class Gui extends Application {
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
 
 		// Standardwerte speichern
-		xWert = stage.getMinHeight();
-		yWert = stage.getMinWidth();
+		xWert = stage.getWidth();
+		yWert = stage.getHeight();
 
+		System.out.println("x: " +xWert+ "y: " +yWert );
+		
 		MenuBar menueLeiste = new MenuBar();
 		menueLeiste.prefWidthProperty().bind(stage.widthProperty());
 
@@ -165,11 +172,11 @@ public class Gui extends Application {
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
-		textArea0.setLayoutY(150);
+		textArea0.setLayoutY(200);
 
 		textArea0.setEditable(false);
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
-		textArea0.setPrefSize(570, 320);
+		textArea0.setPrefSize(570, 270);
 		textArea0.setText(
 				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
 
@@ -188,7 +195,7 @@ public class Gui extends Application {
 		// Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf
 		// Fremdwörter
 		textField1.setLayoutX(10);
-		textField1.setLayoutY(100);
+		textField1.setLayoutY(150);
 		textField1.setEditable(true);
 		textField1.setPrefWidth(480); // Breite des Textfeldes
 		textField1.setText("Hier zu prüfenden Text eingeben!");
@@ -196,25 +203,30 @@ public class Gui extends Application {
 		textField1.setAlignment(Pos.CENTER);
 
 		button0.setLayoutX(380);
-		button0.setLayoutY(47);
+		button0.setLayoutY(45);
 		button0.setPrefSize(80, 30);
 
 		button1.setLayoutX(480);
-		button1.setLayoutY(47);
+		button1.setLayoutY(45);
 		button1.setPrefSize(100, 30);
 
 		button2.setLayoutX(380);
-		button2.setLayoutY(97);
+		button2.setLayoutY(145);
 		button2.setPrefSize(200, 30);
+		
+		button3.setLayoutX(380);
+		button3.setLayoutY(95);
+		button3.setPrefSize(200, 30);
 
 		// Combobox
 
 		ObservableList<String> auswahl0 = FXCollections.observableArrayList("Stefan", "Claudia", "Blubber");
 		ComboBox kontaktMenue0 = new ComboBox(auswahl0);
 		kontaktMenue0.getSelectionModel().select("Stefan");
-		kontaktMenue0.setLayoutX(140);
-		kontaktMenue0.setLayoutY(75.5);
+		kontaktMenue0.setLayoutX(10);
+		kontaktMenue0.setLayoutY(100);
 		kontaktMenue0.setEditable(false);
+		kontaktMenue0.setPrefWidth(350);
 
 		String tooltiptext = "Bitte wählen Sie die XML Datei aus!";
 		Tooltip tooltip = new Tooltip();
@@ -305,6 +317,34 @@ public class Gui extends Application {
 
 			}
 		});
+		
+		//Actionhändler zum auswählen von einer einzelnen XML Liste button3
+		button3.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+
+				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+
+				FileChooser fileChooser = new FileChooser();
+				fileChooser.setTitle("Open Resource File (only XML)");
+				
+				//nur XML Dateien erlaubt bei der Eingabe
+				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml");
+				fileChooser.getExtensionFilters().add(extFilter);
+
+				File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
+				
+				//kompletten Pfadnamen der ausgewählten Datei in Textfeld anzeigen
+				String filePath = file.getAbsolutePath();
+				if (file != null) {
+
+						System.out.println(filePath);
+//						textField0.setText(filePath);
+//						textField0.setAlignment(Pos.BASELINE_LEFT);
+						}
+
+			}
+		});
 
 		// Actionhandler zum exportieren der Liste als txt Datei!
 		exportieren.setOnAction(new EventHandler<ActionEvent>() {
@@ -340,37 +380,59 @@ public class Gui extends Application {
 			}
 		});
 
-		// Design ändern
+		// Halbbild Anzeige
 		halbbild.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent e) {
 
-				System.out.println("Design ändern.");
-			}
-		});
-
-		// halbbild
-		halbbild.setOnAction(new EventHandler<ActionEvent>() {
-			public void handle(ActionEvent e) {
-
+				stage.setHeight(bounds.getHeight()-10);
+				stage.setWidth(bounds.getWidth()/2);
+				stage.centerOnScreen();
+				xWert = stage.getWidth();
+				yWert = stage.getHeight();
+				
+				textArea0.setLayoutX((xWert/2)-290);
+				textField0.setLayoutX((xWert/2)-290);
+				textField1.setLayoutX((xWert/2)-290);
+				
+				button0.setLayoutX((xWert/2)+80);
+				button1.setLayoutX((xWert/2)+180);
+				button2.setLayoutX((xWert/2)+80);
+				button3.setLayoutX((xWert/2)+80);
+				
+				kontaktMenue0.setLayoutX((xWert/2)-290);
+				
+				textArea0.setPrefSize(570, 490);
 				System.out.println("Halbbild.");
 			}
 		});
 
-		// vollbild
+		// Vollbild Anzeige
 		vollbild.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent e) {
 
-				Screen screen = Screen.getPrimary();
-				Rectangle2D bounds = screen.getVisualBounds();
-
-				stage.setX(bounds.getMinX());
-				stage.setY(bounds.getMinY());
-				stage.setWidth(bounds.getWidth());
-				stage.setHeight(bounds.getHeight());
-
-				textArea0.setPrefSize((bounds.getWidth() - 200), (bounds.getMinY()));
+				stage.setX(bounds.getMinX()+5);
+				stage.setY(bounds.getMinY()+5);
+				stage.setWidth(bounds.getWidth()-5);
+				stage.setHeight(bounds.getHeight()-5);
 
 				System.out.println("Vollbild.");
+				xWert = stage.getWidth();
+				yWert = stage.getHeight();
+
+				textArea0.setLayoutX((xWert/2)-290);
+				textField0.setLayoutX((xWert/2)-290);
+				textField1.setLayoutX((xWert/2)-290);
+				
+				button0.setLayoutX((xWert/2)+80);
+				button1.setLayoutX((xWert/2)+180);
+				button2.setLayoutX((xWert/2)+80);
+				button3.setLayoutX((xWert/2)+80);
+				
+				kontaktMenue0.setLayoutX((xWert/2)-290);
+				
+				textArea0.setPrefSize(570, 470);
+			
+				System.out.println("x: " +xWert+ "y: " +yWert );
 			}
 		});
 
@@ -379,8 +441,36 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 
+				stage.setHeight(500);
+				stage.setWidth(600);
+				stage.centerOnScreen();
+				
 				textArea0.setLayoutX(10);
-				textArea0.setLayoutY(150);
+				textArea0.setLayoutY(200);
+				textArea0.setPrefSize(570, 270);
+				
+				textField0.setLayoutX(10);
+				textField0.setLayoutY(50);
+				textField0.setMaxWidth(350);
+
+				// Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf
+				// Fremdwörter
+				textField1.setLayoutX(10);
+				textField1.setLayoutY(150);
+				textField1.setAlignment(Pos.CENTER);
+
+				button0.setLayoutX(380);
+				button0.setLayoutY(45);
+				
+				button1.setLayoutX(480);
+				button1.setLayoutY(45);
+		
+				button2.setLayoutX(380);
+				button2.setLayoutY(145);
+			
+				kontaktMenue0.setLayoutX(10);
+				kontaktMenue0.setLayoutY(100);
+				
 			}
 		});
 
@@ -396,7 +486,7 @@ public class Gui extends Application {
 			}
 		});
 
-		pane0.getChildren().addAll(textArea0, button0, button1, textField1, button2, menueLeiste, textField0, kontaktMenue0);
+		pane0.getChildren().addAll(textArea0, button0, button1, button3,  textField1, button2, menueLeiste, textField0, kontaktMenue0);
 
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
 										// wird

@@ -20,22 +20,19 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.Optional;
-import java.util.TimerTask;
-
-import com.sun.glass.ui.Timer;
-
 import DokumenteSucheforGUI.Search;
+
+//Für Auflösungszwecke
+import javafx.stage.Screen;
+import javafx.geometry.Pos;
+import javafx.geometry.Rectangle2D;
 //import DokumenteSucheforGUI.SearchAlt;
 import javafx.stage.Modality;
-import javafx.animation.Animation;
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
+import javafx.stage.Screen;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
@@ -44,7 +41,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.Label;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
@@ -60,11 +57,13 @@ import javafx.scene.text.Text;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import javafx.util.Duration;
 
 public class Gui extends Application {
 
 	private String filePath;
+
+	private double xWert = 0.0;
+	private double yWert = 0.0;
 
 	private TextField textField0 = new TextField(); // Wird in der Subklasse des
 													// FileChoosers benötigt an
@@ -112,8 +111,12 @@ public class Gui extends Application {
 		stage.setResizable(false); // Nicht veränderbar
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
 
+		// Standardwerte speichern
+		xWert = stage.getMinHeight();
+		yWert = stage.getMinWidth();
+
 		MenuBar menueLeiste = new MenuBar();
-		menueLeiste.prefWidthProperty().bind(stage.widthProperty()); 
+		menueLeiste.prefWidthProperty().bind(stage.widthProperty());
 
 		Menu datei = new Menu("Datei");
 		Menu suchen = new Menu("Suchen");
@@ -139,6 +142,9 @@ public class Gui extends Application {
 		MenuItem vollbild = new MenuItem("Vollbild anzeigen");
 		MenuItem halbbild = new MenuItem("Halbbild anzeigen");
 
+		// Alex
+		MenuItem designAendern = new MenuItem("Design ändern");
+
 		datei.getItems().add(waehlen);
 		datei.getItems().add(exportieren);
 		datei.getItems().add(statistik);
@@ -151,6 +157,7 @@ public class Gui extends Application {
 		ansicht.getItems().add(normalbild);
 		ansicht.getItems().add(vollbild);
 		ansicht.getItems().add(halbbild);
+		ansicht.getItems().add(designAendern);
 
 		hilfe.getItems().add(fragezeichen);
 
@@ -199,6 +206,15 @@ public class Gui extends Application {
 		button2.setLayoutX(380);
 		button2.setLayoutY(97);
 		button2.setPrefSize(200, 30);
+
+		// Combobox
+
+		ObservableList<String> auswahl0 = FXCollections.observableArrayList("Stefan", "Claudia", "Blubber");
+		ComboBox kontaktMenue0 = new ComboBox(auswahl0);
+		kontaktMenue0.getSelectionModel().select("Stefan");
+		kontaktMenue0.setLayoutX(140);
+		kontaktMenue0.setLayoutY(75.5);
+		kontaktMenue0.setEditable(false);
 
 		String tooltiptext = "Bitte wählen Sie die XML Datei aus!";
 		Tooltip tooltip = new Tooltip();
@@ -306,7 +322,7 @@ public class Gui extends Application {
 
 				File file = fileChooser.showSaveDialog(stage);
 
-				// schreibt den Stringh aus der TextArea in den zu speichernden
+				// schreibt den String aus der TextArea in den zu speichernden
 				// File
 				if (file != null) {
 					try {
@@ -324,6 +340,40 @@ public class Gui extends Application {
 			}
 		});
 
+		// Design ändern
+		halbbild.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
+
+				System.out.println("Design ändern.");
+			}
+		});
+
+		// halbbild
+		halbbild.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
+
+				System.out.println("Halbbild.");
+			}
+		});
+
+		// vollbild
+		vollbild.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
+
+				Screen screen = Screen.getPrimary();
+				Rectangle2D bounds = screen.getVisualBounds();
+
+				stage.setX(bounds.getMinX());
+				stage.setY(bounds.getMinY());
+				stage.setWidth(bounds.getWidth());
+				stage.setHeight(bounds.getHeight());
+
+				textArea0.setPrefSize((bounds.getWidth() - 200), (bounds.getMinY()));
+
+				System.out.println("Vollbild.");
+			}
+		});
+
 		// Actionhändler zum Wählen von XML Source-Datei
 		normalbild.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -333,8 +383,8 @@ public class Gui extends Application {
 				textArea0.setLayoutY(150);
 			}
 		});
-		
-		//Actionhandler Crawleroptionspunkt crawlerDurchsuchen
+
+		// Actionhandler Crawleroptionspunkt crawlerDurchsuchen
 		crawlerDurchsuchen.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
@@ -342,14 +392,11 @@ public class Gui extends Application {
 				ModalerDialogCrawler mDialog1 = new ModalerDialogCrawler();
 
 				mDialog1.showAndWait();
-				
+
 			}
 		});
-		
-		
-		
-		
-		pane0.getChildren().addAll(textArea0, button0, button1, textField1, button2, menueLeiste, textField0);
+
+		pane0.getChildren().addAll(textArea0, button0, button1, textField1, button2, menueLeiste, textField0, kontaktMenue0);
 
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
 										// wird
@@ -416,57 +463,57 @@ class ModalerDialogCrawler extends Stage {
 		super();
 		setTitle("Crawler Optionen");
 		initModality(Modality.APPLICATION_MODAL);
-		
+
 		Pane pane2 = new Pane();
 		Scene scene2 = new Scene(pane2, 350, 250);
 		setScene(scene2);
-		
+
 		Button starten = new Button("Crawler starten");
 		starten.setLayoutX(20);
 		starten.setLayoutY(80);
 		starten.setPrefSize(120, 30);
-		
+
 		Button stoppen = new Button("Crawler stoppen");
 		stoppen.setLayoutX(190);
 		stoppen.setLayoutY(80);
 		stoppen.setPrefSize(120, 30);
-	
+
 		Text text = new Text(10, 50, "Hier können Sie den Crawler starten und stoppen");
-		
+
 		text.setFont(Font.font("Verdana", FontWeight.BOLD, 12));
-		
-		TextArea crawler = new TextArea("Crawler läuft nicht"); 
+
+		TextArea crawler = new TextArea("Crawler läuft nicht");
 		crawler.setLayoutX(20);
 		crawler.setLayoutY(140);
 		crawler.setPrefSize(290, 100);
 		crawler.setEditable(false);
-		
-		//starten Actionahdler
+		crawler.setScrollTop(Double.MAX_VALUE);
+
+		// starten Actionahdler
 		starten.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
 
 				crawler.setText(crawler.getText() + "\nCrawler gestartet");
-				
-				
+
 			}
 		});
-		
-		//stoppen Actionhandler
+
+		// stoppen Actionhandler
 		stoppen.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
 
 				crawler.setText(crawler.getText() + "\nCrawler wieder gestoppt");
-				
+
 			}
 		});
-	
+
 		pane2.getChildren().addAll(text, crawler, starten, stoppen);
-		
+
 		scene2.getStylesheets().clear();
 		scene2.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
-		
+
 	}
 
 }

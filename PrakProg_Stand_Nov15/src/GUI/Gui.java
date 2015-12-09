@@ -302,6 +302,9 @@ public class Gui extends Application {
 				textField1.setText("Hier zu prüfenden Text eingeben!");
 				textField1.setMaxWidth(350);
 				textField1.setAlignment(Pos.CENTER);
+				String test;
+				test=kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+				System.out.println(test);
 			}
 		});
 		// actionhandler suche starten
@@ -312,6 +315,9 @@ public class Gui extends Application {
 				String Output = null;
 				kontaktMenue0.setEditable(true);
 				Suchwort = textField1.getText();
+				
+				kontaktMenue0.getItems();
+				
 				String[] SuchAr = Suchwort.split(" ");
 				try {
 					System.out.println("KM"+ kontaktMenue0);
@@ -362,8 +368,9 @@ public class Gui extends Application {
 //						textField0.setText(filePath);
 //						textField0.setAlignment(Pos.BASELINE_LEFT);
 						}
-
 			}
+			
+			
 		});
 
 		// Actionhandler zum exportieren der Liste als txt Datei!

@@ -43,8 +43,7 @@ private org.jdom2.Document XMLDOC;
 	String ElementName;
 
 	int n = 0;
-	@SuppressWarnings("unused")
-	public List<String> getErgebnis(){
+	public List<String> getKids(){
 		
 	Element r =	 XMLDOC.getRootElement();
 //	while(r.getChildren()!=null){	}

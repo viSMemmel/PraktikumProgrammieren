@@ -20,7 +20,11 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
+
+import parser.Parser;
 import DokumenteSucheforGUI.Search;
 
 //Für Auflösungszwecke
@@ -71,9 +75,9 @@ public class Gui extends Application {
 	private TextField textField0 = new TextField(); // Wird in der Subklasse des
 													// FileChoosers benötigt an
 													// dieser Stelle
-
+	private Parser parser;
 	private TextArea textArea0 = new TextArea();
-
+	private ComboBox kontaktMenue0 = new ComboBox();
 	private Button button0 = new Button("Wählen");
 
 	private Button button1 = new Button("Zurücksetzen");
@@ -220,9 +224,9 @@ public class Gui extends Application {
 
 		// Combobox
 
-		ObservableList<String> auswahl0 = FXCollections.observableArrayList("Stefan", "Claudia", "Blubber");
-		ComboBox kontaktMenue0 = new ComboBox(auswahl0);
-		kontaktMenue0.getSelectionModel().select("Stefan");
+		ObservableList<String> auswahl0 = FXCollections.observableArrayList("Noch kein XML hinterlegt");
+		kontaktMenue0.setEditable(false);
+	//	kontaktMenue0.getSelectionModel().select("Stefan");
 		kontaktMenue0.setLayoutX(10);
 		kontaktMenue0.setLayoutY(100);
 		kontaktMenue0.setEditable(false);
@@ -287,14 +291,17 @@ public class Gui extends Application {
 		// Actionhandler für Button "Zurücksetzen"
 		button1.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
+				setBack();
 
+			}
+
+			private void setBack() {
 				textArea0.setText("");
 				textField0.setText("Bitte XML-Datei auswählen!");
 				textField0.setAlignment(Pos.CENTER);
 				textField1.setText("Hier zu prüfenden Text eingeben!");
 				textField1.setMaxWidth(350);
 				textField1.setAlignment(Pos.CENTER);
-
 			}
 		});
 		// actionhandler suche starten
@@ -303,9 +310,12 @@ public class Gui extends Application {
 				System.out.println("Button 2 gedrueckt");
 				String Suchwort = null;
 				String Output = null;
+				kontaktMenue0.setEditable(true);
 				Suchwort = textField1.getText();
 				String[] SuchAr = Suchwort.split(" ");
 				try {
+					System.out.println("KM"+ kontaktMenue0);
+					
 					Search suche = new Search(SuchAr, filePath);
 					Output = suche.find();
 
@@ -333,9 +343,19 @@ public class Gui extends Application {
 				fileChooser.getExtensionFilters().add(extFilter);
 
 				File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
-				
+				 
 				//kompletten Pfadnamen der ausgewählten Datei in Textfeld anzeigen
 				String filePath = file.getAbsolutePath();
+				parser = new Parser(filePath);
+
+				kontaktMenue0.setEditable(true);
+				try{
+				List<String> Kinder = parser.getKids();
+				ObservableList <String> oList =FXCollections.observableArrayList(Kinder);
+				kontaktMenue0.setItems(oList);}
+				catch(Exception e){
+					System.out.println("Gehtnicht");
+				}
 				if (file != null) {
 
 						System.out.println(filePath);

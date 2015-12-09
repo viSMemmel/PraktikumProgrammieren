@@ -15,7 +15,7 @@ public class ParserApp {
 		 * XML-TAG Anzugeb
 		 */
 		List<String> test;
-		test = p.getErgebnis();
+		test = p.getKids();
 
 		ListIterator<String> ListenIterator = test.listIterator();
 
@@ -23,7 +23,7 @@ public class ParserApp {
 			System.out.println(ListenIterator.next());
 		}
 System.out.println("\n ende \n");
-test = p.getRetAr(1);
+test = p.getRetAr(5);
 
 ListIterator<String> ListenIterator2 = test.listIterator();
 

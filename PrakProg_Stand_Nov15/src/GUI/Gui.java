@@ -248,7 +248,7 @@ public class Gui extends Application {
 				System.out.println("Button schließen im modalen Dialog gedrückt.");
 			}
 		});
-
+		
 		schliessen.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent e) {
 				// System.exit(0);
@@ -439,7 +439,6 @@ public class Gui extends Application {
 				xWert = stage.getWidth();
 				yWert = stage.getHeight();
 
-				textArea0.setLayoutX((xWert/2)-290);
 				textField0.setLayoutX((xWert/2)-290);
 				textField1.setLayoutX((xWert/2)-290);
 				
@@ -450,7 +449,8 @@ public class Gui extends Application {
 				
 				kontaktMenue0.setLayoutX((xWert/2)-290);
 				
-				textArea0.setPrefSize(570, 470);
+				textArea0.setLayoutX(20);
+				textArea0.setPrefSize((xWert-50), 470);
 			
 				System.out.println("x: " +xWert+ "y: " +yWert );
 			}
@@ -512,10 +512,25 @@ public class Gui extends Application {
 										// wird
 		stage.setScene(scene); // Fensterinhalt aufs Fenster legen
 		stage.show(); // Fenster sichtbar machen
-		// CSS von Alex
-
+		
+		// CSS von Alex (Standardinitialisierung und Knopf zum wechseln der Designs
+		
 		scene.getStylesheets().clear();
 		scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
+		
+		designAendern.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent e) {
+				if(scene.getStylesheets().get(0).contains("caspian")){
+					scene.getStylesheets().clear();
+					scene.getStylesheets().add(Gui.class.getResource("notransparency.css").toExternalForm());
+				}
+				else if(scene.getStylesheets().get(0).contains("notransparency")) {
+					scene.getStylesheets().clear();
+					scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
+				}
+			}
+		});
+		
 	}
 
 	public static void main(String[] args) {

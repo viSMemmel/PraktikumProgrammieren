@@ -316,14 +316,17 @@ public class Gui extends Application {
 				kontaktMenue0.setEditable(true);
 				Suchwort = textField1.getText();
 				
-				kontaktMenue0.getItems();
-				
-				String[] SuchAr = Suchwort.split(" ");
 				try {
-					System.out.println("KM"+ kontaktMenue0);
 					
+				int kontaktMenueIndex= kontaktMenue0.getSelectionModel().getSelectedIndex();
+				System.out.println("KM"+ kontaktMenueIndex);
+				String[] SuchAr = parser.getRetAr(kontaktMenueIndex);
+					if(SuchAr == null){ // Liefert noch nichtx
+						System.out.println("SuchAr == NULL!!!!!!!!!!!!!!");
+					}
 					Search suche = new Search(SuchAr, filePath);
 					Output = suche.find();
+					
 
 				} catch (Exception e) {
 					Output = e.getMessage();

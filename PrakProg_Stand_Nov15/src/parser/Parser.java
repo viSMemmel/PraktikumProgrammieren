@@ -29,10 +29,20 @@ private org.jdom2.Document XMLDOC;
 	private  List<String>  Ergebnis= new ArrayList<String>();
 	private List<Element> KinderIntern =  new ArrayList<Element>();
 	
-	public List<String> getRetAr(int n) {
+	public String[] getRetAr(int n) {
+		String [] returnArray= null;
 		List<String> retAr = new ArrayList<String>();	
 		retAr = read(n);
-		return retAr;
+		
+		try{
+		retAr.toArray(returnArray );
+		}catch(Exception e){
+			
+		}
+	
+		
+		
+		return returnArray;
 
 	}
 	

@@ -23,13 +23,13 @@ public class ParserApp {
 			System.out.println(ListenIterator.next());
 		}
 System.out.println("\n ende \n");
-test = p.getRetAr(5);
+String [] test2 = p.getRetAr(5);
 
-ListIterator<String> ListenIterator2 = test.listIterator();
+/*ListIterator<String> ListenIterator2 = test2.listIterator();
 
 while (ListenIterator2.hasNext()) {
 	System.out.println(ListenIterator2.next());
-}
+}*/
 	}
 
 }

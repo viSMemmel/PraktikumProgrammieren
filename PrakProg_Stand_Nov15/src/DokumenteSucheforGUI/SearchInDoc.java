@@ -48,7 +48,7 @@ public class SearchInDoc {
 			// System.out.println("?????????????"+ currentField.name() + " "+
 			// currentField.stringValue());
 			if (currentField.name().equals(FieldName)) {
-				System.out.println("\n !!!!!!!Feld gefunden");
+			//	System.out.println("\n !!!!!!!Feld gefunden");
 				// reader=currentField.readerValue();
 				// Analyzer analyzer = new Analyzer();
 

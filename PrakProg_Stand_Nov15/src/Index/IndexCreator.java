@@ -91,7 +91,7 @@ public class IndexCreator {
 			// document.add(new Field("Words", (String) fr.getWords(),
 			// Field.Store.YES, Field.Index.NOT_ANALYZED));
 
-			System.out.println(document.toString());
+		//	System.out.println(document.toString());
 			indexWriter.addDocument(document);
 		}
 		// indexWriter.optimize(); nötig

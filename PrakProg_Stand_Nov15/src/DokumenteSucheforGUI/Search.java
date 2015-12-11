@@ -86,7 +86,9 @@ public class Search {
 
 			IndexSearcher searcher = new IndexSearcher(dr); // Indexsuche
 			for(int n= 0; n<SearchSubjectAr.length; n++){
+			
 				String SearchSubject= SearchSubjectAr[n];
+				System.out.println("searchSubject " + SearchSubject);
 			Query query = qp.parse(SearchSubject); //
 
 			TopDocs td = searcher.search(query, 10); // Die ersten 10 Dokumente
@@ -118,7 +120,7 @@ public class Search {
 																												// mitberücksichtig
 																												// werden
 																												// müssen
-					System.out.println("Dokument gefunden " + doc.toString());
+				//	System.out.println("Dokument gefunden " + doc.toString());
 					// hier muss dann eine Suche innerhalb des do stattfinden
 
 					List<IndexableField> iField = doc.getFields();
@@ -139,10 +141,10 @@ public class Search {
 					Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  ";
 					for(int x=0; x<FundListe.size(); x++){
 						Ausgabe_in_Textarea += "\n             an:" +FundListe.get(x)+" Stelle ";
+						System.out.println("\n             an:" +FundListe.get(x)+" Stelle ");
 					}
 						
 					
-					System.out.println("\n ReadertoString() " + searchInDoc.toString());
 					searchInDoc.close();
 
 				

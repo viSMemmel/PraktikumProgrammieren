@@ -24,6 +24,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+
 import parser.Parser;
 import DokumenteSucheforGUI.Search;
 
@@ -317,7 +320,8 @@ public class Gui extends Application {
 				Suchwort = textField1.getText();
 				
 				try {
-					
+					filePath = textField0.getText(); // sollte eigentlich schon global zugewiesen sein
+				if(filePath != null){	
 				int kontaktMenueIndex= kontaktMenue0.getSelectionModel().getSelectedIndex();
 				System.out.println("KM"+ kontaktMenueIndex);
 				String[] SuchAr = parser.getRetAr(kontaktMenueIndex);
@@ -326,7 +330,11 @@ public class Gui extends Application {
 					}
 					Search suche = new Search(SuchAr, filePath);
 					Output = suche.find();
+				}
+				else{
+					JDialog jd = new JDialog(new JFrame(), "Bitte geben Sie den Pfad zu den durchsuchenden Dateien an");
 					
+				}
 
 				} catch (Exception e) {
 					Output = e.getMessage();

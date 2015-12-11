@@ -26,7 +26,7 @@ import org.xml.sax.SAXException;
 public class Parser {
 private org.jdom2.Document XMLDOC;
 
-	private  List<String>  Ergebnis= new ArrayList<String>();
+//	private  List<String>  Ergebnis= new ArrayList<String>();
 	private List<Element> KinderIntern =  new ArrayList<Element>();
 	
 	public String[] getRetAr(int n) {
@@ -35,7 +35,7 @@ private org.jdom2.Document XMLDOC;
 		retAr = read(n);
 		
 		try{
-		retAr.toArray(returnArray );
+			 returnArray= (String []) retAr.toArray(new String[retAr.size()] );  //siehe Java-Insek Kapitel 13.3.7
 		}catch(Exception e){
 			
 		}

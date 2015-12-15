@@ -606,7 +606,8 @@ class ModalerDialog extends Stage {
 
 class ModalerDialogCrawler extends Stage {
 
-	private RSSThread thread;
+	
+	
 
 	public ModalerDialogCrawler() {
 		super();
@@ -637,13 +638,39 @@ class ModalerDialogCrawler extends Stage {
 		crawler.setPrefSize(290, 100);
 		crawler.setEditable(false);
 		crawler.setScrollTop(Double.MAX_VALUE);
-
+		
+		//RSSThread thread = new RSSThread(100);
+		try {
+			RSSThread.setCurrdir(new java.io.File(".").getCanonicalPath());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		RSSThread.setMessageFile(new ServerLogfile(RSSThread.getCurrdir() + "/messages.log"));
+		RSSThread.setErrorFile(new ServerLogfile(RSSThread.getCurrdir() + "/errors.log"));
+		RSSThread.setTerminate(new File(RSSThread.getCurrdir() + "/stop"));
+		String configFile = RSSThread.getCurrdir() + "/configuration.properties";
+		Properties properties = new Properties();
+		try {
+			properties.load(new FileReader(configFile));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		RSSThread.archivedir = properties.getProperty("archivedir");
+		RSSThread.sourcedir = properties.getProperty("sourcedir");
+		RSSThread.subscriptiondir = properties.getProperty("subscriptiondir");
+		RSSThread.schemadir = properties.getProperty("schemadir");
+		
+		RSSThread thread = new RSSThread(100);
+		
 		// starten Actionahdler
 		starten.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
 
 				crawler.setText(crawler.getText() + "\nCrawler gestartet");
+				thread.start();
 			}
 		});
 
@@ -653,6 +680,11 @@ class ModalerDialogCrawler extends Stage {
 			public void handle(ActionEvent ae) {
 			
 				crawler.setText(crawler.getText() + "\nCrawler wieder gestoppt");
+				thread.interrupt();
+				thread.stop();
+				if(thread.isInterrupted()){
+					System.out.println("Biing");
+				}
 			}
 		});
 

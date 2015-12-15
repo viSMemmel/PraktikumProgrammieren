@@ -114,11 +114,11 @@ public class RSSThread extends Thread implements Runnable, Observer {
 	 */
 	public RSSThread(int sleepTime) {
 		this.sleepTime = sleepTime;
-		sourceMonitor = new DirectoryMonitor(sourcedir, 100, errorFile);
+		sourceMonitor = new DirectoryMonitor(sourcedir, 100, getErrorFile());
 		sourceMonitor.addObserver(this);
 		sourceMonitor.startMonitor();
 
-		subscriptionMonitor = new DirectoryMonitor(subscriptiondir, 100, errorFile);
+		subscriptionMonitor = new DirectoryMonitor(subscriptiondir, 100, getErrorFile());
 		subscriptionMonitor.addObserver(this);
 		subscriptionMonitor.startMonitor();
 	}
@@ -171,7 +171,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 			Validator v = schema.newValidator();
 			v.validate(new DOMSource(doc));
 		} catch (Exception e) {
-			errorFile.writeEvent("RSSThread", "readSourceFile", "Error message: " + e);
+			getErrorFile().writeEvent("RSSThread", "readSourceFile", "Error message: " + e);
 		}
 
 		NodeList taskElems = doc.getElementsByTagName("address");
@@ -187,7 +187,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 			try {
 				url = new URL(taskElem.getAttribute("link"));
 			} catch (Exception e) {
-				errorFile.writeEvent("RSSThread", "readSourceFile",
+				getErrorFile().writeEvent("RSSThread", "readSourceFile",
 						"Ignoring invalid URI: " + taskElem.getAttribute("link"));
 				continue;
 			}
@@ -227,7 +227,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 			Validator v = schema.newValidator();
 			v.validate(new DOMSource(doc));
 		} catch (Exception e) {
-			errorFile.writeEvent("RSSThread", "readSubscription", "Error message: " + e);
+			getErrorFile().writeEvent("RSSThread", "readSubscription", "Error message: " + e);
 		}
 
 		Element targetdir = (Element) doc.getElementsByTagName("targetdir").item(0);
@@ -305,7 +305,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 				}
 				fw.close();
 			} catch (IOException e) {
-				errorFile.writeEvent("RSSThread", "processSubscription",
+				getErrorFile().writeEvent("RSSThread", "processSubscription",
 						"Writing file for subscription failed: " + outfile);
 			}
 		}
@@ -341,12 +341,12 @@ public class RSSThread extends Thread implements Runnable, Observer {
 	 */
 	public void run() {
 		try {
-			RSSParser parser = new RSSParser(messageFile, errorFile);
+			RSSParser parser = new RSSParser(getMessageFile(), getErrorFile());
 			Channel channel;
 			long ctime;
 
 			// waiting for the availability of initial sources and subscriptions
-			while (!initialSubscriptions || !initialSources || terminate.exists()) {
+			while (!initialSubscriptions || !initialSources || getTerminate().exists()) {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
@@ -354,12 +354,12 @@ public class RSSThread extends Thread implements Runnable, Observer {
 				}
 			}
 
-			messageFile.writeEvent("RSSThread", "run", "RSS Server started!");
+			getMessageFile().writeEvent("RSSThread", "run", "RSS Server started!");
 			// parse feeds for the first time
 			synchronized (tasks) {
 				synchronized (subscriptions) {
 					for (RSSTask t : tasks.values()) {
-						messageFile.writeEvent("RSSThread", "run", "First visit: " + t.getURL());
+						getMessageFile().writeEvent("RSSThread", "run", "First visit: " + t.getURL());
 						channel = parser.parseFeed(t.getURL(), t.getCountry(), t.getLang(), t.getTopic(), archivedir);
 						if (channel == null)
 							continue;
@@ -367,7 +367,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 							int min = channel.getTTL() * 60 * 1000;
 							if (min > t.getInterval()) {
 								t.setInterval(min);
-								messageFile.writeEvent("RSSThread", "run", "Override interval with " + channel.getTTL()
+								getMessageFile().writeEvent("RSSThread", "run", "Override interval with " + channel.getTTL()
 										+ " minutes for " + channel.getTitle());
 							}
 						}
@@ -378,10 +378,10 @@ public class RSSThread extends Thread implements Runnable, Observer {
 
 			ctime = System.currentTimeMillis();
 			while (true) {
-				if (terminate.exists()) {
-					messageFile.writeEvent("RSSThread", "run", "RSS Server finished!");
-					if (!terminate.delete()) {
-						messageFile.writeEvent("RSSThread", "run", "Stop file could not be deleted!");
+				if (getTerminate().exists()) {
+					getMessageFile().writeEvent("RSSThread", "run", "RSS Server finished!");
+					if (!getTerminate().delete()) {
+						getMessageFile().writeEvent("RSSThread", "run", "Stop file could not be deleted!");
 					}
 					System.exit(0);
 				}
@@ -390,7 +390,7 @@ public class RSSThread extends Thread implements Runnable, Observer {
 						for (RSSTask t : tasks.values()) {
 							t.addElapsed(System.currentTimeMillis() - ctime);
 							if (t.getInterval() < t.getElapsed()) {
-								messageFile.writeEvent("RSSThread", "run", "Visiting: " + t.getURL());
+								getMessageFile().writeEvent("RSSThread", "run", "Visiting: " + t.getURL());
 								channel = parser.parseFeed(t.getURL(), t.getCountry(), t.getLang(), t.getTopic(),
 										archivedir);
 								if (channel != null) {
@@ -405,12 +405,12 @@ public class RSSThread extends Thread implements Runnable, Observer {
 				try {
 					Thread.sleep(sleepTime);
 				} catch (InterruptedException e) {
-					messageFile.writeEvent("RSSThread", "run", "RSS Server finished!");
+					getMessageFile().writeEvent("RSSThread", "run", "RSS Server finished!");
 					System.exit(0);
 				}
 			}
 		} catch (Throwable t) {
-			errorFile.writeEvent("RSSThread", "run", "Unhandled exception: " + t);
+			getErrorFile().writeEvent("RSSThread", "run", "Unhandled exception: " + t);
 		}
 	}
 
@@ -427,19 +427,19 @@ public class RSSThread extends Thread implements Runnable, Observer {
 			synchronized (subscriptions) {
 				File[] files = (File[]) arg1;
 				if (arg0 == sourceMonitor) {
-					messageFile.writeEvent("RSSThread", "update", "Start to read new sources");
+					getMessageFile().writeEvent("RSSThread", "update", "Start to read new sources");
 					for (int i = 0; i < files.length; i++) {
 						readSourceFile(files[i]);
 					}
 					initialSources = true;
-					messageFile.writeEvent("RSSThread", "update", "Finish to read new sources");
+					getMessageFile().writeEvent("RSSThread", "update", "Finish to read new sources");
 				} else if (arg0 == subscriptionMonitor) {
-					messageFile.writeEvent("RSSThread", "update", "Start to read new subscriptions");
+					getMessageFile().writeEvent("RSSThread", "update", "Start to read new subscriptions");
 					for (int i = 0; i < files.length; i++) {
 						readSubscription(files[i]);
 					}
 					initialSubscriptions = true;
-					messageFile.writeEvent("RSSThread", "update", "Finish to read new subscriptions");
+					getMessageFile().writeEvent("RSSThread", "update", "Finish to read new subscriptions");
 				}
 			}
 		}
@@ -460,11 +460,11 @@ public class RSSThread extends Thread implements Runnable, Observer {
 	public static void main(String[] args, boolean started) throws Exception {
 		try {
 			currdir = new java.io.File(".").getCanonicalPath();
-			messageFile = new ServerLogfile(currdir + "/messages.log");
-			errorFile = new ServerLogfile(currdir + "/errors.log");
+			setMessageFile(new ServerLogfile(getCurrdir() + "/messages.log"));
+			setErrorFile(new ServerLogfile(getCurrdir() + "/errors.log"));
 
-			terminate = new File(currdir + "/stop");
-			String configFile = currdir + "/configuration.properties";
+			setTerminate(new File(getCurrdir() + "/stop"));
+			String configFile = getCurrdir() + "/configuration.properties";
 			Properties properties = new Properties();
 			properties.load(new FileReader(configFile));
 			archivedir = properties.getProperty("archivedir");
@@ -477,8 +477,42 @@ public class RSSThread extends Thread implements Runnable, Observer {
 			thread.start();
 
 		} catch (Throwable t) {
-			errorFile.writeEvent("RSSThread", "main", "Unhandled exception: " + t);
+			getErrorFile().writeEvent("RSSThread", "main", "Unhandled exception: " + t);
 		}
 	}
 
+	public static String getCurrdir() {
+		return currdir;
+	}
+
+	public static void setCurrdir(String currdir) {
+		RSSThread.currdir = currdir;
+	}
+
+	public static ServerLogfile getMessageFile() {
+		return messageFile;
+	}
+
+	public static void setMessageFile(ServerLogfile messageFile) {
+		RSSThread.messageFile = messageFile;
+	}
+
+	public static ServerLogfile getErrorFile() {
+		return errorFile;
+	}
+
+	public static void setErrorFile(ServerLogfile errorFile) {
+		RSSThread.errorFile = errorFile;
+	}
+
+	public static File getTerminate() {
+		return terminate;
+	}
+
+	public static void setTerminate(File terminate) {
+		RSSThread.terminate = terminate;
+	}
+
+	
 }
+

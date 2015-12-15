@@ -18,6 +18,7 @@ import java.awt.event.ActionListener;
 //TODO: Menüpunkt Crawler evtl. Unterpunkte: - Start -Stop -Optionen: Modales Fenster welche news genau
 //TODO: Deutsche Entsprechung in Kalmmern hinter dem Fremdwort ( evtl. auch  highlighten oder andere Farbe)
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -639,7 +640,7 @@ class ModalerDialogCrawler extends Stage {
 		crawler.setEditable(false);
 		crawler.setScrollTop(Double.MAX_VALUE);
 		
-		//RSSThread thread = new RSSThread(100);
+		
 		try {
 			RSSThread.setCurrdir(new java.io.File(".").getCanonicalPath());
 		} catch (IOException e) {
@@ -648,11 +649,15 @@ class ModalerDialogCrawler extends Stage {
 		}
 		RSSThread.setMessageFile(new ServerLogfile(RSSThread.getCurrdir() + "/messages.log"));
 		RSSThread.setErrorFile(new ServerLogfile(RSSThread.getCurrdir() + "/errors.log"));
+		
 		RSSThread.setTerminate(new File(RSSThread.getCurrdir() + "/stop"));
 		String configFile = RSSThread.getCurrdir() + "/configuration.properties";
 		Properties properties = new Properties();
 		try {
 			properties.load(new FileReader(configFile));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -682,9 +687,7 @@ class ModalerDialogCrawler extends Stage {
 				crawler.setText(crawler.getText() + "\nCrawler wieder gestoppt");
 				thread.interrupt();
 				thread.stop();
-				if(thread.isInterrupted()){
-					System.out.println("Biing");
-				}
+				
 			}
 		});
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+<title>Studium – Hochschulen und Universitäten</title>
+<link>http://newsfeed.zeit.de/</link>
+<description>Studieren, Arbeiten und Leben - Aktuelle Informationen und Hintergründe zum Thema Studium und das neue Hochschulranking.</description>
+<language>de-de</language>
+<copyright>Copyright © 2015, ZEIT ONLINE GmbH</copyright>
+<atom:link href="http://newsfeed.zeit.de/studium/index" type="application/rss+xml"/>
+<docs>http://www.zeit.de/hilfe/rss</docs>
+<generator>zeit.web 2.34</generator>
+<managingEditor>online-cr.zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+<webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+<image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>Studium – Hochschulen und Universitäten</title>
+      <link>http://newsfeed.zeit.de/</link>
+    </image>
+<item>
+      <title>Junge Wissenschaftler: "Schwangere werden sofort vor die Tür gesetzt"</title>
+      <link>http://www.zeit.de/studium/hochschule/2015-12/junge-wissenschaftler-familie</link>
+      <description>&lt;a href="http://www.zeit.de/studium/hochschule/2015-12/junge-wissenschaftler-familie"&gt;&lt;img style="float:left; margin-right:5px" src="http://www.zeit.de/studium/hochschule/2015-12/wissenschaft-frauen-schwanger/wide__148x84"&gt;&lt;/a&gt; Sie wollen raus aus den Unis: Das ist das Ergebnis unserer Umfrage unter jungen Forschern. Wie sollen wir eine Familie gründen, fragen sich Frauen – und Männer.</description>
+      <category>Hochschule</category>
+      <dc:creator>ZEIT ONLINE: Hochschule - Anne-Kathrin Gerstlauer, Ellena  Nachbar</dc:creator>
+      <pubDate>Sun, 06 Dec 2015 14:30:50 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/studium/hochschule/2015-12/junge-wissenschaftler-familie</guid>
+    <ExtractedText>#4.25  —  vor 11 Stunden
+0
+Man muss sich erst einmal fragen, warum es so viele Studien gibt, die nicht reproduzierbar sind und das liegt v.a. am globalen System in den Wissenschaften.
+Das Leben eines Wissenschaftlers ist einfach:
+Schreibe Antrag um Geld für die Forschung zu bekommen =&gt; Mache möglichst viele, komplizierte Experimente, die noch keine Arbeitsgruppe davor gemacht hat =&gt; Publiziere unter allen Umständen VOR den anderen Arbeitsgruppen, sonst geht man in der nächsten Finanzierungsrunde leer aus =&gt; Schreibe einen Antrag etc.pp.
+Wie würde das bei jemanden aussehen, der nicht rechtzeitig publiziert?
+Schreibe Antrag =&gt; Abgelehnt, weil das so, oder in sehr ähnlicher Form schon gemacht wurde =&gt; Kein Geld für Forschung =&gt; Keine Publikation =&gt; Kein Antrag =&gt; Kein Geld
+Der Gedankengang ist einfach: Ok, dann publiziere ich lieber halbgare Daten, lückenhafte Methoden und habe die Publikation für den nächsten Antrag sicher "Salamitaktik".
+Wobei man auch klar sagen muss: Die Motivation, dass die eigene Arbeit 1:1 reproduziert werden kann auch gering sein... Hauptsache ist, dass die Methode im eigenen Labor läuft... Es wird immer andere Arbeitsgruppen geben, die an derselben Fragestellung arbeiten und da ist es durchaus von Vorteil ein Ass im Ärmel zu haben...
+Traurig, aber so läuft das leider ab. Es ist ein elendiges System und kaum ein anderes wäre schlechter...
+Mit freundlichen Grüße
+</ExtractedText>
+</item>
+</channel>
+</rss>

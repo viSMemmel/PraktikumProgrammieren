@@ -1,5 +1,5 @@
 package DokumenteSucheforGUI;
-
+// Zeile 51!!!
 import java.io.IOException;
 import java.io.Reader;
 import java.io.StringReader;
@@ -22,6 +22,7 @@ import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.util.Version;
 
 public class SearchInDoc {
+	private int counter=0;
 	private List<IndexableField> IField;
 	private String SearchSubject;
 	private String FieldName;
@@ -43,12 +44,16 @@ public class SearchInDoc {
 		IField = iField;
 		FieldName = fieldName;
 		Iterator iter = IField.iterator();
+		
 		while (iter.hasNext()) {
 			IndexableField currentField = (IndexableField) iter.next();
 			// System.out.println("?????????????"+ currentField.name() + " "+
 			// currentField.stringValue());
+			
 			if (currentField.name().equals(FieldName)) {
-			//	System.out.println("\n !!!!!!!Feld gefunden");
+				//System.out.println("\n Treffer bei der Suche!!!"); // WAS GENAU GEFUNDEN???
+				
+				
 				// reader=currentField.readerValue();
 				// Analyzer analyzer = new Analyzer();
 
@@ -80,9 +85,12 @@ public class SearchInDoc {
 						
 						Fundstelle++;
 						if(term.toLowerCase().equals(searchSubject.toLowerCase())){
+							
+							counter ++;
 							FundListe.add(Fundstelle);
-							System.out.println("Fundstelle:     " + Fundstelle);
+							
 						}
+						
 				//	System.out.println(term + "  "+ term.length() + "   SSUBject  "+ searchSubject.toLowerCase()+ searchSubject.length());
 						try {
 							tokenList.add(term);
@@ -90,14 +98,70 @@ public class SearchInDoc {
 						} // hier muss noch Fleisch rein
 
 					}
+					
 					TStream.end();
 					TStream.close();
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+				
 			}
 		}
+		
+//		if(counter>0){
+//			System.out.println(" \nGefundenes Wort: "+searchSubject);
+//			System.out.println(String.valueOf("Anzahl der Treffer: "+counter));
+//			for (int i = 0; i < FundListe.size(); i++) {
+//				System.out.println("Fundstelle: "+FundListe.get(i));
+//			}
+//		}
+	}
+
+	public String getSearchSubject() {
+		return SearchSubject;
+	}
+
+
+
+	public void setSearchSubject(String searchSubject) {
+		SearchSubject = searchSubject;
+	}
+
+
+
+	public TokenStream getTStream() {
+		return TStream;
+	}
+
+
+
+	public void setTStream(TokenStream tStream) {
+		TStream = tStream;
+	}
+
+
+
+	public List<String> getTokenList() {
+		return tokenList;
+	}
+
+
+
+	public void setTokenList(List<String> tokenList) {
+		this.tokenList = tokenList;
+	}
+
+
+
+	public int getCounter() {
+		return counter;
+	}
+
+
+
+	public void setCounter(int counter) {
+		this.counter = counter;
 	}
 
 

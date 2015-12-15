@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<title>SPIEGEL ONLINE - Netzwelt</title>
+<link>http://www.spiegel.de</link>
+<description>Nachrichten zu Internet und Technik, Handys und Computern. Aktuelle Reportagen, Analysen, Service.</description>
+<language>de</language>
+<pubDate>Tue, 15 Dec 2015 09:54:58 +0100</pubDate>
+<lastBuildDate>Tue, 15 Dec 2015 09:54:58 +0100</lastBuildDate>
+<image>
+<title>SPIEGEL ONLINE</title>
+<link>http://www.spiegel.de</link>
+<url>http://www.spiegel.de/static/sys/logo_120x61.gif</url>
+</image>
+<item>
+<title>Maschine am Herd: Gestatten, RoboKoch</title>
+<link>http://www.spiegel.de/netzwelt/web/kochroboter-moley-robotics-lehrt-maschine-kochen-a-1066971.html#ref=rss</link>
+<description>Werden Küchenmaschinen wie Vorwerks Thermomix in einigen Jahren noch etwas Besonderes sein? Ein britisches Start-up bringt einem Küchenroboter das Supperühren bei. Das Gerät besteht aus zwei Armen und soll 2017 auf den Markt kommen.</description>
+<pubDate>Fri, 11 Dec 2015 11:35:00 +0100</pubDate>
+<guid>http://www.spiegel.de/netzwelt/web/kochroboter-moley-robotics-lehrt-maschine-kochen-a-1066971.html</guid>
+<content:encoded><![CDATA[Werden Küchenmaschinen wie Vorwerks Thermomix in einigen Jahren noch etwas Besonderes sein? Ein britisches Start-up bringt einem Küchenroboter das Supperühren bei. Das Gerät besteht aus zwei Armen und soll 2017 auf den Markt kommen.]]></content:encoded>
+<ExtractedText>Kochroboter: Moley Robotics lehrt Maschine kochen
+Maschine am Herd: Gestatten, RoboKoch
+Von Richard Meusers
+YouTube
+Werden Küchenmaschinen wie Vorwerks Thermomix in einigen Jahren noch etwas Besonderes sein? Ein britisches Start-up bringt einem Küchenroboter das Supperühren bei. Das Gerät besteht aus zwei Armen und soll 2017 auf den Markt kommen.
+Kartoffeln schälen, die Butter schmelzen, das Salz nicht vergessen: Kochen kann eine komplizierte oder zumindest anstrengende Angelegenheit sein. Wie praktisch für manche, dass der Trend zum elektronischen Assistenten selbst vor Küchen nicht Halt macht.
+Der Stand der Technik geht dabei schon längst über Mixer und Backautomaten hinaus. Weit vorn liegt zum Beispiel das britische Unternehmen Moley Robotics . Seit Anfang 2014 werkeln die Techniker an einer vollautomatisierten Küche. In deren Zentrum steht ein Roboter, in Form zweier präziser Roboterarme, die kameragesteuert ihrer Arbeit nachgehen.
+Der Ablauf ist der gleiche, wie er auch sonst in Küchen üblich ist: Töpfe werden auf den Herd gestellt, mit den jeweiligen Zutaten gefüllt, danach garen die Speisen ihrer Vollendung entgegen.
+Kochkurs für Roboter-Arme
+Das klingt erst einmal nicht sehr kompliziert. Doch tatsächlich mussten die Moley-Techniker ihren Kocharmen buchstäblich jeden einzelnen Handgriff beibringen. Dazu bedienten sie sich eines Tricks: Sie steckten die Hände eines Kochs in sensorengespickte Handschuhe und zeichneten jede Art von Bewegungsabläufen ab. Zusätzlich erfasste eine 3-D-Kamera die Details.
+Mit dem Messer schneiden oder hacken, Flüssigkeiten eingießen und mit dem Löffel umrühren, mit dem Schaber arbeiten: Zu allen typischen Küchenaufgaben wurden Daten eingelesen. Auf diese Weise entstand praktisch ein Grundgerüst für computergesteuerte Basisbewegungen, die je nach gewünschtem Rezept miteinander kombiniert werden. Ähnlich, wie aus einzelnen Wörtern Sätze und eine Geschichte entstehen, soll der Kunstkoch sogar Sterne-Menüs zaubern können.
+YouTube
+Gesichtslos: Der Küchenroboter besteht im Wesentlichen aus zwei Armen
+TV-Star als Vorbild
+Als kochendes Vorbild fungierte Tim Anderson , 2011 Gewinner der britischen TV-Kochshow "Master Chef". Mithilfe von Experten der Stanford University wurden seine Bewegungen beim Hacken, Schneiden und Pürieren in Algorithmen übersetzt - mit der Folge, dass der Kochroboter einen Arbeitsgang mit derselben In-Ordnung-Geste beschließt wie sein Lehrer aus Fleisch und Blut .
+Anfang 2015 konnte Moley einen Prototypen seines Küchenhelfers vorstellen, der auf der Hannover Messe im April und einen Monat später auf der CES in Schanghai für einige Aufmerksamkeit sorgte. Die Briten planen mittlerweile, Ende 2017 ein alltagstaugliches Modell ihres elektrischen Kochs auf den Markt zu bringen. Das Gerät soll dann nicht nur auf eine Datenbank von tausenden Rezepten zugreifen, sondern nach getaner Arbeit auch selbständig alle Gerätschaften säubern können.
+Moleys Küchenroboter ist nicht der einzige Versuch, Hightech in die Welt der Löffelschwinger zu integrieren. So demonstrierte ein Schweizer Ingenieur 2012 auf dem Jahreskongress des Chaos Computer Clubs das Konzept eines technisch hochgerüsteten Kochtopfs. Das Gerät konnte schon schneiden, häckseln und rühren. Nur das Schälen musste der Nutzer noch selbst übernehmen .
+</ExtractedText>
+</item>
+</channel>
+</rss>

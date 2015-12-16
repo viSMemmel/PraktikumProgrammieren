@@ -86,7 +86,7 @@ public class Search {
 																	// über die
 																	// Variable
 																	// indexDir
-
+			
 			System.out.println(indexDir.getDirectory());
 
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
@@ -108,7 +108,7 @@ public class Search {
 				ScoreDoc[] sd = td.scoreDocs; //
 
 				if (sd.length == 0) {
-					Ausgabe_in_Textarea = "Keine Einträge gefunden";
+					//Ausgabe_in_Textarea = "Keine Einträge gefunden";
 				} else {
 
 					//System.out.println(" \nGefundenes Wort: " + SearchSubject);
@@ -128,7 +128,7 @@ public class Search {
 													// wird hier
 													// "gefunden"
 						
-						Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
+						//Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
 																														// String
 																														// immer
 																														// konkatinieren,
@@ -156,26 +156,31 @@ public class Search {
 																								// Speicher
 																								// überlauf
 
-						Ausgabe_in_Textarea += "\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";
+						//Ausgabe_in_Textarea += "\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";
 						
 						List<Integer> FundListe = searchInDoc.getFundListe();
-						Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  ";
+						//Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  ";
 						
 						
 							
 						
 						if(searchInDoc.getCounter()!=0 ){
+						Ausgabe_in_Textarea+=doc.get(Title);
+						Ausgabe_in_Textarea+= "\nGefundenes Wort: " +SearchSubject;
+						Ausgabe_in_Textarea+= "\nAnzahl Treffer: "+searchInDoc.getCounter();
 						System.out.println(doc.get(Title));	
 						System.out.println("\nGefundenes Wort: " +SearchSubject);
 						System.out.println("Anzahl Treffer: "+searchInDoc.getCounter());
 						for (int x = 0; x < FundListe.size(); x++) {
-							Ausgabe_in_Textarea += "\n             an:" + FundListe.get(x) + " Stelle ";
+							//Ausgabe_in_Textarea += "\n             an:" + FundListe.get(x) + " Stelle ";
 							
 							System.out.println("Fundstelle: " + FundListe.get(x));
+							Ausgabe_in_Textarea+="\nFundstelle: " + FundListe.get(x) ;
 							fundstelleZahl=FundListe.get(x);
 
 						}
 						}
+						Ausgabe_in_Textarea+="\n";
 
 						// System.out.println("\n ReadertoString() " +
 						// searchInDoc.toString());
@@ -205,7 +210,7 @@ public class Search {
 								// wurden, wird nach Beendigung des Suchprozeß
 								// gelöscht
 			// internOrdner gelöscht werden kann
-			System.out.println(Ausgabe_in_Textarea);
+			
 		} catch (Exception e) {
 			System.out.println("Fehler!!!!");
 			e.printStackTrace();

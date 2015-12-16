@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Referenzdaten>
+	<Datensatz>
+		<Englisch>action</Englisch>
+		<Deutsch>Aktion, Unternehmung, Tat, Handlung, Sonderangebot</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>agenda</Englisch>
+		<Deutsch>Tagesordnung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>airline</Englisch>
+		<Deutsch>Fluggesellschaft, Fluglinie</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>announce</Englisch>
+		<Deutsch>Inserat, Bekanntmachung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>app</Englisch>
+		<Deutsch>Anwendung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>area</Englisch>
+		<Deutsch>Gebiet, Teil, Bereich</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>areal</Englisch>
+		<Deutsch>Gebiet, Teil, Bereich</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>babysitter</Englisch>
+		<Deutsch>Kinderbetreuung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>barkeeper</Englisch>
+		<Deutsch>Schankwart, Barmann</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>base</Englisch>
+		<Deutsch>Stützpunkt</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>basis</Englisch>
+		<Deutsch>Stützpunkt</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>basics</Englisch>
+		<Deutsch>Grundlagen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>beauty</Englisch>
+		<Deutsch>Schönheit</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>benefit</Englisch>
+		<Deutsch>Nutzen, Vorteil</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>blackout</Englisch>
+		<Deutsch>Filmriss, Denkloch, Aussetzer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>blockbuster</Englisch>
+		<Deutsch>Kassenschlager</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>bluff</Englisch>
+		<Deutsch>Täuschung, Irreführung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>boom</Englisch>
+		<Deutsch>Hochkonjunktur, sehr starke Nachfrage</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>brainstorming</Englisch>
+		<Deutsch>Denkrunde</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>budget</Englisch>
+		<Deutsch>Kapital</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>button</Englisch>
+		<Deutsch>Knopf, Schalter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>callcenter</Englisch>
+		<Deutsch>Servicebüro</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>campen</Englisch>
+		<Deutsch>zelten</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>camping</Englisch>
+		<Deutsch>zelten</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>canceln</Englisch>
+		<Deutsch>absagen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>cartridge</Englisch>
+		<Deutsch>Patrone, Kassette, Kartusche</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>cast</Englisch>
+		<Deutsch>Besetzung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>casting</Englisch>
+		<Deutsch>Vorspielprobe, Vorsprechen, Vorspielen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>catering</Englisch>
+		<Deutsch>Gastronomie, Verpflegung, Beköstigung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>channel</Englisch>
+		<Deutsch>Kanal</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>chillen</Englisch>
+		<Deutsch>ausruhen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>circa</Englisch>
+		<Deutsch>ungefähr</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>clan</Englisch>
+		<Deutsch>Sippe, Gruppe, Lebensgemeinschaft</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>clever</Englisch>
+		<Deutsch>schlau, klug, begabt</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>clown</Englisch>
+		<Deutsch>Kasper</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>coach</Englisch>
+		<Deutsch>Übungsleiter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>committee</Englisch>
+		<Deutsch>Ausschuß</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>container</Englisch>
+		<Deutsch>Frachtbehälter, Transportmetallkisten</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>control</Englisch>
+		<Deutsch>Steuerung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>coolness</Englisch>
+		<Deutsch>Gelassenheit</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>couch</Englisch>
+		<Deutsch>Sofa, Polsterbank</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>cover</Englisch>
+		<Deutsch>Deckblatt, Titelblatt, HÃ¼lle</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>crew</Englisch>
+		<Deutsch>Mannschaft, Besatzung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>deadline</Englisch>
+		<Deutsch>Stichtag</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>department</Englisch>
+		<Deutsch>Abteilung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>desaster</Englisch>
+		<Deutsch>Debakel, Fiasko, Missgeschick, Unglück, Drama</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>discounter</Englisch>
+		<Deutsch>Billiganbieter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>disk</Englisch>
+		<Deutsch>Lichtscheibe</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>download</Englisch>
+		<Deutsch>Herunterladen eines Datenpaketes</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>dumping</Englisch>
+		<Deutsch>Schleuderpreis, Unterbieten der Preise</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>elite</Englisch>
+		<Deutsch>Auslese, Garde</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>engagement</Englisch>
+		<Deutsch>persönlicher Einsatz</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>event</Englisch>
+		<Deutsch>Veranstaltung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>e-mail</Englisch>
+		<Deutsch>elektronische Post, elektronische Nachricht</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>fake</Englisch>
+		<Deutsch>Fälschung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>feature</Englisch>
+		<Deutsch>Besonderheit, Merkmal</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>feedback</Englisch>
+		<Deutsch>Rückmeldung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>finish</Englisch>
+		<Deutsch>Ende, Ziel, Zieleinlauf</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>fit</Englisch>
+		<Deutsch>in Form sein</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>flashmob</Englisch>
+		<Deutsch>geplanter Auflauf</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>flatrate</Englisch>
+		<Deutsch>Pauschaltarif</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>flop</Englisch>
+		<Deutsch>Reinfall, Pleite</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>flyer</Englisch>
+		<Deutsch>Flugblatt, Handzettel</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>gadget</Englisch>
+		<Deutsch>Gerät</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>gag</Englisch>
+		<Deutsch>Witz, Scherz</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>gentleman</Englisch>
+		<Deutsch>Kavalier, Ehrenmann</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>guide</Englisch>
+		<Deutsch>Anleitung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>handy</Englisch>
+		<Deutsch>tragbares Funktelefon</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>headset</Englisch>
+		<Deutsch>Kopfhörersatz, Kopfhörer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>high</Englisch>
+		<Deutsch>aufgeputscht, euphorisch, hoch, viel, sehr</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>highlight</Englisch>
+		<Deutsch>Höhepunkt</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>high-end</Englisch>
+		<Deutsch>Edelausstattung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>high-tech</Englisch>
+		<Deutsch>Hochleistungstechnik, Spitzentechnik, ugs. falsch für Technologie</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>horror</Englisch>
+		<Deutsch>Schrecken, Schauer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>hotline</Englisch>
+		<Deutsch>Kundentelefon</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>hype</Englisch>
+		<Deutsch>Rummel, übersteigertes Interesse an etwas</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>illegal</Englisch>
+		<Deutsch>gesetzwidrig</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>image</Englisch>
+		<Deutsch>Abbild, Bild, Ruf, Ansehen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>internet</Englisch>
+		<Deutsch>zwischennetz</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>jackpot</Englisch>
+		<Deutsch>Hauptgewinn</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>jetlag</Englisch>
+		<Deutsch>Zeitwechselprobleme</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>joker</Englisch>
+		<Deutsch>Bonus-Spielkarte, Ersatzkarte</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>keyboard</Englisch>
+		<Deutsch>Klaviatur, Tastatur, Tasteninstrument</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>kick</Englisch>
+		<Deutsch>Erregung, Tritt, Stoß, Adrenalinschub</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>kit</Englisch>
+		<Deutsch>Baukasten, Bausatz</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>konvoi</Englisch>
+		<Deutsch>Fahrzeugkolonne, Geleitzug</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>label</Englisch>
+		<Deutsch>Etikett, Aufdruck, Bezeichnung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>layout</Englisch>
+		<Deutsch>Seitenentwurf, Text- und Bildgestaltung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>lifestyle</Englisch>
+		<Deutsch>Lebensstil</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>link</Englisch>
+		<Deutsch>Verbindung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>logo</Englisch>
+		<Deutsch>Firmenzeichen, Wappen, Emblem</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>look</Englisch>
+		<Deutsch>Aussehen, Optik</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>looping</Englisch>
+		<Deutsch>Salto, Überschlag, durch Schleife</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>loser</Englisch>
+		<Deutsch>Versager</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>lotion</Englisch>
+		<Deutsch>Tinktur, Flüssigkosmetikum</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>mainstream</Englisch>
+		<Deutsch>Hauptrichtung, Allgemeinheit</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>management</Englisch>
+		<Deutsch>Unternehmensleitung, Geschäftsführung, Führung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>marketing</Englisch>
+		<Deutsch>Vertriebsstrategie, Vermarktung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>meeting</Englisch>
+		<Deutsch>Besprechung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>merchandising</Englisch>
+		<Deutsch>Verkaufspolitik, Vermarktung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>mix</Englisch>
+		<Deutsch>vermischen, Mischung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>model</Englisch>
+		<Deutsch>Muster, Modevorführer/-in</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>monster</Englisch>
+		<Deutsch>Ungeheuer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>multitasking</Englisch>
+		<Deutsch>Mehrprozessbetrieb</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>non-stop</Englisch>
+		<Deutsch>ohne Zwischenhalt, ohne Unterbrechung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>now</Englisch>
+		<Deutsch>von jetzt an, jetzt, sofort</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>ok</Englisch>
+		<Deutsch>In Ordnung, einverstanden</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>okay</Englisch>
+		<Deutsch>In Ordnung, einverstanden</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>outback</Englisch>
+		<Deutsch>Hinterland</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>outdoor</Englisch>
+		<Deutsch>Freiluft, im Freien, draussen, Trimmdich</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>outfit</Englisch>
+		<Deutsch>Ausstattung, Aussehen, Kleidung, Kostüm</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>outsourcing</Englisch>
+		<Deutsch>Auslagerung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>pad</Englisch>
+		<Deutsch>Polster, Kissen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>provider</Englisch>
+		<Deutsch>Anbieter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>radio</Englisch>
+		<Deutsch>Rundfunkempfänger</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>ranking</Englisch>
+		<Deutsch>Rangliste, Bestenliste</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>sale</Englisch>
+		<Deutsch>Schlussverkauf</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>scan</Englisch>
+		<Deutsch>einlasen, abtasten</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>science fiction</Englisch>
+		<Deutsch>Wissenschaftliche Fantasie</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>sci-fi</Englisch>
+		<Deutsch>Wissenschaftliche Fantasie</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>season</Englisch>
+		<Deutsch>Jahreszeit</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>self-made man</Englisch>
+		<Deutsch>Unternehmer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>service</Englisch>
+		<Deutsch>Dienstleistung, Dienst</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>set</Englisch>
+		<Deutsch>Satz, Sortiment</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>showdown</Englisch>
+		<Deutsch>Endkampf, Abrechnung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>skyline</Englisch>
+		<Deutsch>Stadtsilhouette, Horizont</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>smalltalk</Englisch>
+		<Deutsch>Plausch, Gerede</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>snack</Englisch>
+		<Deutsch>Imbiss, kleiner Happen</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>spleen</Englisch>
+		<Deutsch>Tick, Macke</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>spoiler</Englisch>
+		<Deutsch>Luftleitbleck</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>sponsor</Englisch>
+		<Deutsch>Gönner, Förderer</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>stalker</Englisch>
+		<Deutsch>besessener Verfolger</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>store</Englisch>
+		<Deutsch>Geschäft</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>stuntman</Englisch>
+		<Deutsch>Filmakrobat, Gefahrendarsteller</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>style</Englisch>
+		<Deutsch>Aufmachung, Gestaltung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>styling</Englisch>
+		<Deutsch>Aufmachung, Gestaltung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>sweatshirt</Englisch>
+		<Deutsch>Sporthemd</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>team</Englisch>
+		<Deutsch>Kollektiv, Gruppe</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>teen</Englisch>
+		<Deutsch>Jugendlicher</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>teenager</Englisch>
+		<Deutsch>Jugendlicher</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>teenie</Englisch>
+		<Deutsch>Jugendlicher</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>ticket</Englisch>
+		<Deutsch>Eintrittskarte, Parkschein, Fahrkarte, Knöllchen, Strafzettel</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>timer</Englisch>
+		<Deutsch>Schaltuhr</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>toast</Englisch>
+		<Deutsch>Röstbrot</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>touchscreen</Englisch>
+		<Deutsch>Berührungsbildschirm</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>tour</Englisch>
+		<Deutsch>Reise, Auftrittsreise von Künstlern</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>trainer</Englisch>
+		<Deutsch>Leiter, Übungsleiter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>trash</Englisch>
+		<Deutsch>Schrott, Müll</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>trend</Englisch>
+		<Deutsch>Tendenz, Neigung, Entwicklung, in Mode</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>trendsetter</Englisch>
+		<Deutsch>Vorreiter</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>upgrade</Englisch>
+		<Deutsch>Aktualisierung, Verbesserung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>update</Englisch>
+		<Deutsch>Aktualisierung</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		<Englisch>workaholic</Englisch>
+		<Deutsch>Arbeitssüchtiger</Deutsch>
+	</Datensatz>
+	<Datensatz>
+		
+		<Englisch>youngster</Englisch><Deutsch>Neuling</Deutsch>
+	</Datensatz>
+</Referenzdaten>

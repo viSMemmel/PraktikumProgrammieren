@@ -341,3 +341,9 @@ Wed, 16 Dec 2015 16:36:18 CET: class RSSThread, method readSourceFile, Error mes
 Wed, 16 Dec 2015 16:36:18 CET: class RSSThread, method readSourceFile, Error message: org.xml.sax.SAXParseException; schema_reference.4: Failed to read schema document 'file:/C:/Users/Christoph/Studium/Semester/WS2015/eclipse_Workspace/schemasRSSFeeds.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
 Wed, 16 Dec 2015 16:36:25 CET: class RSSThread, method processSubscription, Writing file for subscription failed: C:/User/Richard/Projekte/RSSArchive/RSS/viewernotification/File1450280185334.txt
 Wed, 16 Dec 2015 16:36:27 CET: class RSSThread, method run, Unhandled exception: java.lang.ThreadDeath
+Sat, 19 Dec 2015 13:05:32 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException
+Sat, 19 Dec 2015 13:05:32 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException
+Sat, 19 Dec 2015 13:05:48 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException
+Sat, 19 Dec 2015 13:05:48 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException
+Sat, 19 Dec 2015 18:52:53 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException
+Sat, 19 Dec 2015 18:52:53 CET: class DirectoryMonitor, method run, Unhandled exception: java.lang.NullPointerException

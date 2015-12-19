@@ -198,9 +198,9 @@ public class Gui extends Application {
 		textArea0.setEditable(false);
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
 		textArea0.setPrefSize(570, 270);
-		textArea0.setText(
-				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
+		textArea0.setText( "");
 
+			
 		// TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
 		textField0.setLayoutX(10);
 		textField0.setLayoutY(50);

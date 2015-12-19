@@ -17,6 +17,7 @@ import java.awt.event.ActionListener;
 //TODO: "Rotes X" Button -- Menüpunkt "Beenden" --> selber Actionhandler
 //TODO: Menüpunkt Crawler evtl. Unterpunkte: - Start -Stop -Optionen: Modales Fenster welche news genau
 //TODO: Deutsche Entsprechung in Kalmmern hinter dem Fremdwort ( evtl. auch  highlighten oder andere Farbe)
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -70,8 +71,10 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
 import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
@@ -106,24 +109,46 @@ public class Gui extends Application {
 
 	private Button button3 = new Button("XML-Liste auswählen");
 
-	private Pane pane0 = new Pane(); 
+	private Button button4 = new Button("Datei-Suche");
+	
+	private Button button5 = new Button("Crawler-Suche");
+	
+	private Button button6 = new Button("Ordner-Suche");
+	
+	private Button button7 = new Button("Website-Suche");
+	
+	private Button starten = new Button("Crawler starten");
+	
+	private Button stoppen = new Button("Crawler stoppen");
+	
+	private RadioButton radio1 = new RadioButton();
+	
+	private RadioButton radio2 = new RadioButton();
+		
+	private Pane pane0 = new Pane(); 	// Grundpane
 
 	private TextField textField1 = new TextField();
+	
+	private TextField textField2 = new TextField();
 
 	public void buttonWaehlen() {
 		System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
 
-		DirectoryChooser dChooser = new DirectoryChooser();
+		try{
+			DirectoryChooser dChooser = new DirectoryChooser();
 
-		File dir = dChooser.showDialog(pane0.getScene().getWindow());
+			File dir = dChooser.showDialog(pane0.getScene().getWindow());
 
-		filePath = dir.getAbsolutePath();
-		if (dir != null) {
+			filePath = dir.getAbsolutePath();
+			if (dir != null) {
 
-			textField0.setText(filePath);
-			textField0.setAlignment(Pos.BASELINE_LEFT);
+				textField0.setText(filePath);
+				textField0.setAlignment(Pos.BASELINE_LEFT);
+			}
+			System.out.println(filePath);
+		} catch(NullPointerException npex){
+			System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
 		}
-		System.out.println(filePath);
 	}
 
 	// Fenster heißt in JavaFX "stage" (Fenster)
@@ -132,7 +157,7 @@ public class Gui extends Application {
 		stage.setTitle("Die Heuristiker - Anglizismenfinder");
 		stage.centerOnScreen(); // Fenster wird mittig auf dem Bildschirm
 								// platziert
-		stage.setHeight(500);
+		stage.setHeight(525);
 		stage.setWidth(600);
 		stage.setResizable(false); // Nicht veränderbar
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
@@ -193,7 +218,7 @@ public class Gui extends Application {
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
-		textArea0.setLayoutY(200);
+		textArea0.setLayoutY(220);
 
 		textArea0.setEditable(false);
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
@@ -203,7 +228,7 @@ public class Gui extends Application {
 
 		// TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
 		textField0.setLayoutX(10);
-		textField0.setLayoutY(50);
+		textField0.setLayoutY(85);
 		textField0.setEditable(true);
 		textField0.setPrefWidth(480); // Breite des Textfeldes
 
@@ -215,39 +240,82 @@ public class Gui extends Application {
 
 		// Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf
 		// Fremdwörter
-		textField1.setLayoutX(10);
-		textField1.setLayoutY(150);
+		textField1.setLayoutX(40);
+		textField1.setLayoutY(175);
 		textField1.setEditable(true);
-		textField1.setPrefWidth(480); // Breite des Textfeldes
+		textField1.setPrefWidth(320); // Breite des Textfeldes
 		textField1.setText("Hier zu prüfenden Text eingeben!");
 		textField1.setMaxWidth(350);
 		textField1.setAlignment(Pos.CENTER);
+		
+		textField2.setLayoutX(10);
+		textField2.setLayoutY(85);
+		textField2.setEditable(true);
+		textField2.setPrefWidth(480); // Breite des Textfeldes
+		textField2.setText("Hier zu prüfende URL eingeben!");
+		textField2.setMaxWidth(350);
+		textField2.setAlignment(Pos.CENTER);
 
 		button0.setLayoutX(380);
-		button0.setLayoutY(45);
+		button0.setLayoutY(80);
 		button0.setPrefSize(80, 30);
 
 		button1.setLayoutX(480);
-		button1.setLayoutY(45);
+		button1.setLayoutY(80);
 		button1.setPrefSize(100, 30);
 
 		button2.setLayoutX(380);
-		button2.setLayoutY(145);
+		button2.setLayoutY(170);
 		button2.setPrefSize(200, 30);
 
 		button3.setLayoutX(380);
-		button3.setLayoutY(95);
+		button3.setLayoutY(125);
 		button3.setPrefSize(200, 30);
+		
+		button4.setLayoutX(10);
+		button4.setLayoutY(35);
+		button4.setPrefSize(140, 30);
+		
+		button5.setLayoutX(153.3);
+		button5.setLayoutY(35);
+		button5.setPrefSize(140, 30);
+		
+		button6.setLayoutX(296.7);
+		button6.setLayoutY(35);
+		button6.setPrefSize(140, 30);
+		
+		button7.setLayoutX(440);
+		button7.setLayoutY(35);
+		button7.setPrefSize(140, 30);
+		
+		starten.setLayoutX(10);
+		starten.setLayoutY(80);
+		starten.setPrefSize(283.3, 30);
+		
+		stoppen.setLayoutX(296.7);
+		stoppen.setLayoutY(80);
+		stoppen.setPrefSize(283.3, 30);
+		
+		final ToggleGroup group = new ToggleGroup();
+		
+		radio1.setLayoutX(15);
+		radio1.setLayoutY(132);
+		radio1.setToggleGroup(group);
+		radio1.setSelected(true);
+		
+		radio2.setLayoutX(15);
+		radio2.setLayoutY(178);
+		radio2.setToggleGroup(group);
 
 		// Combobox
 
 		ObservableList<String> auswahl0 = FXCollections.observableArrayList("Noch kein XML hinterlegt");
 		kontaktMenue0.setEditable(false);
 		// kontaktMenue0.getSelectionModel().select("Stefan");
-		kontaktMenue0.setLayoutX(10);
-		kontaktMenue0.setLayoutY(100);
+		kontaktMenue0.setLayoutX(40);
+		kontaktMenue0.setLayoutY(130);
 		kontaktMenue0.setEditable(false);
-		kontaktMenue0.setPrefWidth(350);
+		kontaktMenue0.setPrefWidth(320);
 
 		String tooltiptext = "Bitte wählen Sie die XML Datei aus!";
 		Tooltip tooltip = new Tooltip();
@@ -372,43 +440,84 @@ public class Gui extends Application {
 		button3.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
+				try{
+					System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
 
-				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+					FileChooser fileChooser = new FileChooser();
+					fileChooser.setTitle("Open Resource File (only XML)");
 
-				FileChooser fileChooser = new FileChooser();
-				fileChooser.setTitle("Open Resource File (only XML)");
+					// nur XML Dateien erlaubt bei der Eingabe
+					FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml");
+					fileChooser.getExtensionFilters().add(extFilter);
 
-				// nur XML Dateien erlaubt bei der Eingabe
-				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml");
-				fileChooser.getExtensionFilters().add(extFilter);
+					File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
 
-				File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
+					// kompletten Pfadnamen der ausgewählten Datei in Textfeld
+					// anzeigen
 
-				// kompletten Pfadnamen der ausgewählten Datei in Textfeld
-				// anzeigen
+					String filePath = file.getAbsolutePath();
+					parser = new Parser(filePath);
+					filePath2 = file.getAbsolutePath();
+					kontaktMenue0.setEditable(true);
+					try {
+						List<String> Kinder = parser.getKids();
+						ObservableList<String> oList = FXCollections.observableArrayList(Kinder);
+						kontaktMenue0.setItems(oList);
+					} catch (Exception e) {
+						System.out.println("Gehtnicht");
+					}
+					if (file != null) {
 
-				String filePath = file.getAbsolutePath();
-				parser = new Parser(filePath);
-				filePath2 = file.getAbsolutePath();
-				kontaktMenue0.setEditable(true);
-				try {
-					List<String> Kinder = parser.getKids();
-					ObservableList<String> oList = FXCollections.observableArrayList(Kinder);
-					kontaktMenue0.setItems(oList);
-				} catch (Exception e) {
-					System.out.println("Gehtnicht");
-				}
-				if (file != null) {
+						System.out.println(filePath);
+						// textField0.setText(filePath);
+						// textField0.setAlignment(Pos.BASELINE_LEFT);
+					}
 
-					System.out.println(filePath);
-					// textField0.setText(filePath);
-					// textField0.setAlignment(Pos.BASELINE_LEFT);
+				} catch(NullPointerException npex){
+					System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
 				}
 			}
 		});
 
+		//Button um auf Dateisuche umzuschalten
+		button4.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+				pane0.getChildren().clear();
+				pane0.getChildren().addAll(textArea0, textField1, radio1, radio2, button0, button1, button3, button2, button4, button5, button6, button7, menueLeiste, textField0, kontaktMenue0);
+			}
+		});
+		
+		//Button um auf Crawlersuche umzuschalten
+		button5.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+				pane0.getChildren().clear();
+				pane0.getChildren().addAll(textArea0, starten, stoppen, radio1, radio2, button3, button2, button4, button5, button6, button7, menueLeiste, textField1, kontaktMenue0);	
+			}
+		});
+		
+		//Button um auf Ordnersuche umzuschalten
+		button6.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+				pane0.getChildren().clear();
+				pane0.getChildren().addAll(textArea0, textField1, radio1, radio2, button0, button1, button3, button2, button4, button5, button6, button7, menueLeiste, textField0, kontaktMenue0);	
+			}
+		});
+
+		//Button um auf Websitesuche umzuschalten
+		button7.setOnAction(new EventHandler<ActionEvent>() {
+
+			public void handle(ActionEvent ae) {
+				pane0.getChildren().clear();
+				pane0.getChildren().addAll(textArea0, textField1, textField2, radio1, radio2, button3, button2, button4, button5, button6, button7, menueLeiste, kontaktMenue0);
+			}
+		});
+		
+		
 		// Actionhandler zum exportieren der Liste als txt Datei!
-		exportieren.setOnAction(new EventHandler<ActionEvent>() {
+	 	exportieren.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
 
@@ -453,16 +562,25 @@ public class Gui extends Application {
 
 				textArea0.setLayoutX((xWert / 2) - 290);
 				textField0.setLayoutX((xWert / 2) - 290);
-				textField1.setLayoutX((xWert / 2) - 290);
+				textField1.setLayoutX((xWert / 2) - 260);
+				textField2.setLayoutX((xWert / 2) - 290);
 
 				button0.setLayoutX((xWert / 2) + 80);
 				button1.setLayoutX((xWert / 2) + 180);
 				button2.setLayoutX((xWert / 2) + 80);
 				button3.setLayoutX((xWert / 2) + 80);
+				button4.setLayoutX((xWert / 2) - 290);
+				button5.setLayoutX((xWert / 2) - 147.5);
+				button6.setLayoutX((xWert / 2) - 3);
+				button7.setLayoutX((xWert / 2) + 139.5);
+				starten.setLayoutX((xWert / 2) - 289.5);
+				stoppen.setLayoutX((xWert / 2) -3.5 );
+				radio1.setLayoutX((xWert / 2) - 285);
+				radio2.setLayoutX((xWert / 2) - 285);
+				
+				kontaktMenue0.setLayoutX((xWert / 2) - 260);
 
-				kontaktMenue0.setLayoutX((xWert / 2) - 290);
-
-				textArea0.setPrefSize(570, 490);
+				textArea0.setPrefSize(570, (yWert/1.55));
 				System.out.println("Halbbild.");
 			}
 		});
@@ -481,14 +599,23 @@ public class Gui extends Application {
 				yWert = stage.getHeight();
 
 				textField0.setLayoutX((xWert / 2) - 290);
-				textField1.setLayoutX((xWert / 2) - 290);
+				textField1.setLayoutX((xWert / 2) - 260);
+				textField2.setLayoutX((xWert / 2) - 290);
 
 				button0.setLayoutX((xWert / 2) + 80);
 				button1.setLayoutX((xWert / 2) + 180);
 				button2.setLayoutX((xWert / 2) + 80);
 				button3.setLayoutX((xWert / 2) + 80);
+				button4.setLayoutX((xWert / 2) - 290);
+				button5.setLayoutX((xWert / 2) - 147.5);
+				button6.setLayoutX((xWert / 2) - 3);
+				button7.setLayoutX((xWert / 2) + 139.5);
+				starten.setLayoutX((xWert / 2) - 289.5);
+				stoppen.setLayoutX((xWert / 2) -3.5 );
+				radio1.setLayoutX((xWert / 2) - 285);
+				radio2.setLayoutX((xWert / 2) - 285);
 
-				kontaktMenue0.setLayoutX((xWert / 2) - 290);
+				kontaktMenue0.setLayoutX((xWert / 2) - 260);
 
 				textArea0.setLayoutX(20);
 				textArea0.setPrefSize((xWert - 50), 470);
@@ -502,35 +629,65 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 
-				stage.setHeight(500);
+				stage.setHeight(525);
 				stage.setWidth(600);
 				stage.centerOnScreen();
 
 				textArea0.setLayoutX(10);
-				textArea0.setLayoutY(200);
+				textArea0.setLayoutY(220);
 				textArea0.setPrefSize(570, 270);
 
 				textField0.setLayoutX(10);
-				textField0.setLayoutY(50);
+				textField0.setLayoutY(85);
 				textField0.setMaxWidth(350);
 
 				// Textfeld zur manuellen Eingabe eines zu prüfenden Textes auf
 				// Fremdwörter
-				textField1.setLayoutX(10);
-				textField1.setLayoutY(150);
+				textField1.setLayoutX(40);
+				textField1.setLayoutY(175);
 				textField1.setAlignment(Pos.CENTER);
 
+				textField2.setLayoutX(10);
+				textField2.setLayoutY(85);
+
 				button0.setLayoutX(380);
-				button0.setLayoutY(45);
+				button0.setLayoutY(80);
 
 				button1.setLayoutX(480);
-				button1.setLayoutY(45);
+				button1.setLayoutY(80);
 
 				button2.setLayoutX(380);
-				button2.setLayoutY(145);
+				button2.setLayoutY(170);
 
-				kontaktMenue0.setLayoutX(10);
-				kontaktMenue0.setLayoutY(100);
+				button3.setLayoutX(380);
+				button3.setLayoutY(125);
+				
+				button4.setLayoutX(10);
+				button4.setLayoutY(35);
+				
+				button5.setLayoutX(153.3);
+				button5.setLayoutY(35);
+				
+				button6.setLayoutX(296.7);
+				button6.setLayoutY(35);
+				
+				button7.setLayoutX(440);
+				button7.setLayoutY(35);
+				
+				starten.setLayoutX(10);
+				starten.setLayoutY(80);
+				
+				stoppen.setLayoutX(296.7);
+				stoppen.setLayoutY(80);
+				
+				radio1.setLayoutX(15);
+				radio1.setLayoutY(132);
+				
+				radio2.setLayoutX(15);
+				radio2.setLayoutY(178);
+				
+				kontaktMenue0.setLayoutX(40);
+				kontaktMenue0.setLayoutY(130);
 
 			}
 		});
@@ -674,9 +831,10 @@ public class Gui extends Application {
 					}
 				});
 
-		pane0.getChildren().addAll(textArea0, button0, button1, button3, textField1, button2, menueLeiste, textField0,
+		pane0.getChildren().addAll(textArea0, textField1, radio1, radio2, button0, button1, button3, button2, button4, button5, button6, button7, menueLeiste, textField0,
 				kontaktMenue0);
-
+		pane0.setVisible(true);		
+		
 		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
 										// wird
 		stage.setScene(scene); // Fensterinhalt aufs Fenster legen
@@ -709,6 +867,7 @@ public class Gui extends Application {
 }
 
 // GEHÖRT IN EINE EXTRIGE KLASSE
+// Ab hier nur noch Modale Dialoge
 class ModalerDialog extends Stage {
 
 	public ModalerDialog() {
@@ -835,6 +994,7 @@ class ModalerDialogCrawler extends Stage {
 				
 				
 			}
+			
 		});
 
 		pane2.getChildren().addAll(text, crawler, starten, stoppen);

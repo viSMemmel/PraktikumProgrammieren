@@ -5,3 +5,10 @@
 +Sonderzeichen in Suchanfrage führen zu Programmabsturz
 +XML Suchliste – geht noch nicht (Umbau der GUI durch Alex ist abzuwarten)
 +CrawlerEinbindung (werde ich zwischen den Feiertagen machen)
+
+TODO:
+- Zurücksetzten Button!! Der reseted auch die Textarea!! (auch fr vollbild/halbbild)
+- Exaktes Exceptionhandling über die Gui und nicht über sysout!(Alerts)
+- Menüpunkt Statistik?
+- Crawler Suche --> ist logischerweise eine Ordner-Suche
+- Datei Suche: Eigentlich sollte nur Text von gewissen Tags der XML durchsucht werden!

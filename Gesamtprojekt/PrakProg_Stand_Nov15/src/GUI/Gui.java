@@ -87,6 +87,7 @@ import javafx.scene.text.Text;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 public class Gui extends Application {
 
@@ -199,6 +200,11 @@ public class Gui extends Application {
 		stage.setWidth(600);
 		stage.setResizable(false); // Nicht veränderbar
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
+		stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+		     public void handle(WindowEvent t) {
+		        System.exit(0);
+		    }
+		});
 
 		// Standardwerte speichern
 		xWert = stage.getWidth();
@@ -461,21 +467,6 @@ public class Gui extends Application {
 
 				} else {
 
-					/*
-					 * String selectedItem; selectedItem =
-					 * kontaktMenue0.getSelectionModel().getSelectedItem().
-					 * toString(); //System.out.println(selectedItem);
-					 * 
-					 * List<String> test; List<String> test2;
-					 * 
-					 * Parser p = new Parser(filePath2);
-					 * System.out.println(filePath2); test = p.getKids();
-					 * test2=p.getRetAr(test.indexOf(selectedItem)); String
-					 * suchwort = null; for (String temp : test2) { suchwort+=
-					 * " "+temp; } String speicher=suchwort.substring(5);
-					 * textField1.setText(speicher);
-					 * textArea0.setText(textArea0.getText()+ "\n" + speicher);
-					 */
 					System.out.println("radioListe is selected");
 					String selectedItem;
 					selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
@@ -508,6 +499,7 @@ public class Gui extends Application {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+				textArea0.setText(Output);
 
 			}
 		});
@@ -1045,7 +1037,12 @@ class ModalerDialog extends Stage {
 		textArea1.setPrefSize(574, 450);
 
 		textArea1.setText(
-				"LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER LEER \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZEILENUMBRUCH-TEST");
+				"Folgende Schritte müssen für eine erfolgreiche Suche beachtet werden:"
+				+ "\n1. Als erstes sollte eine XML-Liste ausgewählt werden auf die später ausgewählte Texte durchsucht werden. "
+				+ "Alternativ können Texte auch auf einzelne Wörter geprüft werden. Diese kann man in das untere Textfeld durch ein Leerzeichen getrennt eingeben."
+				+ " Welche von beiden Alternativern ausgeführt wird, kann man über die Radiobuttons vor dem Textfeld und dem Dropdown-Menü  bestimmen."
+				+ "\n2. Anschließend muss entweder noch die zu durchsuchende XML-Liste, ein ordner oder eine URL angegeben werden"
+				+ "\n3. Die Suche kann durch klicken auf den Button \"Text auf Fremdwörter prüfen\"  gestartet werden");
 
 		Button schliessen1 = new Button("Schließen"); // Schließt modales
 														// Femster

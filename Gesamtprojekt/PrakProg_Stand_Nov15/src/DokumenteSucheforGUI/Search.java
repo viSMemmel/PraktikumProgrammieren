@@ -54,7 +54,7 @@ public class Search {
 	@SuppressWarnings("finally")
 	public String find() throws ParseException, IOException {
 
-		String Ausgabe_in_Textarea = null; // Bitte nicht aus kommentieren
+		String Ausgabe_in_Textarea = null; // Bitte nicht aus kommentieren doch!!!
 		try {
 
 			/*
@@ -88,6 +88,7 @@ public class Search {
 																	// indexDir
 			
 			System.out.println(indexDir.getDirectory());
+			Ausgabe_in_Textarea+=indexDir.getDirectory()+"\n";
 
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
@@ -108,7 +109,7 @@ public class Search {
 				ScoreDoc[] sd = td.scoreDocs; //
 
 				if (sd.length == 0) {
-				Ausgabe_in_Textarea = "Keine Einträge gefunden";
+				//Ausgabe_in_Textarea = "Keine Einträge gefunden";
 				} else {
 
 					//System.out.println(" \nGefundenes Wort: " + SearchSubject);
@@ -128,7 +129,7 @@ public class Search {
 													// wird hier
 													// "gefunden"
 						
-						Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
+						//Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
 																														// String
 																														// immer
 																														// konkatinieren,
@@ -159,26 +160,28 @@ public class Search {
 						//Ausgabe_in_Textarea += "\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";
 						
 						List<Integer> FundListe = searchInDoc.getFundListe();
-						//Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  ";
+						//Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  "; 
 						
 						
 							
-						
+						//Ausgabe in textarea so wie ausgabe bei sysout, da dies übersichtlich und ausreichend ist!
 						if(searchInDoc.getCounter()!=0 ){
-						Ausgabe_in_Textarea+=doc.get(Title);  // Bitte nicht aus kommentieren
-						Ausgabe_in_Textarea+= "\nGefundenes Wort: " +SearchSubject; // Bitte nicht aus kommentieren
-						Ausgabe_in_Textarea+= "\nAnzahl Treffer: "+searchInDoc.getCounter(); // Bitte nicht aus kommentieren
+							
+						//Ausgabe_in_Textarea+=doc.get(Title);  
+						Ausgabe_in_Textarea+= "\nGefundenes Wort: " +SearchSubject+""; 
+						Ausgabe_in_Textarea+= "\nAnzahl Treffer: "+searchInDoc.getCounter(); 
 						System.out.println(doc.get(Title));	
 						System.out.println("\nGefundenes Wort: " +SearchSubject);
 						System.out.println("Anzahl Treffer: "+searchInDoc.getCounter());
 						for (int x = 0; x < FundListe.size(); x++) {
-							//Ausgabe_in_Textarea += "\n             an:" + FundListe.get(x) + " Stelle ";
+							
 							
 							System.out.println("Fundstelle: " + FundListe.get(x));
-							Ausgabe_in_Textarea+="\nFundstelle: " + FundListe.get(x) ; // Bitte nicht aus kommentieren
+							Ausgabe_in_Textarea+="\nFundstelle: " + FundListe.get(x) ; 
 							fundstelleZahl=FundListe.get(x);
 
 						}
+						Ausgabe_in_Textarea+="\n";
 						}
 						Ausgabe_in_Textarea+="\n"; // Bitte nicht aus kommentieren
 

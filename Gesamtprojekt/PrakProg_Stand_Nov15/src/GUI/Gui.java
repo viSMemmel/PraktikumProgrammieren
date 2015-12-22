@@ -59,6 +59,8 @@ import javafx.geometry.Rectangle2D;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.application.Application;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -70,6 +72,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.DialogPane;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
@@ -91,9 +94,14 @@ import javafx.stage.WindowEvent;
 
 public class Gui extends Application {
 
+	
+
 	private static String filePath;
 	private String filePath2;
+	
+	private static String suchart="Datei";
 
+	
 	private boolean started = false;
 	private boolean caspian = true;
 	private RSSThread thread1;
@@ -158,7 +166,8 @@ public class Gui extends Application {
 			}
 			System.out.println(filePath);
 		} catch (NullPointerException npex) {
-			System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
+
+			//System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
 
 		}
 	}
@@ -187,7 +196,7 @@ public class Gui extends Application {
 		RSSThread.sourcedir = properties.getProperty("sourcedir");
 		RSSThread.subscriptiondir = properties.getProperty("subscriptiondir");
 		RSSThread.schemadir = properties.getProperty("schemadir");
-	
+
 	}
 
 	// Fenster heißt in JavaFX "stage" (Fenster)
@@ -201,9 +210,9 @@ public class Gui extends Application {
 		stage.setResizable(false); // Nicht veränderbar
 		stage.getIcons().add(new Image("file:Unbenannt.png"));
 		stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
-		     public void handle(WindowEvent t) {
-		        System.exit(0);
-		    }
+			public void handle(WindowEvent t) {
+				System.exit(0);
+			}
 		});
 
 		// Standardwerte speichern
@@ -258,7 +267,9 @@ public class Gui extends Application {
 
 		hilfe.getItems().add(fragezeichen);
 
-		menueLeiste.getMenus().addAll(datei, suchen, ansicht, hilfe);
+		menueLeiste.getMenus().addAll(datei, ansicht, hilfe);
+
+		Scene scene = new Scene(pane0);
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
@@ -383,6 +394,7 @@ public class Gui extends Application {
 				// System.exit(0);
 
 				Alert alarm = new Alert(AlertType.CONFIRMATION);
+
 				alarm.setTitle("Bestätigung");
 				alarm.setHeaderText("Wollen Sie das Programm wirklich beenden?");
 				alarm.setContentText("");
@@ -398,21 +410,77 @@ public class Gui extends Application {
 			}
 		});
 
-		waehlen.setOnAction(new EventHandler<ActionEvent>() {
-
-			public void handle(ActionEvent ae) {
-
-				buttonWaehlenAction();
-
-			}
-		});
-
 		// Actionhändler zum Wählen von XML Source-Datei
 		waehlenButton.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
 
-				buttonWaehlenAction(); // Zur Vermeidung von redundantem Code!!
+				// Zur Vermeidung von redundantem Code!!
+
+				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+
+				try {
+					DirectoryChooser dChooser = new DirectoryChooser();
+
+					File dir = dChooser.showDialog(pane0.getScene().getWindow());
+
+					filePath = dir.getAbsolutePath();
+					if (dir != null) {
+
+						textField0.setText(filePath);
+						textField0.setAlignment(Pos.BASELINE_LEFT);
+					}
+					System.out.println(filePath);
+				} catch (NullPointerException npex) {
+					System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
+					
+					//System.out.println(suchart);
+					String datei = "Datei";
+					String ordner = "Ordner";
+					if(datei == suchart){
+						
+						Alert alarmDatei = new Alert(AlertType.ERROR);
+
+						alarmDatei.setContentText("");
+
+						alarmDatei.setTitle("FEHLER: Keine zu dursuchende XML-Liste ausgewählt");
+						alarmDatei.setHeaderText("ACHTUNG: Wählen Sie bitte eine zu dursuchende XML-Liste aus!!!");
+						Optional<ButtonType> ergebnis = alarmDatei.showAndWait();
+						if (ergebnis.get() == ButtonType.OK) {
+							alarmDatei.close();
+
+						} else {
+							// ... user chose CANCEL or closed the dialog
+						}
+						alarmDatei.close();
+						
+					}
+					
+					if(ordner == suchart){
+						
+						System.out.println(ordner);
+						System.out.println(suchart);
+						
+						Alert alarmOrdner = new Alert(AlertType.ERROR);
+
+						alarmOrdner.setContentText("");
+
+						alarmOrdner.setTitle("FEHLER: Kein zu dursuchender Ordner ausgewählt");
+						alarmOrdner.setHeaderText("ACHTUNG: Wählen Sie bitte einen zu dursuchenden Ordner aus!!!");
+						Optional<ButtonType> ergebnis = alarmOrdner.showAndWait();
+						if (ergebnis.get() == ButtonType.OK) {
+							alarmOrdner.close();
+
+						} else {
+							// ... user chose CANCEL or closed the dialog
+						}
+						alarmOrdner.close();
+						
+						
+					}
+					
+
+				}
 			}
 		});
 
@@ -452,6 +520,8 @@ public class Gui extends Application {
 			}
 		});
 
+		
+		
 		// actionhandler suche starten
 		fremdwortsucheStartenButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
@@ -544,7 +614,24 @@ public class Gui extends Application {
 					}
 
 				} catch (NullPointerException npex) {
+
 					System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
+					textArea0.setText("Es wurde keine XML-Liste ausgewählt!!!");
+					Alert alarm = new Alert(AlertType.ERROR);
+
+					alarm.setTitle("FEHLER: Es wurde keine XML-Liste ausgewählt");
+					alarm.setHeaderText("ACHTUNG: Wählen Sie bitte eine XML-Liste aus!!!");
+					alarm.setContentText("");
+
+					Optional<ButtonType> ergebnis = alarm.showAndWait();
+					if (ergebnis.get() == ButtonType.OK) {
+						alarm.close();
+
+					} else {
+						// ... user chose CANCEL or closed the dialog
+					}
+					alarm.close();
+
 				}
 			}
 		});
@@ -554,9 +641,9 @@ public class Gui extends Application {
 		counter = 0;
 		// Actionhandler zum Starten des Crawlers direkt in der Gui
 		crawlerStarten.setOnAction(new EventHandler<ActionEvent>() {
-			
+
 			public void handle(ActionEvent ae) {
-				//textArea0.setText("Crawler bereit zum Starten");
+				// textArea0.setText("Crawler bereit zum Starten");
 				System.out.println(counter);
 				if (counter == 0) {
 
@@ -564,29 +651,28 @@ public class Gui extends Application {
 				} else {
 					thread1.resume();
 				}
-				textArea0.setText(textArea0.getText()+"\nCrawler wurde gestartet");
+				textArea0.setText(textArea0.getText() + "\nCrawler wurde gestartet");
 				counter++;
 				System.out.println(counter);
-				
+
 				datei.setDisable(true);
 				suchen.setDisable(true);
 				ansicht.setDisable(true);
 				hilfe.setDisable(true);
-				
+
 				xmlListeWaehlenButton.setDisable(true);
 				dateiSucheButton.setDisable(true);
 				ordnerSucheButton.setDisable(true);
 				webseiteSucheButton.setDisable(true);
 				fremdwortsucheStartenButton.setDisable(true);
-				
 
 			}
 		});
-		
+
 		crawlerStoppen.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
-				
+
 				started = false;
 				textArea0.setText(textArea0.getText() + "\nCrawler wurde gestoppt");
 
@@ -601,8 +687,7 @@ public class Gui extends Application {
 				ansicht.setDisable(false);
 				hilfe.setDisable(false);
 			}
-			
-			
+
 		});
 
 		// Button um auf Dateisuche umzuschalten
@@ -610,15 +695,15 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 				pane0.getChildren().clear();
-				
+
 				pane0.getChildren().addAll(textArea0, textField1, radioListe, radioWoerter, waehlenButton,
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
 						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
 						kontaktMenue0);
-
+				suchart = "Datei";
+				System.out.println(suchart);
 			}
-			
-			
+
 		});
 
 		// Button um auf Crawlersuche umzuschalten
@@ -626,13 +711,16 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 				pane0.getChildren().clear();
-				
+
 				pane0.getChildren().addAll(textArea0, crawlerStarten, crawlerStoppen, radioListe, radioWoerter,
 						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
 						ordnerSucheButton, webseiteSucheButton, menueLeiste, textField1, kontaktMenue0);
-				textArea0.setText("Wenn der Crawler läuft muss dieser beendet werden bevor was anderes gemacht werden kann!"
-						+ "\nCrawler bereit zum starten");
-				
+				textArea0.setText(
+						"Wenn der Crawler läuft muss dieser beendet werden bevor was anderes gemacht werden kann!"
+								+ "\nCrawler bereit zum starten");
+				suchart = "Crawler";
+				System.out.println(suchart);
+
 			}
 		});
 
@@ -645,6 +733,8 @@ public class Gui extends Application {
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
 						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
 						kontaktMenue0);
+				suchart = "Ordner";
+				System.out.println(suchart);
 			}
 		});
 
@@ -656,6 +746,8 @@ public class Gui extends Application {
 				pane0.getChildren().addAll(textArea0, textField1, textField2, radioListe, radioWoerter,
 						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
 						ordnerSucheButton, webseiteSucheButton, menueLeiste, kontaktMenue0);
+				suchart = "Webseite";
+				System.out.println(suchart);
 			}
 		});
 
@@ -979,8 +1071,8 @@ public class Gui extends Application {
 				ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0, kontaktMenue0);
 		pane0.setVisible(true);
 
-		Scene scene = new Scene(pane0); // Fensterinhalt in dem ein Panel gelegt
-										// wird
+		// Fensterinhalt in dem ein Panel gelegt
+		// wird
 		stage.setScene(scene); // Fensterinhalt aufs Fenster legen
 		stage.show(); // Fenster sichtbar machen
 
@@ -1015,8 +1107,10 @@ public class Gui extends Application {
 	}
 
 	public static void main(String[] args) {
-
+		
+		System.out.println(suchart);
 		launch(args); // Anwendung wird gestartet und Startmethode wird
+		
 						// aufgerufen
 	}
 }
@@ -1036,8 +1130,7 @@ class ModalerDialog extends Stage {
 		textArea1.setWrapText(true); // Automatischer Zeilenumbruch
 		textArea1.setPrefSize(574, 450);
 
-		textArea1.setText(
-				"Folgende Schritte müssen für eine erfolgreiche Suche beachtet werden:"
+		textArea1.setText("Folgende Schritte müssen für eine erfolgreiche Suche beachtet werden:"
 				+ "\n1. Als erstes sollte eine XML-Liste ausgewählt werden auf die später ausgewählte Texte durchsucht werden. "
 				+ "Alternativ können Texte auch auf einzelne Wörter geprüft werden. Diese kann man in das untere Textfeld durch ein Leerzeichen getrennt eingeben."
 				+ " Welche von beiden Alternativern ausgeführt wird, kann man über die Radiobuttons vor dem Textfeld und dem Dropdown-Menü  bestimmen."
@@ -1073,8 +1166,7 @@ class ModalerDialogCrawler extends Stage {
 	private boolean started = false;
 	private int counter = 0;
 	/*
-	 * public void crawlerStart(){ 
-	 * try { RSSThread.setCurrdir(new
+	 * public void crawlerStart(){ try { RSSThread.setCurrdir(new
 	 * java.io.File(".").getCanonicalPath()); } catch (IOException e) { // TODO
 	 * Auto-generated catch block e.printStackTrace(); }
 	 * 

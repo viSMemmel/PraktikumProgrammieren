@@ -2,7 +2,6 @@
 package GUI;
 // Done: Exportieren der erzeugten Liste in eine .txt --> Menüreiter Exportieren in Datei
 
-import java.awt.event.ActionListener;
 
 // Statistik erstellen
 
@@ -149,6 +148,34 @@ public class Gui extends Application {
 	private TextField textField1 = new TextField();
 
 	private TextField textField2 = new TextField();
+	
+	private void setBack() {
+		textArea0.setText("");
+		textField0.setAlignment(Pos.CENTER);
+		textField1.setText("Hier zu prüfenden Text eingeben!");
+		textField1.setMaxWidth(350);
+		textField1.setAlignment(Pos.CENTER);
+		textField2.setText("Hier zu prüfende URL eingeben!");
+		/*String selectedItem;
+		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+		// System.out.println(selectedItem);
+
+		List<String> test;
+		List<String> test2;
+
+		Parser p = new Parser(filePath2);
+		System.out.println(filePath2);
+		test = p.getKids();
+		test2 = p.getRetAr(test.indexOf(selectedItem));
+		String suchwort = null;
+		for (String temp : test2) {
+			suchwort += " " + temp;
+		}
+		String speicher = suchwort.substring(5);
+		textField1.setText(speicher);
+		textArea0.setText(textArea0.getText() + "\n" + speicher);
+*/
+	}
 
 	public void buttonWaehlenAction() {
 		System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
@@ -287,8 +314,9 @@ public class Gui extends Application {
 		textField0.setEditable(true);
 		textField0.setPrefWidth(480); // Breite des Textfeldes
 
-		textField0.setText("Bitte XML-Datei auswählen!");
+		textField0.setText("Bitte zu durchsuchenden XML-Datei auswählen!");
 		textField0.setMaxWidth(350);
+		textField0.setDisable(false);
 
 		// zentriert Text im Textfeld
 		textField0.setAlignment(Pos.CENTER);
@@ -345,11 +373,11 @@ public class Gui extends Application {
 
 		crawlerStarten.setLayoutX(10);
 		crawlerStarten.setLayoutY(80);
-		crawlerStarten.setPrefSize(283.3, 30);
+		crawlerStarten.setPrefSize(230, 30);
 
-		crawlerStoppen.setLayoutX(296.7);
+		crawlerStoppen.setLayoutX(245);
 		crawlerStoppen.setLayoutY(80);
-		crawlerStoppen.setPrefSize(283.3, 30);
+		crawlerStoppen.setPrefSize(230, 30);
 
 		final ToggleGroup group = new ToggleGroup();
 
@@ -357,10 +385,14 @@ public class Gui extends Application {
 		radioListe.setLayoutY(132);
 		radioListe.setToggleGroup(group);
 		radioListe.setSelected(true);
+	//	radioListe.selectedProperty().addListener(radiolistener);
 
 		radioWoerter.setLayoutX(15);
 		radioWoerter.setLayoutY(178);
 		radioWoerter.setToggleGroup(group);
+	//	radioWoerter.selectedProperty().addListener(radiolistener2);
+		
+
 
 		// Combobox
 
@@ -369,7 +401,6 @@ public class Gui extends Application {
 		// kontaktMenue0.getSelectionModel().select("Stefan");
 		kontaktMenue0.setLayoutX(40);
 		kontaktMenue0.setLayoutY(130);
-		kontaktMenue0.setEditable(false);
 		kontaktMenue0.setPrefWidth(320);
 
 		String tooltiptext = "Bitte wählen Sie die XML Datei aus!";
@@ -491,33 +522,7 @@ public class Gui extends Application {
 
 			}
 
-			private void setBack() {
-				textArea0.setText("");
-				textField0.setText("Bitte XML-Datei auswählen!");
-				textField0.setAlignment(Pos.CENTER);
-				textField1.setText("Hier zu prüfenden Text eingeben!");
-				textField1.setMaxWidth(350);
-				textField1.setAlignment(Pos.CENTER);
-				String selectedItem;
-				selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
-				// System.out.println(selectedItem);
 
-				List<String> test;
-				List<String> test2;
-
-				Parser p = new Parser(filePath2);
-				System.out.println(filePath2);
-				test = p.getKids();
-				test2 = p.getRetAr(test.indexOf(selectedItem));
-				String suchwort = null;
-				for (String temp : test2) {
-					suchwort += " " + temp;
-				}
-				String speicher = suchwort.substring(5);
-				textField1.setText(speicher);
-				textArea0.setText(textArea0.getText() + "\n" + speicher);
-
-			}
 		});
 
 		
@@ -694,14 +699,20 @@ public class Gui extends Application {
 		dateiSucheButton.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
+
 				pane0.getChildren().clear();
+
+
+				setBack();
+				pane0.getChildren().clear();						
 
 				pane0.getChildren().addAll(textArea0, textField1, radioListe, radioWoerter, waehlenButton,
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
-						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
+						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0, 
 						kontaktMenue0);
 				suchart = "Datei";
 				System.out.println(suchart);
+				textField0.setText("Bitte zu durchsuchenden XML-Datei auswählen!");
 			}
 
 		});
@@ -710,17 +721,26 @@ public class Gui extends Application {
 		crawlerSucheButton.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
+
 				pane0.getChildren().clear();
 
+
+				setBack();
+				pane0.getChildren().clear();				
+
 				pane0.getChildren().addAll(textArea0, crawlerStarten, crawlerStoppen, radioListe, radioWoerter,
-						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
+						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton, zuruecksetzenButton,
 						ordnerSucheButton, webseiteSucheButton, menueLeiste, textField1, kontaktMenue0);
+
 				textArea0.setText(
 						"Wenn der Crawler läuft muss dieser beendet werden bevor was anderes gemacht werden kann!"
 								+ "\nCrawler bereit zum starten");
 				suchart = "Crawler";
 				System.out.println(suchart);
 
+
+				textArea0.setText("Wenn der Crawler läuft, muss dieser beendet werden bevor etwas anderes gemacht werden kann!"
+						+ "\nCrawler bereit zum starten");
 			}
 		});
 
@@ -728,13 +748,15 @@ public class Gui extends Application {
 		ordnerSucheButton.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
+				setBack();
 				pane0.getChildren().clear();
 				pane0.getChildren().addAll(textArea0, textField1, radioListe, radioWoerter, waehlenButton,
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
-						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
+						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0, 
 						kontaktMenue0);
 				suchart = "Ordner";
 				System.out.println(suchart);
+				textField0.setText("Bitte zu durchsuchenden Ordner wählen!");
 			}
 		});
 
@@ -742,9 +764,10 @@ public class Gui extends Application {
 		webseiteSucheButton.setOnAction(new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent ae) {
+				setBack();
 				pane0.getChildren().clear();
 				pane0.getChildren().addAll(textArea0, textField1, textField2, radioListe, radioWoerter,
-						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
+						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton, zuruecksetzenButton,
 						ordnerSucheButton, webseiteSucheButton, menueLeiste, kontaktMenue0);
 				suchart = "Webseite";
 				System.out.println(suchart);
@@ -809,7 +832,7 @@ public class Gui extends Application {
 				ordnerSucheButton.setLayoutX((xWert / 2) - 3);
 				webseiteSucheButton.setLayoutX((xWert / 2) + 139.5);
 				crawlerStarten.setLayoutX((xWert / 2) - 289.5);
-				crawlerStoppen.setLayoutX((xWert / 2) - 3.5);
+				crawlerStoppen.setLayoutX((xWert / 2) - 54.5);
 				radioListe.setLayoutX((xWert / 2) - 285);
 				radioWoerter.setLayoutX((xWert / 2) - 285);
 
@@ -846,7 +869,7 @@ public class Gui extends Application {
 				ordnerSucheButton.setLayoutX((xWert / 2) - 3);
 				webseiteSucheButton.setLayoutX((xWert / 2) + 139.5);
 				crawlerStarten.setLayoutX((xWert / 2) - 289.5);
-				crawlerStoppen.setLayoutX((xWert / 2) - 3.5);
+				crawlerStoppen.setLayoutX((xWert / 2) - 54.5);
 				radioListe.setLayoutX((xWert / 2) - 285);
 				radioWoerter.setLayoutX((xWert / 2) - 285);
 

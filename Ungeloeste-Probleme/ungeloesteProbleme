@@ -5,6 +5,7 @@ Ungeloeste Probleme / Wer arbeitet an was:
 +Sonderzeichen in Suchanfrage führen zu Programmabsturz  (Lösungansatz: Wildcard)
 +XML Suchliste – geht noch nicht (Lösungansatz: Klasse in der Aufrufe  gebündelt werden)
 +CrawlerEinbindung (werde ich zwischen den Feiertagen machen)
++Probleme bei Unterordnern im Suchverzeichnis
 SearchInDoc Überarbeiten (Unübersichtlich)
 
 

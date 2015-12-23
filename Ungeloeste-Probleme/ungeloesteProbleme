@@ -6,6 +6,7 @@ Ungeloeste Probleme / Wer arbeitet an was:
 +XML Suchliste – geht noch nicht (Lösungansatz: Klasse in der Aufrufe  gebündelt werden)
 +CrawlerEinbindung (werde ich zwischen den Feiertagen machen)
 +Probleme bei Unterordnern im Suchverzeichnis
++			 TopDocs td = searcher.search(query, 1000);  Treffer Anzahl skalierbar machen
 SearchInDoc Überarbeiten (Unübersichtlich)
 
 

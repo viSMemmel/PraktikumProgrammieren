@@ -1,18 +1,23 @@
- +Ungeloeste Probleme / Wer arbeitet an was:
-+
-+
+Ungeloeste Probleme / Wer arbeitet an was:
+ 
+ 
 +Stefan:
 +Sonderzeichen in Suchanfrage führen zu Programmabsturz  (Lösungansatz: Wildcard)
 +XML Suchliste – geht noch nicht (Lösungansatz: Klasse in der Aufrufe  gebündelt werden)
 +CrawlerEinbindung (werde ich zwischen den Feiertagen machen)
 SearchInDoc Überarbeiten (Unübersichtlich)
 
-Alex:
- - TextField1 soll nur aktiv sein, wenn RadioButton aktiviert
 
 TODO:
-- Zurücksetzten Button!! Der reseted auch die Textarea!! (auch fr vollbild/halbbild)
-- Exaktes Exceptionhandling über die Gui und nicht über sysout!(Alerts)
+- Exaktes Exceptionhandling über die Gui und nicht über sysout!(Alerts) Teilweise implementiert
 - Menüpunkt Statistik?
 - Crawler Suche --> ist logischerweise eine Ordner-Suche
 - Datei Suche: Eigentlich sollte nur Text von gewissen Tags der XML durchsucht werden!
+- genaues kommentieren von Code
+- Dokumentation!!!
+
+Hier Anforderungen von Göbel zwecks Dokumentation:
+- Funktionalität in Form einer Spezifikation
+- Wie ist die Softawrae ausgebaut, welche Komponenten, welche Rollen und wie arbeiten diese zusammen ( Schnittstellen)
+- Dokumentation  des Codes ( im Program als Kommentar), aber in die Doku nur Hinleitung zum Quelltxt
+- Schritt für Schritt Anleitung für Benutzer + evtl. auch Screenshot zur Veranschaulichung

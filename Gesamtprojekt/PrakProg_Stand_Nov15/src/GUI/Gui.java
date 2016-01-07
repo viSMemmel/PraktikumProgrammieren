@@ -533,15 +533,17 @@ public class Gui extends Application {
 				System.out.println("Button 2 gedrueckt");
 				String suchwort = null;
 				String Output = "";
+				String Sucharray[] = null;
+	
 				// kontaktMenue0.setEditable(true);
 				// kontaktMenue0.getItems();
 
 				if (radioWoerter.isSelected()) {
 					System.out.println("radioWoerter is selected");
 					suchwort = textField1.getText();
-
+					Sucharray =suchwort.split(" ");
 				} else {
-
+/*funktioniert, aber nur für eine Datei im Ordner */
 					System.out.println("radioListe is selected");
 					String selectedItem;
 					selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
@@ -556,15 +558,17 @@ public class Gui extends Application {
 					for (String temp : test2) {
 						suchwort += " " + temp;
 					}
+				//	suchwort );
+					
 					String speicher = suchwort.substring(5);
 					suchwort = speicher;
 					textField1.setText(speicher);
 					textArea0.setText(textArea0.getText() + "\n" + speicher);
-
+					Sucharray = test2.toArray(new String [test2.size()]);
 				}
 
-				String[] SuchAr = suchwort.split(" ");
-				Search suche = new Search(SuchAr, filePath);
+		// 	String[] SuchAr = suchwort.split(" "); Fehler so nicht
+				Search suche = new Search(Sucharray, filePath);
 				try {
 					Output = suche.find();
 				} catch (ParseException e) {

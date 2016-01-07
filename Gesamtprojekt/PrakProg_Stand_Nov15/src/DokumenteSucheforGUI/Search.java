@@ -12,6 +12,7 @@ import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -54,32 +55,16 @@ public class Search {
 	@SuppressWarnings("finally")
 	public String find() throws ParseException, IOException {
 
-		String Ausgabe_in_Textarea = null; // Bitte nicht aus kommentieren doch!!!
+		String Ausgabe_in_Textarea_alt = null; // zur DokuZwecken
+		String Ausgabe_in_Textarea = null;
 		try {
-
-			/*
-			 * if(Files.exists(FileSystems.getDefault().getPath(
-			 * NameInternerOrdner) , LinkOption.NOFOLLOW_LINKS)){ // indexDir=
-			 * (NIOFSDirectory) Paths.get(NameInternerOrdner);
-			 * //sun.nio.fs.WindowsPath cannot be cast to
-			 * org.apache.lucene.store.NIOFSDirectory sun.nio.fs.WindowsPath
-			 * cannot be cast to org.apache.lucene.store.NIOFSDirectory
-			 * indexDir= (NIOFSDirectory)
-			 * FileSystems.getDefault().getPath(NameInternerOrdner);
-			 * 
-			 * //(NIOFSDirectory) Paths.get(NameInternerOrdner);
-			 * System.out.println("Existiert"); }else{ System.out.println(
-			 * "NICHT exisitent ");
-			 * 
-			 * }
-			 */
+			boolean keineEintraege=true;
 
 			NIOFSDirectory indexDir;
 			String NameInternerOrdner = FilesToIndex + "_Index";
-			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner, Feld, Title);
+			IndexCreator index = new IndexCreator(FilesToIndex, NameInternerOrdner,  Feld, Title);
 			indexDir = index.createIndex();
-			// }
-
+		
 			DirectoryReader dr = DirectoryReader.open(indexDir); // Öffnen des
 																	// Verzeichnises
 																	// textIndexDir
@@ -88,7 +73,7 @@ public class Search {
 																	// indexDir
 			
 			System.out.println(indexDir.getDirectory());
-			Ausgabe_in_Textarea+=indexDir.getDirectory()+"\n";
+//			Ausgabe_in_Textarea_alt+=indexDir.getDirectory()+"\n";
 
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
@@ -97,109 +82,76 @@ public class Search {
 																			// analysieren
 
 			QueryParser qp = new QueryParser(Version.LUCENE_45, Feld, analyzer2);
-
+			
 			IndexSearcher searcher = new IndexSearcher(dr); // Indexsuche
-			for (int n = 0; n < SearchSubjectAr.length; n++) {
+			for (int n = 0; n < SearchSubjectAr.length; n++) {  // Problem Dokumente werden mehrfach genannt, wenn mehrer Wörter der Liste daran vor kommen
+				
 				String SearchSubject = SearchSubjectAr[n];
+				
 				Query query = qp.parse(SearchSubject); //
   
-				 TopDocs td = searcher.search(query, 10); // Die ersten 10
+				 TopDocs td = searcher.search(query, 1000); // Die ersten 1000  
 															// Dokumente mit
 															// höchstem Ranking
 				ScoreDoc[] sd = td.scoreDocs; //
 
-				if (sd.length == 0) {
-				//Ausgabe_in_Textarea = "Keine Einträge gefunden";
-				} else {
+				if (sd.length != 0){
+					keineEintraege=false;
+					
+					Ausgabe_in_Textarea += "Das Wort " +SearchSubject +" ist enthalten in:"; 		
+					//Document doc = searcher.doc(0); Völliger Blödsinn!!!!!!!
 
-					//System.out.println(" \nGefundenes Wort: " + SearchSubject);
-
-					Document doc = searcher.doc(0);
-					// Position des W. kann in Index gespeichert werden
-					// Klasse IndexCreator ändernn ev
-					// IndexableField iField[] =null;
 					for (int i = 0; i < sd.length; i++) {
-						// System.out.println("länge " + sd.length);
-						// System.out.println("shared index " +
-						// sd[i].shardIndex);
-
+						Document doc =searcher.doc(i);
 						searcher.doc(sd[i].doc); // Dokument mit
 													// dem höchsten
 													// "Ranking"
 													// wird hier
 													// "gefunden"
 						
-						//Ausgabe_in_Textarea += "Dokument gefunden " + doc.getField(Title) + "\n" + Ausgabe_in_Textarea; // Achtung
-																														// String
-																														// immer
-																														// konkatinieren,
-																														// da
-																														// vorherige
-																														// Ergebnisse
-																														// mitberücksichtig
-																														// werden
-																														// müssen
+						Ausgabe_in_Textarea += "\n \n Dokument gefunden " + doc.getField(Title).stringValue() + "\n"; // Achtung
+						//Ausgabe_in_Textarea_alt += "\n \n Dokument gefunden " + doc.getField(Title).name() + "\n" + Ausgabe_in_Textarea_alt; // Achtung
+																												// String																										// müssen
 
-						// System.out.println("Dokument gefunden " +
-						// doc.toString());
-						// hier muss dann eine Suche innerhalb des do
-						// stattfinden
-
-						List<IndexableField> iField = doc.getFields();
-						// System.out.println("Ifield " + iField.size());//WAS
-						// SOLL DAS SEIN??
+					//	List<IndexableField> iField = doc.getFields(); böse						System.out.println("Ifield " + iField.size());//im Moment immer 2
+						List<IndexableField> iField = new LinkedList<IndexableField>();
+						iField = doc.getFields();
+						
+					/*	for(int i1=0; i1<iField.size(); i1++){
+							System.out.println("IFELD" +iField.get(i1).toString());
+						}*/
+								
 						SearchInDoc searchInDoc = new SearchInDoc(iField, Feld, SearchSubject); // bei
-																								// Großer
-																								// Anzahl
-																								// von
-																								// Dokumenten
-																								// evtl.
-																								// Speicher
-																								// überlauf
+																				// überlauf
+						Ausgabe_in_Textarea +="\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";																							// String																										// müssen
 
-						//Ausgabe_in_Textarea += "\n Das Dokument hat " + searchInDoc.Anzahl() + " Wörter. \n";
-						
+
 						List<Integer> FundListe = searchInDoc.getFundListe();
-						//Ausgabe_in_Textarea += "Das gesuchte Wort " + SearchSubject + " befinden sich  "; 
-						
-						
-							
-						//Ausgabe in textarea so wie ausgabe bei sysout, da dies übersichtlich und ausreichend ist!
-						if(searchInDoc.getCounter()!=0 ){
-							
-						//Ausgabe_in_Textarea+=doc.get(Title);  
-						Ausgabe_in_Textarea+= "\nGefundenes Wort: " +SearchSubject+""; 
-						Ausgabe_in_Textarea+= "\nAnzahl Treffer: "+searchInDoc.getCounter(); 
-						System.out.println(doc.get(Title));	
-						System.out.println("\nGefundenes Wort: " +SearchSubject);
-						System.out.println("Anzahl Treffer: "+searchInDoc.getCounter());
-						for (int x = 0; x < FundListe.size(); x++) {
-							
-							
-							System.out.println("Fundstelle: " + FundListe.get(x));
-							Ausgabe_in_Textarea+="\nFundstelle: " + FundListe.get(x) ; 
-							fundstelleZahl=FundListe.get(x);
 
+				
+						Ausgabe_in_Textarea += "Fundliste Size "  +FundListe.size();
+						for (int x = 0; x < FundListe.size(); x++) {
+				//	fundstelleZahl=FundListe.get(x);			
+							Ausgabe_in_Textarea += " \n \t Das gesuchte Wort " + SearchSubject + " befinden sich  an "+FundListe.get(x)+ ". Stelle."; 
+							Ausgabe_in_Textarea+="\n";
+						}							 //searchInDoc.close();	
 						}
-						Ausgabe_in_Textarea+="\n";
-						}
+				
+						Ausgabe_in_Textarea_alt+="\n";
+
+
 						Ausgabe_in_Textarea+="\n"; // Bitte nicht aus kommentieren
 
 						// System.out.println("\n ReadertoString() " +
 						// searchInDoc.toString());
-						searchInDoc.close();
 
-						 
 
-					}
-					
-					//searchInDoc.getCounter();
-					
-					//System.out.println(" Fundstelle: " + fundstelleZahl);
-					//System.out.println(doc.get(Title));
 				}
-			}
 
+			}
+			if(keineEintraege){
+				Ausgabe_in_Textarea+="Keine Einträge enthalten";
+			}
 
 			dr.close(); // muss geschlossen werden, damit indexDir geschlossen
 			// werden kann
@@ -212,12 +164,16 @@ public class Search {
 								// wurden, wird nach Beendigung des Suchprozeß
 								// gelöscht
 			// internOrdner gelöscht werden kann
+	
 			
 		} catch (Exception e) {
 			System.out.println("Fehler!!!!");
 			e.printStackTrace();
 			System.out.println(e.getMessage() + "  " + e.getLocalizedMessage());
 		} finally {
+			System.out.println("--------------------");
+			System.out.println(Ausgabe_in_Textarea_alt);
+			System.out.println("--------------------");
 			return Ausgabe_in_Textarea;
 		}
 		

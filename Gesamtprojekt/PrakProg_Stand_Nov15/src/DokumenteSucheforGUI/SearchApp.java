@@ -12,7 +12,7 @@ public class SearchApp {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-XMLListSearch S = new XMLListSearch("C:/Users/schule/Documents/GitHub/PraktikumProgrammieren/Gesamtprojekt/PrakProg_Stand_Nov15/Anglizismen.xml","C:/test/T2",  1);
+XMLListSearch S = new XMLListSearch("C:/Anglizismenliste2.xml","C:/test2",  1);
 try {
 	System.out.println(S.find());
 } catch (ParseException | IOException e) {

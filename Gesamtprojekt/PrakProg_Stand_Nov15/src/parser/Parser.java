@@ -27,7 +27,6 @@ public class Parser {
 	private org.jdom2.Document XMLDOC;
 
 	private List<String> Ergebnis = new ArrayList<String>();
-	private List<Element> KinderIntern = new ArrayList<Element>();
 
 	public List<String> getRetAr(int n) {
 		List<String> retAr = new ArrayList<String>();
@@ -35,7 +34,58 @@ public class Parser {
 		return retAr;
 
 	}
-	List<Element> eListe = new ArrayList();
+	@SuppressWarnings("finally")
+	private List<String> read(int n) {
+		List<String> retAr = new ArrayList<String>();
+		try {
+		/*	List<String> KinderIntern = new ArrayList<String>();
+			 KinderIntern = this.getKids();
+			 
+
+		;*/
+			
+		//	Element r = XMLDOC.getRootElement();
+			List<String> Kinder = getKids();  // evtl. kürzer this.getKids();
+			
+			
+			System.out.println("Kind :      "+Kinder.get(0)+ "    "+Kinder.get(1) +Kinder.size());
+			org.jdom2.Document jDoc = XMLDOC;
+	          org.jdom2.Element r = jDoc.getRootElement();
+		
+			IteratorIterable<Element> it = r.getDescendants(Filters.element());
+			while (it.hasNext()) {
+
+				try {
+
+					Element e = (org.jdom2.Element) it.next();
+
+					if (e.getName() == Kinder.get(n)) {
+
+						String S = (String) e.getValue().toString();
+
+						// System.out.println(e.getValue().toString());
+
+						retAr.add(S);// Achtung nur ArrayList
+
+						// n++; WTF, does it?
+					}
+				}
+
+				catch (Exception e) {
+e.printStackTrace();
+					retAr.add("geht net" + e.getMessage());
+				}
+			}
+		}
+		catch (Exception ee) {
+
+			retAr.add("io excption " + ee.getMessage());
+
+		} finally {
+			return retAr;
+		}
+	}
+	List<Element> eListe = new ArrayList<Element>();
 	String XmlPfadString;
 
 	String ElementName;
@@ -45,7 +95,6 @@ public class Parser {
 	public List<String> getKids() {
 
 		Element r = XMLDOC.getRootElement();
-		// while(r.getChildren()!=null){ }
 		List<Element> Kinder = r.getChildren();
 
 		return KinderElemente(Kinder);
@@ -56,12 +105,12 @@ public class Parser {
 	 * 
 	 */
 	private List<String> KinderElemente(List<Element> Kinder) {
-		List<String> Ergebnis = new ArrayList<String>();
+		List<String> Ergebnis = new ArrayList<String>();  // Änderung 23.12.2015
 		Iterator<Element> iter = Kinder.iterator();
 
 		while (iter.hasNext()) {
 			Element kind = iter.next();
-			KinderIntern.add(kind);
+		//	KinderIntern.add(kind);
 			if (Ergebnis.indexOf(kind.getName()) == -1) { // Ergebnis.indexOf(kind.getName()) ist g.d. -1 wenn kein gleichnamigesElement in der List vorhanden ist:
 				Ergebnis.add(kind.getName());
 				if (kind.getChildren() != null) {
@@ -105,72 +154,6 @@ public class Parser {
 		return XMLElementArray;
 
 	}
-	/**
-	 * private org.jdom2.Document XMLDOC() throws ParserConfigurationException,
-	 * SAXException, IOException{ org.jdom2.Document jDoc = null;
-	 * DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-	 * 
-	 * DocumentBuilder builder;
-	 * 
-	 * builder = dbFactory.newDocumentBuilder();
-	 * 
-	 * org.w3c.dom.Document doc = builder.parse(XmlPfadString); // hier xml
-	 * 
-	 * DOMBuilder domB = new DOMBuilder();
-	 * 
-	 * jDoc = domB.build(doc);// = new DOMBuilder();
-	 * 
-	 * return jDoc; } Redundant XMLDOC wird mit aufruf des Konstruktors global
-	 * erzeugt
-	 * 
-	 * @return
-	 **/
 
-	@SuppressWarnings("finally")
-	private List<String> read(int n) {
-		List<String> retAr = new ArrayList<String>();
-		try {
 
-			org.jdom2.Document jDoc = XMLDOC;
-
-			org.jdom2.Element r = jDoc.getRootElement();
-
-			/*
-			 * for (Iterator it = r.getDescendants(Filters.element());
-			 * 
-			 * it.hasNext();) {
-			 */
-			Iterator it = r.getDescendants(Filters.element());
-			while (it.hasNext()) {
-
-				try {
-
-					Element e = (org.jdom2.Element) it.next();
-
-					if (e.getName() == KinderIntern.get(n).getName()) {
-
-						String S = (String) e.getValue().toString();
-
-						// System.out.println(e.getValue().toString());
-
-						retAr.add(S);// Achtung nur ArrayList
-
-						// n++; WTF, does it?
-					}
-				}
-
-				catch (Exception e) {
-
-					retAr.add("geht net" + e.getMessage());
-				}
-			}
-		}
-		catch (Exception ee) {
-
-			retAr.add("io excption " + ee.getMessage());
-
-		} finally {
-			return retAr;
-		}
-	}
 }

@@ -16,14 +16,15 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute;
 import org.apache.lucene.document.Document;
+import org.apache.lucene.document.StoredField;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.util.Version;
 
-public class SearchInDoc {
+public class SearchInDoc2 {
 	private int counter=0;
-	private List<IndexableField> IField;
+	private List<StoredField> IField;
 	private String SearchSubject;
 	private String FieldName;
 	private TermsEnum Terme;
@@ -37,21 +38,21 @@ public class SearchInDoc {
 	private Reader reader = null;
 	// https://lucene.apache.org/core/4_0_0/core/org/apache/lucene/index/DocsEnum.html
 
-	public SearchInDoc(List<IndexableField> iField, String fieldName, String searchSubject) {
+	public SearchInDoc2(List<StoredField> fListe, String fieldName, String searchSubject) {
 		SearchSubject=searchSubject;
 		
 		// TODO Auto-generated constructor stub#
-		IField = iField;
+		IField = fListe;
 		FieldName = fieldName;
 		Iterator iter = IField.iterator();
 		
 		while (iter.hasNext()) {
 			IndexableField currentField = (IndexableField) iter.next();
 
-			System.out.println("----------Feldname: "+FieldName + " currentField " +currentField.name() );
-		//	if ((currentField.name()).equals(FieldName)) {
 			
-			//if ((currentField.name()).equals("Inhalt")) { Lösung durchsuche alle Felder
+			if (currentField.name().equals(FieldName)) {
+			
+
 				try {
 					Analyzer analyzer2 = new StandardAnalyzer(Version.LUCENE_45); // Soll
 																					// Query
@@ -72,9 +73,8 @@ public class SearchInDoc {
 					while (TStream.incrementToken()) {
 		
 						String term = termAttribute.toString();
-						System.out.print("- " + term);
+						
 						Fundstelle++;
-				
 						if(term.toLowerCase().equals(searchSubject.toLowerCase())){
 							System.out.println("counter ");
 							counter ++;
@@ -97,7 +97,7 @@ public class SearchInDoc {
 					e.printStackTrace();
 				}
 				
-			//}
+			}
 		}
 		
 //		if(counter>0){
@@ -109,8 +109,14 @@ public class SearchInDoc {
 //		}
 	}
 
-/*	public String getSearchSubject() {
+	public String getSearchSubject() {
 		return SearchSubject;
+	}
+
+
+
+	public void setSearchSubject(String searchSubject) {
+		SearchSubject = searchSubject;
 	}
 
 
@@ -118,11 +124,19 @@ public class SearchInDoc {
 	public TokenStream getTStream() {
 		return TStream;
 	}
+
+
+
+	public void setTStream(TokenStream tStream) {
+		TStream = tStream;
+	}
+
+
+
 	public List<String> getTokenList() {
 		return tokenList;
 	}
 
-*/
 
 
 

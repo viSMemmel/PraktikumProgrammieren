@@ -102,7 +102,6 @@ public class Gui extends Application {
 
 	
 	private boolean started = false;
-	private boolean caspian = true;
 	private RSSThread thread1;
 	private int counter = 0;
 
@@ -306,7 +305,7 @@ public class Gui extends Application {
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
 		textArea0.setPrefSize(570, 270);
 		textArea0.setText(
-				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
+				"Herzlich Willkommen im Anglizismenfinder.\n");
 
 		// TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
 		textField0.setLayoutX(10);
@@ -385,12 +384,10 @@ public class Gui extends Application {
 		radioListe.setLayoutY(132);
 		radioListe.setToggleGroup(group);
 		radioListe.setSelected(true);
-	//	radioListe.selectedProperty().addListener(radiolistener);
 
 		radioWoerter.setLayoutX(15);
 		radioWoerter.setLayoutY(178);
 		radioWoerter.setToggleGroup(group);
-	//	radioWoerter.selectedProperty().addListener(radiolistener2);
 		
 
 
@@ -1073,7 +1070,7 @@ public class Gui extends Application {
 					Transformer transformer = transformerFactory.newTransformer();
 					DOMSource source = new DOMSource(doc);
 					StreamResult result = new StreamResult(new File(
-							"C:/Users/Christoph/Studium/Semester/WS2015/eclipse_Workspace/PrakProg31_16_12_2015/WebText.xml"));
+							"./WebText.xml"));
 					transformer.transform(source, result);
 
 				} catch (MalformedURLException e) {
@@ -1112,12 +1109,9 @@ public class Gui extends Application {
 		designAendern.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent e) {
 				if (scene.getStylesheets().get(0).contains("caspian")) {
-					caspian = true;
-
 					scene.getStylesheets().clear();
 					scene.getStylesheets().add(Gui.class.getResource("notransparency.css").toExternalForm());
 				} else if (scene.getStylesheets().get(0).contains("notransparency")) {
-					caspian = false;
 					scene.getStylesheets().clear();
 					scene.getStylesheets().add(Gui.class.getResource("caspian.css").toExternalForm());
 				}

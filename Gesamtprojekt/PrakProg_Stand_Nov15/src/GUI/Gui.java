@@ -2,7 +2,6 @@
 package GUI;
 // Done: Exportieren der erzeugten Liste in eine .txt --> Menüreiter Exportieren in Datei
 
-
 // Statistik erstellen
 
 // Unter Hilfe Kurzinfo zum Projekt - 10 Seiten Dokumentation als modales Fenster
@@ -49,7 +48,7 @@ import org.w3c.dom.Element;
 import parser.Parser;
 import DokumenteSucheforGUI.Search;
 import crawler.*;
-
+import dateiSuche.TextDurchsucher;
 //Für Auflösungszwecke
 import javafx.stage.Screen;
 import javafx.geometry.Pos;
@@ -93,14 +92,18 @@ import javafx.stage.WindowEvent;
 
 public class Gui extends Application {
 
-	
-
 	private static String filePath;
 	private String filePath2;
-	
-	private static String suchart="Datei";
 
-	
+	private static String suchart = "Datei";
+	private static String datei = "Datei";
+	private static String ordner = "Ordner";
+	private static String crawler = "Crawler";
+	private static String webseite = "Webseite";
+	private String suchwort = null;
+	private String Sucharray[] = null;
+	private String Output = "";
+
 	private boolean started = false;
 	private boolean caspian = true;
 	private RSSThread thread1;
@@ -148,7 +151,7 @@ public class Gui extends Application {
 	private TextField textField1 = new TextField();
 
 	private TextField textField2 = new TextField();
-	
+
 	private void setBack() {
 		textArea0.setText("");
 		textField0.setAlignment(Pos.CENTER);
@@ -156,25 +159,20 @@ public class Gui extends Application {
 		textField1.setMaxWidth(350);
 		textField1.setAlignment(Pos.CENTER);
 		textField2.setText("Hier zu prüfende URL eingeben!");
-		/*String selectedItem;
-		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
-		// System.out.println(selectedItem);
-
-		List<String> test;
-		List<String> test2;
-
-		Parser p = new Parser(filePath2);
-		System.out.println(filePath2);
-		test = p.getKids();
-		test2 = p.getRetAr(test.indexOf(selectedItem));
-		String suchwort = null;
-		for (String temp : test2) {
-			suchwort += " " + temp;
-		}
-		String speicher = suchwort.substring(5);
-		textField1.setText(speicher);
-		textArea0.setText(textArea0.getText() + "\n" + speicher);
-*/
+		/*
+		 * String selectedItem; selectedItem =
+		 * kontaktMenue0.getSelectionModel().getSelectedItem().toString(); //
+		 * System.out.println(selectedItem);
+		 * 
+		 * List<String> test; List<String> test2;
+		 * 
+		 * Parser p = new Parser(filePath2); System.out.println(filePath2); test
+		 * = p.getKids(); test2 = p.getRetAr(test.indexOf(selectedItem)); String
+		 * suchwort = null; for (String temp : test2) { suchwort += " " + temp;
+		 * } String speicher = suchwort.substring(5);
+		 * textField1.setText(speicher); textArea0.setText(textArea0.getText() +
+		 * "\n" + speicher);
+		 */
 	}
 
 	public void buttonWaehlenAction() {
@@ -194,7 +192,8 @@ public class Gui extends Application {
 			System.out.println(filePath);
 		} catch (NullPointerException npex) {
 
-			//System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
+			// System.out.println("Fenster wurde über Microsofts
+			// Schließen-/Abbrechen-Button geschlossen");
 
 		}
 	}
@@ -225,6 +224,214 @@ public class Gui extends Application {
 		RSSThread.schemadir = properties.getProperty("schemadir");
 
 	}
+	
+	public void dateiSuche(){
+		
+		String xmlPfad = textField0.getText();
+		String selectedItem;
+		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+		List<String> test;
+		List<String> test2;
+		
+		Parser p = new Parser(filePath2);
+		System.out.println(filePath2);
+		test = p.getKids();
+		test2 = p.getRetAr(test.indexOf(selectedItem));
+
+		for (String temp : test2) {
+			suchwort += " " + temp;
+		}
+
+		String speicher = suchwort.substring(5);
+		suchwort = speicher;
+		//textField1.setText(speicher);
+	
+		TextDurchsucher sucher = new TextDurchsucher(test2, xmlPfad);
+		String ausgabe = sucher.getAusgabe_in_Textarea();
+		textArea0.setText(ausgabe);
+	}
+	
+	public void ordnerSuche(){
+		String selectedItem;
+		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+		List<String> test;
+		List<String> test2;
+
+		Parser p = new Parser(filePath2);
+		System.out.println(filePath2);
+		test = p.getKids();
+		test2 = p.getRetAr(test.indexOf(selectedItem));
+
+		for (String temp : test2) {
+			suchwort += " " + temp;
+		}
+
+		String speicher = suchwort.substring(5);
+		suchwort = speicher;
+		//textField1.setText(speicher);
+		textArea0.setText(textArea0.getText() + "\n" + speicher);
+		Sucharray = test2.toArray(new String[test2.size()]);
+		Search suche = new Search(Sucharray, filePath);
+		try {
+			Output = suche.find();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		textArea0.setText(Output);
+	}
+	
+	public void webseiteStart(String link) {
+
+		try {
+			int start = 0;
+			int stop = 0;
+			//String link = "http://www.html-seminar.de/erste-html-seite.htm";
+			String urlText = "";
+			System.out.println(link);
+			// String pText = "";
+			//link= "http://www.welt.de/politik/ausland/article150940812/Hat-der-Attentaeter-gezielt-nach-Deutschen-gesucht.html";
+			String links= link;
+			URL url = new URL(links);
+			Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
+			while (scanner.hasNextLine()) {
+
+				String speicher = urlText;
+				urlText = speicher + scanner.nextLine() + "\n";
+
+			}
+			String pElement;
+
+			String searchString = "<p ";
+			String searchString3 = "<p>";
+			String searchstring2 = "</p>";
+			int occurencesStart = 0;
+			int occurencesStop = 0;
+			List<Integer> startStelle = new ArrayList<Integer>();
+			List<Integer> stopStelle = new ArrayList<Integer>();
+
+			if (0 != searchString.length()) {
+				for (int index = urlText.indexOf(searchString, 0); index != -1; index = urlText.indexOf(searchString,
+						index + 1)) {
+
+					startStelle.add(index);
+					occurencesStart++;
+				}
+			}
+			if (0 != searchString3.length()) {
+				for (int index = urlText.indexOf(searchString3, 0); index != -1; index = urlText.indexOf(searchString3,
+						index + 1)) {
+
+					startStelle.add(index);
+					occurencesStart++;
+				}
+			}
+			if (0 != searchstring2.length()) {
+				for (int index = urlText.indexOf(searchstring2, 0); index != -1; index = urlText.indexOf(searchstring2,
+						index + 1)) {
+
+					stopStelle.add(index);
+					occurencesStop++;
+				}
+			}
+
+			System.out.println("Anzahl Starttags: " + occurencesStart);
+			for (int i = 0; i < startStelle.size(); i++) {
+				System.out.println("Stelle: " + startStelle.get(i));
+			}
+
+			System.out.println("Anzahl an Endtags: " + occurencesStop);
+			for (int i = 0; i < stopStelle.size(); i++) {
+				System.out.println("Stelle: " + stopStelle.get(i));
+			}
+
+			List<String> pTagText = new ArrayList<String>();
+
+			for (int i = 0; i < startStelle.size() && i < stopStelle.size(); i++) {
+				String save = "";
+				String pText = "";
+				while (startStelle.get(i) < stopStelle.get(i)) {
+
+					pText += urlText.charAt(startStelle.get(i));
+					save = pText;
+					int speicher = startStelle.get(i);
+					speicher++;
+					startStelle.set(i, speicher);
+				}
+				pTagText.add(save);
+				// System.out.println(pText);
+			}
+
+			for (int i = 0; i < pTagText.size(); i++) {
+				System.out.println(pTagText.get(i));
+			}
+
+			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+			Document doc = docBuilder.newDocument();
+			Element rootElement = doc.createElement("Referenzdaten");
+			doc.appendChild(rootElement);
+
+			for (int i = 0; i < pTagText.size(); i++) {
+				Element letter = doc.createElement("Datensatz");
+				rootElement.appendChild(letter);
+				Element name = doc.createElement("name");
+				name.appendChild(doc.createTextNode((pTagText.get(i))));
+				letter.appendChild(name);
+			}
+			// Element letter = doc.createElement("letter");
+			// letter.appendChild(doc.createTextNode(pTagText.get(0)));
+			// rootElement.appendChild(letter);
+
+			TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			Transformer transformer = transformerFactory.newTransformer();
+			DOMSource source = new DOMSource(doc);
+			StreamResult result = new StreamResult(new File("./WebText.xml"));
+			transformer.transform(source, result);
+
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	
+	public void webseiteSuche(){
+		
+		String selectedItem;
+		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+		List<String> test;
+		List<String> test2;
+		
+		Parser p = new Parser(filePath2);
+		System.out.println(filePath2);
+		test = p.getKids();
+		test2 = p.getRetAr(test.indexOf(selectedItem));
+
+		for (String temp : test2) {
+			suchwort += " " + temp;
+		}
+
+		String speicher = suchwort.substring(5);
+		suchwort = speicher;
+		
+		TextDurchsucher sucher = new TextDurchsucher(test2, "./WebText.xml");
+		String ausgabe = sucher.getAusgabe_in_Textarea();
+		textArea0.setText(ausgabe);
+		
+	}
 
 	// Fenster heißt in JavaFX "stage" (Fenster)
 	public void start(final Stage stage) throws Exception {
@@ -251,7 +458,7 @@ public class Gui extends Application {
 		MenuBar menueLeiste = new MenuBar();
 		menueLeiste.prefWidthProperty().bind(stage.widthProperty());
 
-		Menu datei = new Menu("Datei");
+		Menu dateiMenue = new Menu("Datei");
 		Menu suchen = new Menu("Suchen");
 		Menu ansicht = new Menu("Ansicht");
 		Menu hilfe = new Menu("Hilfe");
@@ -278,10 +485,10 @@ public class Gui extends Application {
 		// Alex
 		MenuItem designAendern = new MenuItem("Design ändern");
 
-		datei.getItems().add(waehlen);
-		datei.getItems().add(exportieren);
-		datei.getItems().add(statistik);
-		datei.getItems().add(schliessen);
+		dateiMenue.getItems().add(waehlen);
+		dateiMenue.getItems().add(exportieren);
+		dateiMenue.getItems().add(statistik);
+		dateiMenue.getItems().add(schliessen);
 
 		suchen.getItems().add(xmlDurchsuchen);
 		suchen.getItems().add(crawlerDurchsuchen);
@@ -294,7 +501,7 @@ public class Gui extends Application {
 
 		hilfe.getItems().add(fragezeichen);
 
-		menueLeiste.getMenus().addAll(datei, ansicht, hilfe);
+		menueLeiste.getMenus().addAll(dateiMenue, ansicht, hilfe);
 
 		Scene scene = new Scene(pane0);
 
@@ -305,8 +512,7 @@ public class Gui extends Application {
 		textArea0.setEditable(false);
 		textArea0.setWrapText(true); // Automatischer Zeilenumbruch
 		textArea0.setPrefSize(570, 270);
-		textArea0.setText(
-				"Zeile: 15 --> (...) innerhalb eines Meetings werden neue Ziele vereinb (...) -->  Sitzung, Besprechung         \n");
+		textArea0.setText("Herzlich Willkommen im Anglizismenfinder.\n");
 
 		// TextFeld in dem der Dateipfad der XML-Source-Datei eingetragen wird
 		textField0.setLayoutX(10);
@@ -385,14 +591,12 @@ public class Gui extends Application {
 		radioListe.setLayoutY(132);
 		radioListe.setToggleGroup(group);
 		radioListe.setSelected(true);
-	//	radioListe.selectedProperty().addListener(radiolistener);
+		// radioListe.selectedProperty().addListener(radiolistener);
 
 		radioWoerter.setLayoutX(15);
 		radioWoerter.setLayoutY(178);
 		radioWoerter.setToggleGroup(group);
-	//	radioWoerter.selectedProperty().addListener(radiolistener2);
-		
-
+		// radioWoerter.selectedProperty().addListener(radiolistener2);
 
 		// Combobox
 
@@ -446,30 +650,38 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 
-				// Zur Vermeidung von redundantem Code!!
-
-				System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+				// System.out.println("Wählen-Button ausgelöst - Return-Code
+				// (0)");
 
 				try {
-					DirectoryChooser dChooser = new DirectoryChooser();
+					if (suchart == "Datei") {
 
-					File dir = dChooser.showDialog(pane0.getScene().getWindow());
+						FileChooser fileChooser = new FileChooser();
+						fileChooser.setTitle("Open Resource File (only XML)");
+						File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
+						String filePath = file.getAbsolutePath();
+						//filePath2 = file.getAbsolutePath();
+						textField0.setText(filePath.toString());
+					} else {
 
-					filePath = dir.getAbsolutePath();
-					if (dir != null) {
+						DirectoryChooser dChooser = new DirectoryChooser();
 
-						textField0.setText(filePath);
-						textField0.setAlignment(Pos.BASELINE_LEFT);
+						File dir = dChooser.showDialog(pane0.getScene().getWindow());
+						filePath = dir.getAbsolutePath();
+						if (dir != null) {
+
+							textField0.setText(filePath);
+							textField0.setAlignment(Pos.BASELINE_LEFT);
+						}
+						System.out.println(filePath);
 					}
-					System.out.println(filePath);
 				} catch (NullPointerException npex) {
 					System.out.println("Fenster wurde über Microsofts Schließen-/Abbrechen-Button geschlossen");
-					
-					//System.out.println(suchart);
-					String datei = "Datei";
-					String ordner = "Ordner";
-					if(datei == suchart){
-						
+
+					// System.out.println(suchart);
+
+					if (datei == suchart) {
+
 						Alert alarmDatei = new Alert(AlertType.ERROR);
 
 						alarmDatei.setContentText("");
@@ -481,17 +693,17 @@ public class Gui extends Application {
 							alarmDatei.close();
 
 						} else {
-							// ... user chose CANCEL or closed the dialog
+
 						}
 						alarmDatei.close();
-						
+
 					}
-					
-					if(ordner == suchart){
-						
+
+					if (ordner == suchart) {
+
 						System.out.println(ordner);
 						System.out.println(suchart);
-						
+
 						Alert alarmOrdner = new Alert(AlertType.ERROR);
 
 						alarmOrdner.setContentText("");
@@ -503,14 +715,10 @@ public class Gui extends Application {
 							alarmOrdner.close();
 
 						} else {
-							// ... user chose CANCEL or closed the dialog
+
 						}
 						alarmOrdner.close();
-						
-						
 					}
-					
-
 				}
 			}
 		});
@@ -519,55 +727,72 @@ public class Gui extends Application {
 		zuruecksetzenButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
 				setBack();
-
 			}
-
-
 		});
 
-		
-		
 		// actionhandler suche starten
 		fremdwortsucheStartenButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
 				System.out.println("Button 2 gedrueckt");
-				String suchwort = null;
-				String Output = "";
-				String Sucharray[] = null;
-	
-				// kontaktMenue0.setEditable(true);
-				// kontaktMenue0.getItems();
-
+				//System.out.println("a"+textField0.getText()+"b");
+				
 				if (radioWoerter.isSelected()) {
-					System.out.println("radioWoerter is selected");
-					suchwort = textField1.getText();
-					Sucharray =suchwort.split(" ");
-				} else {
-/*funktioniert, aber nur für eine Datei im Ordner */
-					System.out.println("radioListe is selected");
-					String selectedItem;
-					selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
-					List<String> test;
-					List<String> test2;
 
-					Parser p = new Parser(filePath2);
-					System.out.println(filePath2);
-					test = p.getKids();
-					test2 = p.getRetAr(test.indexOf(selectedItem));
-
-					for (String temp : test2) {
-						suchwort += " " + temp;
+					if (suchart == datei) {
+						
+						suchwort = textField1.getText();
+						Sucharray = suchwort.split(" ");
+						dateiSuche();
 					}
-				//	suchwort );
-					
-					String speicher = suchwort.substring(5);
-					suchwort = speicher;
-					textField1.setText(speicher);
-					textArea0.setText(textArea0.getText() + "\n" + speicher);
-					Sucharray = test2.toArray(new String [test2.size()]);
-				}
+					if (suchart == ordner) {
 
-		// 	String[] SuchAr = suchwort.split(" "); Fehler so nicht
+						suchwort = textField1.getText();
+						Sucharray = suchwort.split(" ");
+						ordnerSuche();
+					}
+					if (suchart == crawler) {
+					
+					}
+					if (suchart == webseite) {
+						
+//						String link= textField0.getText() ;
+//						textArea0.setText(link);
+						webseiteStart(textField0.getText().toString());
+						//WebText.xml
+					}
+					
+				} else {
+					
+					
+					if (suchart == ordner) {
+						
+						ordnerSuche();
+//						Search suche = new Search(Sucharray, filePath);
+//						try {
+//							Output = suche.find();
+//						} catch (ParseException e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						} catch (IOException e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						}
+//						textArea0.setText(Output);
+//						
+					}
+					if(suchart == datei){
+						dateiSuche();
+					}
+					if ( suchart == webseite){
+						
+//						String link = textField0.getText() ;
+//						textArea0.setText(link);
+						webseiteStart(textField0.getText().toString());
+					}
+				}
+				
+				/*
+				// String[] SuchAr = suchwort.split(" "); Fehler so nicht
 				Search suche = new Search(Sucharray, filePath);
 				try {
 					Output = suche.find();
@@ -579,7 +804,7 @@ public class Gui extends Application {
 					e.printStackTrace();
 				}
 				textArea0.setText(Output);
-
+				*/
 			}
 		});
 
@@ -588,12 +813,12 @@ public class Gui extends Application {
 
 			public void handle(ActionEvent ae) {
 				try {
-					System.out.println("Wählen-Button ausgelöst - Return-Code (0)");
+					System.out.println("Wählen-Button ausgelöst - dsvdghasvdgv");
 
 					FileChooser fileChooser = new FileChooser();
 					fileChooser.setTitle("Open Resource File (only XML)");
 
-					// nur XML Dateien erlaubt bei der Eingabe
+					// nur XML Dateien erlaubt bei der Eingabef
 					FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)",
 							"*.xml");
 					fileChooser.getExtensionFilters().add(extFilter);
@@ -664,7 +889,7 @@ public class Gui extends Application {
 				counter++;
 				System.out.println(counter);
 
-				datei.setDisable(true);
+				dateiMenue.setDisable(true);
 				suchen.setDisable(true);
 				ansicht.setDisable(true);
 				hilfe.setDisable(true);
@@ -691,7 +916,7 @@ public class Gui extends Application {
 				ordnerSucheButton.setDisable(false);
 				webseiteSucheButton.setDisable(false);
 				fremdwortsucheStartenButton.setDisable(false);
-				datei.setDisable(false);
+				dateiMenue.setDisable(false);
 				suchen.setDisable(false);
 				ansicht.setDisable(false);
 				hilfe.setDisable(false);
@@ -706,13 +931,12 @@ public class Gui extends Application {
 
 				pane0.getChildren().clear();
 
-
 				setBack();
-				pane0.getChildren().clear();						
+				pane0.getChildren().clear();
 
 				pane0.getChildren().addAll(textArea0, textField1, radioListe, radioWoerter, waehlenButton,
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
-						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0, 
+						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
 						kontaktMenue0);
 				suchart = "Datei";
 				System.out.println(suchart);
@@ -728,13 +952,13 @@ public class Gui extends Application {
 
 				pane0.getChildren().clear();
 
-
 				setBack();
-				pane0.getChildren().clear();				
+				pane0.getChildren().clear();
 
 				pane0.getChildren().addAll(textArea0, crawlerStarten, crawlerStoppen, radioListe, radioWoerter,
-						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton, zuruecksetzenButton,
-						ordnerSucheButton, webseiteSucheButton, menueLeiste, textField1, kontaktMenue0);
+						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
+						zuruecksetzenButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField1,
+						kontaktMenue0);
 
 				textArea0.setText(
 						"Wenn der Crawler läuft muss dieser beendet werden bevor was anderes gemacht werden kann!"
@@ -742,9 +966,9 @@ public class Gui extends Application {
 				suchart = "Crawler";
 				System.out.println(suchart);
 
-
-				textArea0.setText("Wenn der Crawler läuft, muss dieser beendet werden bevor etwas anderes gemacht werden kann!"
-						+ "\nCrawler bereit zum starten");
+				textArea0.setText(
+						"Wenn der Crawler läuft, muss dieser beendet werden bevor etwas anderes gemacht werden kann!"
+								+ "\nCrawler bereit zum starten");
 			}
 		});
 
@@ -756,7 +980,7 @@ public class Gui extends Application {
 				pane0.getChildren().clear();
 				pane0.getChildren().addAll(textArea0, textField1, radioListe, radioWoerter, waehlenButton,
 						zuruecksetzenButton, xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton,
-						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0, 
+						crawlerSucheButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, textField0,
 						kontaktMenue0);
 				suchart = "Ordner";
 				System.out.println(suchart);
@@ -771,8 +995,8 @@ public class Gui extends Application {
 				setBack();
 				pane0.getChildren().clear();
 				pane0.getChildren().addAll(textArea0, textField1, textField2, radioListe, radioWoerter,
-						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton, zuruecksetzenButton,
-						ordnerSucheButton, webseiteSucheButton, menueLeiste, kontaktMenue0);
+						xmlListeWaehlenButton, fremdwortsucheStartenButton, dateiSucheButton, crawlerSucheButton,
+						zuruecksetzenButton, ordnerSucheButton, webseiteSucheButton, menueLeiste, kontaktMenue0);
 				suchart = "Webseite";
 				System.out.println(suchart);
 			}
@@ -1045,7 +1269,6 @@ public class Gui extends Application {
 						}
 						pTagText.add(save);
 						// System.out.println(pText);
-
 					}
 
 					for (int i = 0; i < pTagText.size(); i++) {
@@ -1072,8 +1295,7 @@ public class Gui extends Application {
 					TransformerFactory transformerFactory = TransformerFactory.newInstance();
 					Transformer transformer = transformerFactory.newTransformer();
 					DOMSource source = new DOMSource(doc);
-					StreamResult result = new StreamResult(new File(
-							"C:/Users/Christoph/Studium/Semester/WS2015/eclipse_Workspace/PrakProg31_16_12_2015/WebText.xml"));
+					StreamResult result = new StreamResult(new File("./WebText.xml"));
 					transformer.transform(source, result);
 
 				} catch (MalformedURLException e) {
@@ -1134,11 +1356,11 @@ public class Gui extends Application {
 	}
 
 	public static void main(String[] args) {
-		
+
 		System.out.println(suchart);
 		launch(args); // Anwendung wird gestartet und Startmethode wird
-		
-						// aufgerufen
+
+		// aufgerufen
 	}
 }
 
@@ -1278,7 +1500,6 @@ class ModalerDialogCrawler extends Stage {
 				// RSSThread thread = new RSSThread(100);
 
 			}
-
 		});
 
 		pane2.getChildren().addAll(text, crawler, starten, stoppen);

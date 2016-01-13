@@ -11,7 +11,7 @@ public class TextDurchsucher {
 	
 	public TextDurchsucher(List<String> list, String path) {
 
-		ArrayList<String> liste = (ArrayList<String>) list;
+		List<String> liste =  list;
 		String text = "";
 		
 		

@@ -26,6 +26,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Optional;
@@ -46,9 +47,11 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import parser.Parser;
+import webseiteSuche.TextDurchsucherWebseite;
 import DokumenteSucheforGUI.Search;
 import crawler.*;
 import dateiSuche.TextDurchsucher;
+import webseiteSuche.*;
 //Für Auflösungszwecke
 import javafx.stage.Screen;
 import javafx.geometry.Pos;
@@ -101,7 +104,7 @@ public class Gui extends Application {
 	private static String crawler = "Crawler";
 	private static String webseite = "Webseite";
 	private String suchwort = null;
-	private String Sucharray[] = null;
+	private String[] Sucharray = null;
 	private String Output = "";
 
 	private boolean started = false;
@@ -224,15 +227,15 @@ public class Gui extends Application {
 		RSSThread.schemadir = properties.getProperty("schemadir");
 
 	}
-	
-	public void dateiSuche(){
-		
+
+	public void dateiSuche(List<String> Sucharray) {
+
 		String xmlPfad = textField0.getText();
 		String selectedItem;
 		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
 		List<String> test;
 		List<String> test2;
-		
+
 		Parser p = new Parser(filePath2);
 		System.out.println(filePath2);
 		test = p.getKids();
@@ -244,14 +247,21 @@ public class Gui extends Application {
 
 		String speicher = suchwort.substring(5);
 		suchwort = speicher;
-		//textField1.setText(speicher);
-	
-		TextDurchsucher sucher = new TextDurchsucher(test2, xmlPfad);
-		String ausgabe = sucher.getAusgabe_in_Textarea();
-		textArea0.setText(ausgabe);
+		// textField1.setText(speicher);
+
+		if (radioWoerter.isSelected()) {
+			TextDurchsucher sucher = new TextDurchsucher(Sucharray, xmlPfad);
+			String ausgabe = sucher.getAusgabe_in_Textarea();
+			textArea0.setText(ausgabe);
+		} else {
+			TextDurchsucher sucher1 = new TextDurchsucher(test2, xmlPfad);
+			String ausgabe1 = sucher1.getAusgabe_in_Textarea();
+			textArea0.setText(ausgabe1);
+		}
+
 	}
-	
-	public void ordnerSuche(){
+
+	public void ordnerSuche() {
 		String selectedItem;
 		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
 		List<String> test;
@@ -268,7 +278,7 @@ public class Gui extends Application {
 
 		String speicher = suchwort.substring(5);
 		suchwort = speicher;
-		//textField1.setText(speicher);
+		// textField1.setText(speicher);
 		textArea0.setText(textArea0.getText() + "\n" + speicher);
 		Sucharray = test2.toArray(new String[test2.size()]);
 		Search suche = new Search(Sucharray, filePath);
@@ -283,19 +293,46 @@ public class Gui extends Application {
 		}
 		textArea0.setText(Output);
 	}
-	
+
+	public void webseiteSuche() {
+
+		String selectedItem;
+		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
+		List<String> test;
+		List<String> test2;
+
+		Parser p = new Parser(filePath2);
+		System.out.println(filePath2);
+		test = p.getKids();
+		test2 = p.getRetAr(test.indexOf(selectedItem));
+
+		for (String temp : test2) {
+			suchwort += " " + temp;
+		}
+
+		String speicher = suchwort.substring(5);
+		suchwort = speicher;
+
+		TextDurchsucherWebseite sucher = new TextDurchsucherWebseite(test2, "./WebText.xml");
+		String ausgabe = sucher.getAusgabe_in_Textarea();
+		textArea0.setText(ausgabe);
+
+	}
+
 	public void webseiteStart(String link) {
 
 		try {
 			int start = 0;
 			int stop = 0;
-			//String link = "http://www.html-seminar.de/erste-html-seite.htm";
-			String urlText = "";
+			// String link = "http://www.html-seminar.de/erste-html-seite.htm";
+			String urlText = link;
 			System.out.println(link);
 			// String pText = "";
-			//link= "http://www.welt.de/politik/ausland/article150940812/Hat-der-Attentaeter-gezielt-nach-Deutschen-gesucht.html";
-			String links= link;
+			link = "http://www.welt.de/politik/ausland/article150940812/Hat-der-Attentaeter-gezielt-nach-Deutschen-gesucht.html";
+			String links = link;
+
 			URL url = new URL(links);
+
 			Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
 			while (scanner.hasNextLine()) {
 
@@ -379,6 +416,8 @@ public class Gui extends Application {
 				Element letter = doc.createElement("Datensatz");
 				rootElement.appendChild(letter);
 				Element name = doc.createElement("name");
+				System.out.println("Tag1: " + i);
+				System.out.println(pTagText.get(i));
 				name.appendChild(doc.createTextNode((pTagText.get(i))));
 				letter.appendChild(name);
 			}
@@ -406,31 +445,6 @@ public class Gui extends Application {
 			e.printStackTrace();
 		}
 
-	}
-	
-	public void webseiteSuche(){
-		
-		String selectedItem;
-		selectedItem = kontaktMenue0.getSelectionModel().getSelectedItem().toString();
-		List<String> test;
-		List<String> test2;
-		
-		Parser p = new Parser(filePath2);
-		System.out.println(filePath2);
-		test = p.getKids();
-		test2 = p.getRetAr(test.indexOf(selectedItem));
-
-		for (String temp : test2) {
-			suchwort += " " + temp;
-		}
-
-		String speicher = suchwort.substring(5);
-		suchwort = speicher;
-		
-		TextDurchsucher sucher = new TextDurchsucher(test2, "./WebText.xml");
-		String ausgabe = sucher.getAusgabe_in_Textarea();
-		textArea0.setText(ausgabe);
-		
 	}
 
 	// Fenster heißt in JavaFX "stage" (Fenster)
@@ -660,7 +674,7 @@ public class Gui extends Application {
 						fileChooser.setTitle("Open Resource File (only XML)");
 						File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
 						String filePath = file.getAbsolutePath();
-						//filePath2 = file.getAbsolutePath();
+						// filePath2 = file.getAbsolutePath();
 						textField0.setText(filePath.toString());
 					} else {
 
@@ -734,15 +748,20 @@ public class Gui extends Application {
 		fremdwortsucheStartenButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
 				System.out.println("Button 2 gedrueckt");
-				//System.out.println("a"+textField0.getText()+"b");
-				
+				// System.out.println("a"+textField0.getText()+"b");
+
 				if (radioWoerter.isSelected()) {
 
 					if (suchart == datei) {
-						
+
 						suchwort = textField1.getText();
 						Sucharray = suchwort.split(" ");
-						dateiSuche();
+						List<String> wordList = Arrays.asList(Sucharray);
+						// "./WebText.xml"
+						TextDurchsucher sucher1 = new TextDurchsucher(wordList, textField0.getText());
+						String ausgabe1 = sucher1.getAusgabe_in_Textarea();
+						textArea0.setText(ausgabe1);
+
 					}
 					if (suchart == ordner) {
 
@@ -751,60 +770,53 @@ public class Gui extends Application {
 						ordnerSuche();
 					}
 					if (suchart == crawler) {
-					
+
 					}
 					if (suchart == webseite) {
-						
-//						String link= textField0.getText() ;
-//						textArea0.setText(link);
+
 						webseiteStart(textField0.getText().toString());
-						//WebText.xml
+
+						suchwort = textField1.getText();
+						Sucharray = suchwort.split(" ");
+						List<String> wordList = Arrays.asList(Sucharray);
+
+						TextDurchsucherWebseite sucher2 = new TextDurchsucherWebseite(wordList, "./WebText.xml");
+						String ausgabe2 = sucher2.getAusgabe_in_Textarea();
+						textArea0.setText(ausgabe2);
+						// WebText.xml
 					}
-					
+
 				} else {
-					
-					
+
 					if (suchart == ordner) {
-						
+
 						ordnerSuche();
-//						Search suche = new Search(Sucharray, filePath);
-//						try {
-//							Output = suche.find();
-//						} catch (ParseException e) {
-//							// TODO Auto-generated catch block
-//							e.printStackTrace();
-//						} catch (IOException e) {
-//							// TODO Auto-generated catch block
-//							e.printStackTrace();
-//						}
-//						textArea0.setText(Output);
-//						
+						// Search suche = new Search(Sucharray, filePath);
+						// try {
+						// Output = suche.find();
+						// } catch (ParseException e) {
+						// // TODO Auto-generated catch block
+						// e.printStackTrace();
+						// } catch (IOException e) {
+						// // TODO Auto-generated catch block
+						// e.printStackTrace();
+						// }
+						// textArea0.setText(Output);
+						//
 					}
-					if(suchart == datei){
-						dateiSuche();
+					if (suchart == datei) {
+						List<String> wordList = Arrays.asList(Sucharray);
+						dateiSuche(wordList);
+
 					}
-					if ( suchart == webseite){
-						
-//						String link = textField0.getText() ;
-//						textArea0.setText(link);
+					if (suchart == webseite) {
+
+						// String link = textField0.getText() ;
+						// textArea0.setText(link);
 						webseiteStart(textField0.getText().toString());
+						webseiteSuche();
 					}
 				}
-				
-				/*
-				// String[] SuchAr = suchwort.split(" "); Fehler so nicht
-				Search suche = new Search(Sucharray, filePath);
-				try {
-					Output = suche.find();
-				} catch (ParseException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				textArea0.setText(Output);
-				*/
 			}
 		});
 

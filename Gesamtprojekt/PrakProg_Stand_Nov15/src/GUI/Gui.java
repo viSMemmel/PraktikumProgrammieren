@@ -517,7 +517,7 @@ public class Gui extends Application {
 
 		menueLeiste.getMenus().addAll(dateiMenue, ansicht, hilfe);
 
-		Scene scene = new Scene(pane0);
+		final Scene scene = new Scene(pane0);
 
 		textArea0.setScrollTop(Double.MAX_VALUE);
 		textArea0.setLayoutX(10);
@@ -1469,7 +1469,7 @@ class ModalerDialogCrawler extends Stage {
 
 		text.setFont(Font.font("Verdana", FontWeight.BOLD, 12));
 
-		TextArea crawler = new TextArea("Crawler bereit zum starten");
+		final TextArea crawler = new TextArea("Crawler bereit zum starten");
 		crawler.setLayoutX(20);
 		crawler.setLayoutY(140);
 		crawler.setPrefSize(290, 100);
@@ -1478,7 +1478,7 @@ class ModalerDialogCrawler extends Stage {
 		Gui gui = new Gui();
 		gui.crawlerStart();
 		// crawlerStart();
-		RSSThread thread = new RSSThread(100);
+		final RSSThread thread = new RSSThread(100);
 
 		// starten Actionhandler
 		starten.setOnAction(new EventHandler<ActionEvent>() {

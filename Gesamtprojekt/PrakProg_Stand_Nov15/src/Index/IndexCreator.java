@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.apache.lucene.analysis.Analyzer;
@@ -39,7 +40,7 @@ public class IndexCreator {
 	 */
 	private String FILES_TO_INDEX_DIRECTORY; // Verzeichnis von dem Eingelesen
 												// werden soll
-	private String IndexDir;// Indexverzeichnis
+	private String DirToIndexDir;// Indexverzeichnis
 	private String FIELD_PATH; // Feld in das der Suchindex geschrieben werden
 								// soll
 	private String Title;
@@ -52,14 +53,13 @@ public class IndexCreator {
 																		// den??
 																		// Englische
 																		// Stoppwörter
-		boolean recreateIndexIfExists = true;
-
+	
 		NoLockFactory noLockFactory = NoLockFactory.getNoLockFactory();
-		NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir), noLockFactory);// ,
+		NIOFSDirectory indexDir = new NIOFSDirectory(new File(DirToIndexDir), noLockFactory);// ,
 																						// new
 																						// LockFactory());
 																						// //
-																						// koorrekt
+																					// koorrekt
 
 		org.apache.lucene.index.IndexWriterConfig config = new org.apache.lucene.index.IndexWriterConfig(
 				Version.LUCENE_45, analyzer);
@@ -71,18 +71,21 @@ public class IndexCreator {
 																			// http://stackoverflow.com/questions/17711347/avoid-indexing-documents-again-lucene
 
 		IndexWriter indexWriter = new IndexWriter(indexDir, config);// ???
-		File dir = new File(FILES_TO_INDEX_DIRECTORY);
-		File[] files = dir.listFiles();
-		for (File file : files) {
-			Document document = new Document();
 
-			String path = file.getCanonicalPath();
-			// document.add(new Field(FIELD_PATH, path, Field.Store.YES,
-			// Field.Index.NOT_ANALYZED));
-			
+		
+		File[] files = getFiles(FILES_TO_INDEX_DIRECTORY);//dir.listFiles();  // auslagern
+
+			try{
+				
+				for(int findex=0; findex<files.length; findex++){
+					File currentFile=files[findex];
+					String path=currentFile.getAbsolutePath();
+				Document document = new Document();
+				
+			System.out.println(path +"ist datei" );
 			document.add(new Field(Title, path, Field.Store.YES, Field.Index.NOT_ANALYZED));
 
-			FReader fr = new FReader(path);
+			FReader fr = new FReader(path);   // hier über Liste iterieren
 			//System.out.println(fr.getText());
 			// fieldTypee
 			// storeTermVectorPossition
@@ -93,7 +96,12 @@ public class IndexCreator {
 
 			//System.out.println(document.toString());
 			indexWriter.addDocument(document);
-		}
+				}
+			}
+			catch(Exception e){  // rekrusive Indexstruturen sollen hier behandelt werden
+					System.out.println("Index konnte nicht erstellt werden - Pfad: ");
+			}
+		
 		// indexWriter.optimize(); nötig
 		indexWriter.close(); // hier Problem bei wiederholtem Aufruf
 		// indexDir.clearLock(FIELD_PATH);
@@ -102,10 +110,47 @@ public class IndexCreator {
 		return indexDir;
 	}
 
+	
+	
+	private File[] getFiles(String fILES_TO_INDEX_DIRECTORY2) { 
+		/*
+		 * Soll auch Dateien in Ordnern erfassen, die ihrerseits weitere Unterordner haben,
+		 * 
+		 */
+		// TODO Auto-generated method stub
+		System.out.println(fILES_TO_INDEX_DIRECTORY2);
+		ArrayList<File> FileList = new ArrayList<File>();
+		File dir = new File(fILES_TO_INDEX_DIRECTORY2);
+		
+		
+		File[] files = dir.listFiles();
+		
+		for (File file : files) {
+			if(file.isDirectory()){
+				
+				File[] RekArray=getFiles(file.getAbsolutePath());
+				for(int z=0; z<RekArray.length; z++){
+					FileList.add(RekArray[z]);
+				
+				}
+				
+			}else{
+				FileList.add(file);
+				
+			}
+		}
+		
+		File [] FileReturn = new File[FileList.size()];
+		return (File[]) FileList.toArray(FileReturn);
+		
+	}
+
+
+
 	public IndexCreator(String fILES_TO_INDEX_DIRECTORY, String indexDir, String fIELD_PATH, String title) {
 		super();
 		FILES_TO_INDEX_DIRECTORY = fILES_TO_INDEX_DIRECTORY;
-		IndexDir = indexDir;
+		DirToIndexDir = indexDir;
 		FIELD_PATH = fIELD_PATH;
 		Title =title;
 	}

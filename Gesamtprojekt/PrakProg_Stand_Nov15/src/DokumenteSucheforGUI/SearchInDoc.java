@@ -161,7 +161,7 @@ public class SearchInDoc {
 		}
 	}
 
-	public int Anzahl() {
+	public int getAnzahl() {
 
 		int i = 0;
 		try {

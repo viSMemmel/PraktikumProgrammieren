@@ -76,14 +76,15 @@ public class Search {
 
 			// NIOFSDirectory indexDir = new NIOFSDirectory(new File(IndexDir));
 			// // wird vom index übergeben
-			Analyzer analyzer2 = new StandardAnalyzer(Version.LUCENE_45); // Soll
+	Analyzer analyzer2 = new StandardAnalyzer(Version.LUCENE_45); // Soll
 																			// Query
 																			// analysieren
 
 			QueryParser qp = new QueryParser(Version.LUCENE_45, Feld, analyzer2);
+			
 
 			IndexSearcher searcher = new IndexSearcher(dr); // Indexsuche
-			for (int n = 0; n < SearchSubjectAr.length; n++) { // Problem
+			for (int Suchwort = 0; Suchwort < SearchSubjectAr.length; Suchwort++) { // Problem
 																// Dokumente
 																// werden
 																// mehrfach
@@ -93,7 +94,7 @@ public class Search {
 																// daran vor
 																// kommen
 
-				String SearchSubject = SearchSubjectAr[n];
+				String SearchSubject = SearchSubjectAr[Suchwort];
 
 				Query query = qp.parse(SearchSubject); //
 
@@ -102,16 +103,12 @@ public class Search {
 															// höchstem Ranking
 				ScoreDoc[] sd = td.scoreDocs; //
 
-				if (sd.length != 0) {
+				if (sd.length > 0) { //Dokumente vorhanden?
 					keineEintraege = false;
-
-					// Ausgabe_in_Textarea += "Es wurde folgendes Wort gefunden:
-					// " +SearchSubject ;
-					// Document doc = searcher.doc(0); Völliger Blödsinn!!!!!!!
-
-					for (int i = 0; i < sd.length; i++) {
-						Document doc = searcher.doc(i);
-						searcher.doc(sd[i].doc); // Dokument mit
+		
+					for (int Treffer = 0; Treffer < sd.length; Treffer++) {
+						Document doc = searcher.doc(Treffer);
+						searcher.doc(sd[Treffer].doc); // Dokument mit
 													// dem höchsten
 													// "Ranking"
 													// wird hier
@@ -126,7 +123,7 @@ public class Search {
 						// List<IndexableField> iField = doc.getFields(); böse
 						// System.out.println("Ifield " + iField.size());//im
 						// Moment immer 2
-						List<IndexableField> iField = new LinkedList<IndexableField>();
+						List<IndexableField> iField = new LinkedList<IndexableField>();  // Liste mit den 
 						iField = doc.getFields();
 
 						/*

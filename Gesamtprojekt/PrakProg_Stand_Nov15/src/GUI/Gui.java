@@ -671,7 +671,7 @@ public class Gui extends Application {
 					if (suchart == "Datei") {
 
 						FileChooser fileChooser = new FileChooser();
-						fileChooser.setTitle("Open Resource File (only XML)");
+						fileChooser.setTitle("Zu durchsuchende XML auswählen");
 						File file = fileChooser.showOpenDialog(pane0.getScene().getWindow());
 						String filePath = file.getAbsolutePath();
 						// filePath2 = file.getAbsolutePath();
@@ -828,7 +828,7 @@ public class Gui extends Application {
 					System.out.println("Wählen-Button ausgelöst - dsvdghasvdgv");
 
 					FileChooser fileChooser = new FileChooser();
-					fileChooser.setTitle("Open Resource File (only XML)");
+					fileChooser.setTitle("XML-Liste mit Woerterliste)");
 
 					// nur XML Dateien erlaubt bei der Eingabef
 					FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("XML files (*.xml)",

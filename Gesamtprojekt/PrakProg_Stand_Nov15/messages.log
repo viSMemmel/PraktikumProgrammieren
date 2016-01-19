@@ -996,3 +996,17 @@ Wed, 16 Dec 2015 16:36:24 CET: class RSSThread, method run, Override interval wi
 Wed, 16 Dec 2015 16:36:24 CET: class RSSThread, method run, First visit: http://www.faz.net/rss/aktuell/wissen/
 Wed, 16 Dec 2015 16:36:25 CET: class RSSThread, method run, Override interval with 5 minutes for Wissen - FAZ.NET
 Wed, 16 Dec 2015 16:36:25 CET: class RSSThread, method run, First visit: http://www.spiegel.de/kultur/index.rss
+Tue, 19 Jan 2016 20:46:28 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 19 Jan 2016 20:46:29 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 19 Jan 2016 20:46:29 CET: class RSSThread, method update, Start to read new sources
+Tue, 19 Jan 2016 20:46:29 CET: class RSSThread, method update, Finish to read new sources
+Tue, 19 Jan 2016 20:46:31 CET: class RSSThread, method run, RSS Server started!
+Tue, 19 Jan 2016 20:46:31 CET: class RSSThread, method run, First visit: http://newsfeed.zeit.de/studium/index
+Tue, 19 Jan 2016 20:51:26 CET: class RSSThread, method update, Start to read new sources
+Tue, 19 Jan 2016 20:51:26 CET: class RSSThread, method update, Finish to read new sources
+Tue, 19 Jan 2016 20:51:26 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 19 Jan 2016 20:51:26 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 19 Jan 2016 20:52:12 CET: class RSSThread, method update, Start to read new subscriptions
+Tue, 19 Jan 2016 20:52:12 CET: class RSSThread, method update, Finish to read new subscriptions
+Tue, 19 Jan 2016 20:52:12 CET: class RSSThread, method update, Start to read new sources
+Tue, 19 Jan 2016 20:52:12 CET: class RSSThread, method update, Finish to read new sources

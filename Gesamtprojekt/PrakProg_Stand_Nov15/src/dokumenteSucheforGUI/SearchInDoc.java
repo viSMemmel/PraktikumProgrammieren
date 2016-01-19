@@ -1,4 +1,4 @@
-package DokumenteSucheforGUI;
+package dokumenteSucheforGUI;
 // Zeile 51!!!
 import java.io.IOException;
 import java.io.Reader;
@@ -161,7 +161,7 @@ public class SearchInDoc {
 		}
 	}
 
-	public int getAnzahl() {
+	public int Anzahl() {
 
 		int i = 0;
 		try {

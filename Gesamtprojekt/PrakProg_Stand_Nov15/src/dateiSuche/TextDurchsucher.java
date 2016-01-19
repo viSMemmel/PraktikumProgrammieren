@@ -9,9 +9,14 @@ public class TextDurchsucher {
 	
 	private String Ausgabe_in_Textarea = " ";
 	
-	public TextDurchsucher(List<String> list, String path) {
+	public TextDurchsucher(List<String> list, String path, List <String> deutschList) {
 
+		
+		List<Integer> fundListe = null;
+		List<Integer> fundStelle;
+		List <String> woerterListe = null;
 		List<String> liste =  list;
+		List <String> deutschListe = deutschList;
 		String text = "";
 		
 		
@@ -27,7 +32,7 @@ public class TextDurchsucher {
 		Sucharray = text.split(" ");
 
 		int counter = 0;
-		ArrayList<Integer> fundliste = new ArrayList<>();
+		ArrayList<Integer> fundliste = new ArrayList<Integer>();
 
 		Ausgabe_in_Textarea +="Folgende Datei wurde durchsucht: " +path;
 		Ausgabe_in_Textarea+= "\n";
@@ -41,15 +46,33 @@ public class TextDurchsucher {
 					counter++;
 					//System.out.println(counter);
 					
-					Ausgabe_in_Textarea+="Es wurde das Wort: " + liste.get(i) + " gefunden an " +j+". Stelle gefunden \n ";
-					Ausgabe_in_Textarea+= "\n";
+					
+						Ausgabe_in_Textarea+="Es wurde das Wort: " + liste.get(i);
+						String fund= liste.get(i);
+						int iwas = liste.indexOf(fund);
+						
+						Ausgabe_in_Textarea+=" gefunden (deutsche Entsprechung: " + deutschListe.get(iwas)+")" ;
+						//fundListe.add(j);
+						//woerterListe.add(liste.get(i));
+						
+						Ausgabe_in_Textarea+= "\n an "+j+". Stelle gefunden \n";
+						Ausgabe_in_Textarea+= "\n";
+					
+					
 					System.out.println("Das Wort: " + liste.get(i) + " wurde an " +j+". Stelle gefunden \n");
+					System.out.println();
 					
 				}
 			}
 			
+			
 			counter =0;
 		}
+//		for (int i = 0; i < liste.size(); i++) {
+//			System.out.println("englisch= "+ liste.get(i));
+//			System.out.println("deutsch = " + deutschListe.get(i));
+//			
+//		}
 
 	}
 

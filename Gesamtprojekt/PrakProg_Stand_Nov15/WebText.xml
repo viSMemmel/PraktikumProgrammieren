@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Referenzdaten><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name/></Datensatz><Datensatz><name>&lt;p&gt;Eine Explosion zerfetzt die Urlaubs-Idylle in Istanbul. Ein AttentÃ¤ter, offenbar vom IS, sprengt sich in die Luft â€“ inmitten einer deutschen Reisegruppe. PrÃ¤sident Erdogan hat derweil andere Sorgen.&lt;/p&gt;
+		&lt;/div&gt;
+
+		&lt;form id="socMedEmail-form" onsubmit="return 0;" method="post"
+			action=""&gt;
+
+			&lt;div class="formLine"&gt;
+				&lt;label&gt;EmpfÃ¤nger E-Mail&lt;/label&gt; &lt;input
+					class="inputText required multiemail" type="text" name="recipient"&gt;
+				&lt;span class="hint"&gt;Tipp: mehrere E-Mailadressen mit Komma
+					trennen&lt;/span&gt;
+			&lt;/div&gt;
+
+			&lt;div class="formLine"&gt;
+				&lt;label&gt;persÃ¶nliche Nachricht&lt;span&gt;optional&lt;/span&gt;&lt;/label&gt;
+				&lt;textarea name="nachricht"&gt;&lt;/textarea&gt;
+			&lt;/div&gt;
+
+			&lt;div class="formLine"&gt;
+				&lt;label&gt;Absender E-Mail&lt;/label&gt; &lt;input
+					class="inputText required email" type="text" name="sender"&gt;
+			&lt;/div&gt;
+
+
+			&lt;div class="formLine captchaLine"&gt;
+				&lt;label&gt;Captcha&lt;/label&gt; &lt;img id="recommendCaptchaImage"
+					class="imgCaptcha" onclick="updateCaptcha();" /&gt; &lt;span
+					class="description"&gt;Bitte tragen Sie den Code in das
+					Eingabefeld ein.&lt;/span&gt; &lt;input class="inputText required captcha"
+					type="text" name="captcha"&gt; &lt;span id="captchaWrong"
+					style="top: 35px; color: #AD1A24; left: 260px; margin-top: 0;"&gt;&lt;/span&gt;
+				&lt;span class="hint"&gt;Tipp: das Bild anklicken um den Code neu
+					zu generieren&lt;/span&gt;
+			&lt;/div&gt;
+
+			&lt;div class="floatLeft" style="display: none;"&gt;
+				&lt;input type="text" id="captchasalt" name="captchasalt"
+					class="text required" value=""&gt;
+			&lt;/div&gt;
+			&lt;input type="hidden" name="id" value="150940812"&gt; &lt;input
+				type="hidden" name="pid" value="3"&gt;
+
+			&lt;div class="formFooter"&gt;
+				&lt;input id="articleEmailSend" class="formBtn emailSend" type="button"
+					value="E-Mail absenden"
+					onclick="commitEmailPopup('http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html?ajax&amp;wid=105189411&amp;aid=150940812','Beim Senden der Daten ist ein Fehler aufgetreten, bitte probieren Sie es spÃ¤ter nocheinmal.','Ihre E-Mail wurde erfolgreich versendet.','Die Eingabe des Captchas war falsch (durch einen Klick auf das Captcha erzeugen Sie ein neues).');return 0;"&gt;
+			&lt;/div&gt;
+
+		&lt;/form&gt;
+
+		&lt;div id="article-send-success" class="article-send-success"
+			style="display: none;"&gt;
+			&lt;div class="resultLine"&gt;
+				&lt;label&gt;EmpfÃ¤nger E-Mail&lt;/label&gt; &lt;span id="recipientEmail"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class="resultLine"&gt;
+				&lt;label&gt;Absender E-Mail&lt;/label&gt; &lt;span id="senderEmail"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class="resultLine"&gt;
+				&lt;label&gt;PersÃ¶nliche Nachricht&lt;/label&gt; &lt;span id="personalMessage"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+
+			&lt;div class="bottomLine"&gt;
+				&lt;span class="statusIcon"&gt;&lt;/span&gt; &lt;span class="statusMessage"
+					id="sendStatusMessage"&gt;&lt;/span&gt; &lt;a href="#" class="close btnblau"&gt;
+					&lt;span&gt;Schlie&amp;szlig;en&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+		&lt;div class="printDialog" id="feedbackArticlePopup"
+			style="display: none"&gt;&lt;/div&gt;
+
+	&lt;/div&gt;
+
+
+
+
+&lt;div 
+    class="widget storyContent topline    posRel grid_12"
+    &gt;
+
+&lt;div class="ressortSubtitle"&gt;
+    &lt;a class="ressort " href="http://www.welt.de/politik/"&gt;Politik&lt;/a&gt;
+    &lt;h2 class="kicker" itemprop="alternativeHeadline"&gt;Istanbul&lt;/h2&gt;
+        &lt;/div&gt;
+&lt;div class="timestamp"&gt;
+    &lt;span class="time"&gt;12.01.16&lt;/span&gt;
+                    &lt;/div&gt;
+&lt;div class="print"&gt;
+                &lt;a target="printPopup"
+                   onclick="window.open ('', 'printPopup', 'width=1024,height=780,scrollbars=yes, toolbar=no,status=no, resizable=yes,menubar=no,location=no,directories=no,top=50,left=50')"
+                   href="http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html?config=print"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;h1 
+    class="widget storyContent title    prefix_1 grid_8"
+     itemprop="headline"&gt;
+
+Explosion mitten in der Gruppe deutscher Touristen&lt;/h1&gt;
+
+&lt;p 
+    class="widget storyContent leadtext    prefix_1 grid_10 suffix_1"
+    id="artAbstract" itemprop="description"&gt;
+
+Eine Explosion zerfetzt die Urlaubs-Idylle in Istanbul. Ein AttentÃ¤ter, offenbar vom IS, sprengt sich in die Luft â€“ inmitten einer deutschen Reisegruppe. PrÃ¤sident Erdogan hat derweil andere Sorgen.&lt;/p&gt;
+
+&lt;!--Audio-ID: Sorry! No Audio!--&gt;
+
+&lt;style type="text/css"&gt;
+.election .tabbingHeaderTab {
+  display:block;
+}
+.widget.slideshow.articlePictureGallery .description{overflow:hidden}
+.widget.as_videoplayer.articlePlayer .videoplayer.welt .play.pause,.widget.as_videoplayer.articlePlayer .videoplayer.welt .play.pause:hover,.widget.as_videoplayer.articlePlayer .videoplayer.welt button.play,.widget.as_videoplayer.articlePlayer .videoplayer.welt button.play:hover{top:50%;left:50%;margin-left:-51px;margin-top:-51px}
+.widget.as_videoplayer.articlePlayer .description,.widget.picture.articlePicture .description{min-height:0}
+.widget.storyContent.author .artSingleAuthor .artAuthorBox a{color:#398db7}
+.widget.socialMedia.socMedArtHead.bottom .borderBottom{display:none}
+.zoom-layer{padding:0 90px 0 10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.widget.picture.articleZoomAjax div.tsrImg{max-width:780px;max-height:520px;overflow:hidden}
+.zoom-layer{overflow:visible}
+&lt;/style&gt;
+&lt;style&gt;
+@media only screen and (max-width:1050px) {
+   #stickyBtnHome_link{
+      display:none;
+   }
+}
+&lt;/style&gt;
+
+&lt;a href="http://www.welt.de" target="_self" title="Zur Startseite" name="Sticky-Button-Click" id="stickyBtnHome_link"&gt;
+  &lt;div class="stickyBtnHome"&gt;
+   &lt;div class="stickyBtnHomeText"&gt;&lt;span class="arrowUp"&gt;&lt;/span&gt; Zur Startseite&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+&lt;div class="divWrapperGroup articleHeader omega"&gt;
+       &lt;div 
+    class="widget socialMedia socMedArtHead    grid_6 prefix_1"
+    &gt;
+
+&lt;ul&gt;
+        &lt;li&gt;
+            &lt;div class="disqus-counter"&gt;
+                &lt;a href="#disqus_thread"&gt;106&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class="share-email"&gt;
+            &lt;a title="Versenden" href="#" onclick="openEmailPopup();return false;"&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="share-facebook"&gt;
+                    &lt;div class="fb-like" data-layout="button_count"
+                         data-action="recommend"
+                         data-show-faces="false"
+                         data-share="false"
+                         data-width="100"
+                         data-href="http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html"
+                         data-ref="top.right"&gt;&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="share-twitter"&gt;
+                    &lt;a href="http://twitter.com/share"
+                       class="twitter-share-button"
+                       data-url="http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html"
+                       data-count="horizontal"
+                       data-via="welt"
+                       data-text="Istanbul - Explosion mitten in der Gruppe deutscher Touristen"
+                       data-lang="de"&gt;Twittern&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="share-gplus"&gt;
+                    &lt;div id="gplus-button-inline" class="g-plusone" data-size="medium" data-callback="gplus_like_callback" data-href="http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html"&gt;&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="bookmark"&gt;
+                    &lt;a class="readerBookmark hide" data-articleId="150940812"&gt;
+    &lt;div class="icon"&gt;&lt;/div&gt;
+&lt;/a&gt;
+
+&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;span class="borderBottom"&gt;&lt;/span&gt;
+    &lt;script type="text/javascript"&gt;
+        var optoutpreLinkText = "Sie haben die Social-Media Funktionen bei Die Welt deaktiviert.&lt;br /&gt; Klicken Sie";
+        var optoutLinkText = "hier";
+        var optoutpostLinkText = "um die Social-Media Funktionen wieder zu aktivieren.";
+    &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;div 
+    class="widget storyContent author    grid_4 alpha"
+    &gt;
+
+&lt;div class="artAuthor"&gt;
+
+                    &lt;div class="artAuthorNamesContainer artSingleAuthorContainer floatRight"&gt;
+                                    Von &lt;span class="artSingleAuthor"&gt;
+    &lt;span itemprop="author"&gt;
+            &lt;a class="artAuthorName" href="http://www.welt.de/autor/deniz-yuecel/"
+               rel="author"
+               itemprop="author"&gt; Deniz YÃ¼cel&lt;/a&gt;
+
+            &lt;span class="artAuthorBox"&gt;
+                    &lt;span class="artAuthorName"&gt;
+                            Deniz YÃ¼cel&lt;/span&gt;
+                    &lt;span class="artAuthorBio"&gt;
+                      &lt;a href="http://www.welt.de/autor/deniz-yuecel/"&gt;
+                          &lt;span&gt;&lt;/span&gt;Biografie und alle Artikel des Autors&lt;/a&gt;
+                    &lt;/span&gt;
+                    &lt;span class="artAuthorSocial"&gt;
+                        &lt;a class="artAuthorTwitter socIcon" href="https://twitter.com/besser_deniz"&gt;&lt;span&gt;&lt;/span&gt;Twitter&lt;/a&gt;
+                        &lt;/span&gt;
+                    &lt;span class="artAuthorBoxClose"&gt;&lt;/span&gt;
+                    &lt;span class="artAuthorBoxPin"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+                &lt;/span&gt;
+            &lt;/span&gt;
+        &lt;/span&gt;,
+                                        &lt;span class="artAuthorLocation"&gt;Istanbul&lt;/span&gt;
+                                    &lt;span class="artAuthorPosition"&gt;TÃ¼rkei-Korrespondent&lt;/span&gt;
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+            &lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;div class="groupWrapper"&gt;
+
+    &lt;div class="grid_8 column-1 posRel"&gt;
+       &lt;div 
+    class="widget as_videoplayer articleElementXXL    video grid_10 prefix_1 alpha omega disable-generate-links articlePlayer"
+    id="videoplayer_147217472_150945415_1476637042"&gt;
+
+&lt;div itemprop="video" itemscope itemtype="http://schema.org/VideoObject"&gt;
+
+    &lt;div class="ie7ErrorScreen"&gt;Die Version Ihres Browsers wird nicht mehr durch unseren Video-Player unterstÃ¼tzt. Bitte aktualisieren Sie Ihren Browser oder verwenden einen anderen Browser.&lt;/div&gt;
+
+&lt;div class="content"&gt;
+
+    &lt;div id="video_150945415" class="videoplayer welt" data-layout="welt"
+     data-video="http://www.welt.de/politik/ausland/article150945415/Krebsgeschwuer-des-Terrorismus-verschont-niemanden.xmlv?autoplay=true" style=""&gt;
+
+    &lt;img src="http://img.welt.de/img/videos/crop150945523/8799404032-ci16x9-w780/Terror-in-Istanbul.jpg"
+                             alt="Terror in der TÃ¼rkei: Galt der Anschlag eigentlich Deutschland?"
+                             title="Terror in der TÃ¼rkei: Galt der Anschlag eigentlich Deutschland?"
+                             width="780"
+                             height="438"
+                            itemprop="thumbnailURL"itemprop="image" /&gt;&lt;div class="abo_screen test_now" style="display:none"&gt;
+    &lt;div class="buttons_row"&gt;
+                &lt;div class="welt_logo_small"&gt;&lt;/div&gt;
+                &lt;div class="bild_logo_small"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;p class="text_abo"&gt;Dieses Video steht WELT DIGITAL Abonnenten mit&lt;br/&gt;der Option BUNDESLIGA bei BILD zur VerfÃ¼gung.&lt;/p&gt;
+
+            &lt;div class="option"&gt;
+                &lt;i class="checkmark"&gt;&lt;/i&gt;
+                &lt;span&gt;Option BUNDESLIGA bei BILD&lt;/span&gt;
+                &lt;span class="question_mark"&gt;
+                    &lt;span class="bubble"&gt;
+                        &lt;span class="info"&gt;Die BUNDESLIGA bei BILD ist ein Zusatzprodukt, das in Verbindung mit den Paketen von WELT DIGITAL gebucht werden kann.&lt;/span&gt;
+                        &lt;span class="bubble_pin"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class="test_buli_button offer_button"&gt;
+                &lt;span class="icon"&gt;&lt;/span&gt;
+                Jetzt informieren
+            &lt;/div&gt;
+
+        &lt;/div&gt;&lt;div class="abo_screen go_to_bild" style="display:none"&gt;
+    &lt;div class="bild_logo_large"&gt;&lt;/div&gt;
+            &lt;p class="text_buli_now"&gt;Bundesliga: Jetzt direkt bei BILD&lt;/p&gt;
+
+            &lt;p class="text_highlight"&gt;Nutzen Sie Ihr Abonnement von WELT DIGITAL jetzt auf der Seite der BILD&lt;/p&gt;
+
+            &lt;div class="test_buli_button access_button"&gt;
+                &lt;span class="icon"&gt;&lt;/span&gt;
+                Zur Bild wechseln
+            &lt;/div&gt;
+
+        &lt;/div&gt;&lt;div class="videoErrorscreen" style="display:none"&gt;
+
+    &lt;p class="text_highlight topline"&gt;&lt;/p&gt;
+            &lt;p class="text_highlight bottomline"&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+&lt;button class="play"&gt;&lt;/button&gt;
+
+    &lt;/div&gt;
+
+&lt;script type="text/javaScript"&gt;
+    
+    var videoPlayer = new VideoPlayer('video_150945415');
+    videoPlayer.videoId = 150945415;
+    videoPlayer.widgetView = 'storyLead';
+    videoPlayer.isPaid = false;
+    videoPlayer.isFree = true;
+    videoPlayer.isAutoplay = true;
+    
+    videoPlayer.isAjax = false;
+    videoPlayer.homesectionTree = '5,ece_frontpage/219,politik/221,ausland';
+    videoPlayer.agofCode = '01999_polVID' ;
+    
+
+    videoPlayer.register();
+
+    window.com = window.com || {}; window.com.xoz = window.com.xoz || {};
+    window.com.xoz.adblocker = {'homadconfig' : "/skins/welt/flash/homadConfigEnabled.json"};
+
+&lt;/script&gt;
+&lt;div class="social-bar id-150945415"&gt;
+                &lt;div 
+    class="widget socialMedia videoTeaserXXL   "
+    &gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Video teilen&lt;/li&gt;
+        &lt;li class="share-facebook"&gt;
+                    &lt;div class="fb-like" data-layout="button_count"
+                         data-action="recommend"
+                         data-show-faces="false"
+                         data-share="false"
+                         data-width="100"
+                         data-href="http://www.welt.de/politik/ausland/article150945415/Krebsgeschwuer-des-Terrorismus-verschont-niemanden.html"
+                         data-ref="video.top.right"&gt;&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="share-twitter"&gt;
+                    &lt;a href="http://twitter.com/share"
+                       class="twitter-share-button"
+                       data-url="http://www.welt.de/politik/ausland/article150945415/Krebsgeschwuer-des-Terrorismus-verschont-niemanden.html"
+                       data-count="horizontal"
+                       data-via="welt"
+                       data-text="Anschlag in der TÃ¼rkei - &amp;#034;KrebsgeschwÃ¼r des Terrorismus verschont niemanden&amp;#034;"
+                       data-lang="de"&gt;Twittern&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="share-gplus"&gt;
+                    &lt;div id="gplus-button-inline" class="g-plusone" data-size="medium" data-callback="gplus_like_callback" data-href="http://www.welt.de/politik/ausland/article150945415/Krebsgeschwuer-des-Terrorismus-verschont-niemanden.html"&gt;&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;script&gt;
+                    if (typeof renderSocialButtons === 'function') {
+                        renderSocialButtons();
+                    }
+                &lt;/script&gt;
+            &lt;/ul&gt;
+&lt;/div&gt;
+&lt;script id="templateSocialBar" type="x-tmpl-mustache"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Video teilen&lt;/li&gt;
+        &lt;li class="share-facebook"&gt;
+            &lt;div class="fb-like" data-layout="button_count" data-action="recommend"
+                 data-show-faces="false" data-share="false" data-width="100" data-href="{{{url}}}"
+                 data-ref="welt"&gt;&lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class="share-twitter"&gt;
+            &lt;a href="http://twitter.com/share" class="twitter-share-button"
+               data-url="{{{url}}}" data-count="horizontal" data-via="welt" data-text="{{{title}}}" data-lang="de"&gt;Twittern&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="share-gplus"&gt;
+            &lt;div id="gplus-button-inline" class="g-plusone" data-size="medium" data-href="{{{url}}}"&gt;&lt;/div&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/script&gt;&lt;script&gt;
+                            if ($.cookie("autoPlay") !== null &amp;&amp; Boolean($.cookie("autoPlay"))) {
+                                var autoPlayCookie = $.cookie("autoPlay");
+                                var videoPlayer = $("#video_150945415");
+                                var videoUrl = videoPlayer.attr("data-video");
+                                var modifiedVideoUrl = videoUrl.replace(/autoplay=(true|false)/, "autoplay="+autoPlayCookie);
+                                videoPlayer.attr("data-video", modifiedVideoUrl);
+                            }
+                        &lt;/script&gt;
+                        &lt;div class="videoAutoplayToggler"&gt;
+                            Auto Start: &lt;button class="videoAutoplayToggler-on active" value="true" title="Autostart aktivieren"&gt;An&lt;/button&gt;|&lt;button class="videoAutoplayToggler-off" value="false" title="Autostart deaktivieren"&gt;Aus&lt;/button&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+            &lt;div class="embedLayerContainer" style="display:none"&gt;
+    &lt;div class="embedLayer"&gt;
+        &lt;textarea spellcheck="false"&gt;&lt;/textarea&gt;
+
+        &lt;div class="embedSettings"&gt;
+            &lt;div class="embedWidth"&gt;&lt;input type="text" maxlength="4" class="embedText videoplayerWidth"&gt; px Breite&lt;/div&gt;
+            &lt;div class="embedHeight"&gt;&lt;input type="text" maxlength="4" class="embedText videoplayerHeight"&gt; px HÃ¶he&lt;/div&gt;
+            &lt;div class="embedAutoplay"&gt;&lt;input type="checkbox" id="autoplay"&gt;&lt;label for="autoplay"&gt;Autoplay&lt;/label&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="embedErrorMessage"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;new asms.general.ece.widgets.videoplayer.EmbedConfigurator(asms.jQuery()).init({videoPlayerId: 'video_150945415', video: {videoId: '150945415', videoUrl: 'http://www.welt.de/150945415'}, embedType: 'articlePageVideo'});&lt;/script&gt;
+&lt;div class="description"&gt;
+                    &lt;span id="videotext_150945415" class="text" itemprop="description"&gt;Bei dem Anschlag in Istanbul sind vor allem deutsche Touristen getÃ¶tet worden. Das kann Zufall sein, vielleicht war es aber auch genauso geplant. Noch gibt es allerdings kein Bekennerschreiben.&lt;/span&gt;
+&lt;span id="videosubline_150945415" class="subline"&gt;
+    Quelle: Die Welt&lt;/span&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    new asms.general.ece.widgets.socialMedia(asms.jQuery()).init(
+            {
+                css: {
+                    classes: {
+                        socialBar: '.as_videoplayer .social-bar.id-150945415'
+                    }
+                },
+                elementId: '150945415'
+            }
+    ).registerArticleVideoXXLPlayListener();
+&lt;/script&gt;
+&lt;script&gt;
+            asms.general.ece.widgets.marginalAlignment.registerMarginalColumnRealignHandlerFor10ColumnsArticleOpener();
+            $(document).trigger('de/welt/realignMarginalColumnFor10ColumnsArticleOpener');
+        &lt;/script&gt;
+    &lt;/div&gt;
+
+
+&lt;div 
+    class="widget storyBody default   "
+     itemprop="articleBody"&gt;
+
+&lt;p id="p0" class="prefix_1 text artContent"&gt;Die Ambulanzwagen mit den Schwerverletzten waren gerade vom Sultan-Ahmet-Platz in Istanbul abgefahren, als die tÃ¼rkischen BehÃ¶rden auf ihre bereits zur Gewohnheit gewordene Art reagierten: Sie verhÃ¤ngten eine vorÃ¼bergehende Nachrichtensperre. Auf Anweisung aus dem BÃ¼ro des MinisterprÃ¤sidenten wurde Medien untersagt, Bilder vom Anschlagsort zu senden, an dem am Vormittag ein SelbstmordattentÃ¤ter zehn Menschen mit in den Tod gerissen hatte. Entsprechend gereizt zeigten sich die PolizeikrÃ¤fte, die den Platz abgesperrt hatten. Journalisten wurden festgehalten, weil sie fotografiert hatten, der Ton war ruppig, und es wurde auch schon mal handgreiflich.&lt;/p&gt;&lt;p id="p1" class="prefix_1 text artContent"&gt;Immerhin lieferten die BehÃ¶rden recht zÃ¼gig die ersten Informationen zum &lt;a name="_art_link_" href="http://www.welt.de/themen/terroranschlaege-in-istanbul/" title=""&gt;Anschlag&lt;/a&gt;. Der Gouverneur von Istanbul sprach von zehn Toten und 15 Verletzten, ohne nÃ¤here Angaben zur IdentitÃ¤t der Opfer zu machen. Doch im Laufe des Tages wurde klar: Mindestens acht Tote waren Deutsche, wie am Abend AuÃŸenminister Frank-Walter Steinmeier in Berlin bestÃ¤tigte.&lt;/p&gt;&lt;div 
+    class="widget picture articlePictureZoom    inline-element-150940809  alpha omega  grid_7 prefix_1 alpha omega disable-generate-links"
+    id="box0"&gt;
+
+&lt;div class="tsrImg"&gt;
+    &lt;a name="_art_picture_" href="http://www.welt.de/politik/ausland/article150940809/DWO-AP-Istanbul-Anschlag-jpg.html"&gt;&lt;img src="http://img.welt.de/img/ausland/crop150940809/3549736945-ci3x2l-w540/DWO-AP-Istanbul-Anschlag.jpg"
+                             alt="Das bei Touristen beliebte Viertel in Istanbul mit vielen SehenswÃ¼rdigkeiten"
+                             title="Das bei Touristen beliebte Viertel in Istanbul mit vielen SehenswÃ¼rdigkeiten"
+                             width="540"
+                             height="360"
+                             /&gt;&lt;/a&gt;&lt;a name="_art_picture_" href="http://www.welt.de/politik/ausland/article150940809/DWO-AP-Istanbul-Anschlag-jpg.html" class="overlay zoomout"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;span class="credit"&gt;Foto: Infografik Die Welt&lt;/span&gt;
+    &lt;span class="caption"&gt;Das bei Touristen beliebte Viertel in Istanbul mit vielen SehenswÃ¼rdigkeiten&lt;/span&gt;
+    &lt;script type="text/javascript"&gt;
+    lightboxTracking['150940809'] = new TrackingCounterData('','01103_polART','picture','read-news','Einzelbild: Politik: Ausland: 150940809','Politik','Ausland','','Einzelbild: Politik: Ausland: 150940809: Explosion mitten in der Gruppe deutscher Touristen',{"11":"won","22":"video_endrel_null_left;picture_teaserrel_null_left;picture_part-of_null_center;picture_part-of_null_left;video_part-of_null_left;citation_part-of_null_center;news_attachedarticlesrel;news_attachedarticlesrel;opinion_attachedarticlesrel_null_left;news_attachedarticlesrel;video_openerrel_xxl_left","24":"'+window.location.href+'","1":"20160112","2":"Einzelbild","3":"Artikel: Politik: Ausland: 150940812: Explosion mitten in der Gruppe deutscher Touristen","4":"Politik","5":"Ausland","6":"","7":"Moscheen;Erdogan, Recep Tayyip;Touristen;Istanbul;Yuecel-Deniz;TÃ¼rkei;Terroristen;Terroristenfahndung;Islamischer Staat;TerroranschlÃ¤ge","8":"01103_polART","9":"10034/(politik_story)","21":"8078"},'150940809','picture','5,ece_frontpage\/219,politik\/221,ausland','lightbox');
+    &lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
+        new asms.general.ece.widgets.inlineZoom(asms.jQuery()).init(
+                {
+                    ajaxUrl: 'http://www.welt.de/politik/ausland/article150940809/DWO-AP-Istanbul-Anschlag-jpg.html?config=zoom',
+                    elementId: '150940809',
+                    imageTitle: 'Das\x20bei\x20Touristen\x20beliebte\x20Viertel\x20in\x20Istanbul\x20mit\x20vielen\x20Sehensw\xFCrdigkeiten',
+                    css: {
+                        classes: {
+                            inlineElementContainerSelector: '.inline-element-150940809'
+                        }
+                    }
+                }).registerSmallTeaserContainerClickHandler();
+    &lt;/script&gt;
+&lt;p id="p2" class="prefix_1 text artContent"&gt;&lt;/p&gt;&lt;p id="p3" class="prefix_1 text artContent"&gt;Eine offizielle BestÃ¤tigung der Bundesregierung gab es bis zum Nachmittag zunÃ¤chst nicht. Allerdings sagte Bundeskanzlerin &lt;a name="_art_link_" href="http://www.welt.de/themen/angela-merkel" title=""&gt;Angela Merkel&lt;/a&gt; (CDU) in Berlin: "Wir sind in groÃŸer Sorge, dass auch deutsche StaatsbÃ¼rger unter den Opfern und Verletzten sein kÃ¶nnten und wahrscheinlich sein werden." Die Betroffenen seien Mitglieder einer deutschen Reisegruppe. Kurz nach dem Anschlag verÃ¶ffentlichte das AuswÃ¤rtige Amt einen Reisehinweis: Reisenden in Istanbul werde dringend dazu geraten, "Menschenansammlungen auch auf Ã¶ffentlichen PlÃ¤tzen und vor touristischen Attraktionen vorlÃ¤ufig zu meiden".&lt;/p&gt;&lt;p id="p4" class="prefix_1 text artContent"&gt;Der Sultan-Ahmet-Platz liegt im Herzen der historischen Altstadt von Istanbul. Zu byzantinischer Zeit war hier das Hippodrom, heute wird der Platz auf der einen Seite von der berÃ¼hmten Sultan-Ahmet-Moschee begrenzt und auf der anderen von der Hagia Sophia, einst die grÃ¶ÃŸte Kirche der Christenheit, spÃ¤ter als Moschee genutzt und dann zu einem Museum umgewandelt. Ganz in der NÃ¤he liegen weitere kulturhistorische Attraktionen wie die Cisterna Basilica und der Topkapi-Palast; zu den SehenswÃ¼rdigkeiten auf dem Platz selbst gehÃ¶ren der Deutsche Brunnen â€“ ein Geschenk des deutschen Kaisers Wilhelm II. an den osmanischen Sultan Abdulhamid II. â€“ und ein 3500 Jahre alter Obelisk, den einst der byzantinische Kaiser Theodosius I. aus dem altÃ¤gyptischen Luxor mitbringen lieÃŸ. Und genau dort, zwischen Brunnen und Obelisk, jagte sich der SelbstmordattentÃ¤ter in die Luft.&lt;/p&gt;&lt;div 
+    class="widget picture storyBodyLeftZoom    inline-element-150940811  alpha omega  grid_4 alpha omega disable-generate-links"
+    id="box1"&gt;
+
+&lt;div class="tsrImg"&gt;
+    &lt;a name="_art_picture_" href="http://www.welt.de/politik/ausland/article150940811/Ten-dead-after-explosion-in-central-Istanbul-terror-suspected-4.html"&gt;&lt;img src="http://img.welt.de/img/ausland/crop150940811/889660689-ci3x2s-w300-ai2x3l/Ten-dead-after-explosion-in-central-Istanbul-terror-suspected-4-.jpg"
+                             alt="Der AttentÃ¤ter sprengte sich zwischen Obelisk und den Deutschen Brunnen in die Luft"
+                             title="Der AttentÃ¤ter sprengte sich zwischen Obelisk und den Deutschen Brunnen in die Luft"
+                             width="300"
+                             height="200"
+                             /&gt;&lt;/a&gt;&lt;a name="_art_picture_" href="http://www.welt.de/politik/ausland/article150940811/Ten-dead-after-explosion-in-central-Istanbul-terror-suspected-4.html" class="overlay zoomout"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;span class="credit"&gt;Foto: dpa&lt;/span&gt;
+    &lt;span class="caption"&gt;Der AttentÃ¤ter sprengte sich zwischen Obelisk und den Deutschen Brunnen in die Luft&lt;/span&gt;
+    &lt;script type="text/javascript"&gt;
+    lightboxTracking['150940811'] = new TrackingCounterData('','01103_polART','picture','read-news','Einzelbild: Politik: Ausland: 150940811','Politik','Ausland','','Einzelbild: Politik: Ausland: 150940811: Explosion mitten in der Gruppe deutscher Touristen',{"11":"won","22":"video_endrel_null_left;picture_teaserrel_null_left;picture_part-of_null_center;picture_part-of_null_left;video_part-of_null_left;citation_part-of_null_center;news_attachedarticlesrel;news_attachedarticlesrel;opinion_attachedarticlesrel_null_left;news_attachedarticlesrel;video_openerrel_xxl_left","24":"'+window.location.href+'","1":"20160112","2":"Einzelbild","3":"Artikel: Politik: Ausland: 150940812: Explosion mitten in der Gruppe deutscher Touristen","4":"Politik","5":"Ausland","6":"","7":"Moscheen;Erdogan, Recep Tayyip;Touristen;Istanbul;Yuecel-Deniz;TÃ¼rkei;Terroristen;Terroristenfahndung;Islamischer Staat;TerroranschlÃ¤ge","8":"01103_polART","9":"10034/(politik_story)","21":"8078"},'150940811','picture','5,ece_frontpage\/219,politik\/221,ausland','lightbox');
+    &lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
+        new asms.general.ece.widgets.inlineZoom(asms.jQuery()).init(
+                {
+                    ajaxUrl: 'http://www.welt.de/politik/ausland/article150940811/Ten-dead-after-explosion-in-central-Istanbul-terror-suspected-4.html?config=zoom',
+                    elementId: '150940811',
+                    imageTitle: 'Der\x20Attent\xE4ter\x20sprengte\x20sich\x20zwischen\x20Obelisk\x20und\x20den\x20Deutschen\x20Brunnen\x20in\x20die\x20Luft',
+                    css: {
+                        classes: {
+                            inlineElementContainerSelector: '.inline-element-150940811'
+                        }
+                    }
+                }).registerSmallTeaserContainerClickHandler();
+    &lt;/script&gt;
+&lt;p id="p5" class="prefix_1 text artContent"&gt;&lt;/p&gt;&lt;p id="p6" class="prefix_1 text artContent"&gt;Es muss sich um eine schwere Explosion gehandelt haben. GeschÃ¤ftsleute auf der anderen StraÃŸenseite, deren LÃ¤den mehrere Hundert Meter vom Ort des Geschehens entfernt liegen, berichteten, dass ihre GebÃ¤ude erschÃ¼ttert worden seien. "Ich dachte, das GebÃ¤ude stÃ¼rzt ein", sagte ein Restaurantbetreiber. Einige Gewerbetreibende erzÃ¤hlten, dass der AttentÃ¤ter in die Gruppe hineingelaufen sei â€“ wenn es denn stimmt, wÃ¤re dies womÃ¶glich ein Indiz dafÃ¼r, dass der TÃ¤ter gezielt nach Deutschen gesucht haben kÃ¶nnte. Aber mit eigenen Augen hatte dies keiner beobachtet; auch die deutschen diplomatischen Vertretungen in der TÃ¼rkei konnten diesen Bericht nicht bestÃ¤tigen.&lt;/p&gt;&lt;p id="p7" class="prefix_1 text artContent"&gt;Sicher hingegen sind zwei andere Dinge, die HÃ¤ndler rund um den Sultan-Ahmet-Platz sagen: Es hÃ¤tte noch viel schlimmer kommen kÃ¶nnen; auf dem Platz seien um diese Zeit relativ wenige Menschen unterwegs gewesen. Und: "Das wird dem Tourismus den Rest geben", wie es ein TeppichhÃ¤ndler ausdrÃ¼ckte. "Wir hatten im letzten Jahr sowieso weniger Touristen; das WeihnachtsgeschÃ¤ft ist ausgefallen, jetzt wird Ostern auch ausfallen." Seine Prognose: Touristen werden keine mehr nach Istanbul kommen â€“ auÃŸer aus den Golfmonarchien.&lt;/p&gt;&lt;div 
+    class="widget as_videoplayer storyBodyLeftZoom    inline-element-150900094  alpha omega  grid_4 alpha omega"
+    id="box2"&gt;
+
+&lt;div class="tsrImg"&gt;
+            &lt;a href="http://www.welt.de/politik/article150900094/Irgendeiner-versucht-hier-Touristen-umzubringen.html"  name="_art_video_"&gt;&lt;img src="http://img.welt.de/img/politik/crop150900921/4719272971-ci3x2l-w300/Istanbul.jpg"
+                             alt="Thomas Seibert berichtet telefonisch aus Istanbul."
+                             title="Thomas Seibert berichtet telefonisch aus Istanbul."
+                             width="300"
+                             height="200"
+                             /&gt;&lt;/a&gt;
+&lt;a href="http://www.welt.de/politik/article150900094/Irgendeiner-versucht-hier-Touristen-umzubringen.html" class="overlay play" name="_art_video_"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+        &lt;div class="topLine"&gt;
+    &lt;span&gt;Explosion in Istanbul&lt;/span&gt;&lt;/div&gt;
+&lt;span class="headline"&gt;&lt;a href="http://www.welt.de/politik/article150900094/Irgendeiner-versucht-hier-Touristen-umzubringen.html"  name="_art_video_"&gt;&amp;#034;Irgendeiner versucht hier, Touristen umzubringen&amp;#034;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;script&gt;
+        new asms.general.ece.widgets.inlineZoom(asms.jQuery()).init(
+                {
+                    ajaxUrl: 'http://www.welt.de/politik/article150900094/Irgendeiner-versucht-hier-Touristen-umzubringen.html?config=zoom',
+                    elementId: '150900094',
+                    closeButtonPauseVideo: true,
+                    css: {
+                        classes: {
+                            inlineElementContainerSelector: '.inline-element-150900094'
+                        }
+                    }
+                }).registerSmallTeaserContainerClickHandler();
+    &lt;/script&gt;
+&lt;p id="p8" class="prefix_1 text artContent"&gt;&lt;/p&gt;&lt;p id="p9" class="prefix_1 text artContent"&gt;Von dort stammt offenbar auch der AttentÃ¤ter. TÃ¼rkische Medien berichteten, dass es sich um einen in Saudi-Arabien geborenen syrischen StaatsbÃ¼rger handelte. Bereits am Nachmittag kursierte ein Name. Zuvor hatte der stellvertretende Regierungschef Numan Kurtulmus erklÃ¤rt, dass es sich bei dem AttentÃ¤ter um einen Syrer gehandelt habe. Am spÃ¤ten Nachmittag sagte MinisterprÃ¤sident Ahmet Davutoglu, der TÃ¤ter sei Mitglied der Terrormiliz &lt;a name="_art_link_" href="http://www.welt.de/themen/islamischer-staat" title=""&gt;Islamischer Staat&lt;/a&gt; (IS).&lt;/p&gt;&lt;p id="p10" class="prefix_1 text artContent"&gt;Noch vor dem Regierungschef meldete sich ein anderer zu Wort: StaatsprÃ¤sident &lt;a name="_art_link_" href="http://www.welt.de/themen/recep-tayyip-erdogan" title=""&gt;Recep Tayyip Erdogan&lt;/a&gt;. Mit ein paar wenigen Worten verurteilte er den Anschlag vom Sultan-Ahmet-Platz, um auf etwas ganz anderes zu sprechen zu kommen: einem von mehr als 1110 tÃ¼rkischen Wissenschaftlerinnen und Wissenschaftlern unterzeichneten Aufruf, dem sich auch einige internationale Professoren wie Noam Chomsky, Slavoj Zizek und Judith Butler angeschlossen haben.&lt;/p&gt;&lt;div 
+    class="widget citation default     alpha omega  grid_7 prefix_1"
+    id="box3"&gt;
+
+&lt;div class="citation-body clearfix"&gt;
+				&lt;div class="citation-start"&gt;&lt;img src="/skins/welt/gfx/1/quotationmark_start.png"&gt;&lt;/div&gt;
+				&lt;blockquote &gt;
+			    	Einen Aufruf zum Frieden in Zusammenhang mit einem Terroranschlag zu bringen, ist eine beliebte Strategie autoritÃ¤rer Regime, um Kritiker zu diskreditieren&lt;/blockquote&gt;
+				&lt;div class="citation-end" &gt;&lt;img src="/skins/welt/gfx/1/quotationmark_end.png"&gt;&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="citation-source-wrapper"&gt;
+				&lt;div class="citation-source"&gt;Initiatorin des Friedensaufrufs&lt;/div&gt;
+			    	&lt;div class="citation-sourcerole"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+
+            &lt;div class="citation-social-wrapper"&gt;
+                &lt;ul&gt;
+                    &lt;li class="citation-social-element"&gt;
+                        &lt;a href="#"
+                            onclick="var FBvars = {
+                            fbAppId: '53620771449',
+                            fbShareUrl: 'http://www.welt.de/politik/ausland/article150940812/Explosion-mitten-in-der-Gruppe-deutscher-Touristen.html',
+                            fbShareImg: 'http://www.welt.de/skins/welt/gfx/quotationmark_start.png',
+                            fbShareName: '&amp;bdquo;Einen\x20Aufruf\x20zum\x20Frieden\x20in\x20Zusammenhang\x20mit\x20einem\x20Terroranschlag\x20zu\x20bringen,\x20ist\x20eine\x20beliebte\x20Strategie\x20autorit\xE4rer\x20Regime,\x20um\x20Kritiker\x20zu\x20diskreditieren&amp;ldquo;',
+                            fbShareDesc: 'Initiatorin\x20des\x20Friedensaufrufs',
+                            redirectURL: 'http://www.welt.de/politik/article150935242/zitat-tuerkei.html'
+                            };
+                            asms.general.ece.widgets.socialMedia().openFacebookSharePopup(FBvars); return false;"&gt;
+                            &lt;i class="icon-facebook"&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="citation-social-element"&gt;
+                        &lt;a href="https://twitter.com/share?url=http%3A%2F%2Fwww.welt.de%2Fpolitik%2Fausland%2Farticle150940812%2FExplosion-mitten-in-der-Gruppe-deutscher-Touristen.html&amp;amp;text=Einen+Aufruf+zum+Frieden+in+Zusammenhang+mit+einem+Terroranschlag+zu+bringen%2C+ist+eine+beliebte+Strategie+autorit%E4rer+Regime%2C+um+Kritiker+zu+diskreditieren&amp;amp;via=welt"
+                           name="_share_bottom_twitter_"
+                           onclick="window.open(this.href,'twitter-share-dialog','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=600,height=480');return false;"&gt;
+                            &lt;i class="icon-twitter"&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+		&lt;/div&gt;
+&lt;p id="p11" class="prefix_1 text artContent"&gt;&lt;/p&gt;&lt;p id="p12" class="prefix_1 text artContent"&gt;In diesem am Montag verÃ¶ffentlichten Text kritisieren die Unterzeichner das Vorgehen der tÃ¼rkischen SicherheitskrÃ¤fte in den kurdischen Gebieten gegen die ZivilbevÃ¶lkerung und rufen die Regierung dazu auf, den Dialog mit der verbotenen Kurdischen Arbeiterpartei (PKK) wieder aufzunehmen. Hintergrund: Der seit Sommer schwelende Konflikt zwischen der PKK und dem Staat ist in den vergangenen Wochen eskaliert; in mehreren kurdischen StÃ¤dten liefern sich junge Militante der PKK mit SicherheitskrÃ¤ften bewaffnete Auseinandersetzungen; die kurdische Opposition wirft der Regierung vor, keine RÃ¼cksicht auf die ZivilbevÃ¶lkerung zu nehmen.&lt;/p&gt;&lt;p id="p13" class="prefix_1 text artContent"&gt;Gegen diesen Krieg in den StÃ¤dten wollten sich die Wissenschaftler einsetzen. FÃ¼r Erdogan offenbar das wichtigste Thema des Tages â€“ und ein Affront. Diese "sogenannten Akademiker" sollten ihre Grenzen kennen, sagte Erdogan auf einer Pressekonferenz; die TÃ¼rkei werde im Kampf gegen den Terrorismus die "sogenannten Akademiker" nicht um Erlaubnis bitten; das seien "Typen, deren Namen einheimisch, aber deren Geist auslÃ¤ndisch" sei.&lt;/p&gt;&lt;p id="p14" class="prefix_1 text artContent"&gt;&lt;h2 class="prefix_1"&gt;Bisher kein Bekenntnis des IS&lt;/h2&gt;&lt;/p&gt;&lt;p id="p15" class="prefix_1 text artContent"&gt;"Einen Aufruf zum Frieden in Zusammenhang mit einem Terroranschlag zu bringen ist eine beliebte Strategie autoritÃ¤rer Regime, um Kritiker zu diskreditieren", sagte eine der Initiatorinnen des Friedensaufrufs im GesprÃ¤ch mit der "Welt". Allerdings wollte sie nicht namentlich genannt werden. "Wir werden auf diese Anschuldigungen in einer gemeinsamen ErklÃ¤rung antworten", sagte sie. "Aber auf uns lastet ein so groÃŸer Druck, dass es im Moment nicht ratsam wÃ¤re, als Einzelne in den Vordergrund zu treten."&lt;/p&gt;&lt;p id="p16" class="prefix_1 text artContent"&gt;Der IS hatte sich bislang nicht zum Anschlag auf dem Sultan-Ahmet-Platz bekannt. Allerdings hat der IS sich entgegen seiner sonstigen Gewohnheit, sich zu AnschlÃ¤gen in aller Welt zu bekennen, auch nicht zu den TerroranschlÃ¤gen vom Juli in Suruc und im Oktober in Ankara bekannt, bei denen zusammen 134 Menschen getÃ¶tet worden waren. Die Opfer beider AnschlÃ¤ge waren kurdische, alevitische und linke Oppositionelle. Der Anschlag von Istanbul war der erste auf Touristen in der jÃ¼ngeren tÃ¼rkischen Geschichte.</name></Datensatz><Datensatz><name>&lt;p&gt;&lt;a href="' + article.url + '" data-source="leadText" target="_blank"&gt;' + article.intro + ' &lt;em&gt;' + rrt.liveTeaser.callToAction + 'â€¦&lt;/em&gt;&lt;/a&gt;</name></Datensatz></Referenzdaten>

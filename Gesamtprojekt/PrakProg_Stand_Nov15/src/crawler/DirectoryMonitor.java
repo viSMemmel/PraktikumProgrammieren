@@ -31,7 +31,6 @@ public class DirectoryMonitor extends Observable implements Runnable {
 		stop = true;
 	}
 
-	@Override
 	public void run() {
 		try {
 			File[] files;

@@ -421,7 +421,6 @@ public class RSSThread extends Thread implements Runnable, Observer {
 	 * RSSSubscriptions are updated and/or new objects of these classes are
 	 * generated.
 	 */
-	@Override
 	public void update(Observable arg0, Object arg1) {
 		synchronized (tasks) {
 			synchronized (subscriptions) {

@@ -9,9 +9,10 @@ public class TextDurchsucherWebseite {
 
 	private String Ausgabe_in_Textarea = " ";
 
-	public TextDurchsucherWebseite(List<String> list, String path) {
+	public TextDurchsucherWebseite(List<String> list, String path, List <String> deutsch, String link) {
 
 		List<String> liste = list;
+		List <String> deutsche = deutsch;
 		String text = "";
 
 		ParserFuerWebtextXML p = new ParserFuerWebtextXML();
@@ -26,9 +27,9 @@ public class TextDurchsucherWebseite {
 		Sucharray = text.split(" ");
 
 		int counter = 0;
-		ArrayList<Integer> fundliste = new ArrayList<>();
+		ArrayList<Integer> fundliste = new ArrayList<Integer>();
 
-		Ausgabe_in_Textarea += "Folgende Webseite wurde durchsucht: " + path;
+		Ausgabe_in_Textarea += "Folgende Webseite wurde durchsucht: " + link;
 		Ausgabe_in_Textarea += "\n";
 		Ausgabe_in_Textarea += "\n";
 
@@ -40,8 +41,11 @@ public class TextDurchsucherWebseite {
 					counter++;
 					// System.out.println(counter);
 
-					Ausgabe_in_Textarea += "Es wurde das Wort: " + liste.get(i) + " gefunden an " + j
-							+ ". Stelle gefunden \n ";
+					Ausgabe_in_Textarea += "Es wurde das Wort: " ;
+					
+					Ausgabe_in_Textarea += liste.get(i) + " gefunden (deutsche Entsprechung: " + deutsche.get(i)+")";
+							
+					Ausgabe_in_Textarea += "\nAn " +j+ ". Stelle gefunden \n ";
 					Ausgabe_in_Textarea += "\n";
 					System.out.println("Das Wort: " + liste.get(i) + " wurde an " + j + ". Stelle gefunden \n");
 

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/xerces-2.9.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/nekohtml-1.9.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/lucene-queryparser-4.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/lucene-queries-4.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/lucene-core-4.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/lucene-analyzers-common-4.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/jdom-2.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/jdom-2.0.6-junit.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/jdom-2.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/jdom-2.0.6-contrib.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/jdom-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/GitHub/PraktikumProgrammieren/Jars/boilerpipe-1.2.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/boilerpipe-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-analyzers-common-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-core-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-queries-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/lucene-queryparser-4.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/nekohtml-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christoph/git/PraktikumProgrammieren/Jars/xerces-2.9.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

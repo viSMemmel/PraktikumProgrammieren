@@ -1,4 +1,4 @@
-package DokumenteSucheforGUI;
+package dokumenteSucheforGUI;
 
 import java.util.ArrayList;
 import java.util.List;

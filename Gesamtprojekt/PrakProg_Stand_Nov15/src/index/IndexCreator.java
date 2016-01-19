@@ -1,4 +1,4 @@
-package Index;
+package index;
 /*
  * Quelle: http://www.avajava.com/tutorials/lessons/how-do-i-use-lucene-to-index-and-search-text-files.html
  */

@@ -1,4 +1,4 @@
-package DokumenteSucheforGUI;
+package dokumenteSucheforGUI;
 
 //auskommentierte zeile zur Verbesserung der Ausgabe: 102, 117, 107
 // FileReaderApp: ausgabe  auskommentiert
@@ -16,9 +16,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-import Index.DeleteDir;
-import Index.IndexCreator;
-
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
@@ -35,8 +32,12 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.NIOFSDirectory;
 import org.apache.lucene.util.Version;
 
+import index.DeleteDir;
+import index.IndexCreator;
+
 public class Search {
 	private String[] SearchSubjectAr;
+	private String[] Deutsch;
 	private String FilesToIndex;
 	private String Feld = "Inhalt";
 	private String Title = "NUR_FUER_INTERNE_ZWECKE_NAME_VOELLIG_BUMBS";
@@ -45,8 +46,9 @@ public class Search {
 	private String fundstelle;
 	private List<Integer> FundListe;
 
-	public Search(String[] searchSubjectAr, String filesToIndex) {
+	public Search(String[] searchSubjectAr, String filesToIndex, String [] deutsch) {
 		super();
+		Deutsch = deutsch; 
 		SearchSubjectAr = searchSubjectAr;
 		FilesToIndex = filesToIndex;
 	}
@@ -94,6 +96,7 @@ public class Search {
 																// kommen
 
 				String SearchSubject = SearchSubjectAr[n];
+				String deutschObject = Deutsch[n];
 
 				Query query = qp.parse(SearchSubject); //
 
@@ -147,7 +150,8 @@ public class Search {
 
 						Ausgabe_in_Textarea += "\nEs wurde folgendes Wort gefunden: " + SearchSubject;
 
-						Ausgabe_in_Textarea += " ("+ FundListe.size()+ "  Treffer) "   + "\n";
+						Ausgabe_in_Textarea += " ("+ FundListe.size()+ "  Treffer) "   + " (deutsche Entsprechung: " + deutschObject+ ")\n";
+						
 						for (int x = 0; x < FundListe.size(); x++) {
 							// fundstelleZahl=FundListe.get(x);
 							Ausgabe_in_Textarea += " \n \t Das gesuchte Wort " + SearchSubject + " befinden sich  an "

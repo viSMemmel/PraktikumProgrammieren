@@ -1,4 +1,4 @@
-package DokumenteSucheforGUI;
+package dokumenteSucheforGUI;
 // Zeile 51!!!
 import java.io.IOException;
 import java.io.Reader;

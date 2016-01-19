@@ -413,7 +413,7 @@
 		<Deutsch>Jahreszeit</Deutsch>
 	</Datensatz>
 	<Datensatz>
-		<Englisch>self-made man</Englisch>
+		<Englisch>self-made</Englisch>
 		<Deutsch>Unternehmer</Deutsch>
 	</Datensatz>
 	<Datensatz>
@@ -2375,63 +2375,60 @@
 	<Datensatz>
 		<Englisch>Crew</Englisch>
 		<Deutsch>Besatzung</Deutsch>
-	</Datensatz>
-		<Englisch>crispy</Englisch>
-		<Deutsch>knusprig</Deutsch>
-	</Datensatz>
-	</Datensatz>
+	</Datensatz>	
+	<Datensatz>
 		<Englisch>crossbike</Englisch>
 		<Deutsch>Querfeldeinrad</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Crowdfunding</Englisch>
 		<Deutsch>Schwarmfinanzierung</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>cruise missile</Englisch>
 		<Deutsch>Marschflugkörper</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>crushed ice</Englisch>
 		<Deutsch>Stoßeis</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Curling</Englisch>
 		<Deutsch>Eisstockschießen</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>cursor</Englisch>
 		<Deutsch>Marke, Schreibmarke</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>customer care</Englisch>
 		<Deutsch>Kundenbetreuung</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>custromer relationship</Englisch>
 		<Deutsch>Systematische Kundenbetreuung</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Customizing</Englisch>
 		<Deutsch>gemäß Kundenwunsch anpassen</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Cutter</Englisch>
 		<Deutsch>Schneidmesser</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>cut and paste</Englisch>
 		<Deutsch>ausschneiden &amp; einfügen</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Cyperspace</Englisch>
 		<Deutsch>Simraum, virtuelle Netzwelt</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Cyborg</Englisch>
 		<Deutsch>Menschmaschine</Deutsch>
 	</Datensatz>
-	</Datensatz>
+	<Datensatz>
 		<Englisch>Cybercrime</Englisch>
 		<Deutsch>Netzkriminalität</Deutsch>
 	</Datensatz>
@@ -2839,5 +2836,4 @@
 		<Englisch>disk</Englisch>
 		<Deutsch>Lichtscheibe</Deutsch>
 	</Datensatz>
-
 </Referenzdaten>

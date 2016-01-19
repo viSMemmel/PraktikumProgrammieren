@@ -1,4 +1,4 @@
-package DokumenteSucheforGUI;
+package dokumenteSucheforGUI;
 
 import java.io.IOException;
 

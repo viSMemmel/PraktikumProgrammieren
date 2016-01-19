@@ -34,24 +34,26 @@ public class Parser {
 		return retAr;
 
 	}
+
 	@SuppressWarnings("finally")
 	private List<String> read(int n) {
 		List<String> retAr = new ArrayList<String>();
 		try {
-		/*	List<String> KinderIntern = new ArrayList<String>();
-			 KinderIntern = this.getKids();
-			 
+			/*
+			 * List<String> KinderIntern = new ArrayList<String>(); KinderIntern
+			 * = this.getKids();
+			 * 
+			 * 
+			 * ;
+			 */
 
-		;*/
-			
-		//	Element r = XMLDOC.getRootElement();
-			List<String> Kinder = getKids();  // evtl. kürzer this.getKids();
-			
-			
-			System.out.println("Kind :      "+Kinder.get(0)+ "    "+Kinder.get(1) +Kinder.size());
+			// Element r = XMLDOC.getRootElement();
+			List<String> Kinder = getKids(); // evtl. kürzer this.getKids();
+
+			//System.out.println("Kind :      " + Kinder.get(0) + "    " + Kinder.get(1) + Kinder.size());
 			org.jdom2.Document jDoc = XMLDOC;
-	          org.jdom2.Element r = jDoc.getRootElement();
-		
+			org.jdom2.Element r = jDoc.getRootElement();
+
 			IteratorIterable<Element> it = r.getDescendants(Filters.element());
 			while (it.hasNext()) {
 
@@ -72,12 +74,11 @@ public class Parser {
 				}
 
 				catch (Exception e) {
-e.printStackTrace();
+					e.printStackTrace();
 					retAr.add("geht net" + e.getMessage());
 				}
 			}
-		}
-		catch (Exception ee) {
+		} catch (Exception ee) {
 
 			retAr.add("io excption " + ee.getMessage());
 
@@ -85,6 +86,7 @@ e.printStackTrace();
 			return retAr;
 		}
 	}
+
 	List<Element> eListe = new ArrayList<Element>();
 	String XmlPfadString;
 
@@ -99,19 +101,25 @@ e.printStackTrace();
 
 		return KinderElemente(Kinder);
 	}
+
 	/*
 	 * Achtung funktioniert nur wenn XML balancierter Baum bzw. erster Ast am
 	 * tiefesten
 	 * 
 	 */
 	private List<String> KinderElemente(List<Element> Kinder) {
-		List<String> Ergebnis = new ArrayList<String>();  // Änderung 23.12.2015
+		List<String> Ergebnis = new ArrayList<String>(); // Änderung 23.12.2015
 		Iterator<Element> iter = Kinder.iterator();
 
 		while (iter.hasNext()) {
 			Element kind = iter.next();
-		//	KinderIntern.add(kind);
-			if (Ergebnis.indexOf(kind.getName()) == -1) { // Ergebnis.indexOf(kind.getName()) ist g.d. -1 wenn kein gleichnamigesElement in der List vorhanden ist:
+			// KinderIntern.add(kind);
+			if (Ergebnis.indexOf(kind.getName()) == -1) { // Ergebnis.indexOf(kind.getName())
+															// ist g.d. -1 wenn
+															// kein
+															// gleichnamigesElement
+															// in der List
+															// vorhanden ist:
 				Ergebnis.add(kind.getName());
 				if (kind.getChildren() != null) {
 
@@ -148,12 +156,12 @@ e.printStackTrace();
 		}
 	}
 
+	
 	public String[] getXMLElements() {
 		String[] XMLElementArray = null;
 		XMLDOC.getDescendants();
 		return XMLElementArray;
 
 	}
-
 
 }

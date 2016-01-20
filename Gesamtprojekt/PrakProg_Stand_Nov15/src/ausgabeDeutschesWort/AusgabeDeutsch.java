@@ -50,22 +50,21 @@ public class AusgabeDeutsch {
 
 				deutsch.add(eElement.getElementsByTagName("Deutsch").item(0).getTextContent());
 				englisch.add(eElement.getElementsByTagName("Englisch").item(0).getTextContent());
-				//System.out.println("deutsch: " + deutsch.get(temp).toString());	
 			}
 		}
 
 	}
 	public static void main(String[] args) throws ParserConfigurationException {
 
-		AusgabeDeutsch t = new AusgabeDeutsch();
-		t.readXml();
-		for (int i = 0; i < englisch.size(); i++) {
-			System.out.println("englisch: "+ englisch.get(i));
-			System.out.println("deutsch: "+ deutsch.get(i));
-		}
-		
-		System.out.println(englisch.size());
-		System.out.println(deutsch.size());
+//		AusgabeDeutsch t = new AusgabeDeutsch();
+//		t.readXml();
+//		for (int i = 0; i < englisch.size(); i++) {
+//			System.out.println("englisch: "+ englisch.get(i));
+//			System.out.println("deutsch: "+ deutsch.get(i));
+//		}
+//		
+//		System.out.println(englisch.size());
+//		System.out.println(deutsch.size());
 	}
 	public static ArrayList<String> getEnglisch() {
 		return englisch;

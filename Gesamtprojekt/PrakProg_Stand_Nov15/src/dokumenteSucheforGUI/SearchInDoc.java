@@ -48,7 +48,7 @@ public class SearchInDoc {
 		while (iter.hasNext()) {
 			IndexableField currentField = (IndexableField) iter.next();
 
-			System.out.println("----------Feldname: "+FieldName + " currentField " +currentField.name() );
+			//System.out.println("----------Feldname: "+FieldName + " currentField " +currentField.name() );
 		//	if ((currentField.name()).equals(FieldName)) {
 			
 			//if ((currentField.name()).equals("Inhalt")) { Lösung durchsuche alle Felder
@@ -72,11 +72,11 @@ public class SearchInDoc {
 					while (TStream.incrementToken()) {
 		
 						String term = termAttribute.toString();
-						System.out.print("- " + term);
+						//System.out.print("- " + term);
 						Fundstelle++;
 				
 						if(term.toLowerCase().equals(searchSubject.toLowerCase())){
-							System.out.println("counter ");
+							//System.out.println("counter ");
 							counter ++;
 							FundListe.add(Fundstelle);
 							

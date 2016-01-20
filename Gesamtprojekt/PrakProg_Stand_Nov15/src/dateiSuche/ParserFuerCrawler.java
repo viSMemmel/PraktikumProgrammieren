@@ -23,11 +23,6 @@ public class ParserFuerCrawler {
 	private String artikelString = "";
 	private String gesamterText = "";
 
-	// public static void main(String[] args) throws
-	// ParserConfigurationException {
-	// ParserFuerCrawler t = new ParserFuerCrawler();
-	// t.readXml();
-	// }
 
 	public void readXml(String path) throws ParserConfigurationException {
 
@@ -38,10 +33,10 @@ public class ParserFuerCrawler {
 		try {
 			doc = dBuilder.parse(fXmlFile);
 		} catch (SAXException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
@@ -61,12 +56,6 @@ public class ParserFuerCrawler {
 				artikel.add(eElement.getElementsByTagName("ExtractedText").item(0).getTextContent());
 				titelString = title.get(temp).toString();
 				artikelString = artikel.get(temp).toString();
-
-				// System.out.println("Titel: " + title.get(temp).toString());
-				// System.out.println("Text des Artikels: " +
-				// artikel.get(temp).toString());
-				System.out.println(titelString);
-				System.out.println(artikelString);
 
 			}
 		}

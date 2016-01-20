@@ -21,7 +21,7 @@ public class ParserApp {
 		
 		ListIterator<String> ListenIterator = test.listIterator();
 		while (ListenIterator.hasNext()) {
-			System.out.println(ListenIterator.next());
+			//System.out.println(ListenIterator.next());
 		}
 		System.out.println("\n ende \n");
 	

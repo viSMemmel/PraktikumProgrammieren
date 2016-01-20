@@ -39,7 +39,7 @@ public class DeleteDir {
 				}
 			}
 		}
-		System.out.println("gelöscht du nob");
+		//System.out.println("gelöscht du nob");
 		return (path.delete());
 	}
 }

@@ -62,7 +62,7 @@ public class ParserFuerWebtextXML {
 				webtext += webtextListe.get(temp).toString();
 			}
 		}
-		System.out.println(webtext);
+		//System.out.println(webtext);
 	}
 
 	public String getWebtext() {

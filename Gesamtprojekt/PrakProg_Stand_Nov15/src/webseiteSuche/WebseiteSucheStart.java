@@ -38,10 +38,10 @@ public class WebseiteSucheStart {
 			String urlText = link;
 			System.out.println(link);
 			// String pText = "";
-			link = "http://www.welt.de/politik/ausland/article150940812/Hat-der-Attentaeter-gezielt-nach-Deutschen-gesucht.html";
-			links = link;
+			//link = "http://www.welt.de/politik/ausland/article150940812/Hat-der-Attentaeter-gezielt-nach-Deutschen-gesucht.html";
+			//links = link;
 
-			URL url = new URL(links);
+			URL url = new URL(link);
 
 			Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
 			while (scanner.hasNextLine()) {
@@ -85,14 +85,14 @@ public class WebseiteSucheStart {
 				}
 			}
 
-			System.out.println("Anzahl Starttags: " + occurencesStart);
+			//System.out.println("Anzahl Starttags: " + occurencesStart);
 			for (int i = 0; i < startStelle.size(); i++) {
-				System.out.println("Stelle: " + startStelle.get(i));
+				//System.out.println("Stelle: " + startStelle.get(i));
 			}
 
-			System.out.println("Anzahl an Endtags: " + occurencesStop);
+			//System.out.println("Anzahl an Endtags: " + occurencesStop);
 			for (int i = 0; i < stopStelle.size(); i++) {
-				System.out.println("Stelle: " + stopStelle.get(i));
+				//System.out.println("Stelle: " + stopStelle.get(i));
 			}
 
 			List<String> pTagText = new ArrayList<String>();
@@ -113,7 +113,7 @@ public class WebseiteSucheStart {
 			}
 
 			for (int i = 0; i < pTagText.size(); i++) {
-				System.out.println(pTagText.get(i));
+				//System.out.println(pTagText.get(i));
 			}
 
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
@@ -126,8 +126,8 @@ public class WebseiteSucheStart {
 				Element letter = doc.createElement("Datensatz");
 				rootElement.appendChild(letter);
 				Element name = doc.createElement("name");
-				System.out.println("Tag1: " + i);
-				System.out.println(pTagText.get(i));
+				//System.out.println("Tag1: " + i);
+				//System.out.println(pTagText.get(i));
 				name.appendChild(doc.createTextNode((pTagText.get(i))));
 				letter.appendChild(name);
 			}
@@ -140,7 +140,7 @@ public class WebseiteSucheStart {
 
 		} catch (MalformedURLException e) {
 			
-			e.printStackTrace();
+			
 		} catch (IOException e) {
 			
 			e.printStackTrace();

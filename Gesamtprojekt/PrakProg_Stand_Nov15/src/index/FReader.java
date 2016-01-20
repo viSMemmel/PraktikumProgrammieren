@@ -37,7 +37,7 @@ public class FReader { // Die Klasse hies er FileReader, was wegen eines
 			br.close();
 
 		} catch (IOException e) {
-			System.out.println("Fehler beim Lesen der Datei " + path);
+			//System.out.println("Fehler beim Lesen der Datei " + path);
 			System.out.println(e.toString());
 		}
 

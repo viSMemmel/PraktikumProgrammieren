@@ -8,7 +8,7 @@ public class DeleteApp {
 		DeleteDir d = new DeleteDir(S);
 		d.delete();
 
-		System.out.println("Success");
+		//System.out.println("Success");
 	}
 
 }

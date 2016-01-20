@@ -120,23 +120,10 @@ public class Search {
 													// wird hier
 													// "gefunden"
 
-						// Ausgabe_in_Textarea += "Dokument gefunden: " + doc.getField(Title).stringValue() + "\n"; // Achtung
-						// Ausgabe_in_Textarea_alt += "\n \n Dokument gefunden "
-						// + doc.getField(Title).name() + "\n" +
-						// Ausgabe_in_Textarea_alt; // Achtung
-						// String // müssen
-
-						// List<IndexableField> iField = doc.getFields(); böse
-						// System.out.println("Ifield " + iField.size());//im
-						// Moment immer 2
+					
 						List<IndexableField> iField = new LinkedList<IndexableField>();
 						iField = doc.getFields();
 
-						/*
-						 * for(int i1=0; i1<iField.size(); i1++){
-						 * System.out.println("IFELD"
-						 * +iField.get(i1).toString()); }
-						 */
 
 						SearchInDoc searchInDoc = new SearchInDoc(iField, Feld, SearchSubject); // bei
 						// überlauf
@@ -163,9 +150,6 @@ public class Search {
 
 					Ausgabe_in_Textarea_alt += "\n";
 
-					//Ausgabe_in_Textarea += "\n"; // Bitte nicht aus kommentieren
-
-					// System.out.println("\n ReadertoString() " +
 					// searchInDoc.toString());
 					}
 				}

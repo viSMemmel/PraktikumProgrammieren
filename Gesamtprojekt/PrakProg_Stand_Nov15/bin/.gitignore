@@ -1,10 +1,7 @@
-/crawler/
 /GUI/
-/dateiSuche/
-/DokumenteSucheforGUI/
-/gUI/
-/index/
-/ausgabeDeutschesWort/
-/dokumenteSucheforGUI/
-/parser/
 /webseiteSuche/
+/ausgabeDeutschesWort/
+/dateiSuche/
+/dokumenteSucheforGUI/
+/index/
+/parser/
